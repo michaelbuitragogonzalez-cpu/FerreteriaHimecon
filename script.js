@@ -1975,16 +1975,7 @@ const productos = [
     categoria: "hierros",
     subcategoria: "riel",
     tipo: "rielhierro"
-},{
-    nombre: "aaaa",
-    precio: 28000,
-    imagen: "img/riel.jpeg",
-    descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
-    categoria: "hierros",
-    subcategoria: "riel",
-    tipo: "rielhierro"
-},
-
+}
 ];
 
 
