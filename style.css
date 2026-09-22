@@ -604,6 +604,15 @@ will-change: transform, box-shadow;
     gap: 50px;
 }
 
+.contacto-texto {
+    text-align: left !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    position: relative;
+}
+
 .contacto-texto h2 {
     font-size: 36px;
     margin-bottom: 16px;
@@ -615,13 +624,43 @@ will-change: transform, box-shadow;
     line-height: 1.7;
 }
 
-.datos {
+/* Trazo SVG integrado de la Flecha Ondulada */
+.contacto-texto::after {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: 80px;
     margin-top: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 400 80' fill='none' stroke='%2339A9FF' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M 10 40 Q 40 10 70 40 T 130 40 T 190 40 T 250 40 T 310 40 T 370 40' /%3E%3Cpath d='M 355 25 L 375 40 L 355 55' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: flechaOnduladaLoca 3s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+    transform-origin: left center;
+    will-change: transform, filter;
+}
+
+@keyframes flechaOnduladaLoca {
+    0%, 100% { transform: scaleX(1) scaleY(1) translateY(0); }
+    30% { transform: scaleX(1.15) scaleY(0.9) translateX(5px); }
+    60% { transform: scaleX(0.95) scaleY(1.1) translateY(-4px); }
+    80% { transform: scaleX(1.08) scaleY(0.95) translateX(10px); }
+}
+
+.contacto:hover .contacto-texto::after {
+    filter: drop-shadow(0px 5px 8px rgba(37, 211, 102, 0.4));
+    filter: hue-rotate(45deg) saturate(2);
+}
+
+.datos {
+    margin-top: 10px;
 }
 
 .contacto-boton {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    align-self: center;
+    animation: flotarSuave 4.2s ease-in-out infinite;
+    transition: var(--transicion-rebote);
 }
 
 /* ---------------------------------------------------------
@@ -648,111 +687,108 @@ footer p {
    --------------------------------------------------------- */
 @media (max-width: 768px) {
     header {
+        position: relative; 
         padding: 15px 20px;
     }
-
+    
     nav {
         flex-direction: column;
         gap: 15px;
     }
-
+    
     nav ul {
         gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    
     nav a {
         font-size: 16px;
     }
-
+    
     .logo img {
         width: 120px;
     }
-
-    /* Padding responsivo global */
-    .hero, .nosotros, .beneficios, .catalogo, .contacto, .pagina-productos {
-        padding: 100px 25px 40px;
+    
+    .hero {
+        padding: 40px 25px 40px; 
+        min-height: auto;
     }
-
-    .pagina-productos {
-        padding-top: 150px;
+    
+    .nosotros, .beneficios, .catalogo, .contacto, .pagina-productos {
+        padding: 60px 25px 40px;
     }
-
-    /* Convertir distribuciones de flex a columna única vertical */
+    
     .hero, .nosotros-contenido, .contacto-contenido, .cards, .categorias {
         flex-direction: column;
         text-align: center;
         gap: 40px;
     }
-
-    .hero {
-        padding-top: 230px;
-    }
-
+    
     .hero-text h1 {
-        font-size: 36px;
+        font-size: 32px; 
         line-height: 1.2;
     }
-
+    
     .hero-text p {
-        font-size: 18px;
+        font-size: 16px;
     }
-
+    
     .hero-image img {
-        max-width: 300px;
+        max-width: 280px;
     }
-
+    
     .nosotros-texto h2, .beneficios h2, .pagina-productos h1, .contacto-texto h2 {
-        font-size: 34px;
+        font-size: 30px;
     }
-
+    
     .nosotros-texto p, .subtitulo {
-        font-size: 17px;
+        font-size: 16px;
     }
-
+    
     .card, .categorias button, .producto {
         width: 100%;
     }
-
+    
     .subcategorias, .subsubcategorias {
         margin-top: 10px;
     }
-
+    
     #productos {
         grid-template-columns: 1fr;
     }
-
+    
     .contacto-texto {
         align-items: center;
+        text-align: center !important;
         width: 100%;
     }
-
+    
     .contacto-texto::after {
         max-width: 250px;
         height: 60px;
         margin: 20px auto;
         transform: rotate(90deg);
         transform-origin: center center;
+        animation: flechaOnduladaMovil 2.5s ease-in-out infinite; 
     }
-
-    @keyframes flechaOnduladaLoca {
+    
+    @keyframes flechaOnduladaMovil {
         0%, 100% { transform: rotate(90deg) scale(1); }
-        50% { transform: rotate(90deg) scale(1.1) translateY(5px); } 
+        50% { transform: rotate(90deg) scale(1.1) translateY(6px); } 
     }
-
+    
     .contacto-boton {
         align-self: center;
         margin-left: 0;
         margin-top: 10px;
     }
-
+    
     footer {
         padding: 30px 20px;
     }
-
-    /* Ajuste para anclas internas */
+    
     .nosotros, .beneficios, .catalogo, .contacto {
-        scroll-margin-top: 180px;
+        scroll-margin-top: 20px;
     }
 }
