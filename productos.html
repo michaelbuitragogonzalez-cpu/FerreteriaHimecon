@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | HIMECON</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ===========================
+     NAVBAR
+=========================== -->
+<header>
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo HIMECON">
+        </div>
+
+        <ul>
+            <li><a href="catalogo.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="catalogo.html#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===========================
+     PRODUCTOS
+=========================== -->
+<section class="catalogo pagina-productos">
+    <h1>Nuestros Productos</h1>
+
+    <p class="subtitulo">Encuentra herramientas, materiales y soluciones para tus proyectos.</p>
+
+    <!-- BUSCADOR -->
+    <input type="text" id="buscador" placeholder="Buscar producto...">
+
+    <!-- CATEGORIAS -->
+    <div class="categorias">
+        <button onclick="filtrarCategoria('todos')">Todos</button>
+        <button onclick="filtrarCategoria('tubospvc')">Tubos PVC</button>
+        <button onclick="filtrarCategoria('hierros')">Hierros</button>
+        <button onclick="filtrarCategoria('accesoriospvc')">Accesorios PVC</button>
+        <button onclick="filtrarCategoria('soldaduralimpiadorespvc')">Soldaduras y Limpiadores para PVC (PAVCO)</button>
+        <button onclick="filtrarCategoria('alambres')">Alambres</button>
+    </div>
+
+    <!-- SUBCATEGORIAS (se llenan solas con JavaScript según la categoría elegida) -->
+    <div class="subcategorias" id="subcategorias"></div>
+
+    <!-- TIPOS (tercer nivel, se llena solo según la subcategoría elegida) -->
+    <div class="subsubcategorias" id="subsubcategorias"></div>
+
+    <!-- PRODUCTOS GENERADOS POR JAVASCRIPT -->
+    <div id="productos"></div>
+</section>
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+<footer>
+    <img src="img/logo.png" alt="Logo HIMECON">
+    <p>© 2026 HIMECON. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
