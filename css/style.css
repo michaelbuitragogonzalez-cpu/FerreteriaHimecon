@@ -792,3 +792,63 @@ footer p {
         scroll-margin-top: 20px;
     }
 }
+/* =========================================================
+   HIMECON - CAMBIO DE PALETA MUY SUAVE
+   No modifica el diseño ni las animaciones existentes.
+   Solo hace que los tonos azules cambien lentamente.
+   ========================================================= */
+
+@property --himecon-hue {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+/* Movimiento extremadamente lento del tono */
+:root {
+    --himecon-hue: 0deg;
+
+    animation: himeconCambioPaleta 45s ease-in-out infinite;
+}
+
+@keyframes himeconCambioPaleta {
+
+    0% {
+        --himecon-hue: 0deg;
+    }
+
+    20% {
+        --himecon-hue: 18deg;
+    }
+
+    40% {
+        --himecon-hue: 35deg;
+    }
+
+    60% {
+        --himecon-hue: 55deg;
+    }
+
+    80% {
+        --himecon-hue: 25deg;
+    }
+
+    100% {
+        --himecon-hue: 0deg;
+    }
+}
+
+
+/* Elementos azules principales */
+.boton,
+.categorias button,
+.subcategoria,
+.subsubcategoria,
+.card h3,
+.nosotros-texto h2 span,
+.beneficios h2 span,
+.catalogo h2 span,
+.producto .precio-producto,
+nav a::after {
+    filter: hue-rotate(var(--himecon-hue));
+}
