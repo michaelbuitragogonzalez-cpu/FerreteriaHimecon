@@ -418,9 +418,73 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
 #productos {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 30px;
+    /* Fuerza exactamente 5 columnas en pantallas de escritorio */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
 }
+
+.producto {
+    background: white;
+    padding: 15px; /* Más compacto */
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+    animation: flotarSuave 6s ease-in-out infinite;
+    transition: var(--transicion-rebote);
+    will-change: transform, box-shadow;
+}
+
+.producto img {
+    width: 100%;
+    height: 130px; /* Imagen más pequeña para dar el efecto de alejamiento */
+    object-fit: contain;
+    margin-bottom: 12px;
+    transition: var(--transicion-rebote);
+}
+
+.producto h3 {
+    font-size: 16px; /* Texto adaptado al nuevo tamaño */
+    margin-bottom: 8px;
+}
+
+.producto p {
+    font-size: 13px; /* Texto adaptado al nuevo tamaño */
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.producto .precio-producto {
+    color: #39A9FF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+    transition: var(--transicion-rebote);
+}
+
+.producto .boton {
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+/* Ajuste automático para pantallas medianas (tablets) y móviles */
+@media (max-width: 1200px) {
+    #productos { grid-template-columns: repeat(4, 1fr); }
+}
+@media (max-width: 992px) {
+    #productos { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 768px) {
+    #productos { 
+        grid-template-columns: repeat(2, 1fr) !important; 
+        gap: 10px;
+    }
+    .card, .categorias button, .producto {
+        width: auto !important;
+    }
+}
+
 
 /* Filtros de categorías */
 .categorias, .subcategorias, .subsubcategorias {

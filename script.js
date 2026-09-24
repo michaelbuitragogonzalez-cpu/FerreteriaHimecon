@@ -2098,6 +2098,118 @@ const productos = [
     subcategoria: "perfileria",
     tipo: "estructural"
 },
+{ 
+    nombre: "Perlin Calibre 14, 6 X 2 Pulg ",
+    precio: 28000,
+    imagen: "img/perlin.jpeg",
+    descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
+    categoria: "hierros",
+    subcategoria: "perlineria",
+    tipo: ""
+},
+{ 
+    nombre: "Perlin Calibre 16, 6 X 2 Pulg ",
+    precio: 28000,
+    imagen: "img/perlin.jpeg",
+    descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
+    categoria: "hierros",
+    subcategoria: "perlineria",
+    tipo: ""
+},
+{ 
+    nombre: "Perlin Calibre 16, 4 X 2 Pulg ",
+    precio: 28000,
+    imagen: "img/perlin.jpeg",
+    descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
+    categoria: "hierros",
+    subcategoria: "perlineria",
+    tipo: ""
+},
+{ 
+    nombre: "Perlin Calibre 14, 4 X 2 Pulg ",
+    precio: 28000,
+    imagen: "img/perlin.jpeg",
+    descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
+    categoria: "hierros",
+    subcategoria: "perlineria",
+    tipo: ""
+},
+{ 
+    nombre: "Tubo Condui EMT 1 X 3 Mts Pulg",
+    precio: 28000,
+    imagen: "img/tubocondui.jpeg",
+    descripcion: "Tubería metálica ligera de acero galvanizado, ideal para la protección y enrutamiento seguro de cableado eléctrico en interiores expuestos",
+    categoria: "hierros",
+    subcategoria: "",
+    tipo: ""
+},
+{ 
+    nombre: "Tubo Condui EMT ¾ X 3 Mts Pulg",
+    precio: 28000,
+    imagen: "img/tubocondui.jpeg",
+    descripcion: "Tubería metálica ligera de acero galvanizado, ideal para la protección y enrutamiento seguro de cableado eléctrico en interiores expuestos",
+    categoria: "hierros",
+    subcategoria: "",
+    tipo: ""
+},{ 
+    nombre: "Tubo Condui EMT ½ X 3 Mts Pulg",
+    precio: 28000,
+    imagen: "img/tubocondui.jpeg",
+    descripcion: "Tubería metálica ligera de acero galvanizado, ideal para la protección y enrutamiento seguro de cableado eléctrico en interiores expuestos",
+    categoria: "hierros",
+    subcategoria: "",
+    tipo: ""
+},
+{ 
+    nombre: "Tubo Cortinero Dorado 1 Pulg",
+    precio: 28000,
+    imagen: "img/tubocortinerod.jpeg",
+    descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
+    categoria: "aluminios",
+    subcategoria: "tubocortinero",
+    tipo: ""
+},{ 
+    nombre: "Tubo Cortinero Dorado ½ Pulg",
+    precio: 28000,
+    imagen: "img/tubocortinerod.jpeg",
+    descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
+    categoria: "aluminios",
+    subcategoria: "tubocortinero",
+    tipo: ""
+},{ 
+    nombre: "Tubo Cortinero Dorado ¾ Pulg",
+    precio: 28000,
+    imagen: "img/tubocortinerod.jpeg",
+    descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
+    categoria: "aluminios",
+    subcategoria: "tubocortinero",
+    tipo: ""
+},
+ { 
+    nombre: "Tubo Cortinero Café 1 Pulg",
+    precio: 28000,
+    imagen: "img/tubocortineroc.jpeg",
+    descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
+    categoria: "aluminios",
+    subcategoria: "tubocortinero",
+    tipo: ""
+},{ 
+    nombre: "Tubo Cortinero Café ¾ Pulg",
+    precio: 28000,
+    imagen: "img/tubocortineroc.jpeg",
+    descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
+    categoria: "aluminios",
+    subcategoria: "tubocortinero",
+    tipo: ""
+},{ 
+    nombre: "Tubo Cortinero Café ½ Pulg",
+    precio: 28000,
+    imagen: "img/tubocortineroc.jpeg",
+    descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
+    categoria: "aluminios",
+    subcategoria: "tubocortinero",
+    tipo: ""
+},
 ];
 
 
@@ -2170,6 +2282,12 @@ const subcategoriasPorCategoria = {
                 { valor: "cuadrada", texto: "Cuadrada" },
                 ]},
 
+                {valor: "perlineria",
+            texto: "Perlinería",
+            tipos: [
+               
+                ]},
+
         // 👇 A futuro, agregas aquí más cosas de hierros, cada una con sus propios tipos:
         // {
         //     valor: "platinas",
@@ -2209,6 +2327,10 @@ const subcategoriasPorCategoria = {
         
 
     ],
+       aluminios: [
+        { valor: "tubocortinero", texto: "Tubo Cortinero" },
+
+    ]
 
 };
 
