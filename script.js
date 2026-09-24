@@ -30,7 +30,6 @@ const productos = [
 
     {
         nombre: "Tuberia Electrica ½ Pulg",
-        precio: 35000,
         imagen: "img/tuberiaelectricidad.jpeg",
         descripcion: "Tubo rígido de alta resistencia para proteger y enrutar conductores eléctricos",
         categoria: "tubospvc",
@@ -39,7 +38,7 @@ const productos = [
 
     {
          nombre: "Tuberia Electrica ¾ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiaelectricidad.jpeg",
         descripcion: "Tubo rígido de alta resistencia para proteger y enrutar conductores eléctricos",
         categoria: "tubospvc",
@@ -47,7 +46,7 @@ const productos = [
     },
 
     { nombre: "Tuberia Electrica 1 Pulg",
-        precio: 35000,
+     
         imagen: "img/tuberiaelectricidad.jpeg",
         descripcion: "Tubo rígido de alta resistencia para proteger y enrutar conductores eléctricos",
         categoria: "tubospvc",
@@ -55,7 +54,7 @@ const productos = [
     },
        {
          nombre: "Tuberia Electrica de 1 ½ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiaelectricidad.jpeg",
         descripcion: "Tubo rígido de alta resistencia para proteger y enrutar conductores eléctricos",
         categoria: "tubospvc",
@@ -63,7 +62,7 @@ const productos = [
     },
        {
          nombre: "Tuberia Electrica 2 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiaelectricidad.jpeg",
         descripcion: "Tubo rígido de alta resistencia para proteger y enrutar conductores eléctricos",
         categoria: "tubospvc",
@@ -75,7 +74,7 @@ const productos = [
     
    {
          nombre: "Tuberia Sanitaria 1 ½ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiasanitaria.jpeg",
         descripcion: "Ideal para sistemas de drenaje, ventilación y desagüe residencial o comercial",
         categoria: "tubospvc",
@@ -83,7 +82,7 @@ const productos = [
     },
    {
          nombre: "Tuberia Sanitaria 3 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiasanitaria.jpeg",
         descripcion: "Ideal para sistemas de drenaje, ventilación y desagüe residencial o comercial",
         categoria: "tubospvc",
@@ -91,7 +90,7 @@ const productos = [
     },
     {
          nombre: "Tuberia Sanitaria 2 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiasanitaria.jpeg",
         descripcion: "Ideal para sistemas de drenaje, ventilación y desagüe residencial o comercial",
         categoria: "tubospvc",
@@ -99,7 +98,7 @@ const productos = [
     },
     {
          nombre: "Tuberia Sanitaria 4 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiasanitaria.jpeg",
         descripcion: "Ideal para sistemas de drenaje, ventilación y desagüe residencial o comercial",
         categoria: "tubospvc",
@@ -107,7 +106,7 @@ const productos = [
     },
         {
          nombre: "Tuberia Sanitaria 6 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiasanitaria.jpeg",
         descripcion: "Ideal para sistemas de drenaje, ventilación y desagüe residencial o comercial",
         categoria: "tubospvc",
@@ -115,7 +114,7 @@ const productos = [
     },
       {
          nombre: "Tuberia Ventilación 4 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiaventilacion.jpeg",
         descripcion: "Ideal para garantizar el flujo de aire y evitar vacíos en desagües",
         categoria: "tubospvc",
@@ -123,7 +122,7 @@ const productos = [
     },
     {
          nombre: "Tuberia Ventilación 3 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiaventilacion.jpeg",
         descripcion: "Ideal para garantizar el flujo de aire y evitar vacíos en desagües",
         categoria: "tubospvc",
@@ -131,7 +130,7 @@ const productos = [
     },
     {
          nombre: "Tuberia Ventilación 2 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/tuberiaventilacion.jpeg",
         descripcion: "Ideal para garantizar el flujo de aire y evitar vacíos en desagües",
         categoria: "tubospvc",
@@ -139,7 +138,7 @@ const productos = [
     },
      {
          nombre: "Tuberia NOVAFORT 6 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/NOVAFORT.jpeg",
         descripcion: "Canalización hermética y ligera, ideal para recolectar aguas residuales y pluviales por gravedad",
         categoria: "tubospvc",
@@ -147,7 +146,7 @@ const productos = [
     },
          {
          nombre: "Tuberia a Presión 3 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -155,7 +154,7 @@ const productos = [
     },
    {
          nombre: "Tuberia a Presión 2 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -163,7 +162,7 @@ const productos = [
     },
    {
          nombre: "Tuberia a Presión ½ Pulg ",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -171,7 +170,7 @@ const productos = [
     },
    {
          nombre: "Tuberia a Presión 1 ¼ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -179,7 +178,7 @@ const productos = [
     },
    {
          nombre: "Tuberia a Presión 1 Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -187,7 +186,7 @@ const productos = [
     },
    {
          nombre: "Tuberia a Presión ¾ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -195,7 +194,7 @@ const productos = [
     },
        {
          nombre: "Tuberia a Presión 1 ½ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
@@ -204,7 +203,7 @@ const productos = [
   
    {
          nombre: "Tuberia CPVC ½ Pulg",
-        precio: 35000,
+        precio: "",
         imagen: "img/CPVC.jpeg",
         descripcion: "Tubería resistente a la corrosión, ideal para la distribución de agua fría y caliente.",
         categoria: "tubospvc",
@@ -215,7 +214,7 @@ const productos = [
 
     {
         nombre: "Varilla Grafilada ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -224,7 +223,7 @@ const productos = [
     },
        {
         nombre: "Varilla Grafilada ⅜ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -232,7 +231,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada ¼ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -240,7 +239,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada ⅝ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -248,7 +247,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada 9mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -256,7 +255,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada 11mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -264,7 +263,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada 12mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -272,7 +271,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada ¾ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -280,7 +279,7 @@ const productos = [
         tipo: "grafiladas"
     },   {
         nombre: "Varilla Grafilada 4.5mm ",
-        precio: 28000,
+        precio: "",
         imagen: "img/grafilada.jpeg",
         descripcion: "Alambre corrugado de alta resistencia, ideal para refuerzo de concreto y fabricación de mallas",
         categoria: "hierros",
@@ -289,7 +288,7 @@ const productos = [
     },
  {
         nombre: "Varilla Cuadrada ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/cuadrada.jpeg",
         descripcion: "Barra sólida de alta resistencia, ideal para herrería, rejas, protecciones y estructuras metálicas",
         categoria: "hierros",
@@ -298,7 +297,7 @@ const productos = [
     },
      {
         nombre: "Varilla Cuadrada 10.5mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/cuadrada.jpeg",
         descripcion: "Barra sólida de alta resistencia, ideal para herrería, rejas, protecciones y estructuras metálicas",
         categoria: "hierros",
@@ -306,7 +305,7 @@ const productos = [
         tipo: "cuadradas"
     }, {
         nombre: "Varilla Cuadrada ⅝ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/cuadrada.jpeg",
         descripcion: "Barra sólida de alta resistencia, ideal para herrería, rejas, protecciones y estructuras metálicas",
         categoria: "hierros",
@@ -314,7 +313,7 @@ const productos = [
         tipo: "cuadradas"
     }, {
         nombre: "Varilla Cuadrada 11mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/cuadrada.jpeg",
         descripcion: "Barra sólida de alta resistencia, ideal para herrería, rejas, protecciones y estructuras metálicas",
         categoria: "hierros",
@@ -323,7 +322,7 @@ const productos = [
     },
     {
         nombre: "Varilla Entorchada ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/entorchada.webp",
         descripcion: "Acero macizo con acabado helicoidal que aporta alta resistencia estética y estructural a ventanas y pasamanos",
         categoria: "hierros",
@@ -332,7 +331,7 @@ const productos = [
     },
     {
         nombre: "Varilla Entorchada 10mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/entorchada.webp",
         descripcion: "Acero macizo con acabado helicoidal que aporta alta resistencia estética y estructural a ventanas y pasamanos",
         categoria: "hierros",
@@ -341,7 +340,7 @@ const productos = [
     },
    {
         nombre: "Varilla Entorchada 11mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/entorchada.webp",
         descripcion: "Acero macizo con acabado helicoidal que aporta alta resistencia estética y estructural a ventanas y pasamanos",
         categoria: "hierros",
@@ -350,7 +349,7 @@ const productos = [
     },
    {
         nombre: "Varilla lisa ¼ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/lisa.jpeg",
         descripcion: "Barra cilíndrica de superficie uniforme, ideal para herrería, estructuras metálicas y refuerzos ligeros",
         categoria: "hierros",
@@ -359,7 +358,7 @@ const productos = [
     },
    {
         nombre: "Varilla lisa 10.5mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/lisa.jpeg",
         descripcion: "Barra cilíndrica de superficie uniforme, ideal para herrería, estructuras metálicas y refuerzos ligeros",
         categoria: "hierros",
@@ -367,7 +366,7 @@ const productos = [
         tipo: "lisas"
     },{
         nombre: "Varilla lisa 12.5mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/lisa.jpeg",
         descripcion: "Barra cilíndrica de superficie uniforme, ideal para herrería, estructuras metálicas y refuerzos ligeros",
         categoria: "hierros",
@@ -375,7 +374,7 @@ const productos = [
         tipo: "lisas"
     },{
         nombre: "Varilla lisa 12mm",
-        precio: 28000,
+        precio: "",
         imagen: "img/lisa.jpeg",
         descripcion: "Barra cilíndrica de superficie uniforme, ideal para herrería, estructuras metálicas y refuerzos ligeros",
         categoria: "hierros",
@@ -384,7 +383,7 @@ const productos = [
     },
     {
         nombre: "Varilla lisa ¾ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/lisa.jpeg",
         descripcion: "Barra cilíndrica de superficie uniforme, ideal para herrería, estructuras metálicas y refuerzos ligeros",
         categoria: "hierros",
@@ -393,7 +392,7 @@ const productos = [
     },
     {
         nombre: "Varilla lisa ⅝ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/lisa.jpeg",
         descripcion: "Barra cilíndrica de superficie uniforme, ideal para herrería, estructuras metálicas y refuerzos ligeros",
         categoria: "hierros",
@@ -403,7 +402,7 @@ const productos = [
 
      {
         nombre: "TEE Sanitaria 6 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sanitaria.webp",
         descripcion: "Ideal para realizar derivaciones eficientes en sistemas de drenaje, desagüe y alcantarillado por gravedad",
         categoria: "accesoriospvc",
@@ -412,7 +411,7 @@ const productos = [
     },
      {
         nombre: "TEE Sanitaria 4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sanitaria.webp",
         descripcion: "Ideal para realizar derivaciones eficientes en sistemas de drenaje, desagüe y alcantarillado por gravedad",
         categoria: "accesoriospvc",
@@ -421,7 +420,7 @@ const productos = [
     },
      {
         nombre: "TEE Sanitaria 3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sanitaria.webp",
         descripcion: "Ideal para realizar derivaciones eficientes en sistemas de drenaje, desagüe y alcantarillado por gravedad",
         categoria: "accesoriospvc",
@@ -430,7 +429,7 @@ const productos = [
     },
      {
         nombre: "TEE Sanitaria 2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sanitaria.webp",
         descripcion: "Ideal para realizar derivaciones eficientes en sistemas de drenaje, desagüe y alcantarillado por gravedad",
         categoria: "accesoriospvc",
@@ -439,7 +438,7 @@ const productos = [
     },
      {
         nombre: "TEE Sanitaria 1 ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sanitaria.webp",
         descripcion: "Ideal para realizar derivaciones eficientes en sistemas de drenaje, desagüe y alcantarillado por gravedad",
         categoria: "accesoriospvc",
@@ -450,7 +449,7 @@ const productos = [
     
     {
         nombre: "YEE Sanitaria 4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/YEE.webp",
         descripcion: "Pieza clave para unir ramales secundarios a colectores principales en sistemas de drenaje y desagüe",
         categoria: "accesoriospvc",
@@ -459,7 +458,7 @@ const productos = [
     },
       {
         nombre: "YEE Sanitaria 3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/YEE.webp",
         descripcion: "Pieza clave para unir ramales secundarios a colectores principales en sistemas de drenaje y desagüe",
         categoria: "accesoriospvc",
@@ -467,7 +466,7 @@ const productos = [
         tipo: "sanitaria"
     },  {
         nombre: "YEE Sanitaria 2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/YEE.webp",
         descripcion: "Pieza clave para unir ramales secundarios a colectores principales en sistemas de drenaje y desagüe",
         categoria: "accesoriospvc",
@@ -475,7 +474,7 @@ const productos = [
         tipo: "sanitaria"
     },  {
         nombre: "YEE Sanitaria 1 ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/YEE.webp",
         descripcion: "Pieza clave para unir ramales secundarios a colectores principales en sistemas de drenaje y desagüe",
         categoria: "accesoriospvc",
@@ -484,7 +483,7 @@ const productos = [
     },
      {
         nombre: "Codos Sanitarios 90°  6 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/Codossn.webp",
         descripcion: "Conexión diseñada para realizar giros precisos en ángulo recto y cambiar de dirección el flujo en las tuberías",
         categoria: "accesoriospvc",
@@ -493,7 +492,7 @@ const productos = [
     },
         {
         nombre: "Codos Sanitarios 90°  4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/Codossn.webp",
         descripcion: "Conexión diseñada para realizar giros precisos en ángulo recto y cambiar de dirección el flujo en las tuberías",
         categoria: "accesoriospvc",
@@ -501,7 +500,7 @@ const productos = [
         tipo: "sanitaria"
     },    {
         nombre: "Codos Sanitarios 90°  3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/Codossn.webp",
         descripcion: "Conexión diseñada para realizar giros precisos en ángulo recto y cambiar de dirección el flujo en las tuberías",
         categoria: "accesoriospvc",
@@ -509,7 +508,7 @@ const productos = [
         tipo: "sanitaria"
     },    {
         nombre: "Codos Sanitarios 90°  2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/Codossn.webp",
         descripcion: "Conexión diseñada para realizar giros precisos en ángulo recto y cambiar de dirección el flujo en las tuberías",
         categoria: "accesoriospvc",
@@ -517,7 +516,7 @@ const productos = [
         tipo: "sanitaria"
     },    {
         nombre: "Codos Sanitarios 90°  1 ½  Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/Codossn.webp",
         descripcion: "Conexión diseñada para realizar giros precisos en ángulo recto y cambiar de dirección el flujo en las tuberías",
         categoria: "accesoriospvc",
@@ -526,7 +525,7 @@ const productos = [
     },
  {
         nombre: "Semicodos Sanitarios 45°  6 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/semicodosn.jpg",
         descripcion: " Conexión de ángulo suave diseñada para cambiar la dirección de las tuberías de drenaje sin frenar el flujo",
         categoria: "accesoriospvc",
@@ -534,7 +533,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Semicodos Sanitarios 45°  4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/semicodosn.jpg",
         descripcion: " Conexión de ángulo suave diseñada para cambiar la dirección de las tuberías de drenaje sin frenar el flujo",
         categoria: "accesoriospvc",
@@ -542,7 +541,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Semicodos Sanitarios 45°  3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/semicodosn.jpg",
         descripcion: " Conexión de ángulo suave diseñada para cambiar la dirección de las tuberías de drenaje sin frenar el flujo",
         categoria: "accesoriospvc",
@@ -550,7 +549,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Semicodos Sanitarios 45°  2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/semicodosn.jpg",
         descripcion: " Conexión de ángulo suave diseñada para cambiar la dirección de las tuberías de drenaje sin frenar el flujo",
         categoria: "accesoriospvc",
@@ -558,7 +557,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Semicodos Sanitarios 45°  1 ½  Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/semicodosn.jpg",
         descripcion: " Conexión de ángulo suave diseñada para cambiar la dirección de las tuberías de drenaje sin frenar el flujo",
         categoria: "accesoriospvc",
@@ -566,7 +565,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Uniones Sanitarias 6 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/unionessn.webp",
         descripcion: "Accesorio recto diseñado para acoplar y extender tramos de tubería de drenaje de forma hermética",
         categoria: "accesoriospvc",
@@ -575,7 +574,7 @@ const productos = [
     },
     {
         nombre: "Uniones Sanitarias 4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/unionessn.webp",
         descripcion: "Accesorio recto diseñado para acoplar y extender tramos de tubería de drenaje de forma hermética",
         categoria: "accesoriospvc",
@@ -583,7 +582,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Uniones Sanitarias 3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/unionessn.webp",
         descripcion: "Accesorio recto diseñado para acoplar y extender tramos de tubería de drenaje de forma hermética",
         categoria: "accesoriospvc",
@@ -591,7 +590,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Uniones Sanitarias 2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/unionessn.webp",
         descripcion: "Accesorio recto diseñado para acoplar y extender tramos de tubería de drenaje de forma hermética",
         categoria: "accesoriospvc",
@@ -599,7 +598,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Uniones Sanitarias 1 ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/unionessn.webp",
         descripcion: "Accesorio recto diseñado para acoplar y extender tramos de tubería de drenaje de forma hermética",
         categoria: "accesoriospvc",
@@ -611,7 +610,7 @@ const productos = [
     
     {
         nombre: "Tapón de Prueba Sanitario 6 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/taponp.jpeg",
         descripcion: "Accesorio de alta resistencia diseñado para sellar temporalmente tuberías de drenaje durante pruebas de presión o fugas",
         categoria: "accesoriospvc",
@@ -620,7 +619,7 @@ const productos = [
     },
     {
         nombre: "Tapón de Prueba Sanitario 4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/taponp.jpeg",
         descripcion: "Accesorio de alta resistencia diseñado para sellar temporalmente tuberías de drenaje durante pruebas de presión o fugas",
         categoria: "accesoriospvc",
@@ -628,7 +627,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Tapón de Prueba Sanitario 3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/taponp.jpeg",
         descripcion: "Accesorio de alta resistencia diseñado para sellar temporalmente tuberías de drenaje durante pruebas de presión o fugas",
         categoria: "accesoriospvc",
@@ -636,7 +635,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Tapón de Prueba Sanitario 2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/taponp.jpeg",
         descripcion: "Accesorio de alta resistencia diseñado para sellar temporalmente tuberías de drenaje durante pruebas de presión o fugas",
         categoria: "accesoriospvc",
@@ -644,7 +643,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Tapón de Prueba Sanitario 1 ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/taponp.jpeg",
         descripcion: "Accesorio de alta resistencia diseñado para sellar temporalmente tuberías de drenaje durante pruebas de presión o fugas",
         categoria: "accesoriospvc",
@@ -653,7 +652,7 @@ const productos = [
     },
     {
         nombre: "Reducciones Sanitarias de 6 a 4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/reducsn.jpg",
         descripcion: "Conexión de superficie interna lisa que mantiene el flujo continuo de aguas residuales y evita acumulación de sólidos",
         categoria: "accesoriospvc",
@@ -661,7 +660,7 @@ const productos = [
         tipo: "sanitaria"
     },   {
         nombre: "Reducciones Sanitarias de 4 a 3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/reducsn.jpg",
         descripcion: "Conexión de superficie interna lisa que mantiene el flujo continuo de aguas residuales y evita acumulación de sólidos",
         categoria: "accesoriospvc",
@@ -669,7 +668,7 @@ const productos = [
         tipo: "sanitaria"
     },   {
         nombre: "Reducciones Sanitarias de 3 a 2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/reducsn.jpg",
         descripcion: "Conexión de superficie interna lisa que mantiene el flujo continuo de aguas residuales y evita acumulación de sólidos",
         categoria: "accesoriospvc",
@@ -677,7 +676,7 @@ const productos = [
         tipo: "sanitaria"
     },   {
         nombre: "Reducciones Sanitarias de 2 a 1 ½ Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/reducsn.jpg",
         descripcion: "Conexión de superficie interna lisa que mantiene el flujo continuo de aguas residuales y evita acumulación de sólidos",
         categoria: "accesoriospvc",
@@ -689,7 +688,7 @@ const productos = [
     
 {
         nombre: "Sifones Sanitarios 4 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sifones.jpeg",
         descripcion: "Trampa de agua hidráulica diseñada para evitar el retorno de malos olores y gases del drenaje hacia el exterior",
         categoria: "accesoriospvc",
@@ -698,7 +697,7 @@ const productos = [
     },
     {
         nombre: "Sifones Sanitarios 3 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sifones.jpeg",
         descripcion: "Trampa de agua hidráulica diseñada para evitar el retorno de malos olores y gases del drenaje hacia el exterior",
         categoria: "accesoriospvc",
@@ -707,7 +706,7 @@ const productos = [
     },
 {
         nombre: "Sifones Sanitarios 2 Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sifones1.jpeg",
         descripcion: "Trampa de agua hidráulica diseñada para evitar el retorno de malos olores y gases del drenaje hacia el exterior",
         categoria: "accesoriospvc",
@@ -715,7 +714,7 @@ const productos = [
         tipo: "sanitaria"
     },{
         nombre: "Sifones Sanitarios 1 ½  Pulg",
-        precio: 28000,
+        precio: "",
         imagen: "img/sifones1.jpeg",
         descripcion: "Trampa de agua hidráulica diseñada para evitar el retorno de malos olores y gases del drenaje hacia el exterior",
         categoria: "accesoriospvc",
@@ -727,7 +726,7 @@ const productos = [
 
 {
     nombre: "Codo de Presión 90° 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -736,7 +735,7 @@ const productos = [
 },
 {
     nombre: "Codo de Presión 90° 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -745,7 +744,7 @@ const productos = [
 },
 {
     nombre: "Codo de Presión 90° 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -754,7 +753,7 @@ const productos = [
 },
 {
     nombre: "Codo de Presión 90° 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -763,7 +762,7 @@ const productos = [
 },
 {
     nombre: "Codo de Presión 90° 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -772,7 +771,7 @@ const productos = [
 },
 {
     nombre: "Codo de Presión 90° ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -781,7 +780,7 @@ const productos = [
 },
 {
     nombre: "Codo de Presión 90° ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/codop.webp",
     descripcion: "Conexión de pared gruesa diseñada para realizar giros y soportar altas presiones de agua en redes hidráulicas",
     categoria: "accesoriospvc",
@@ -791,7 +790,7 @@ const productos = [
 
     {
     nombre: "Semicodo de Presión 45° 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -800,7 +799,7 @@ const productos = [
 },
 {
     nombre: "Semicodo de Presión 45° 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -809,7 +808,7 @@ const productos = [
 },
 {
     nombre: "Semicodo de Presión 45° 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -818,7 +817,7 @@ const productos = [
 },
 {
     nombre: "Semicodo de Presión 45° 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -827,7 +826,7 @@ const productos = [
 },
 {
     nombre: "Semicodo de Presión 45° 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -836,7 +835,7 @@ const productos = [
 },
 {
     nombre: "Semicodo de Presión 45° ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -845,7 +844,7 @@ const productos = [
 },
 {
     nombre: "Semicodo de Presión 45° ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/semicodop.jpeg",
     descripcion: "Conexión hidráulica de pared gruesa diseñada para realizar desvíos suaves y seguros en redes de agua a alta presión",
     categoria: "accesoriospvc",
@@ -854,7 +853,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -863,7 +862,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -872,7 +871,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -881,7 +880,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -890,7 +889,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -899,7 +898,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -908,7 +907,7 @@ const productos = [
 },
 {
     nombre: "TEE de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/teepr.webp",
     descripcion: "Accesorio de PVC diseñado para conectar tres tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -917,7 +916,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -926,7 +925,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -935,7 +934,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -944,7 +943,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -953,7 +952,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -962,7 +961,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -971,7 +970,7 @@ const productos = [
 },
 {
     nombre: "Unión de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unionpr.jpeg",
     descripcion: "Accesorio de PVC diseñado para unir dos tramos de tubería en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -980,7 +979,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -989,7 +988,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -998,7 +997,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1007,7 +1006,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1016,7 +1015,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1025,7 +1024,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1034,7 +1033,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Hembra de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adaphp.webp",
     descripcion: "Accesorio de PVC con rosca interna para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1043,7 +1042,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1052,7 +1051,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1061,7 +1060,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1070,7 +1069,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1079,7 +1078,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1088,7 +1087,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1097,7 +1096,7 @@ const productos = [
 },
 {
     nombre: "Adaptador Macho de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/adapmp.webp",
     descripcion: "Accesorio de PVC con rosca externa para conectar tuberías de presión con conexiones roscadas",
     categoria: "accesoriospvc",
@@ -1106,7 +1105,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1115,7 +1114,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1124,7 +1123,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1133,7 +1132,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1142,7 +1141,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1151,7 +1150,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1160,7 +1159,7 @@ const productos = [
 },
 {
     nombre: "Tapón Roscado de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponrp.jpeg",
     descripcion: "Accesorio de PVC con rosca interna diseñado para cerrar y sellar tuberías en redes hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1169,7 +1168,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1178,7 +1177,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1187,7 +1186,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1196,7 +1195,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1205,7 +1204,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1214,7 +1213,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1223,7 +1222,7 @@ const productos = [
 },
 {
     nombre: "Tapón Macho de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponmp.webp",
     descripcion: "Accesorio de PVC con rosca exterior diseñado para cerrar extremos de tubería y facilitar conexiones seguras en sistemas hidráulicos",
     categoria: "accesoriospvc",
@@ -1233,7 +1232,7 @@ const productos = [
 
 {
     nombre: "Tapón Liso de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1242,7 +1241,7 @@ const productos = [
 },
 {
     nombre: "Tapón Liso de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1251,7 +1250,7 @@ const productos = [
 },
 {
     nombre: "Tapón Liso de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1260,7 +1259,7 @@ const productos = [
 },
 {
     nombre: "Tapón Liso de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1269,7 +1268,7 @@ const productos = [
 },
 {
     nombre: "Tapón Liso de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1278,7 +1277,7 @@ const productos = [
 },
 {
     nombre: "Tapón Liso de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1287,7 +1286,7 @@ const productos = [
 },
 {
     nombre: "Tapón Liso de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/taponlp.jpeg",
     descripcion: "Accesorio de PVC diseñado para sellar de forma sencilla los extremos de tuberías en instalaciones hidráulicas",
     categoria: "accesoriospvc",
@@ -1296,7 +1295,7 @@ const productos = [
 },
 {
     nombre: "Universal Lisa de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unilp.jpeg",
     descripcion: "Conexión de PVC diseñada para facilitar la unión y desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1305,7 +1304,7 @@ const productos = [
 },
 {
     nombre: "Universal Lisa de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unilp.jpeg",
     descripcion: "Conexión de PVC diseñada para facilitar la unión y desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1314,7 +1313,7 @@ const productos = [
 },
 {
     nombre: "Universal Lisa de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unilp.jpeg",
     descripcion: "Conexión de PVC diseñada para facilitar la unión y desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1323,7 +1322,7 @@ const productos = [
 },
 {
     nombre: "Universal Lisa de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unilp.jpeg",
     descripcion: "Conexión de PVC diseñada para facilitar la unión y desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1332,7 +1331,7 @@ const productos = [
 },
 {
     nombre: "Universal Lisa de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unilp.jpeg",
     descripcion: "Conexión de PVC diseñada para facilitar la unión y desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1341,7 +1340,7 @@ const productos = [
 },
 {
     nombre: "Universal Lisa de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/unilp.jpeg",
     descripcion: "Conexión de PVC diseñada para facilitar la unión y desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1350,7 +1349,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1359,7 +1358,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1368,7 +1367,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1377,7 +1376,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1386,7 +1385,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1395,7 +1394,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1404,7 +1403,7 @@ const productos = [
 },
 {
     nombre: "Universal Roscada de Presión ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/univrp.webp",
     descripcion: "Conexión de PVC con rosca diseñada para unir y facilitar el desmontaje de tuberías en instalaciones hidráulicas de presión",
     categoria: "accesoriospvc",
@@ -1413,7 +1412,7 @@ const productos = [
 },
  {
     nombre: "Soldadura PVC Pavco 1/4 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/sold14.webp",
     descripcion: "Pegamento líquido de alta resistencia diseñado para fusionar tuberías y conexiones de PVC de forma hermética y duradera ",
     categoria: "soldaduralimpiadorespvc",
@@ -1422,7 +1421,7 @@ const productos = [
 },   
     {
     nombre: "Soldadura PVC Pavco 1/8 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/sold18.webp",
     descripcion: "Pegamento líquido de alta resistencia diseñado para fusionar tuberías y conexiones de PVC de forma hermética y duradera",
     categoria: "soldaduralimpiadorespvc",
@@ -1430,7 +1429,7 @@ const productos = [
     tipo: "soldpvc"
 },{
     nombre: "Soldadura PVC Pavco 1/16 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/sold116.jpeg",
     descripcion: "Pegamento líquido de alta resistencia diseñado para fusionar tuberías y conexiones de PVC de forma hermética y duradera",
     categoria: "soldaduralimpiadorespvc",
@@ -1438,7 +1437,7 @@ const productos = [
     tipo: "soldpvc"
 },{
     nombre: "Soldadura PVC Pavco 1/32 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/sold132.webp",
     descripcion: "Pegamento líquido de alta resistencia diseñado para fusionar tuberías y conexiones de PVC de forma hermética y duradera",
     categoria: "soldaduralimpiadorespvc",
@@ -1446,7 +1445,7 @@ const productos = [
     tipo: "soldpvc"
 },{
     nombre: "Soldadura PVC Pavco 1/64 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/sold164.webp",
     descripcion: "Pegamento líquido de alta resistencia diseñado para fusionar tuberías y conexiones de PVC de forma hermética y duradera",
     categoria: "soldaduralimpiadorespvc",
@@ -1454,7 +1453,7 @@ const productos = [
     tipo: "soldpvc"
 },{
     nombre: "Soldadura PVC Pavco 1/28 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/sold128.webp",
     descripcion: "Pegamento líquido de alta resistencia diseñado para fusionar tuberías y conexiones de PVC de forma hermética y duradera",
     categoria: "soldaduralimpiadorespvc",
@@ -1462,7 +1461,7 @@ const productos = [
     tipo: "soldpvc"
 },{
     nombre: "Soldadura CPVC Pavco 1/32 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/soldp132.webp",
     descripcion: "Cemento solvente formulado especialmente para tuberías de agua caliente, capaz de soportar altas temperaturas y presiones",
     categoria: "soldaduralimpiadorespvc",
@@ -1470,7 +1469,7 @@ const productos = [
     tipo: "soldcpvc"
 },{
     nombre: "Soldadura CPVC Pavco 1/64 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/soldp164.webp",
     descripcion: "Cemento solvente formulado especialmente para tuberías de agua caliente, capaz de soportar altas temperaturas y presiones",
     categoria: "soldaduralimpiadorespvc",
@@ -1478,7 +1477,7 @@ const productos = [
     tipo: "soldcpvc"
 },{
     nombre: "Soldadura CPVC Pavco 1/28 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/soldp128.webp",
     descripcion: "Cemento solvente formulado especialmente para tuberías de agua caliente, capaz de soportar altas temperaturas y presiones",
     categoria: "soldaduralimpiadorespvc",
@@ -1486,7 +1485,7 @@ const productos = [
     tipo: "soldcpvc"
 },{
     nombre: "Limpiador PVC Pavco 1/4 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/limp14.webp",
     descripcion: "Líquido removedor diseñado para limpiar y preparar la superficie de tuberías y conexiones, eliminando grasa y suciedad antes de soldar",
     categoria: "soldaduralimpiadorespvc",
@@ -1494,7 +1493,7 @@ const productos = [
     tipo: "limppvc"
 },{
     nombre: "Limpiador PVC Pavco 1/32 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/limp132.jpeg",
     descripcion: "Líquido removedor diseñado para limpiar y preparar la superficie de tuberías y conexiones, eliminando grasa y suciedad antes de soldar",
     categoria: "soldaduralimpiadorespvc",
@@ -1502,7 +1501,7 @@ const productos = [
     tipo: "limppvc"
 },{
     nombre: "Limpiador PVC Pavco 1/64 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/limp164.jpeg",
     descripcion: "Líquido removedor diseñado para limpiar y preparar la superficie de tuberías y conexiones, eliminando grasa y suciedad antes de soldar",
     categoria: "soldaduralimpiadorespvc",
@@ -1510,7 +1509,7 @@ const productos = [
     tipo: "limppvc"
 },{
     nombre: "Limpiador PVC Pavco 1/28 Gal",
-    precio: 28000,
+    precio: "",
     imagen: "img/limp128.jpeg",
     descripcion: "Líquido removedor diseñado para limpiar y preparar la superficie de tuberías y conexiones, eliminando grasa y suciedad antes de soldar",
     categoria: "soldaduralimpiadorespvc",
@@ -1518,7 +1517,7 @@ const productos = [
     tipo: "limppvc"
 },{
     nombre: "Limpiador PVC Pavco 12 Onzas",
-    precio: 28000,
+    precio: "",
     imagen: "img/limp12.jpg",
     descripcion: "Líquido removedor diseñado para limpiar y preparar la superficie de tuberías y conexiones, eliminando grasa y suciedad antes de soldar",
     categoria: "soldaduralimpiadorespvc",
@@ -1527,7 +1526,7 @@ const productos = [
 },
 {
     nombre: "Puntillas Puma Con Cabeza ¾ Pulg ",   
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1536,7 +1535,7 @@ const productos = [
 },
 {
     nombre: "Puntillas Puma Con Cabeza 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1546,7 +1545,7 @@ const productos = [
 
 {
     nombre: "Puntillas Puma Con Cabeza 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1556,7 +1555,7 @@ const productos = [
 
 {
     nombre: "Puntillas Puma Con Cabeza 2 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1566,7 +1565,7 @@ const productos = [
 
 {
     nombre: "Puntillas Puma Con Cabeza 2 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1576,7 +1575,7 @@ const productos = [
 
 {
     nombre: "Puntillas Puma Con Cabeza 3 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1586,7 +1585,7 @@ const productos = [
 
 {
     nombre: "Puntillas Puma Con Cabeza 3 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillaspm500.jpg",
     descripcion: "Clavo de acero de alta resistencia con cabeza plana, ideal para fijaciones firmes en madera, cimbras y carpintería general",
     categoria: "hierros",
@@ -1595,7 +1594,7 @@ const productos = [
 },
 {
     nombre: "Puntillas Puma Sin Cabeza 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillasnc.jpeg",
     descripcion: "Clavo de acero fino y discreto, ideal para acabados de carpintería, molduras y trabajos donde la cabeza no debe notarse",
     categoria: "hierros",
@@ -1603,7 +1602,7 @@ const productos = [
     tipo: "sncabeza"
 },{
     nombre: "Puntillas Puma Sin Cabeza  ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillasnc.jpeg",
     descripcion: "Clavo de acero fino y discreto, ideal para acabados de carpintería, molduras y trabajos donde la cabeza no debe notarse",
     categoria: "hierros",
@@ -1613,7 +1612,7 @@ const productos = [
 
 {
     nombre: "Puntillas Puma Sin Cabeza 1 ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillasnc.jpeg",
     descripcion: "Clavo de acero fino y discreto, ideal para acabados de carpintería, molduras y trabajos donde la cabeza no debe notarse",
     categoria: "hierros",
@@ -1622,7 +1621,7 @@ const productos = [
 },
 {
     nombre: "Puntillas Puma X 1000g 4 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillas1000.jpeg",
     descripcion: "Caja o empaque de 1 kilogramo de clavos de acero de alta resistencia, ideales para fijaciones firmes en madera y construcción en general",
     categoria: "hierros",
@@ -1630,7 +1629,7 @@ const productos = [
     tipo: "puntillas1000",
 },{
     nombre: "Puntillas Puma X 1000g 5 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/puntillas1000.jpeg",
     descripcion: "Caja o empaque de 1 kilogramo de clavos de acero de alta resistencia, ideales para fijaciones firmes en madera y construcción en general",
     categoria: "hierros",
@@ -1639,7 +1638,7 @@ const productos = [
 },
 {
     nombre: "Grapa Para Cerca X 1000g 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/grapa1000.webp",
     descripcion: "Caja o empaque de 1 kilogramo de grapas de acero galvanizado en forma de (U), ideales para fijar alambre de púas o mallas a postes de madera",
     categoria: "hierros",
@@ -1648,7 +1647,7 @@ const productos = [
 },
 {
     nombre: "Grapa Para Cerca X 1000g 1 ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/grapa1000.webp",
     descripcion: "Caja o empaque de 1 kilogramo de grapas de acero galvanizado en forma de (U), ideales para fijar alambre de púas o mallas a postes de madera",
     categoria: "hierros",
@@ -1657,7 +1656,7 @@ const productos = [
 },
 {
     nombre: "Alambre Negro Calibre 18",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambren18.png",
     descripcion: "Alambre de acero recocido altamente maleable y flexible, ideal para amarres de varillas y estribos en la construcción de concreto armado",
     categoria: "alambres",
@@ -1665,7 +1664,7 @@ const productos = [
     tipo: "negro",
 },{
     nombre: "Alambre Galvanizado Calibre 10",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambreg.jpeg",
     descripcion: "Hilo de acero con recubrimiento de zinc de alta resistencia a la oxidación, ideal para amarres expuestos, manualidades y fijaciones",
     categoria: "alambres",
@@ -1673,7 +1672,7 @@ const productos = [
     tipo: "galvanizado",
 },{
     nombre: "Alambre Galvanizado Calibre 12",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambreg.jpeg",
     descripcion: "Hilo de acero con recubrimiento de zinc de alta resistencia a la oxidación, ideal para amarres expuestos, manualidades y fijaciones",
     categoria: "alambres",
@@ -1681,7 +1680,7 @@ const productos = [
     tipo: "galvanizado",
 },{
     nombre: "Alambre Galvanizado Calibre 14",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambreg.jpeg",
     descripcion: "Hilo de acero con recubrimiento de zinc de alta resistencia a la oxidación, ideal para amarres expuestos, manualidades y fijaciones",
     categoria: "alambres",
@@ -1689,7 +1688,7 @@ const productos = [
     tipo: "galvanizado",
 },{
     nombre: "Alambre Galvanizado Calibre 8",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambreg.jpeg",
     descripcion: "Hilo de acero con recubrimiento de zinc de alta resistencia a la oxidación, ideal para amarres expuestos, manualidades y fijaciones",
     categoria: "alambres",
@@ -1697,7 +1696,7 @@ const productos = [
     tipo: "galvanizado",
 },{
     nombre: "Alambre Galvanizado Calibre 18",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambreg.jpeg",
     descripcion: "Hilo de acero con recubrimiento de zinc de alta resistencia a la oxidación, ideal para amarres expuestos, manualidades y fijaciones",
     categoria: "alambres",
@@ -1705,7 +1704,7 @@ const productos = [
     tipo: "galvanizado",
 },{
     nombre: "Alambre Galvanizado Calibre 16",
-    precio: 28000,
+    precio: "",
     imagen: "img/alambreg.jpeg",
     descripcion: "Hilo de acero con recubrimiento de zinc de alta resistencia a la oxidación, ideal para amarres expuestos, manualidades y fijaciones",
     categoria: "alambres",
@@ -1714,7 +1713,7 @@ const productos = [
 },
 {
     nombre: "Angulos de hierro 2 X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1723,7 +1722,7 @@ const productos = [
 },
 {
     nombre: "Angulos de hierro 2 X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1733,7 +1732,7 @@ const productos = [
 
 {
     nombre: "Angulos de hierro 2 X ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1743,7 +1742,7 @@ const productos = [
 
 {
     nombre: "Angulos de hierro 1 ½ X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1753,7 +1752,7 @@ const productos = [
 
 {
     nombre: "Angulos de hierro 1 ½ X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1763,7 +1762,7 @@ const productos = [
 
 {
     nombre: "Angulos de hierro 1 X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1773,7 +1772,7 @@ const productos = [
 
 {
     nombre: "Angulos de hierro 1 X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1783,7 +1782,7 @@ const productos = [
 
 {
     nombre: "Angulos de hierro ¾ X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/angl.jpg",
     descripcion: "Perfil metálico estructural en forma de (L) de alta resistencia, ideal para la fabricación de puertas, ventanas, soportes y estructuras metálicas",
     categoria: "hierros",
@@ -1792,7 +1791,7 @@ const productos = [
 },
 {
     nombre: "Platinas de Hierro 2 X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1800,7 +1799,7 @@ const productos = [
     tipo: "plahierro"
 },{
     nombre: "Platinas de Hierro 2 X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1810,7 +1809,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 2 X ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1820,7 +1819,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 1 ½ X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1830,7 +1829,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 1 ½ X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1840,7 +1839,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 1 ½ X ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1850,7 +1849,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 1 X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1860,7 +1859,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 1 X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1870,7 +1869,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro 1 X ¼ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1880,7 +1879,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro ¾ X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1890,7 +1889,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro ¾ X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1900,7 +1899,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro ½ X ⅛ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1910,7 +1909,7 @@ const productos = [
 
 {
     nombre: "Platinas de Hierro ½ X ³⁄₁₆ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/platihierro.jpeg",
     descripcion: "Barra metálica plana y sólida de alta resistencia, ideal para la fabricación de rejas, soportes, uniones estructurales y trabajos de herrería general",
     categoria: "hierros",
@@ -1919,7 +1918,7 @@ const productos = [
 },
 {
     nombre: "Riel Calibre 18, 2 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/riel.jpeg",
     descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
     categoria: "hierros",
@@ -1929,7 +1928,7 @@ const productos = [
 
 {
     nombre: "Riel Calibre 18, 2.40 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/riel.jpeg",
     descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
     categoria: "hierros",
@@ -1939,7 +1938,7 @@ const productos = [
 
 {
     nombre: "Riel Calibre 18, 3 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/riel.jpeg",
     descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
     categoria: "hierros",
@@ -1949,7 +1948,7 @@ const productos = [
 
 {
     nombre: "Riel Calibre 20, 2 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/riel.jpeg",
     descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
     categoria: "hierros",
@@ -1959,7 +1958,7 @@ const productos = [
 
 {
     nombre: "Riel Calibre 20, 2.40 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/riel.jpeg",
     descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
     categoria: "hierros",
@@ -1969,7 +1968,7 @@ const productos = [
 
 {
     nombre: "Riel Calibre 20, 3 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/riel.jpeg",
     descripcion: "Perfil liviano pero de excelente rigidez estructural, fácil de cortar e instalar en proyectos de construcción liviana y remodelación arquitectónica",
     categoria: "hierros",
@@ -1978,7 +1977,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Rectangular Calibre 16, 4 X 1 ½ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -1987,7 +1986,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Rectangular Calibre 14, 4 X 1 ½ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -1995,7 +1994,7 @@ const productos = [
     tipo: "rectangular"
 },{ 
     nombre: "Tubo Rectangular Calibre 16, 3 X 1 ½ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -2004,7 +2003,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Rectangular Calibre 14, 3 X 1 ½ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -2012,7 +2011,7 @@ const productos = [
     tipo: "rectangular"
 },{ 
     nombre: "Tubo Rectangular Calibre 18, 3 X 1 ½ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -2020,7 +2019,7 @@ const productos = [
     tipo: "rectangular"
 },{ 
     nombre: "Tubo Rectangular Calibre 20, 3 X 1 ½ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -2029,7 +2028,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Rectangular Calibre 18, 2 X 1  Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -2037,7 +2036,7 @@ const productos = [
     tipo: "rectangular"
 },{ 
     nombre: "Tubo Rectangular Calibre 20, 2 X 1  Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/rectangular.jpeg",
     descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
     categoria: "hierros",
@@ -2046,7 +2045,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Cuadrado Calibre 18, 1 ½  Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/cuadrado.jpeg",
     descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
     categoria: "hierros",
@@ -2055,7 +2054,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Cuadrado Calibre 20, 1 ½  Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/cuadrado.jpeg",
     descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
     categoria: "hierros",
@@ -2064,7 +2063,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Cuadrado Calibre 18, 1  Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/cuadrado.jpeg",
     descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
     categoria: "hierros",
@@ -2073,7 +2072,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Cuadrado Calibre 20, 1  Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/cuadrado.jpeg",
     descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
     categoria: "hierros",
@@ -2082,7 +2081,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Cuadrado Calibre 20, ¾ Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/cuadrado.jpeg",
     descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
     categoria: "hierros",
@@ -2091,7 +2090,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Estructural 100X100 2mm ",
-    precio: 28000,
+    precio: "",
     imagen: "img/estructural.jpeg",
     descripcion: " Elemento de alta resistencia mecánica y gran espesor, diseñado para soportar cargas pesadas en vigas, columnas y grandes estructuras",
     categoria: "hierros",
@@ -2100,7 +2099,7 @@ const productos = [
 },
 { 
     nombre: "Perlin Calibre 14, 6 X 2 Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/perlin.jpeg",
     descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
     categoria: "hierros",
@@ -2109,7 +2108,7 @@ const productos = [
 },
 { 
     nombre: "Perlin Calibre 16, 6 X 2 Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/perlin.jpeg",
     descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
     categoria: "hierros",
@@ -2118,7 +2117,7 @@ const productos = [
 },
 { 
     nombre: "Perlin Calibre 16, 4 X 2 Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/perlin.jpeg",
     descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
     categoria: "hierros",
@@ -2127,7 +2126,7 @@ const productos = [
 },
 { 
     nombre: "Perlin Calibre 14, 4 X 2 Pulg ",
-    precio: 28000,
+    precio: "",
     imagen: "img/perlin.jpeg",
     descripcion: "Correa metálica estructural diseñada para el soporte de cubiertas, techumbres y estructuras de galpones",
     categoria: "hierros",
@@ -2136,7 +2135,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Condui EMT 1 X 3 Mts Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocondui.jpeg",
     descripcion: "Tubería metálica ligera de acero galvanizado, ideal para la protección y enrutamiento seguro de cableado eléctrico en interiores expuestos",
     categoria: "hierros",
@@ -2145,7 +2144,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Condui EMT ¾ X 3 Mts Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocondui.jpeg",
     descripcion: "Tubería metálica ligera de acero galvanizado, ideal para la protección y enrutamiento seguro de cableado eléctrico en interiores expuestos",
     categoria: "hierros",
@@ -2153,7 +2152,7 @@ const productos = [
     tipo: ""
 },{ 
     nombre: "Tubo Condui EMT ½ X 3 Mts Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocondui.jpeg",
     descripcion: "Tubería metálica ligera de acero galvanizado, ideal para la protección y enrutamiento seguro de cableado eléctrico en interiores expuestos",
     categoria: "hierros",
@@ -2162,7 +2161,7 @@ const productos = [
 },
 { 
     nombre: "Tubo Cortinero Dorado 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocortinerod.jpeg",
     descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
     categoria: "aluminios",
@@ -2170,7 +2169,7 @@ const productos = [
     tipo: ""
 },{ 
     nombre: "Tubo Cortinero Dorado ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocortinerod.jpeg",
     descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
     categoria: "aluminios",
@@ -2178,7 +2177,7 @@ const productos = [
     tipo: ""
 },{ 
     nombre: "Tubo Cortinero Dorado ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocortinerod.jpeg",
     descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
     categoria: "aluminios",
@@ -2187,7 +2186,7 @@ const productos = [
 },
  { 
     nombre: "Tubo Cortinero Café 1 Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocortineroc.jpeg",
     descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
     categoria: "aluminios",
@@ -2195,7 +2194,7 @@ const productos = [
     tipo: ""
 },{ 
     nombre: "Tubo Cortinero Café ¾ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocortineroc.jpeg",
     descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
     categoria: "aluminios",
@@ -2203,7 +2202,7 @@ const productos = [
     tipo: ""
 },{ 
     nombre: "Tubo Cortinero Café ½ Pulg",
-    precio: 28000,
+    precio: "",
     imagen: "img/tubocortineroc.jpeg",
     descripcion: "Barra cilíndrica de alta resistencia diseñada para el soporte firme y estético de cortinas pesadas o ligeras en el hogar",
     categoria: "aluminios",
@@ -2212,7 +2211,7 @@ const productos = [
 },
 { 
     nombre: "Malla Gallinero 1/80 X Mt, Rollo 36 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/mallagallinero.webp",
     descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
     categoria: "mallas",
@@ -2221,7 +2220,7 @@ const productos = [
 },
 { 
     nombre: "Malla Gallinero 1/50 X Mt, Rollo 36 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/mallagallinero.webp",
     descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
     categoria: "mallas",
@@ -2230,7 +2229,7 @@ const productos = [
 },
 { 
     nombre: "Malla Pajarito 1/80 X Mt, Rollo 30 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/mallapajarito.jpeg",
     descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
     categoria: "mallas",
@@ -2239,7 +2238,7 @@ const productos = [
 },
 { 
     nombre: "Malla Pajarito 1Mt X Mt, Rollo 30 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/mallapajarito.jpeg",
     descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
     categoria: "mallas",
@@ -2248,7 +2247,7 @@ const productos = [
 },
 { 
     nombre: "Malla Plastica 1/80 X Mt, Rollo 50 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/mallaplastic.jpeg",
     descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
     categoria: "mallas",
@@ -2257,7 +2256,7 @@ const productos = [
 },
 { 
     nombre: "Malla Plastica Cuadrada X Mt, Rollo 30 Mts",
-    precio: 28000,
+    precio: "",
     imagen: "img/mallaplasticac.jpeg",
     descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
     categoria: "mallas",
@@ -2408,9 +2407,9 @@ let categoriaActual = "todos";
 let subcategoriaActual = "todas";
 let tipoActual = "todos";
 
-// Formatea el precio como pesos colombianos: 35000 -> $35.000
+// Formatea el precio como pesos colombianos: "" -> $35.000
 function formatearPrecio(valor) {
-    return "$" + valor.toLocaleString("es-CO");
+    return "" + valor.toLocaleString("es-CO");
 }
 
 function mostrarProductos(lista) {
@@ -2565,3 +2564,14 @@ if (contenedor) {
 if (buscador) {
     buscador.addEventListener("keyup", filtrarLista);
 }
+function actualizarContador() {
+    // Cuenta solo los productos que están visibles en la pantalla
+    const productosVisibles = document.querySelectorAll('#productos .producto:not([style*="display: none"])').length;
+    document.getElementById('cantidad-productos').textContent = productosVisibles;
+}
+
+// Ejecuta la cuenta cuando la página termina de cargar
+document.addEventListener("DOMContentLoaded", actualizarContador);
+
+// Si tienes funciones de filtro o buscador, ejecuta "actualizarContador();" 
+// al final de esas funciones para que el número se actualice al filtrar.

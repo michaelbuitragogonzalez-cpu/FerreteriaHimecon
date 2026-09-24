@@ -421,7 +421,10 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
     /* Fuerza exactamente 5 columnas en pantallas de escritorio */
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
+    /* 👇 ESTA LÍNEA CENTRA LOS PRODUCTOS CUANDO HAY POQUITOS */
+    justify-content: center; 
 }
+
 
 .producto {
     background: white;
@@ -915,4 +918,15 @@ footer p {
 .producto .precio-producto,
 nav a::after {
     filter: hue-rotate(var(--himecon-hue));
+}
+.contador-productos {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#cantidad-productos {
+    color: #39A9FF;
+    font-weight: bold;
 }
