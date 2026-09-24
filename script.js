@@ -21,7 +21,7 @@
 const numeroWhatsApp = "573206150674"; // Número de la ferretería
 
 // Tu página ya publicada (sin "/" al final). Se usa para armar el link de la foto en WhatsApp.
-const urlSitio = "https://ferreteriahimecon.netlify.app";
+const urlSitio = "https://michaelbuitragogonzalez-cpu.github.io/FerreteriaHimecon/";
 
 // Imagen que se muestra cuando un producto todavía no tiene foto
 const imagenRespaldo = "img/sin-imagen.png";
@@ -1975,7 +1975,129 @@ const productos = [
     categoria: "hierros",
     subcategoria: "riel",
     tipo: "rielhierro"
-}
+},
+{ 
+    nombre: "Tubo Rectangular Calibre 16, 4 X 1 ½ Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},
+{ 
+    nombre: "Tubo Rectangular Calibre 14, 4 X 1 ½ Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},{ 
+    nombre: "Tubo Rectangular Calibre 16, 3 X 1 ½ Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},
+{ 
+    nombre: "Tubo Rectangular Calibre 14, 3 X 1 ½ Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},{ 
+    nombre: "Tubo Rectangular Calibre 18, 3 X 1 ½ Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},{ 
+    nombre: "Tubo Rectangular Calibre 20, 3 X 1 ½ Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},
+{ 
+    nombre: "Tubo Rectangular Calibre 18, 2 X 1  Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},{ 
+    nombre: "Tubo Rectangular Calibre 20, 2 X 1  Pulg ",
+    precio: 28000,
+    imagen: "img/rectangular.jpeg",
+    descripcion: "Tubo estructural hueco de alta resistencia, ideal para la fabricación de portones, marcos de puertas, postes y estructuras metálicas ligeras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "rectangular"
+},
+{ 
+    nombre: "Tubo Cuadrado Calibre 18, 1 ½  Pulg ",
+    precio: 28000,
+    imagen: "img/cuadrado.jpeg",
+    descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "cuadrada"
+},
+{ 
+    nombre: "Tubo Cuadrado Calibre 20, 1 ½  Pulg ",
+    precio: 28000,
+    imagen: "img/cuadrado.jpeg",
+    descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "cuadrada"
+},
+{ 
+    nombre: "Tubo Cuadrado Calibre 18, 1  Pulg ",
+    precio: 28000,
+    imagen: "img/cuadrado.jpeg",
+    descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "cuadrada"
+},
+{ 
+    nombre: "Tubo Cuadrado Calibre 20, 1  Pulg ",
+    precio: 28000,
+    imagen: "img/cuadrado.jpeg",
+    descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "cuadrada"
+},
+{ 
+    nombre: "Tubo Cuadrado Calibre 20, ¾ Pulg ",
+    precio: 28000,
+    imagen: "img/cuadrado.jpeg",
+    descripcion: " Perfil metálico macizo a la vista pero liviano y resistente, fácil de soldar y cortar para proyectos de cerrajería y construcción general",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "cuadrada"
+},
+{ 
+    nombre: "Tubo Estructural 100X100 2mm ",
+    precio: 28000,
+    imagen: "img/estructural.jpeg",
+    descripcion: " Elemento de alta resistencia mecánica y gran espesor, diseñado para soportar cargas pesadas en vigas, columnas y grandes estructuras",
+    categoria: "hierros",
+    subcategoria: "perfileria",
+    tipo: "estructural"
+},
 ];
 
 
@@ -2039,7 +2161,14 @@ const subcategoriasPorCategoria = {
                 ]
                 
                 
-            },
+            },  
+              {valor: "perfileria",
+            texto: "Perfilería",
+            tipos: [
+                { valor: "rectangular", texto: "Rectangular" },
+                { valor: "estructural", texto: "Estructural" },
+                { valor: "cuadrada", texto: "Cuadrada" },
+                ]},
 
         // 👇 A futuro, agregas aquí más cosas de hierros, cada una con sus propios tipos:
         // {
