@@ -2210,6 +2210,60 @@ const productos = [
     subcategoria: "tubocortinero",
     tipo: ""
 },
+{ 
+    nombre: "Malla Gallinero 1/80 X Mt, Rollo 36 Mts",
+    precio: 28000,
+    imagen: "img/mallagallinero.webp",
+    descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
+    categoria: "mallas",
+    subcategoria: "mallagallinero",
+    tipo: ""
+},
+{ 
+    nombre: "Malla Gallinero 1/50 X Mt, Rollo 36 Mts",
+    precio: 28000,
+    imagen: "img/mallagallinero.webp",
+    descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
+    categoria: "mallas",
+    subcategoria: "mallagallinero",
+    tipo: ""
+},
+{ 
+    nombre: "Malla Pajarito 1/80 X Mt, Rollo 30 Mts",
+    precio: 28000,
+    imagen: "img/mallapajarito.jpeg",
+    descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
+    categoria: "mallas",
+    subcategoria: "mallapajarito",
+    tipo: ""
+},
+{ 
+    nombre: "Malla Pajarito 1Mt X Mt, Rollo 30 Mts",
+    precio: 28000,
+    imagen: "img/mallapajarito.jpeg",
+    descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
+    categoria: "mallas",
+    subcategoria: "mallapajarito",
+    tipo: ""
+},
+{ 
+    nombre: "Malla Plastica 1/80 X Mt, Rollo 50 Mts",
+    precio: 28000,
+    imagen: "img/mallaplastic.jpeg",
+    descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
+    categoria: "mallas",
+    subcategoria: "mallaplastica",
+    tipo: ""
+},
+{ 
+    nombre: "Malla Plastica Cuadrada X Mt, Rollo 30 Mts",
+    precio: 28000,
+    imagen: "img/mallaplasticac.jpeg",
+    descripcion: "Malla de alta resistencia diseñada para el uso en gallineros y otras aplicaciones agrícolas",
+    categoria: "mallas",
+    subcategoria: "mallaplasticacuadrada",
+    tipo: ""
+},
 ];
 
 
@@ -2330,8 +2384,13 @@ const subcategoriasPorCategoria = {
        aluminios: [
         { valor: "tubocortinero", texto: "Tubo Cortinero" },
 
-    ]
-
+    ],
+      mallas: [
+        {valor: "mallagallinero", texto: "Malla Gallinero" },
+         {valor: "mallapajarito", texto: "Malla Pajarito" },
+          {valor: "mallaplastica", texto: "Malla Plástica" },
+           {valor: "mallaplasticacuadrada", texto: "Malla Plástica Cuadrada" },
+      ]
 };
 
 
