@@ -418,11 +418,17 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
 #productos {
     margin-top: 60px;
     display: grid;
-    /* Divide en 5 columnas balanceadas con un tamaño máximo para cada tarjeta */
-    grid-template-columns: repeat(5, minmax(150px, 220px));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  #productos {
+    margin-top: 60px;
+    display: grid;
+    /* auto-fit con un tamaño máximo fijo genera las 5 columnas y permite alinearlas al centro perfectamente */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
     gap: 15px;
-    /* Centra la cuadrícula entera en la pantalla */
-    justify-content: center; 
+    justify-content: center; /* Centra las tarjetas cuando hay poquitas en pantalla */
+}
+ 
 }
 
 

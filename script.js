@@ -2263,6 +2263,50 @@ const productos = [
     subcategoria: "mallaplasticacuadrada",
     tipo: ""
 },
+{ 
+    nombre: "Angeos Fibra de Vidrio 1/50 X Mt",
+    precio: "",
+    imagen: "img/angeosfibra.jpeg",
+    descripcion: "Malla mosquitera flexible y de alta resistencia, ideal para instalar en puertas y ventanas para bloquear el paso de insectos sin perder ventilación",
+    categoria: "mallas",
+    subcategoria: "angeos",
+    tipo: "fibradevidrio"
+},
+{ 
+    nombre: "Angeos Fibra de Vidrio 1/20 X Mt",
+    precio: "",
+    imagen: "img/angeosfibra.jpeg",
+    descripcion: "Malla mosquitera flexible y de alta resistencia, ideal para instalar en puertas y ventanas para bloquear el paso de insectos sin perder ventilación",
+    categoria: "mallas",
+    subcategoria: "angeos",
+    tipo: "fibradevidrio"
+},{ 
+    nombre: "Angeos Fibra de Vidrio 1 X Mt",
+    precio: "",
+    imagen: "img/angeosfibra.jpeg",
+    descripcion: "Malla mosquitera flexible y de alta resistencia, ideal para instalar en puertas y ventanas para bloquear el paso de insectos sin perder ventilación",
+    categoria: "mallas",
+    subcategoria: "angeos",
+    tipo: "fibradevidrio"
+},
+{ 
+    nombre: "Angeos Plasticos 1/50 X Mt",
+    precio: "",
+    imagen: "img/angeoplastico.jpeg",
+    descripcion: "Malla plástica flexible de alta densidad, ideal para instalar en puertas y ventanas para impedir el paso de zancudos e insectos",
+    categoria: "mallas",
+    subcategoria: "angeos",
+    tipo: "plastico"
+},
+{ 
+    nombre: "Angeos Plasticos 1/ X Mt",
+    precio: "",
+    imagen: "img/angeoplastico.jpeg",
+    descripcion: "Malla plástica flexible de alta densidad, ideal para instalar en puertas y ventanas para impedir el paso de zancudos e insectos",
+    categoria: "mallas",
+    subcategoria: "angeos",
+    tipo: "plastico"
+},
 ];
 
 
@@ -2389,6 +2433,15 @@ const subcategoriasPorCategoria = {
          {valor: "mallapajarito", texto: "Malla Pajarito" },
           {valor: "mallaplastica", texto: "Malla Plástica" },
            {valor: "mallaplasticacuadrada", texto: "Malla Plástica Cuadrada" },
+           
+           {valor: "angeos",
+            texto: "Angeos",
+            tipos: [
+                { valor: "fibradevidrio", texto: "Fibra De Vidrio" },
+                { valor: "plastico", texto: "Plástico" },
+                
+                ]},  
+                
       ]
 };
 
@@ -2409,8 +2462,12 @@ let tipoActual = "todos";
 
 // Formatea el precio como pesos colombianos: "" -> $35.000
 function formatearPrecio(valor) {
-    return "" + valor.toLocaleString("es-CO");
+    if (!valor || valor === "") {
+        return "Disponible";
+    }
+    return "$" + valor.toLocaleString("es-CO");
 }
+
 
 function mostrarProductos(lista) {
 
@@ -2565,13 +2622,11 @@ if (buscador) {
     buscador.addEventListener("keyup", filtrarLista);
 }
 function actualizarContador() {
-    // Cuenta solo los productos que están visibles en la pantalla
-    const productosVisibles = document.querySelectorAll('#productos .producto:not([style*="display: none"])').length;
-    document.getElementById('cantidad-productos').textContent = productosVisibles;
+    const productosVisibles = document.querySelectorAll('#productos .producto').length;
+    const elementoContador = document.getElementById('cantidad-productos');
+    if (elementoContador) {
+        elementoContador.textContent = productosVisibles;
+    }
 }
-
-// Ejecuta la cuenta cuando la página termina de cargar
 document.addEventListener("DOMContentLoaded", actualizarContador);
 
-// Si tienes funciones de filtro o buscador, ejecuta "actualizarContador();" 
-// al final de esas funciones para que el número se actualice al filtrar.
