@@ -2488,13 +2488,13 @@ function mostrarProductos(lista) {
         const tieneImagenReal = producto.imagen && producto.imagen.trim() !== "";
 
         const lineaFoto = tieneImagenReal
-            ? `📷 Ver foto: ${urlSitio}/${producto.imagen}\n\n`
+            ? ` Ver foto: ${urlSitio}/${producto.imagen}\n\n`
             : "";
 
         const mensaje = encodeURIComponent(
             `Hola, estoy interesado en este producto:\n\n` +
-            `🔧 ${producto.nombre}\n` +
-            `💰 ${formatearPrecio(producto.precio)}\n\n` +
+            ` ${producto.nombre}\n` +
+            ` ${formatearPrecio(producto.precio)}\n\n` +
             lineaFoto +
             `¿Está disponible?`
         );
