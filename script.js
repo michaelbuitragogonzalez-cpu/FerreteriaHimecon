@@ -2532,6 +2532,33 @@ const productos = [
     subcategoria: "tejaupvc",
     tipo: ""
 },
+{ 
+    nombre: "Perimetral P.P",
+    precio: "",
+    imagen: "img/perimetralpp.jpeg",
+    descripcion: "Perfil de PVC rígido diseñado para rematar y proteger los bordes de techos y cubiertas, evitando filtraciones y mejorando la estética del acabado",
+    categoria: "tejas",
+    subcategoria: "laminapvccielo",
+    tipo: ""
+},
+{ 
+    nombre: "Perimetral Multiusos",
+    precio: "",
+    imagen: "img/perimetralmulti.jpeg",
+    descripcion: "Accesorio versátil de alta durabilidad y resistencia a la humedad, diseñado para fijar láminas perimetrales en desniveles, aleros o muros secos",
+    categoria: "tejas",
+    subcategoria: "laminapvccielo",
+    tipo: ""
+},
+{ 
+    nombre: "Unión Cielo PVC",
+    precio: "",
+    imagen: "img/unioncielopvc.jpeg",
+    descripcion: "Perfil de PVC rígido diseñado para unir y sellar láminas de cielo raso, garantizando un acabado estético y evitando filtraciones de polvo o humedad",
+    categoria: "tejas",
+    subcategoria: "laminapvccielo",
+    tipo: ""
+},
 ];
 
 
@@ -2674,6 +2701,7 @@ const subcategoriasPorCategoria = {
         { valor: "eternit", texto: "Eternit" },
         { valor: "techolit", texto: "Techolit" },
         { valor: "tejaupvc", texto: "Teja UPVC" },
+        { valor: "laminapvccielo", texto: "Lámina PVC Cielo" },
         {valor: "policarbonato",
             texto: "Policarbonato Ajover",
             tipos: [
