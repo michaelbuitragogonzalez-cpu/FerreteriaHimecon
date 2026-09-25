@@ -2307,6 +2307,231 @@ const productos = [
     subcategoria: "angeos",
     tipo: "plastico"
 },
+{ 
+    nombre: "Teja Zin Acanalada 3.05 Mts",
+    precio: "",
+    imagen: "img/tejazin.jpeg",
+    descripcion: "Lámina ondulada metálica de alta resistencia a la intemperie, ideal para cubiertas duraderas y económicas en techos residenciales y rurales",
+    categoria: "tejas",
+    subcategoria: "zinacanalado",
+    tipo: ""
+},
+{ 
+    nombre: "Teja Zin Acanalada 2.44 Mts",
+    precio: "",
+    imagen: "img/tejazin.jpeg",
+    descripcion: "Lámina ondulada metálica de alta resistencia a la intemperie, ideal para cubiertas duraderas y económicas en techos residenciales y rurales",
+    categoria: "tejas",
+    subcategoria: "zinacanalado",
+    tipo: ""
+},{ 
+    nombre: "Teja Zin Acanalada 2.15 Mts",
+    precio: "",
+    imagen: "img/tejazin.jpeg",
+    descripcion: "Lámina ondulada metálica de alta resistencia a la intemperie, ideal para cubiertas duraderas y económicas en techos residenciales y rurales",
+    categoria: "tejas",
+    subcategoria: "zinacanalado",
+    tipo: ""
+},{ 
+    nombre: "Teja Eternit 3.05 Mts",
+    precio: "",
+    imagen: "img/tejaeternit.jpeg",
+    descripcion: "Lámina de fibrocemento con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "eternit",
+    tipo: ""
+},{ 
+    nombre: "Teja Eternit 2.44 Mts",
+    precio: "",
+    imagen: "img/tejaeternit.jpeg",
+    descripcion: "Lámina de fibrocemento con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "eternit",
+    tipo: ""
+},{ 
+    nombre: "Teja Eternit 2.15 Mts",
+    precio: "",
+    imagen: "img/tejaeternit.jpeg",
+    descripcion: "Lámina de fibrocemento con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "eternit",
+    tipo: ""
+},{ 
+    nombre: "Teja Eternit 1.80 Mts",
+    precio: "",
+    imagen: "img/tejaeternit.jpeg",
+    descripcion: "Lámina de fibrocemento con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "eternit",
+    tipo: ""
+},{ 
+    nombre: "Teja Eternit 1.50 Mts",
+    precio: "",
+    imagen: "img/tejaeternit.jpeg",
+    descripcion: "Lámina de fibrocemento con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "eternit",
+    tipo: ""
+},{ 
+    nombre: "Teja Eternit 1.20 Mts",
+    precio: "",
+    imagen: "img/tejaeternit.jpeg",
+    descripcion: "Lámina de fibrocemento con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "eternit",
+    tipo: ""
+},
+{ 
+    nombre: "Teja Trapezoidal 6 Mts",
+    precio: "",
+    imagen: "img/tejatrapezoidal.jpeg",
+    descripcion: " Lámina metálica con perfil trapezoidal (grecada) de alta rigidez, ideal para techos y fachadas de naves industriales, bodegas y viviendas",
+    categoria: "tejas",
+    subcategoria: "trapezoidal",
+    tipo: ""
+},{ 
+    nombre: "Teja Trapezoidal 4 Mts",
+    precio: "",
+    imagen: "img/tejatrapezoidal.jpeg",
+    descripcion: " Lámina metálica con perfil trapezoidal (grecada) de alta rigidez, ideal para techos y fachadas de naves industriales, bodegas y viviendas",
+    categoria: "tejas",
+    subcategoria: "trapezoidal",
+    tipo: ""
+},{ 
+    nombre: "Teja Trapezoidal 3 Mts",
+    precio: "",
+    imagen: "img/tejatrapezoidal.jpeg",
+    descripcion: " Lámina metálica con perfil trapezoidal (grecada) de alta rigidez, ideal para techos y fachadas de naves industriales, bodegas y viviendas",
+    categoria: "tejas",
+    subcategoria: "trapezoidal",
+    tipo: ""
+},{ 
+    nombre: "Teja Policarbonato Eternit 3.05 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonato.jpeg",
+    descripcion: " Lámina de policarbonato con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "eternit1"
+},
+{ 
+    nombre: "Teja Policarbonato Eternit 2.44 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonato.jpeg",
+    descripcion: " Lámina de policarbonato con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "eternit1"
+},{ 
+    nombre: "Teja Policarbonato Eternit 1.80 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonato.jpeg",
+    descripcion: " Lámina de policarbonato con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "eternit1"
+},{ 
+    nombre: "Teja Policarbonato Eternit 1.50 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonato.jpeg",
+    descripcion: " Lámina de policarbonato con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "eternit1"
+},{ 
+    nombre: "Teja Policarbonato Eternit 1.20 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonato.jpeg",
+    descripcion: " Lámina de policarbonato con excelentes propiedades de aislamiento térmico y acústico, garantizando ambientes más frescos y silenciosos",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "eternit1"
+},
+{ 
+    nombre: "Teja Policarbonato Zin 3.05 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonatoz.jpeg",
+    descripcion: "Lámina translúcida con perfil ondulado tipo zinc, ideal para permitir el paso de luz natural y ahorrar energía en techos y pérgolas",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "zin"
+},{ 
+    nombre: "Teja Policarbonato Zin 2.44 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonatoz.jpeg",
+    descripcion: "Lámina translúcida con perfil ondulado tipo zinc, ideal para permitir el paso de luz natural y ahorrar energía en techos y pérgolas",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "zin"
+},{ 
+    nombre: "Teja Policarbonato Zin 2.15 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonatoz.jpeg",
+    descripcion: "Lámina translúcida con perfil ondulado tipo zinc, ideal para permitir el paso de luz natural y ahorrar energía en techos y pérgolas",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "zin"
+},{ 
+    nombre: "Teja Policarbonato Zin 1.80 Mts",
+    precio: "",
+    imagen: "img/tejapolicarbonatoz.jpeg",
+    descripcion: "Lámina translúcida con perfil ondulado tipo zinc, ideal para permitir el paso de luz natural y ahorrar energía en techos y pérgolas",
+    categoria: "tejas",
+    subcategoria: "policarbonato",
+    tipo: "zin"
+},{ 
+    nombre: "Teja Techolit 3.05 Mts",
+    precio: "",
+    imagen: "img/techolit.jpeg",
+    descripcion: "Cubierta fabricada en polipropileno reforzado con filtro UV, ligera, inoxidable y diseñada para un excelente aislamiento acústico y térmico",
+    categoria: "tejas",
+    subcategoria: "techolit",
+    tipo: "techolit"
+},
+{ 
+    nombre: "Teja Techolit 2.44 Mts",
+    precio: "",
+    imagen: "img/techolit.jpeg",
+    descripcion: "Cubierta fabricada en polipropileno reforzado con filtro UV, ligera, inoxidable y diseñada para un excelente aislamiento acústico y térmico",
+    categoria: "tejas",
+    subcategoria: "techolit",
+    tipo: "techolit"
+},{ 
+    nombre: "Teja Techolit 2.15 Mts",
+    precio: "",
+    imagen: "img/techolit.jpeg",
+    descripcion: "Cubierta fabricada en polipropileno reforzado con filtro UV, ligera, inoxidable y diseñada para un excelente aislamiento acústico y térmico",
+    categoria: "tejas",
+    subcategoria: "techolit",
+    tipo: "techolit"
+},
+{ 
+    nombre: "Teja UPVC 2.15 Mts",
+    precio: "",
+    imagen: "img/tejaupvc.jpeg",
+    descripcion: " Teja de alta resistencia al impacto y a la corrosión química, ideal para ambientes industriales, agrícolas y zonas costeras expuestas",
+    categoria: "tejas",
+    subcategoria: "tejaupvc",
+    tipo: ""
+},
+{ 
+    nombre: "Teja UPVC 2 Mts",
+    precio: "",
+    imagen: "img/tejaupvc.jpeg",
+    descripcion: " Teja de alta resistencia al impacto y a la corrosión química, ideal para ambientes industriales, agrícolas y zonas costeras expuestas",
+    categoria: "tejas",
+    subcategoria: "tejaupvc",
+    tipo: ""
+},
+{ 
+    nombre: "Teja UPVC Colonial ",
+    precio: "",
+    imagen: "img/tejaupvcc.jpeg",
+    descripcion: "Cubierta termoacústica con diseño tipo teja de barro tradicional, ideal para techos residenciales, fincas y quioscos que buscan estética y confort",
+    categoria: "tejas",
+    subcategoria: "tejaupvc",
+    tipo: ""
+},
 ];
 
 
@@ -2442,7 +2667,23 @@ const subcategoriasPorCategoria = {
                 
                 ]},  
                 
+      ],
+      tejas: [
+        { valor: "zinacanalado", texto: "ZIN Acanalado" },
+        { valor: "trapezoidal", texto: "Trapezoidal" },
+        { valor: "eternit", texto: "Eternit" },
+        { valor: "techolit", texto: "Techolit" },
+        { valor: "tejaupvc", texto: "Teja UPVC" },
+        {valor: "policarbonato",
+            texto: "Policarbonato Ajover",
+            tipos: [
+                { valor: "eternit1", texto: "Eternit" },
+                { valor: "zin", texto: "ZIN" },
+                
+                ]},  
       ]
+      
+      
 };
 
 
