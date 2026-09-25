@@ -44998,6 +44998,17 @@ const buscador = document.getElementById("buscador");
 const subcategoriasContenedor = document.getElementById("subcategorias");
 const subsubcategoriasContenedor = document.getElementById("subsubcategorias");
 
+// Muestra/oculta el panel de filtros en móvil (botón "🔍 Filtros")
+function toggleFiltros() {
+    const panel = document.getElementById("panel-filtros");
+    const flecha = document.getElementById("flecha-filtros");
+    if (!panel) return;
+    panel.classList.toggle("panel-filtros-abierto");
+    if (flecha) {
+        flecha.textContent = panel.classList.contains("panel-filtros-abierto") ? "▴" : "▾";
+    }
+}
+
 let categoriaActual = "todos";
 let subcategoriaActual = "todas";
 let tipoActual = "todos";
