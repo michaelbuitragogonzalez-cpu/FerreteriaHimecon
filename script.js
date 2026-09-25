@@ -2559,6 +2559,96 @@ const productos = [
     subcategoria: "laminapvccielo",
     tipo: ""
 },
+{ 
+    nombre: "Unión con Bajante",
+    precio: "",
+    imagen: "img/unionbajante.jpeg",
+    descripcion: "Conexión de PVC diseñada para acoplar de forma hermética los tubos verticales de desagüe con los ramales colectores principales",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Unión Canal",
+    precio: "",
+    imagen: "img/unioncanal.jpeg",
+    descripcion: "Conector de PVC diseñado para unir tramos de canaletas de manera segura y sin fugas, facilitando la recolección y conducción del agua de lluvia",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Tapas Externas",
+    precio: "",
+    imagen: "img/tapasexternas.jpeg",
+    descripcion: "Tapas para canaletas externas, diseñadas para proteger el sistema de drenaje de la entrada de agua de lluvia y residuos",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Tapas Internas",
+    precio: "",
+    imagen: "img/tapasinternas.jpeg",
+    descripcion: "Tapas para canaletas internas, diseñadas para proteger el sistema de drenaje de la entrada de agua de lluvia y residuos",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Adaptador de Bajante",
+    precio: "",
+    imagen: "img/adapatadorbajante.jpeg",
+    descripcion: "Adaptador de PVC diseñado para acoplar de forma hermética los tubos verticales de desagüe con los ramales colectores principales",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Soporte de Canal",
+    precio: "",
+    imagen: "img/soportecanal.jpeg",
+    descripcion: "Soporte de PVC diseñado para mantener en posición los tramos de canaletas, garantizando una instalación segura y estable",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Unión Esquina",
+    precio: "",
+    imagen: "img/unionesquina.jpeg",
+    descripcion: "Conector de PVC diseñado para unir tramos de canaletas en ángulo recto, facilitando la recolección y conducción del agua de lluvia",
+    categoria: "tejas",
+    subcategoria: "canalpvcamazonas3m",
+    tipo: ""
+},
+{ 
+    nombre: "Tapas Canal Galvanizadas",
+    precio: "",
+    imagen: "img/tapascanal.jpeg",
+    descripcion: "Tapas para canaletas, diseñadas para proteger el sistema de drenaje de la entrada de agua de lluvia y residuos",
+    categoria: "tejas",
+    subcategoria: "canalgalvanizada6m",
+    tipo: ""
+},
+{ 
+    nombre: "Sosco Galvanizado",
+    precio: "",
+    imagen: "img/sosco.jpg",
+    descripcion: "Sosco galvanizado diseñado para mantener en posición los tramos de canaletas, garantizando una instalación segura y estable",
+    categoria: "tejas",
+    subcategoria: "canalgalvanizada6m",
+    tipo: ""
+},
+{ 
+    nombre: "Soporte de Canal Galvanizado",
+    precio: "",
+    imagen: "img/soportecanalg.jpeg",
+    descripcion: "Soporte galvanizado diseñado para mantener en posición los tramos de canaletas, garantizando una instalación segura y estable",
+    categoria: "tejas",
+    subcategoria: "canalgalvanizada6m",
+    tipo: ""
+},
 ];
 
 
@@ -2702,6 +2792,8 @@ const subcategoriasPorCategoria = {
         { valor: "techolit", texto: "Techolit" },
         { valor: "tejaupvc", texto: "Teja UPVC" },
         { valor: "laminapvccielo", texto: "Lámina PVC Cielo" },
+        { valor: "canalpvcamazonas3m", texto: "Canal PVC Amazonas X 3 Mts" },
+        { valor: "canalgalvanizada6m", texto: "Canal Galvanizada X 6 Mts" },
         {valor: "policarbonato",
             texto: "Policarbonato Ajover",
             tipos: [
@@ -2798,20 +2890,77 @@ function mostrarProductos(lista) {
     });
 }
 
-function filtrarLista() {
+// Función auxiliar para quitar tildes, diéresis y dejar todo en minúsculas
+function limpiarTexto(str) {
+    return str
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, ""); // Remueve todos los acentos
+}
 
-    const texto = buscador ? buscador.value.toLowerCase() : "";
+// Función para verificar si un término es "similar" a otro (Distancia Levenshtein simplificada)
+function esSimilar(busqueda, objetivo) {
+    // Si el objetivo contiene la palabra directamente, es un acierto inmediato
+    if (objetivo.includes(busqueda)) return true;
+    
+    // Si la búsqueda es muy corta, no aplicamos tolerancia para evitar falsos positivos masivos
+    if (busqueda.length < 3) return false;
+
+    // Permitimos una tolerancia de error basada en el tamaño de la palabra
+    let erroresPermitidos = busqueda.length > 5 ? 2 : 1; 
+    let filaAnterior = Array.from({ length: objetivo.length + 1 }, (_, i) => i);
+
+    for (let i = 0; i < busqueda.length; i++) {
+        let filaActual = [i + 1];
+        for (let j = 0; j < objetivo.length; j++) {
+            let costo = busqueda[i] === objetivo[j] ? 0 : 1;
+            filaActual.push(Math.min(
+                filaActual[j] + 1,        // Inserción
+                filaAnterior[j + 1] + 1,  // Eliminación
+                filaAnterior[j] + costo   // Sustitución
+            ));
+        }
+        filaAnterior = filaActual;
+    }
+
+    // Si el costo de transformar la palabra está dentro del límite, lo damos por válido
+    return filaAnterior[filaAnterior.length - 1] <= erroresPermitidos;
+}
+
+function filtrarLista() {
+    // 1. Limpiamos el texto ingresado en el buscador
+    const textoBuscado = buscador ? limpiarTexto(buscador.value) : "";
 
     const filtrados = productos.filter(producto => {
         const coincideCategoria = categoriaActual === "todos" || producto.categoria === categoriaActual;
         const coincideSubcategoria = subcategoriaActual === "todas" || producto.subcategoria === subcategoriaActual;
         const coincideTipo = tipoActual === "todos" || producto.tipo === tipoActual;
-        const coincideTexto = producto.nombre.toLowerCase().includes(texto);
+        
+        // 2. Limpiamos el nombre del producto para la comparación
+        const nombreProductoClean = limpiarTexto(producto.nombre);
+
+        // 3. Dividimos la búsqueda en palabras por si buscan cosas como "tubo presion"
+        const palabrasBuscadas = textoBuscado.split(/\s+/).filter(Boolean);
+
+        // Si el buscador está vacío, coincide automáticamente
+        let coincideTexto = true;
+
+        if (palabrasBuscadas.length > 0) {
+            // Evaluamos que cada palabra buscada coincida o sea muy similar a alguna parte del nombre
+            coincideTexto = palabrasBuscadas.every(palabra => {
+                // Comprobamos proximidad con el nombre completo o por palabras individuales
+                return esSimilar(palabra, nombreProductoClean) || 
+                       nombreProductoClean.split(/\s+/).some(pProd => esSimilar(palabra, pProd));
+            });
+        }
+
         return coincideCategoria && coincideSubcategoria && coincideTipo && coincideTexto;
     });
 
     mostrarProductos(filtrados);
 }
+
+
 
 // Dibuja los botones de subcategoría según la categoría principal elegida
 function mostrarSubcategorias(categoria) {
