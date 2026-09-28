@@ -2662,7 +2662,7 @@ const productos = [
     {
         nombre: "Espatula Plastica",
         precio: "",
-        imagen: "",
+        imagen: "img/espatulaplastica.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "espatula"
@@ -2670,7 +2670,7 @@ const productos = [
     {
         nombre: "Estuco Impadoc X 10K",
         precio: "",
-        imagen: "",
+        imagen: "img/estucoimpadoc.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "estuco"
@@ -2678,7 +2678,7 @@ const productos = [
     {
         nombre: "Zapatico Puerta",
         precio: "",
-        imagen: "",
+        imagen: "img/zapatico.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "zapatico"
@@ -2748,7 +2748,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Soldador Gladiador 250A Ie 9250",
+        nombre: "Soldador Gladiador 250 a Ie 9250",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -2788,7 +2788,7 @@ const productos = [
         subcategoria: "aplicacion"
     },
     {
-        nombre: "Panel Led 3W",
+        nombre: "Panel LED 3 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -2796,7 +2796,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Antena Directv Hd",
+        nombre: "Antena Directv HD",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -2828,25 +2828,25 @@ const productos = [
         subcategoria: "sierracopa"
     },
     {
-        nombre: "Piragua Blanca Xmts",
+        nombre: "Piragua Blanca X Mts",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/piragua.jpeg",
+        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
     },
     {
-        nombre: "Piragua Dord Xmts",
+        nombre: "Piragua Dord X Mts",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/piragua.jpeg",
+        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
     },
     {
         nombre: "Piragua Anolk X Mts",
         precio: "",
-        imagen: "",
+        imagen: "img/piragua.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
@@ -2854,7 +2854,7 @@ const productos = [
     {
         nombre: "Protector Grada Dorado",
         precio: "",
-        imagen: "",
+        imagen: "img/protectorgrada.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "protector"
@@ -2862,7 +2862,7 @@ const productos = [
     {
         nombre: "Piragua Anolk Alt X Mts",
         precio: "",
-        imagen: "",
+        imagen: "img/piraguaanolok.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
@@ -2870,7 +2870,7 @@ const productos = [
     {
         nombre: "Piragua Natur X Mts",
         precio: "",
-        imagen: "",
+        imagen: "img/piraguanatur.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
@@ -2878,37 +2878,37 @@ const productos = [
     {
         nombre: "Piragua Natur Alt X Mts",
         precio: "",
-        imagen: "",
+        imagen: "img/piraguanatur.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
     },
     {
-        nombre: "Argolla Dord 1\"1/4",
+        nombre: "Argolla Dord 1 ¼ Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/argolladord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla Dord 1\"",
+        nombre: "Argolla Dord 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/argolladord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla Dord 3/4",
+        nombre: "Argolla Dord ¾ Pulg ",
         precio: "",
-        imagen: "",
+        imagen: "img/argolladord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla Dord 1/2",
+        nombre: "Argolla Dord ½ Pulg",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2948,7 +2948,7 @@ const productos = [
         subcategoria: "argolla"
     },
     {
-        nombre: "Terminal 1-1/4Dord",
+        nombre: "Terminal 1-1/4 Dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2956,7 +2956,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1\"Dord",
+        nombre: "Terminal 1\"dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2964,7 +2964,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 3/4Dord",
+        nombre: "Terminal 3/4 Dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2972,7 +2972,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1/2Dord",
+        nombre: "Terminal 1/2 Dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2980,7 +2980,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1-1/4Anolk",
+        nombre: "Terminal 1-1/4 Anolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2988,7 +2988,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1\"Nolk",
+        nombre: "Terminal 1\"nolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -2996,7 +2996,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 3/4Anolk",
+        nombre: "Terminal 3/4 Anolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3004,7 +3004,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1/2Anolk",
+        nombre: "Terminal 1/2 Anolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3012,7 +3012,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Soporte 1-1/4Dor",
+        nombre: "Soporte 1-1/4 Dor",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3020,7 +3020,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 1\"Dord",
+        nombre: "Soporte 1\"dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3028,7 +3028,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 3/4Dord",
+        nombre: "Soporte 3/4 Dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3036,7 +3036,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 1/2Dord",
+        nombre: "Soporte 1/2 Dord",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3044,7 +3044,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 1-1/4Anolok",
+        nombre: "Soporte 1-1/4 Anolok",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3052,7 +3052,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 1\"Anolok",
+        nombre: "Soporte 1\"anolok",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3060,7 +3060,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 3/4Anolk",
+        nombre: "Soporte 3/4 Anolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3164,7 +3164,7 @@ const productos = [
         subcategoria: "flanche"
     },
     {
-        nombre: "Soporte 1\"Dobl/Dor-Anolk",
+        nombre: "Soporte 1\"dobl/dor-anolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3188,7 +3188,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 3/4Dobl/Anolk-Dor",
+        nombre: "Soporte 3/4dobl/anolk-dor",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3220,7 +3220,7 @@ const productos = [
         subcategoria: "piragua"
     },
     {
-        nombre: "Dilatac/ Alumn Mt",
+        nombre: "dilatac/ Alumn Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3228,7 +3228,7 @@ const productos = [
         subcategoria: "dilatac"
     },
     {
-        nombre: "Dilatac/Bronc Mt",
+        nombre: "dilatac/bronc Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3268,7 +3268,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Terminal 1/2Cromo",
+        nombre: "Terminal 1/2 Cromo",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3276,7 +3276,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 3/4Cromo",
+        nombre: "Terminal 3/4 Cromo",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3284,7 +3284,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Argolla 1/2Crom",
+        nombre: "Argolla 1/2 Crom",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3292,7 +3292,7 @@ const productos = [
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla 3/4Crom",
+        nombre: "Argolla 3/4 Crom",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3308,7 +3308,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 3/4Crom",
+        nombre: "Soporte 3/4 Crom",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3316,7 +3316,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Margarita Dord-Anolk",
+        nombre: "Margarita dord-anolk",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3356,7 +3356,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Codal 3X1-1/2 X Mt",
+        nombre: "Tubo Codal 3x1-1/2 X Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3412,7 +3412,7 @@ const productos = [
         subcategoria: "protector"
     },
     {
-        nombre: "Angulo Aluminio-Blanco 1/2",
+        nombre: "Angulo aluminio-blanco 1/2",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3428,7 +3428,7 @@ const productos = [
         subcategoria: "6"
     },
     {
-        nombre: "Angul/ Alumn 3/4",
+        nombre: "angul/ Alumn 3/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3452,7 +3452,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Angulo Plastico Con Rotos 3Mts",
+        nombre: "Angulo Plastico Con Rotos 3 mts",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3468,7 +3468,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Angul/Anolok 3/4",
+        nombre: "angul/anolok 3/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3516,7 +3516,7 @@ const productos = [
         subcategoria: "wing"
     },
     {
-        nombre: "Tee Alumino Plata 1Cm",
+        nombre: "Tee Alumino Plata 1 cm",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3532,7 +3532,7 @@ const productos = [
         subcategoria: "alumino"
     },
     {
-        nombre: "Tee Aluminio Plata 2Cm",
+        nombre: "Tee Aluminio Plata 2 cm",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3540,7 +3540,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Machacas 25X25",
+        nombre: "Machacas 25x25",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3652,7 +3652,7 @@ const productos = [
         subcategoria: "ladrillo"
     },
     {
-        nombre: "Bloque Made/T",
+        nombre: "Bloque made/t",
         precio: "",
         imagen: "",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3660,7 +3660,7 @@ const productos = [
         subcategoria: "bloque"
     },
     {
-        nombre: "Bloque Made/V",
+        nombre: "Bloque made/v",
         precio: "",
         imagen: "",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3668,7 +3668,7 @@ const productos = [
         subcategoria: "bloque"
     },
     {
-        nombre: "Bloque Made/ L",
+        nombre: "Bloque made/ l",
         precio: "",
         imagen: "",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3692,7 +3692,7 @@ const productos = [
         subcategoria: "media"
     },
     {
-        nombre: "Cuchilla Guadaña/Estrella",
+        nombre: "Cuchilla guadaña/estrella",
         precio: "",
         imagen: "",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
@@ -3716,7 +3716,7 @@ const productos = [
         subcategoria: "cabo"
     },
     {
-        nombre: "Tijera Corta Cesped C/Madera",
+        nombre: "Tijera Corta Cesped c/madera",
         precio: "",
         imagen: "",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
@@ -3748,7 +3748,7 @@ const productos = [
         subcategoria: "roca"
     },
     {
-        nombre: "Blanco De Zinc X 1Lb",
+        nombre: "Blanco De Zinc X 1 lb",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3756,7 +3756,7 @@ const productos = [
         subcategoria: "blanco"
     },
     {
-        nombre: "Broncosil X 2Kl Gr-Bl",
+        nombre: "Broncosil X 2 Kl gr-bl",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3772,7 +3772,7 @@ const productos = [
         subcategoria: "mapei"
     },
     {
-        nombre: "Mapeflex Ms 45 X 300 Ml",
+        nombre: "Mapeflex Ms 45 X 300 ml",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3780,7 +3780,7 @@ const productos = [
         subcategoria: "mapeflex"
     },
     {
-        nombre: "Mineral Fino X Lb",
+        nombre: "Mineral Fino X lb",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3836,7 +3836,7 @@ const productos = [
         subcategoria: "broncoelastico"
     },
     {
-        nombre: "Mapei Uno X 4 Kg",
+        nombre: "Mapei Uno X 4 kg",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3900,7 +3900,7 @@ const productos = [
         subcategoria: "estuco"
     },
     {
-        nombre: "Mapelatex 0,8 Kg",
+        nombre: "Mapelatex 0,8 kg",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3932,7 +3932,7 @@ const productos = [
         subcategoria: "cemento"
     },
     {
-        nombre: "Cemento Gris Bto 50Kl",
+        nombre: "Cemento Gris Bto 50 Kl",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3988,7 +3988,7 @@ const productos = [
         subcategoria: "pegacor"
     },
     {
-        nombre: "Estuco Plastico Panelt Cuñete- Balde",
+        nombre: "Estuco Plastico Panelt cuñete- Balde",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -4020,7 +4020,7 @@ const productos = [
         subcategoria: "pegacor"
     },
     {
-        nombre: "Cal Argos 10Kg",
+        nombre: "Cal Argos 10 kg",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -4108,7 +4108,7 @@ const productos = [
         subcategoria: "pegacor"
     },
     {
-        nombre: "Alfaquik X2Kl",
+        nombre: "Alfaquik x2kl",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -4124,7 +4124,7 @@ const productos = [
         subcategoria: "pegaporcelanato"
     },
     {
-        nombre: "Aspiradora 30Lt Heinel",
+        nombre: "Aspiradora 30 lt Heinel",
         precio: "",
         imagen: "",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -4164,7 +4164,7 @@ const productos = [
         subcategoria: "estucoflex"
     },
     {
-        nombre: "Ceramica Arieta Gris- 60*60",
+        nombre: "Ceramica Arieta gris- 60*60",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4196,7 +4196,7 @@ const productos = [
         subcategoria: "carnaza"
     },
     {
-        nombre: "Ceramica Royalty Mar 50X50",
+        nombre: "Ceramica Royalty Mar 50x50",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4244,7 +4244,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Ceramica Canyon 57X57",
+        nombre: "Ceramica Canyon 57x57",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4252,7 +4252,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Ceramica Clemente-Guatapuri 50 X 50",
+        nombre: "Ceramica clemente-guatapuri 50 X 50",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4260,7 +4260,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Ceramica Exterior Santa Rita- Marmi Crema 50*50",
+        nombre: "Ceramica Exterior Santa rita- Marmi Crema 50*50",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4268,7 +4268,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Ceramica Sandalo 50X50",
+        nombre: "Ceramica Sandalo 50x50",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4300,7 +4300,7 @@ const productos = [
         subcategoria: "tableta"
     },
     {
-        nombre: "Lapiz Trenza Und",
+        nombre: "Lapiz Trenza und",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4380,7 +4380,7 @@ const productos = [
         subcategoria: "lavamanos"
     },
     {
-        nombre: "Concolor Bl-Bg",
+        nombre: "Concolor bl-bg",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4388,7 +4388,7 @@ const productos = [
         subcategoria: "concolor"
     },
     {
-        nombre: "Boquilla Mapeibl-Bg",
+        nombre: "Boquilla mapeibl-bg",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4412,7 +4412,7 @@ const productos = [
         subcategoria: "wing"
     },
     {
-        nombre: "Cruzeta/Ceramica 1Mm",
+        nombre: "cruzeta/ceramica 1 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4420,7 +4420,7 @@ const productos = [
         subcategoria: "cruzetaceramica"
     },
     {
-        nombre: "Cruzeta/Ceramica 2Mm",
+        nombre: "cruzeta/ceramica 2 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4428,7 +4428,7 @@ const productos = [
         subcategoria: "cruzetaceramica"
     },
     {
-        nombre: "Cruzeta/Ceramica 3Mm",
+        nombre: "cruzeta/ceramica 3 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4436,7 +4436,7 @@ const productos = [
         subcategoria: "cruzetaceramica"
     },
     {
-        nombre: "Cruzeta/Ceramica 10Mm",
+        nombre: "cruzeta/ceramica 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -4444,7 +4444,7 @@ const productos = [
         subcategoria: "cruzetaceramica"
     },
     {
-        nombre: "Cruzeta/Ceramica 5Mm",
+        nombre: "cruzeta/ceramica 5 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4460,7 +4460,7 @@ const productos = [
         subcategoria: "triturado"
     },
     {
-        nombre: "Lavadero C-Patas",
+        nombre: "Lavadero c-patas",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4468,7 +4468,7 @@ const productos = [
         subcategoria: "lavadero"
     },
     {
-        nombre: "Lavaplatos -Estufa",
+        nombre: "Lavaplatos - Estufa",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4476,7 +4476,7 @@ const productos = [
         subcategoria: "lavaplatos"
     },
     {
-        nombre: "Guardaescoba Plast X 2,40Mt",
+        nombre: "Guardaescoba Plast X 2,40 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4516,7 +4516,7 @@ const productos = [
         subcategoria: "combo"
     },
     {
-        nombre: "Bloque M/Tbl",
+        nombre: "Bloque m/tbl",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -4524,7 +4524,7 @@ const productos = [
         subcategoria: "bloque"
     },
     {
-        nombre: "Ceramica Marbella Y Mangle 50X50",
+        nombre: "Ceramica Marbella Y Mangle 50x50",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4532,7 +4532,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Cenefa X25Cm",
+        nombre: "Cenefa x25cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4540,7 +4540,7 @@ const productos = [
         subcategoria: "cenefa"
     },
     {
-        nombre: "Ceramica Monterroso 50X50",
+        nombre: "Ceramica Monterroso 50x50",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4548,7 +4548,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Cenefa X25Cm Lorca-Expreso Café",
+        nombre: "Cenefa x25cm lorca-expreso Café",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4580,7 +4580,7 @@ const productos = [
         subcategoria: "pedestal"
     },
     {
-        nombre: "Porcelanato 60X120 Café Gris Beige Blanco",
+        nombre: "Porcelanato 60x120 Café Gris Beige Blanco",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4604,7 +4604,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Ceramica Telha 45X45",
+        nombre: "Ceramica Telha 45x45",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4660,7 +4660,7 @@ const productos = [
         subcategoria: "megafono"
     },
     {
-        nombre: "Ceramica Aqua-Acuarela Blanco-Beige-Azul",
+        nombre: "Ceramica aqua-acuarela blanco-beige-azul",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4676,7 +4676,7 @@ const productos = [
         subcategoria: "ponchera"
     },
     {
-        nombre: "Ceramica Fachada Janeiro Café,Gris",
+        nombre: "Ceramica Fachada Janeiro café,gris",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared.",
@@ -4684,7 +4684,7 @@ const productos = [
         subcategoria: "ceramica"
     },
     {
-        nombre: "Ceramica Piso 30X 30 Blan-Beige",
+        nombre: "Ceramica Piso 30X 30 blan-beige",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de cerámica para acabados de piso y pared. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -4748,7 +4748,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Cancamo Cerr 1\" -N3",
+        nombre: "Cancamo Cerr 1\" -n3",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -4788,7 +4788,7 @@ const productos = [
         subcategoria: "remache"
     },
     {
-        nombre: "Torn/Carri 5/16X1",
+        nombre: "torn/carri 5/16x1",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -4796,7 +4796,7 @@ const productos = [
         subcategoria: "torncarri"
     },
     {
-        nombre: "Torn/Carri 5/16X5",
+        nombre: "torn/carri 5/16x5",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -4812,7 +4812,7 @@ const productos = [
         subcategoria: "escuadra"
     },
     {
-        nombre: "Disco C/Madera 10 \"",
+        nombre: "Disco c/madera 10 \"",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -4852,7 +4852,7 @@ const productos = [
         subcategoria: "aplicacion"
     },
     {
-        nombre: "Tiradera Negra 96Mm",
+        nombre: "Tiradera Negra 96 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -4916,7 +4916,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Polea 30Mm",
+        nombre: "Polea 30 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -5044,7 +5044,7 @@ const productos = [
         subcategoria: "pasador"
     },
     {
-        nombre: "Pasador Sueco 2\"N",
+        nombre: "Pasador Sueco 2\"n",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5092,7 +5092,7 @@ const productos = [
         subcategoria: "boca"
     },
     {
-        nombre: "Manija Ventana (Par)",
+        nombre: "Manija Ventana (par)",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5140,7 +5140,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Bisg Cocin/Miño",
+        nombre: "Bisg cocin/miño",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5188,7 +5188,7 @@ const productos = [
         subcategoria: "chapa"
     },
     {
-        nombre: "Chapa Manija Safe Alcoba-Baño",
+        nombre: "Chapa Manija Safe alcoba-baño",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5252,7 +5252,7 @@ const productos = [
         subcategoria: "boca"
     },
     {
-        nombre: "Candado Segurex 30Mm Itl",
+        nombre: "Candado Segurex 30 mm Itl",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5308,7 +5308,7 @@ const productos = [
         subcategoria: "portacandado"
     },
     {
-        nombre: "Bateria 20V De Litio",
+        nombre: "Bateria 20 v De Litio",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5356,7 +5356,7 @@ const productos = [
         subcategoria: "chapa"
     },
     {
-        nombre: "Candado Yale Italiano 50Mm",
+        nombre: "Candado Yale Italiano 50 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5364,7 +5364,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Candado Yale Italiano 60Mm",
+        nombre: "Candado Yale Italiano 60 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5372,7 +5372,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Candado Yale Italiano 70Mm",
+        nombre: "Candado Yale Italiano 70 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5556,7 +5556,7 @@ const productos = [
         subcategoria: "cantonera"
     },
     {
-        nombre: "Cancamo L 1-1/4",
+        nombre: "Cancamo l 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5572,7 +5572,7 @@ const productos = [
         subcategoria: "chapa"
     },
     {
-        nombre: "Manija/Mueble 3Forte",
+        nombre: "manija/mueble 3 Forte",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -5580,7 +5580,7 @@ const productos = [
         subcategoria: "manijamueble"
     },
     {
-        nombre: "Manija/Mueble 64 Forte",
+        nombre: "manija/mueble 64 Forte",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -5628,7 +5628,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Candado 38Mm Econ",
+        nombre: "Candado 38 mm Econ",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5668,7 +5668,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Boton Madera--Metal",
+        nombre: "Boton madera--metal",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5764,7 +5764,7 @@ const productos = [
         subcategoria: "pasador"
     },
     {
-        nombre: "Chapa Gguantera Yale Of5 3051",
+        nombre: "Chapa Gguantera Yale OF5 3051",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5876,7 +5876,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Candado Marino 55Mm",
+        nombre: "Candado Marino 55 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5908,7 +5908,7 @@ const productos = [
         subcategoria: "portacandado"
     },
     {
-        nombre: "Riel Extension 35Cm",
+        nombre: "Riel Extension 35 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5916,7 +5916,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel Extension 45Cm",
+        nombre: "Riel Extension 45 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5924,7 +5924,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel Extension 50Cm",
+        nombre: "Riel Extension 50 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5932,7 +5932,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel Extension 55Cm",
+        nombre: "Riel Extension 55 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -5940,7 +5940,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Candado 60Mm Econ",
+        nombre: "Candado 60 mm Econ",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6036,7 +6036,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Candado 50Mm Econ",
+        nombre: "Candado 50 mm Econ",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6044,7 +6044,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Candado Segurex 20Mm Itl",
+        nombre: "Candado Segurex 20 mm Itl",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6076,7 +6076,7 @@ const productos = [
         subcategoria: "rodachin"
     },
     {
-        nombre: "Rodachin Closet Metal Gr1\"",
+        nombre: "Rodachin Closet Metal gr1\"",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6084,7 +6084,7 @@ const productos = [
         subcategoria: "rodachin"
     },
     {
-        nombre: "Candado Segurex 25Mm Itl",
+        nombre: "Candado Segurex 25 mm Itl",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6116,7 +6116,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Riel En U 3Mts Cal 20",
+        nombre: "Riel En U 3 mts Cal 20",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6124,7 +6124,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel En U 2Mt Cal 18",
+        nombre: "Riel En U 2 Mt Cal 18",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6140,7 +6140,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel En U 2 Mts Cal 20",
+        nombre: "Riel En U 2 mts Cal 20",
         precio: "",
         imagen: "",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
@@ -6188,7 +6188,7 @@ const productos = [
         subcategoria: "estacion"
     },
     {
-        nombre: "Cinta Electroplastica X Mts",
+        nombre: "Cinta Electroplastica X mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6220,7 +6220,7 @@ const productos = [
         subcategoria: "swiche"
     },
     {
-        nombre: "Swiche Balancin 4Pin",
+        nombre: "Swiche Balancin 4 Pin",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6236,7 +6236,7 @@ const productos = [
         subcategoria: "swiche"
     },
     {
-        nombre: "Swiche Balancin3 Pin 10Am",
+        nombre: "Swiche balancin3 Pin 10 Am",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6276,7 +6276,7 @@ const productos = [
         subcategoria: "sensor"
     },
     {
-        nombre: "Panel Led Sp 6W",
+        nombre: "Panel LED Sp 6 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6292,7 +6292,7 @@ const productos = [
         subcategoria: "minibrecker"
     },
     {
-        nombre: "Swiche Codillo 2 Pos 30A",
+        nombre: "Swiche Codillo 2 Pos 30 a",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6300,7 +6300,7 @@ const productos = [
         subcategoria: "swiche"
     },
     {
-        nombre: "Sweiche Codillo 2Pos 20A",
+        nombre: "Sweiche Codillo 2 Pos 20 a",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6316,7 +6316,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Multitoma Usb 6P",
+        nombre: "Multitoma USB 6P",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6324,7 +6324,7 @@ const productos = [
         subcategoria: "multitoma"
     },
     {
-        nombre: "Aspiradora/Sopladora Elite 2,5 Gal 2,5Hp",
+        nombre: "aspiradora/sopladora Elite 2,5 gal 2,5 hp",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6332,7 +6332,7 @@ const productos = [
         subcategoria: "aspiradorasopladora"
     },
     {
-        nombre: "Extencion 3,6-4 Mts",
+        nombre: "Extencion 3,6-4 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6372,7 +6372,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Tester Digital C/Pito",
+        nombre: "Tester Digital c/pito",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6380,7 +6380,7 @@ const productos = [
         subcategoria: "tester"
     },
     {
-        nombre: "Extension Red Comput 1,8 Mts",
+        nombre: "Extension Red Comput 1,8 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6388,7 +6388,7 @@ const productos = [
         subcategoria: "extension"
     },
     {
-        nombre: "Extension Red Comput 5 Mts",
+        nombre: "Extension Red Comput 5 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6404,7 +6404,7 @@ const productos = [
         subcategoria: "temporizador"
     },
     {
-        nombre: "Totalizador 100Am",
+        nombre: "Totalizador 100 Am",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6412,7 +6412,7 @@ const productos = [
         subcategoria: "totalizador"
     },
     {
-        nombre: "Probador Bateria 12V",
+        nombre: "Probador Bateria 12 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6420,7 +6420,7 @@ const productos = [
         subcategoria: "probador"
     },
     {
-        nombre: "Plug -Jack Con Regleta",
+        nombre: "Plug - Jack Con Regleta",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6428,7 +6428,7 @@ const productos = [
         subcategoria: "plug"
     },
     {
-        nombre: "Linterna 1Led 200Lm",
+        nombre: "Linterna 1 LED 200 Lm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6436,7 +6436,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Linterna 1Led 40Ml",
+        nombre: "Linterna 1 LED 40 ml",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6492,7 +6492,7 @@ const productos = [
         subcategoria: "abraz"
     },
     {
-        nombre: "Abraz Uña 1-1/2\"Sencill",
+        nombre: "Abraz Uña 1-1/2\"sencill",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6540,7 +6540,7 @@ const productos = [
         subcategoria: "abraz"
     },
     {
-        nombre: "Abraz/Plas 1/2 Ab",
+        nombre: "abraz/plas 1/2 Ab",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6556,7 +6556,7 @@ const productos = [
         subcategoria: "abraz"
     },
     {
-        nombre: "Abraz/Plas 1Cr",
+        nombre: "abraz/plas 1 Cr",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6564,7 +6564,7 @@ const productos = [
         subcategoria: "abrazplas"
     },
     {
-        nombre: "Abraz/Plas 3/4 Ab",
+        nombre: "abraz/plas 3/4 Ab",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6596,7 +6596,7 @@ const productos = [
         subcategoria: "aislador"
     },
     {
-        nombre: "Aislador Losa G",
+        nombre: "Aislador Losa g",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6620,7 +6620,7 @@ const productos = [
         subcategoria: "aislador"
     },
     {
-        nombre: "Alambre Coax Rg6 Cen",
+        nombre: "Alambre Coax RG6 Cen",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6628,7 +6628,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alam Encauch 2X12",
+        nombre: "Alam Encauch 2x12",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6636,7 +6636,7 @@ const productos = [
         subcategoria: "alam"
     },
     {
-        nombre: "Alam Encauch 2X14",
+        nombre: "Alam Encauch 2x14",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6644,7 +6644,7 @@ const productos = [
         subcategoria: "alam"
     },
     {
-        nombre: "Alam Encauch 2X16",
+        nombre: "Alam Encauch 2x16",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6652,7 +6652,7 @@ const productos = [
         subcategoria: "alam"
     },
     {
-        nombre: "Alam Encauch 3X12",
+        nombre: "Alam Encauch 3x12",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6660,7 +6660,7 @@ const productos = [
         subcategoria: "alam"
     },
     {
-        nombre: "Alam Encauch 3X14",
+        nombre: "Alam Encauch 3x14",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6700,7 +6700,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Alam.Encauc 2X18",
+        nombre: "alam.encauc 2x18",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6708,7 +6708,7 @@ const productos = [
         subcategoria: "alamencauc"
     },
     {
-        nombre: "Alam.Ferroniq Grm",
+        nombre: "alam.ferroniq Grm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6740,7 +6740,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre 7 Hil0S N12",
+        nombre: "Alambre 7 hil0s N12",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6836,7 +6836,7 @@ const productos = [
         subcategoria: "angulo"
     },
     {
-        nombre: "Angulo Plano.Canaleta",
+        nombre: "Angulo plano.canaleta",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6844,7 +6844,7 @@ const productos = [
         subcategoria: "angulo"
     },
     {
-        nombre: "Arranc.Fotsenda 1000W",
+        nombre: "arranc.fotsenda 1000 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6852,7 +6852,7 @@ const productos = [
         subcategoria: "arrancfotsenda"
     },
     {
-        nombre: "Arranc.Fotsenda 70",
+        nombre: "arranc.fotsenda 70",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6860,7 +6860,7 @@ const productos = [
         subcategoria: "arrancfotsenda"
     },
     {
-        nombre: "Arrancad/Cer.Elect",
+        nombre: "arrancad/cer.elect",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6868,7 +6868,7 @@ const productos = [
         subcategoria: "arrancadcerelect"
     },
     {
-        nombre: "Arrancador Sodio 50W",
+        nombre: "Arrancador Sodio 50 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6876,7 +6876,7 @@ const productos = [
         subcategoria: "arrancador"
     },
     {
-        nombre: "Arrancador Sodio 70W",
+        nombre: "Arrancador Sodio 70 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6892,7 +6892,7 @@ const productos = [
         subcategoria: "driver"
     },
     {
-        nombre: "Panel Led 18W",
+        nombre: "Panel LED 18 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6900,7 +6900,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Bala Cuad/ Redonda 4\"",
+        nombre: "Bala cuad/ Redonda 4\"",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6908,7 +6908,7 @@ const productos = [
         subcategoria: "bala"
     },
     {
-        nombre: "Panel Framel 9 W",
+        nombre: "Panel Framel 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6916,7 +6916,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Panel Led 6W",
+        nombre: "Panel LED 6 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6924,7 +6924,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Panel Led 18 W S/P",
+        nombre: "Panel LED 18 w s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6932,7 +6932,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Panel Led 24W",
+        nombre: "Panel LED 24 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6940,7 +6940,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Bomb Led Torpedo 9W",
+        nombre: "Bomb LED Torpedo 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6956,7 +6956,7 @@ const productos = [
         subcategoria: "bala"
     },
     {
-        nombre: "Panel Framel 18W Inc-Spn",
+        nombre: "Panel Framel 18 w inc-spn",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6964,7 +6964,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Reflector Led 200W",
+        nombre: "Reflector LED 200 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6972,7 +6972,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Balasta Led 50W",
+        nombre: "Balasta LED 50 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6980,7 +6980,7 @@ const productos = [
         subcategoria: "balasta"
     },
     {
-        nombre: "Balasta Led 20W",
+        nombre: "Balasta LED 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -6988,7 +6988,7 @@ const productos = [
         subcategoria: "balasta"
     },
     {
-        nombre: "Balasta 2X32 Electronica",
+        nombre: "Balasta 2x32 Electronica",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -6996,7 +6996,7 @@ const productos = [
         subcategoria: "balasta"
     },
     {
-        nombre: "Driver 20W",
+        nombre: "Driver 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7012,7 +7012,7 @@ const productos = [
         subcategoria: "abraz"
     },
     {
-        nombre: "Balasta 2X48 Electr",
+        nombre: "Balasta 2x48 Electr",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7020,7 +7020,7 @@ const productos = [
         subcategoria: "balasta"
     },
     {
-        nombre: "Balasta 2X96 Electrc",
+        nombre: "Balasta 2x96 Electrc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7028,7 +7028,7 @@ const productos = [
         subcategoria: "balasta"
     },
     {
-        nombre: "Panel Framel 24 W Inc",
+        nombre: "Panel Framel 24 w Inc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7036,7 +7036,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Balasta Sodio 150W",
+        nombre: "Balasta Sodio 150 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7044,7 +7044,7 @@ const productos = [
         subcategoria: "balasta"
     },
     {
-        nombre: "Balasta Sodio 70W",
+        nombre: "Balasta Sodio 70 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7060,7 +7060,7 @@ const productos = [
         subcategoria: "base"
     },
     {
-        nombre: "Bateria Estacionaria 12V",
+        nombre: "Bateria Estacionaria 12 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7084,7 +7084,7 @@ const productos = [
         subcategoria: "bateria"
     },
     {
-        nombre: "Benjamin C/Pasad Senc",
+        nombre: "Benjamin c/pasad Senc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7092,7 +7092,7 @@ const productos = [
         subcategoria: "benjamin"
     },
     {
-        nombre: "Benjamin C/S-Cadena",
+        nombre: "Benjamin c/s-cadena",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7100,7 +7100,7 @@ const productos = [
         subcategoria: "benjamin"
     },
     {
-        nombre: "Benjamin Senc/Lamp",
+        nombre: "Benjamin senc/lamp",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7108,7 +7108,7 @@ const productos = [
         subcategoria: "benjamin"
     },
     {
-        nombre: "Bomb Led 50W",
+        nombre: "Bomb LED 50 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7116,7 +7116,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Bombillo Led 15W",
+        nombre: "Bombillo LED 15 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7124,7 +7124,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bomb Led 7",
+        nombre: "Bomb LED 7",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7132,7 +7132,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Bomb Led 6W",
+        nombre: "Bomb LED 6 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7140,7 +7140,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Chasis Lamp Led 2 X 9W",
+        nombre: "Chasis Lamp LED 2 X 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7148,7 +7148,7 @@ const productos = [
         subcategoria: "chasis"
     },
     {
-        nombre: "Chasis Lamp Led 2 X 18",
+        nombre: "Chasis Lamp LED 2 X 18",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7156,7 +7156,7 @@ const productos = [
         subcategoria: "chasis"
     },
     {
-        nombre: "Bomb Led 30 W",
+        nombre: "Bomb LED 30 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7164,7 +7164,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Chasis Lamp Led 1 X 18",
+        nombre: "Chasis Lamp LED 1 X 18",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7172,7 +7172,7 @@ const productos = [
         subcategoria: "chasis"
     },
     {
-        nombre: "Bomb Led 20W",
+        nombre: "Bomb LED 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7188,7 +7188,7 @@ const productos = [
         subcategoria: "balanza"
     },
     {
-        nombre: "Bombillo Led Red 20W",
+        nombre: "Bombillo LED Red 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7196,7 +7196,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bomb Led 12 W",
+        nombre: "Bomb LED 12 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7212,7 +7212,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Bombillo Led 5W",
+        nombre: "Bombillo LED 5 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7220,7 +7220,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo Dicroico Led",
+        nombre: "Bombillo Dicroico LED",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7228,7 +7228,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bomb Led 9W",
+        nombre: "Bomb LED 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7236,7 +7236,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Bombillo Candela Led",
+        nombre: "Bombillo Candela LED",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7244,7 +7244,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo 3W Led",
+        nombre: "Bombillo 3 w LED",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7260,7 +7260,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Bombillo Llama Gr 120V",
+        nombre: "Bombillo Llama Gr 120 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7284,7 +7284,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo Led Ovalado",
+        nombre: "Bombillo LED Ovalado",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7292,7 +7292,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo Maquina Led",
+        nombre: "Bombillo Maquina LED",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7300,7 +7300,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo Nevera 40W",
+        nombre: "Bombillo Nevera 40 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7308,7 +7308,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Panel Led 9W",
+        nombre: "Panel LED 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7324,7 +7324,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo Sodio 250W",
+        nombre: "Bombillo Sodio 250 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7348,7 +7348,7 @@ const productos = [
         subcategoria: "borne"
     },
     {
-        nombre: "Bombillo Vela Led",
+        nombre: "Bombillo Vela LED",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7356,7 +7356,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Breaker 15- 20-30-40-50-60Lx",
+        nombre: "Breaker 15- 20-30-40-50-60 Lx",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7420,7 +7420,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Auxil 2X1 Oxigenao 1,8Mts",
+        nombre: "Cable Auxil 2X1 Oxigenao 1,8 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7444,7 +7444,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Terminal Bateria Iz-Der",
+        nombre: "Terminal Bateria iz-der",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7460,7 +7460,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Tel/Pl 2Mt",
+        nombre: "Cable tel/pl 2 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7468,7 +7468,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Aixlp 2X2+2Isl",
+        nombre: "Cable Aixlp 2x2+2isl",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7476,7 +7476,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Tel/Pl 4Mt",
+        nombre: "Cable tel/pl 4 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7484,7 +7484,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Tel/Pl 6Mt",
+        nombre: "Cable tel/pl 6 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7524,7 +7524,7 @@ const productos = [
         subcategoria: "caiman"
     },
     {
-        nombre: "Caja Brek 12Csquare",
+        nombre: "Caja Brek 12 Csquare",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7532,7 +7532,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 12 Cir C/Chapa Squrd",
+        nombre: "Caja Brek 12 Cir c/chapa Squrd",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7540,7 +7540,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 12Cr Lx",
+        nombre: "Caja Brek 12 Cr Lx",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7564,7 +7564,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 3Cir Indel",
+        nombre: "Caja Brek 3 Cir Indel",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7572,7 +7572,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 3Cir Squar -",
+        nombre: "Caja Brek 3 Cir Squar -",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7588,7 +7588,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 4Cir Indl",
+        nombre: "Caja Brek 4 Cir Indl",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7604,7 +7604,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 6Cir Squard",
+        nombre: "Caja Brek 6 Cir Squard",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7612,7 +7612,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 8Cir Squard",
+        nombre: "Caja Brek 8 Cir Squard",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7620,7 +7620,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek 8Cir.Indel",
+        nombre: "Caja Brek 8cir.indel",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7628,7 +7628,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Brek Bifas 8 Circ C/Tapa",
+        nombre: "Caja Brek Bifas 8 Circ c/tapa",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7668,7 +7668,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Cont 40X40",
+        nombre: "Caja Cont 40x40",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7684,7 +7684,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Contd 35X35",
+        nombre: "Caja Contd 35x35",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7692,7 +7692,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Empalme 15X15X10",
+        nombre: "Caja Empalme 15x15x10",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7700,7 +7700,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Empalme 20X20X10",
+        nombre: "Caja Empalme 20x20x10",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7708,7 +7708,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Empalme 25X25X10",
+        nombre: "Caja Empalme 25x25x10",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7724,7 +7724,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Gabinete 40X40X15 C/Tapa",
+        nombre: "Caja Gabinete 40x40x15 c/tapa",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7740,7 +7740,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Octagonal Pvc",
+        nombre: "Caja Octagonal PVC",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7748,7 +7748,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja 2 X4 Mt1/2",
+        nombre: "Caja 2 X4 mt1/2",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7756,7 +7756,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja P/Gas",
+        nombre: "Caja p/gas",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7764,7 +7764,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Pvc 2X4 Econ",
+        nombre: "Caja PVC 2X4 Econ",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7772,7 +7772,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Pvc 2X4Pavco",
+        nombre: "Caja PVC 2x4pavco",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7780,7 +7780,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Pvc 4X4 Baja",
+        nombre: "Caja PVC 4X4 Baja",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7788,7 +7788,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Pvc 4X4 Alta",
+        nombre: "Caja PVC 4X4 Alta",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7796,7 +7796,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Canaleta 13X7 Adesh 1/4",
+        nombre: "Canaleta 13x7 Adesh 1/4",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7804,7 +7804,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 20X12- 1/2 S/Adesh",
+        nombre: "Canaleta 20x12- 1/2 s/adesh",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7812,7 +7812,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 20X12-1/2 C/Adesh",
+        nombre: "Canaleta 20x12-1/2 c/adesh",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7820,7 +7820,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 20X20 C/Ades",
+        nombre: "Canaleta 20x20 c/ades",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7828,7 +7828,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 20X20 S/Ades",
+        nombre: "Canaleta 20x20 s/ades",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7836,7 +7836,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 32X12 C/Ad",
+        nombre: "Canaleta 32x12 c/ad",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7844,7 +7844,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 32X12 S/Ads",
+        nombre: "Canaleta 32x12 s/ads",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7852,7 +7852,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 60X40 Sencilla",
+        nombre: "Canaleta 60x40 Sencilla",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7860,7 +7860,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canaleta 60X40 2 Divis",
+        nombre: "Canaleta 60x40 2 Divis",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7876,7 +7876,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Canastilla P/Bombillo",
+        nombre: "Canastilla p/bombillo",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -7924,7 +7924,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 108-130-- 110V- 220V",
+        nombre: "Capacitor 108-130-- 110v- 220 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7932,7 +7932,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 161-193 --110V-220V",
+        nombre: "Capacitor 161-193 --110v-220v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7972,7 +7972,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 340-408 110V-- 220V",
+        nombre: "Capacitor 340-408 110v-- 220 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7980,7 +7980,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 400-480 110V - 220V",
+        nombre: "Capacitor 400-480 110 v - 220 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -7988,7 +7988,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 540-648 110V---220V",
+        nombre: "Capacitor 540-648 110v---220v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8004,7 +8004,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 708-850 110V - 220V",
+        nombre: "Capacitor 708-850 110 v - 220 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8028,7 +8028,7 @@ const productos = [
         subcategoria: "cargador"
     },
     {
-        nombre: "Carret/Cer.Elect",
+        nombre: "carret/cer.elect",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8044,7 +8044,7 @@ const productos = [
         subcategoria: "chasis"
     },
     {
-        nombre: "Chasis 2X32",
+        nombre: "Chasis 2x32",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8076,7 +8076,7 @@ const productos = [
         subcategoria: "video"
     },
     {
-        nombre: "Chasis Lamp Led 1 X 9 W",
+        nombre: "Chasis Lamp LED 1 X 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8092,7 +8092,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Cinta Doble Faz X 5Mts",
+        nombre: "Cinta Doble Faz X 5 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8100,7 +8100,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Cinta Aislante 3M-10Mts",
+        nombre: "Cinta Aislante 3m-10mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8116,7 +8116,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Cinta Aislante 3M-5Mts",
+        nombre: "Cinta Aislante 3m-5mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8132,7 +8132,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Cinta Aisl-Scott Autofundente",
+        nombre: "Cinta aisl-scott Autofundente",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8140,7 +8140,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Clavija 15Amp Codelca Pq",
+        nombre: "Clavija 15 Amp Codelca Pq",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8148,7 +8148,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavijas 15 A Gr",
+        nombre: "Clavijas 15 a Gr",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8156,7 +8156,7 @@ const productos = [
         subcategoria: "clavijas"
     },
     {
-        nombre: "Clavija Blind/Escualisable",
+        nombre: "Clavija blind/escualisable",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8164,7 +8164,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Conv/Multiple",
+        nombre: "Clavija conv/multiple",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8180,7 +8180,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Conv-Polo/T",
+        nombre: "Clavija conv-polo/t",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8212,7 +8212,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Polo/Tierra 15 Amp Codelca",
+        nombre: "Clavija polo/tierra 15 Amp Codelca",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8236,7 +8236,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Pt/Trabad 15 Amp Codel",
+        nombre: "Clavija pt/trabad 15 Amp Codel",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8252,7 +8252,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Trifasica 50Am Gr",
+        nombre: "Clavija Trifasica 50 Am Gr",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8260,7 +8260,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Trifa-Seguridad 20",
+        nombre: "Clavija trifa-seguridad 20",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8268,7 +8268,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Clavija Trif/Ind Pq",
+        nombre: "Clavija trif/ind Pq",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8276,7 +8276,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Condensador 10Mf",
+        nombre: "Condensador 10 Mf",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8332,7 +8332,7 @@ const productos = [
         subcategoria: "accesorios"
     },
     {
-        nombre: "Conector Var/Cobre",
+        nombre: "Conector var/cobre",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8364,7 +8364,7 @@ const productos = [
         subcategoria: "cubo"
     },
     {
-        nombre: "Cuchilla 2X30 Taiwan",
+        nombre: "Cuchilla 2x30 Taiwan",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8372,7 +8372,7 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Cuchilla 2X30Jap",
+        nombre: "Cuchilla 2x30jap",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8380,7 +8380,7 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Cuchilla 2X60 Taiwan",
+        nombre: "Cuchilla 2x60 Taiwan",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8396,7 +8396,7 @@ const productos = [
         subcategoria: "cuchillo"
     },
     {
-        nombre: "Cuchilla 2X60Jap",
+        nombre: "Cuchilla 2x60jap",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8404,7 +8404,7 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Cuchilla 3X100 Conm",
+        nombre: "Cuchilla 3x100 Conm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8412,7 +8412,7 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Cuchilla 3X60 Conm Taiw",
+        nombre: "Cuchilla 3x60 Conm Taiw",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8420,7 +8420,7 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Prensa -Sargento De Solera Galvanizado",
+        nombre: "Prensa - Sargento De Solera Galvanizado",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8428,15 +8428,15 @@ const productos = [
         subcategoria: "prensa"
     },
     {
-        nombre: "Curva Cond 1\"",
+        nombre: "Curva Cond 1 ½ Pulg ",
         precio: "",
-        imagen: "",
+        imagen: "img/curvacond.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
         categoria: "electricos",
         subcategoria: "curva"
     },
     {
-        nombre: "Curva Cond 1/2\"Fn",
+        nombre: "Curva Cond 1/2\"fn",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8460,7 +8460,7 @@ const productos = [
         subcategoria: "curva"
     },
     {
-        nombre: "Desv.Rayo",
+        nombre: "desv.rayo",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8468,7 +8468,7 @@ const productos = [
         subcategoria: "desvrayo"
     },
     {
-        nombre: "Diafragma Ducha Mil/Max/Trad",
+        nombre: "Diafragma Ducha mil/max/trad",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8476,7 +8476,7 @@ const productos = [
         subcategoria: "diafragma"
     },
     {
-        nombre: "Ducha Kontiki 3 Temp K102",
+        nombre: "Ducha Kontiki 3 Temp k102",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8492,7 +8492,7 @@ const productos = [
         subcategoria: "ducha"
     },
     {
-        nombre: "Ducha Kontiki Dirigible K002",
+        nombre: "Ducha Kontiki Dirigible k002",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8564,7 +8564,7 @@ const productos = [
         subcategoria: "electron"
     },
     {
-        nombre: "Elevador 200W/Magom",
+        nombre: "Elevador 200w/magom",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8572,7 +8572,7 @@ const productos = [
         subcategoria: "elevador"
     },
     {
-        nombre: "Ext Encauc 3X14 X 10Mt",
+        nombre: "Ext Encauc 3x14 X 10 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8588,7 +8588,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 5 Mts Narj",
+        nombre: "Extencion 5 mts Narj",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8596,7 +8596,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 2.7Mt",
+        nombre: "Extencion 2.7 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8604,7 +8604,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 3. M T Naranja",
+        nombre: "Extencion 3. m T Naranja",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8612,7 +8612,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 4.5Mt",
+        nombre: "Extencion 4.5 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8628,7 +8628,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 15Mt Narj",
+        nombre: "Extencion 15 Mt Narj",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8636,7 +8636,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 7.5Mt",
+        nombre: "Extencion 7.5 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8644,7 +8644,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 10 Mts Narj",
+        nombre: "Extencion 10 mts Narj",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8652,7 +8652,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 9Mt",
+        nombre: "Extencion 9 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8660,7 +8660,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Fusible 100Am",
+        nombre: "Fusible 100 Am",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8684,7 +8684,7 @@ const productos = [
         subcategoria: "fusible"
     },
     {
-        nombre: "Gall Cuch 2X30 Plas",
+        nombre: "Gall Cuch 2x30 Plas",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8692,7 +8692,7 @@ const productos = [
         subcategoria: "gall"
     },
     {
-        nombre: "Gall Cuch 2X60 Plas",
+        nombre: "Gall Cuch 2x60 Plas",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8732,7 +8732,7 @@ const productos = [
         subcategoria: "grapa"
     },
     {
-        nombre: "Impulzador C/Electrica Agrofer",
+        nombre: "Impulzador c/electrica Agrofer",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8740,7 +8740,7 @@ const productos = [
         subcategoria: "impulzador"
     },
     {
-        nombre: "Inter Dob/Ave-Galica",
+        nombre: "Inter dob/ave-galica",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8748,7 +8748,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Dobl/Conm Bocc",
+        nombre: "Inter dobl/conm Bocc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8772,7 +8772,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Doble Conmt L/P Lx",
+        nombre: "Inter Doble Conmt l/p Lx",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8820,7 +8820,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Doble S/P Ave",
+        nombre: "Inter Doble s/p Ave",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -8836,7 +8836,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Pera Lamp 3Am S/P",
+        nombre: "Inter Pera Lamp 3 Am s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8852,7 +8852,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Sen/Conm Bocch",
+        nombre: "Inter sen/conm Bocch",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8860,7 +8860,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Senc/Conm Forte",
+        nombre: "Inter senc/conm Forte",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8868,7 +8868,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Senc/ Ave-Galica",
+        nombre: "Inter senc/ ave-galica",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8892,7 +8892,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Inter Sencillo Luz/Pilot Fort",
+        nombre: "Inter Sencillo luz/pilot Fort",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8924,7 +8924,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Sencillo S/P Forte",
+        nombre: "Inter Sencillo s/p Forte",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8932,7 +8932,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Timbre Gal",
+        nombre: "Inter Timbre gal",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8940,7 +8940,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Timbre Forte-Unit",
+        nombre: "Inter Timbre forte-unit",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -8956,7 +8956,7 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Timbre S/P Ave",
+        nombre: "Inter Timbre s/p Ave",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9020,7 +9020,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Linterna Led Recargable Trooper",
+        nombre: "Linterna LED Recargable Trooper",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9028,7 +9028,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Linterna 20Led Corneta Recar",
+        nombre: "Linterna 20 LED Corneta Recar",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9036,7 +9036,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Linterna 100Led Grande Recarg",
+        nombre: "Linterna 100 LED Grande Recarg",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9052,7 +9052,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Linterna 32Led Corneta Recar 3W",
+        nombre: "Linterna 32 LED Corneta Recar 3 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9060,7 +9060,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Manguer C/Electrica",
+        nombre: "Manguer c/electrica",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9092,7 +9092,7 @@ const productos = [
         subcategoria: "marrana"
     },
     {
-        nombre: "Minibreker 1X63",
+        nombre: "Minibreker 1x63",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9100,7 +9100,7 @@ const productos = [
         subcategoria: "minibreker"
     },
     {
-        nombre: "Minibreker 1X40",
+        nombre: "Minibreker 1x40",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9108,7 +9108,7 @@ const productos = [
         subcategoria: "minibreker"
     },
     {
-        nombre: "Minibreker 2X32-20",
+        nombre: "Minibreker 2x32-20",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9116,7 +9116,7 @@ const productos = [
         subcategoria: "minibreker"
     },
     {
-        nombre: "Minibreker 2X50-- 63",
+        nombre: "Minibreker 2x50-- 63",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9140,7 +9140,7 @@ const productos = [
         subcategoria: "multitoma"
     },
     {
-        nombre: "Multitoma 6 Puestos 3 Mts Largo",
+        nombre: "Multitoma 6 Puestos 3 mts Largo",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9148,7 +9148,7 @@ const productos = [
         subcategoria: "multitoma"
     },
     {
-        nombre: "Pacha 15-20-30Am Inc",
+        nombre: "Pacha 15-20-30 Am Inc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9164,7 +9164,7 @@ const productos = [
         subcategoria: "pacha"
     },
     {
-        nombre: "Pacha 15-20-30 S/P",
+        nombre: "Pacha 15-20-30 s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9172,7 +9172,7 @@ const productos = [
         subcategoria: "pacha"
     },
     {
-        nombre: "Pacha -60 S/P",
+        nombre: "Pacha -60 s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9204,7 +9204,7 @@ const productos = [
         subcategoria: "percha"
     },
     {
-        nombre: "Pila Cuad 9V",
+        nombre: "Pila Cuad 9 v",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9212,7 +9212,7 @@ const productos = [
         subcategoria: "pila"
     },
     {
-        nombre: "Plafon 4-2Piezas",
+        nombre: "Plafon 4-2 Piezas",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9220,7 +9220,7 @@ const productos = [
         subcategoria: "plafon"
     },
     {
-        nombre: "Plafon C/Cadena",
+        nombre: "Plafon c/cadena",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9332,7 +9332,7 @@ const productos = [
         subcategoria: "recibidor"
     },
     {
-        nombre: "Reflector 30W",
+        nombre: "Reflector 30 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9340,7 +9340,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector Led 150-200W",
+        nombre: "Reflector LED 150-200 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9348,7 +9348,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector Led 100 W",
+        nombre: "Reflector LED 100 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9356,7 +9356,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector Led 20W",
+        nombre: "Reflector LED 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9364,7 +9364,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector Led 50W",
+        nombre: "Reflector LED 50 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9372,7 +9372,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Regleta 30Am 12Amp",
+        nombre: "Regleta 30 Am 12 Amp",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -9388,7 +9388,7 @@ const productos = [
         subcategoria: "regulador"
     },
     {
-        nombre: "Regulador Elec 1500W",
+        nombre: "Regulador Elec 1500 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9404,7 +9404,7 @@ const productos = [
         subcategoria: "raqueta"
     },
     {
-        nombre: "Resistencia 1000W",
+        nombre: "Resistencia 1000 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9412,7 +9412,7 @@ const productos = [
         subcategoria: "resistencia"
     },
     {
-        nombre: "Resistencia 600W",
+        nombre: "Resistencia 600 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9436,7 +9436,7 @@ const productos = [
         subcategoria: "resistencia"
     },
     {
-        nombre: "Resistencia/Duch/Milen",
+        nombre: "resistencia/duch/milen",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9444,7 +9444,7 @@ const productos = [
         subcategoria: "resistenciaduchmilen"
     },
     {
-        nombre: "Resistencia/Duch/Tradic",
+        nombre: "resistencia/duch/tradic",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9452,7 +9452,7 @@ const productos = [
         subcategoria: "resistenciaduchtradic"
     },
     {
-        nombre: "Resorte Cerc/Elect 3Mt",
+        nombre: "Resorte cerc/elect 3 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9460,7 +9460,7 @@ const productos = [
         subcategoria: "resorte"
     },
     {
-        nombre: "Riel Extension 40Cm",
+        nombre: "Riel Extension 40 cm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9476,7 +9476,7 @@ const productos = [
         subcategoria: "sokes"
     },
     {
-        nombre: "Sonda Elect 15M",
+        nombre: "Sonda Elect 15 m",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -9484,7 +9484,7 @@ const productos = [
         subcategoria: "sonda"
     },
     {
-        nombre: "Sonda Electrica 20M",
+        nombre: "Sonda Electrica 20 m",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -9492,7 +9492,7 @@ const productos = [
         subcategoria: "sonda"
     },
     {
-        nombre: "Sonda Electrica 30M",
+        nombre: "Sonda Electrica 30 m",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -9508,7 +9508,7 @@ const productos = [
         subcategoria: "spliter"
     },
     {
-        nombre: "Spliter 2Sl Tru-Spec",
+        nombre: "Spliter 2 Sl tru-spec",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9524,7 +9524,7 @@ const productos = [
         subcategoria: "spliter"
     },
     {
-        nombre: "Spliter 3Sl Trusp",
+        nombre: "Spliter 3 Sl Trusp",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9540,7 +9540,7 @@ const productos = [
         subcategoria: "spliter"
     },
     {
-        nombre: "Spliter 4Sl Tru-Spec",
+        nombre: "Spliter 4 Sl tru-spec",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9548,7 +9548,7 @@ const productos = [
         subcategoria: "spliter"
     },
     {
-        nombre: "Spliter 6Sl Tru-Spce",
+        nombre: "Spliter 6 Sl tru-spce",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9556,7 +9556,7 @@ const productos = [
         subcategoria: "spliter"
     },
     {
-        nombre: "Spliter 8Sl Tru-Spce",
+        nombre: "Spliter 8 Sl tru-spce",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9564,7 +9564,7 @@ const productos = [
         subcategoria: "spliter"
     },
     {
-        nombre: "Start 20 W",
+        nombre: "Start 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9580,7 +9580,7 @@ const productos = [
         subcategoria: "presostato"
     },
     {
-        nombre: "Suiche Guardamotor 30Am",
+        nombre: "Suiche Guardamotor 30 Am",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9588,7 +9588,7 @@ const productos = [
         subcategoria: "suiche"
     },
     {
-        nombre: "Estabiliza/Voltaje Cerca Elect",
+        nombre: "estabiliza/voltaje Cerca Elect",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9620,7 +9620,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Ciega 2X4 Pvc",
+        nombre: "Tapa Ciega 2X4 PVC",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9636,7 +9636,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Ciega 4X4Pvc",
+        nombre: "Tapa Ciega 4x4pvc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9644,7 +9644,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Ciega Octagonal Pvc",
+        nombre: "Tapa Ciega Octagonal PVC",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9668,7 +9668,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Suplemento Pvc",
+        nombre: "Tapa Suplemento PVC",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -9716,7 +9716,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tensor Cerc/Electr Pq",
+        nombre: "Tensor cerc/electr Pq",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9724,7 +9724,7 @@ const productos = [
         subcategoria: "tensor"
     },
     {
-        nombre: "Terminal Rj-45",
+        nombre: "Terminal rj-45",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -9740,7 +9740,7 @@ const productos = [
         subcategoria: "term"
     },
     {
-        nombre: "Term Coax Rosca Rg-6",
+        nombre: "Term Coax Rosca rg-6",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9780,7 +9780,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Term/Coaxial De Seguridad",
+        nombre: "term/coaxial De Seguridad",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9876,7 +9876,7 @@ const productos = [
         subcategoria: "timbre"
     },
     {
-        nombre: "Toma Aer Pata/Trabd",
+        nombre: "Toma Aer pata/trabd",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9884,7 +9884,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Aereo 15A Codelca",
+        nombre: "Toma Aereo 15 a Codelca",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9892,7 +9892,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Aereo 3 X 50A Indust",
+        nombre: "Toma Aereo 3 X 50 a Indust",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9900,7 +9900,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Aereo Pl/T Codelca",
+        nombre: "Toma Aereo pl/t Codelca",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9924,7 +9924,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Usb Forte",
+        nombre: "Toma USB Forte",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -9956,7 +9956,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Coaxial +Telefono Forte",
+        nombre: "Toma Coaxial +telefono Forte",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10004,7 +10004,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Doble Ave- Forte",
+        nombre: "Toma Doble ave- Forte",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10020,7 +10020,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Doble Pt/ Unitec",
+        nombre: "Toma Doble pt/ Unitec",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10028,7 +10028,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Doble S/P",
+        nombre: "Toma Doble s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10036,7 +10036,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Aereo Seguridad 20Am",
+        nombre: "Toma Aereo Seguridad 20 Am",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10084,7 +10084,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Inter Ave- Galica",
+        nombre: "Toma Inter ave- Galica",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10092,7 +10092,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Inter S/P",
+        nombre: "Toma Inter s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10108,7 +10108,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Doble Induma- Bocc",
+        nombre: "Toma Doble induma- Bocc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10116,7 +10116,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Sencillo S/P",
+        nombre: "Toma Sencillo s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10148,7 +10148,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Tel Nal S/P",
+        nombre: "Toma Tel Nal s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10156,7 +10156,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Tel Nal/Lx",
+        nombre: "Toma Tel nal/lx",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10172,7 +10172,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Tel/Coax Lunare",
+        nombre: "Toma tel/coax Lunare",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10180,7 +10180,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Tel/Coax Lx Amerc",
+        nombre: "Toma tel/coax Lx Amerc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10188,7 +10188,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Tel/Coax Lx Nal",
+        nombre: "Toma tel/coax Lx Nal",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10196,7 +10196,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Tel/Dob Galica",
+        nombre: "Toma tel/dob Galica",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10212,7 +10212,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Trif 2X4Codelc/Inc",
+        nombre: "Toma Trif 2x4codelc/inc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10220,7 +10220,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Trif 4X4March/Inc",
+        nombre: "Toma Trif 4x4march/inc",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10228,7 +10228,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Trifasico S/P Ng",
+        nombre: "Toma Trifasico s/p Ng",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10236,7 +10236,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Trif.4X4 Codl",
+        nombre: "Toma trif.4x4 Codl",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10260,7 +10260,7 @@ const productos = [
         subcategoria: "conector"
     },
     {
-        nombre: "Tubo Led 12",
+        nombre: "Tubo LED 12",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10268,7 +10268,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 1\"Fn",
+        nombre: "Tubo Cond 1\"fn",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10276,7 +10276,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 1\"Met",
+        nombre: "Tubo Cond 1\"met",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10284,7 +10284,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 1/2Ec",
+        nombre: "Tubo Cond 1/2 Ec",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10300,7 +10300,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 1/2Met",
+        nombre: "Tubo Cond 1/2 Met",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10308,7 +10308,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 1-1/2Fn",
+        nombre: "Tubo Cond 1-1/2 Fn",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10316,7 +10316,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 2\"Fn",
+        nombre: "Tubo Cond 2\"fn",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10324,7 +10324,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 3/4Ec",
+        nombre: "Tubo Cond 3/4 Ec",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10332,7 +10332,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 3/4Fn",
+        nombre: "Tubo Cond 3/4 Fn",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10340,7 +10340,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cond 3/4Mt",
+        nombre: "Tubo Cond 3/4 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10364,7 +10364,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Varilla Cobre 1.50 Mts Sola",
+        nombre: "Varilla Cobre 1.50 mts Sola",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10380,7 +10380,7 @@ const productos = [
         subcategoria: "varilla"
     },
     {
-        nombre: "Borna Ter Cobre Estañado/Largo",
+        nombre: "Borna Ter Cobre estañado/largo",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10412,7 +10412,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Curva Conduit Emt3",
+        nombre: "Curva Conduit emt3",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10420,7 +10420,7 @@ const productos = [
         subcategoria: "curva"
     },
     {
-        nombre: "Tubo Led 9W",
+        nombre: "Tubo LED 9 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10428,7 +10428,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Cable Hdmi 1,5 Mts",
+        nombre: "Cable Hdmi 1,5 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10436,7 +10436,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Hdmi Malla 3Mts",
+        nombre: "Cable Hdmi Malla 3 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10444,7 +10444,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Hdmi Malla 5 Mts",
+        nombre: "Cable Hdmi Malla 5 mts",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10452,7 +10452,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Soldador -Bateria 4",
+        nombre: "Cable Soldador - Bateria 4",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10468,7 +10468,7 @@ const productos = [
         subcategoria: "bala"
     },
     {
-        nombre: "Panel Led 12W Incrust.",
+        nombre: "Panel LED 12 w incrust.",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10476,7 +10476,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Amarra Plast 10Cm",
+        nombre: "Amarra Plast 10 cm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10492,7 +10492,7 @@ const productos = [
         subcategoria: "amarra"
     },
     {
-        nombre: "Amarra Plast 20Cm",
+        nombre: "Amarra Plast 20 cm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10500,7 +10500,7 @@ const productos = [
         subcategoria: "amarra"
     },
     {
-        nombre: "Amarra Plast 30Cm",
+        nombre: "Amarra Plast 30 cm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10508,7 +10508,7 @@ const productos = [
         subcategoria: "amarra"
     },
     {
-        nombre: "Amarra Plast 40Cm",
+        nombre: "Amarra Plast 40 cm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10516,7 +10516,7 @@ const productos = [
         subcategoria: "amarra"
     },
     {
-        nombre: "Amarra Plast 35Cm",
+        nombre: "Amarra Plast 35 cm",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10524,7 +10524,7 @@ const productos = [
         subcategoria: "amarra"
     },
     {
-        nombre: "Bomb Led 3W",
+        nombre: "Bomb LED 3 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10532,7 +10532,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Bombill/ Led Recargable Solar",
+        nombre: "bombill/ LED Recargable Solar",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10540,7 +10540,7 @@ const productos = [
         subcategoria: "bombill"
     },
     {
-        nombre: "Refelctor Led 20W",
+        nombre: "Refelctor LED 20 w",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10556,7 +10556,7 @@ const productos = [
         subcategoria: "bombillo"
     },
     {
-        nombre: "Bombillo Led Recargable",
+        nombre: "Bombillo LED Recargable",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10572,7 +10572,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Cuchilla 3X30 Taiw",
+        nombre: "Cuchilla 3x30 Taiw",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10588,7 +10588,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Paso 25X20",
+        nombre: "Caja Paso 25x20",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10596,7 +10596,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Paso 15X15",
+        nombre: "Caja Paso 15x15",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10636,7 +10636,7 @@ const productos = [
         subcategoria: "ducha"
     },
     {
-        nombre: "Tensor Cerc/Electr Gr",
+        nombre: "Tensor cerc/electr Gr",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10652,7 +10652,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Telef 2Salidas",
+        nombre: "Union Telef 2 Salidas",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10676,7 +10676,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Resorte Cer/Elect 5Mt",
+        nombre: "Resorte cer/elect 5 Mt",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10692,7 +10692,7 @@ const productos = [
         subcategoria: "breaker"
     },
     {
-        nombre: "Panel Led 12W S/P",
+        nombre: "Panel LED 12 w s/p",
         precio: "",
         imagen: "",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
@@ -10708,7 +10708,7 @@ const productos = [
         subcategoria: "general"
     },
     {
-        nombre: "Panel Framel 36W Incr",
+        nombre: "Panel Framel 36 w Incr",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10716,7 +10716,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Bomb Led 15 W",
+        nombre: "Bomb LED 15 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10724,7 +10724,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Caja Breaker Micro Opal 2 Cir S/P Shneider",
+        nombre: "Caja Breaker Micro Opal 2 Cir s/p Shneider",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10732,7 +10732,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Amarra Plast 55Cm",
+        nombre: "Amarra Plast 55 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10764,7 +10764,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Caja Pvc 10 X 10 Con Tapa",
+        nombre: "Caja PVC 10 X 10 Con Tapa",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10772,7 +10772,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Duplex 2X22 Cen Polariz",
+        nombre: "Duplex 2x22 Cen Polariz",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10780,7 +10780,7 @@ const productos = [
         subcategoria: "duplex"
     },
     {
-        nombre: "Driver 18W",
+        nombre: "Driver 18 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10796,7 +10796,7 @@ const productos = [
         subcategoria: "breaker"
     },
     {
-        nombre: "Minibreaker 2X40",
+        nombre: "Minibreaker 2x40",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10804,7 +10804,7 @@ const productos = [
         subcategoria: "minibreaker"
     },
     {
-        nombre: "Reflector A.P- Luz B 50 W",
+        nombre: "Reflector a.p- Luz B 50 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10812,7 +10812,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector A.P.Luz Bl 100W",
+        nombre: "Reflector a.p.luz Bl 100 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10828,7 +10828,7 @@ const productos = [
         subcategoria: "clavija"
     },
     {
-        nombre: "Toma Doble P/T Acero Unitec",
+        nombre: "Toma Doble p/t Acero Unitec",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10836,7 +10836,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Cable Hdmi Malla 10 Mts",
+        nombre: "Cable Hdmi Malla 10 mts",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10844,7 +10844,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Cable Hdmi Malla 15 Mts",
+        nombre: "Cable Hdmi Malla 15 mts",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10852,7 +10852,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Bateria Seca 12 V",
+        nombre: "Bateria Seca 12 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10884,7 +10884,7 @@ const productos = [
         subcategoria: "cable"
     },
     {
-        nombre: "Riel Minibreker X Mts",
+        nombre: "Riel Minibreker X mts",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10892,7 +10892,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Minibreaker 1X20",
+        nombre: "Minibreaker 1x20",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10900,7 +10900,7 @@ const productos = [
         subcategoria: "minibreaker"
     },
     {
-        nombre: "Toma Mult 6 P/T Leon",
+        nombre: "Toma Mult 6 p/t Leon",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10908,7 +10908,7 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Mult 6 P/T Maluma Lexa",
+        nombre: "Toma Mult 6 p/t Maluma Lexa",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -10932,7 +10932,7 @@ const productos = [
         subcategoria: "sumergible"
     },
     {
-        nombre: "Indicador Metal Rgb 12V",
+        nombre: "Indicador Metal Rgb 12 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10940,7 +10940,7 @@ const productos = [
         subcategoria: "indicador"
     },
     {
-        nombre: "Swiche Balancin Metal 12V",
+        nombre: "Swiche Balancin Metal 12 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10972,7 +10972,7 @@ const productos = [
         subcategoria: "interruptor"
     },
     {
-        nombre: "Driver 24W",
+        nombre: "Driver 24 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10980,7 +10980,7 @@ const productos = [
         subcategoria: "driver"
     },
     {
-        nombre: "Capacitor 145-174 110V",
+        nombre: "Capacitor 145-174 110 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -10988,7 +10988,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 145-174 220 V",
+        nombre: "Capacitor 145-174 220 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11004,7 +11004,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Capacitor 1175-1410 --110V",
+        nombre: "Capacitor 1175-1410 --110 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11020,7 +11020,7 @@ const productos = [
         subcategoria: "socket"
     },
     {
-        nombre: "Impulsor C/Electrica 80Km",
+        nombre: "Impulsor c/electrica 80 Km",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11044,7 +11044,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Lamp Tubo Led Completa 2 X 9W",
+        nombre: "Lamp Tubo LED Completa 2 X 9 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11076,7 +11076,7 @@ const productos = [
         subcategoria: "antena"
     },
     {
-        nombre: "Bomba Acuario 2Mt",
+        nombre: "Bomba Acuario 2 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11124,7 +11124,7 @@ const productos = [
         subcategoria: "duplex"
     },
     {
-        nombre: "Termoencogible X 1,5 Mts",
+        nombre: "Termoencogible X 1,5 mts",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11132,7 +11132,7 @@ const productos = [
         subcategoria: "termoencogible"
     },
     {
-        nombre: "Termoencogible 5Mm X Mt",
+        nombre: "Termoencogible 5 mm X Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11140,7 +11140,7 @@ const productos = [
         subcategoria: "termoencogible"
     },
     {
-        nombre: "Guardamotor 13-18 A",
+        nombre: "Guardamotor 13-18 a",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11204,7 +11204,7 @@ const productos = [
         subcategoria: "condensador"
     },
     {
-        nombre: "Antena Full Hd +10Mts Cable",
+        nombre: "Antena Full HD +10mts Cable",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11212,7 +11212,7 @@ const productos = [
         subcategoria: "antena"
     },
     {
-        nombre: "Lampara Led 3X18",
+        nombre: "Lampara LED 3x18",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11228,7 +11228,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Repuesto Led 20W",
+        nombre: "Repuesto LED 20 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11236,7 +11236,7 @@ const productos = [
         subcategoria: "repuesto"
     },
     {
-        nombre: "Caja Emt 2X1/2",
+        nombre: "Caja Emt 2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11244,7 +11244,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Emt 3X1/2",
+        nombre: "Caja Emt 3x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11260,7 +11260,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Extencion C-Lampara 15M",
+        nombre: "Extencion c-lampara 15 m",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11268,7 +11268,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion C-Lampa 10M",
+        nombre: "Extencion c-lampa 10 m",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11276,7 +11276,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Alam Encauch 2X10",
+        nombre: "Alam Encauch 2x10",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11308,7 +11308,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Emt3/4",
+        nombre: "Union emt3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11316,7 +11316,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Cinta Led 50- 12V",
+        nombre: "Cinta LED 50- 12 v",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11388,7 +11388,7 @@ const productos = [
         subcategoria: "capacitor"
     },
     {
-        nombre: "Canaleta 10X10 C/Ades",
+        nombre: "Canaleta 10x10 c/ades",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11396,7 +11396,7 @@ const productos = [
         subcategoria: "canaleta"
     },
     {
-        nombre: "Driver 12W",
+        nombre: "Driver 12 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11404,7 +11404,7 @@ const productos = [
         subcategoria: "driver"
     },
     {
-        nombre: "Tubo Led 18 W",
+        nombre: "Tubo LED 18 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11412,7 +11412,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Lamp Tubo Led Completa 1 X 18W",
+        nombre: "Lamp Tubo LED Completa 1 X 18 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11420,7 +11420,7 @@ const productos = [
         subcategoria: "lamp"
     },
     {
-        nombre: "Lampara Completa Led 2X18",
+        nombre: "Lampara Completa LED 2x18",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11428,7 +11428,7 @@ const productos = [
         subcategoria: "lampara"
     },
     {
-        nombre: "Lamp Tubo Led Completa 1 X 9W",
+        nombre: "Lamp Tubo LED Completa 1 X 9 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11436,7 +11436,7 @@ const productos = [
         subcategoria: "lamp"
     },
     {
-        nombre: "Kit Manigueta-Resorte",
+        nombre: "Kit manigueta-resorte",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11460,7 +11460,7 @@ const productos = [
         subcategoria: "abraz"
     },
     {
-        nombre: "Panel Solar 10W",
+        nombre: "Panel Solar 10 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11468,7 +11468,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Panel Solar 20W",
+        nombre: "Panel Solar 20 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11476,7 +11476,7 @@ const productos = [
         subcategoria: "panel"
     },
     {
-        nombre: "Reflector Solar 50W",
+        nombre: "Reflector Solar 50 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11484,7 +11484,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector Solar 200W",
+        nombre: "Reflector Solar 200 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11492,7 +11492,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Reflector Solar 100W",
+        nombre: "Reflector Solar 100 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11500,7 +11500,7 @@ const productos = [
         subcategoria: "reflector"
     },
     {
-        nombre: "Panel Solar 6W",
+        nombre: "Panel Solar 6 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11524,7 +11524,7 @@ const productos = [
         subcategoria: "luces"
     },
     {
-        nombre: "Luces Manguera X 10Mt",
+        nombre: "Luces Manguera X 10 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11532,7 +11532,7 @@ const productos = [
         subcategoria: "luces"
     },
     {
-        nombre: "Luces Manguera X 20Mt",
+        nombre: "Luces Manguera X 20 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11540,7 +11540,7 @@ const productos = [
         subcategoria: "luces"
     },
     {
-        nombre: "Luces X 200B",
+        nombre: "Luces X 200b",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11556,7 +11556,7 @@ const productos = [
         subcategoria: "mini"
     },
     {
-        nombre: "Motor Experimento 6V - 9V- 12",
+        nombre: "Motor Experimento 6 v - 9v- 12",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11580,7 +11580,7 @@ const productos = [
         subcategoria: "electrodo"
     },
     {
-        nombre: "Extencion 10Mt",
+        nombre: "Extencion 10 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11588,7 +11588,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion 4Mts Naranja",
+        nombre: "Extencion 4 mts Naranja",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11604,7 +11604,7 @@ const productos = [
         subcategoria: "fotocelda"
     },
     {
-        nombre: "Bomb Led 11W",
+        nombre: "Bomb LED 11 w",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11612,7 +11612,7 @@ const productos = [
         subcategoria: "bomb"
     },
     {
-        nombre: "Bomb Led Sensor",
+        nombre: "Bomb LED Sensor",
         precio: "",
         imagen: "",
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
@@ -11628,7 +11628,7 @@ const productos = [
         subcategoria: "hebilla"
     },
     {
-        nombre: "Niple Rosca Pvc 1",
+        nombre: "Niple Rosca PVC 1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11636,7 +11636,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Codo Rosca Pvc 3/4",
+        nombre: "Codo Rosca PVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11644,7 +11644,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Union Rosca Pvc 3/4",
+        nombre: "Union Rosca PVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11652,7 +11652,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Tee Roca Pvc 3/4",
+        nombre: "Tee Roca PVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11668,7 +11668,7 @@ const productos = [
         subcategoria: "toallero"
     },
     {
-        nombre: "Buje Galv 2X1/2",
+        nombre: "Buje Galv 2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11676,7 +11676,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 2X3/4",
+        nombre: "Buje Galv 2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11684,7 +11684,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 3/8X1/4",
+        nombre: "Buje Galv 3/8x1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11692,7 +11692,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1 1/2X1 1/4",
+        nombre: "Buje Galv 1 1/2x1 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11700,7 +11700,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv1 1/2X1/2",
+        nombre: "Buje galv1 1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11708,7 +11708,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1-1/2X3/4",
+        nombre: "Buje Galv 1-1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11716,7 +11716,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1 1/2X1",
+        nombre: "Buje Galv 1 1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11724,7 +11724,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1 1/4X1",
+        nombre: "Buje Galv 1 1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11756,7 +11756,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1-1/4X1/2",
+        nombre: "Buje Galv 1-1/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11764,7 +11764,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1-1/4X3/4",
+        nombre: "Buje Galv 1-1/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11804,7 +11804,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Galv 1X1/2",
+        nombre: "Buje Galv 1x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11812,7 +11812,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Cobre 3/8X1/4",
+        nombre: "Buje Cobre 3/8x1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11908,7 +11908,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Codo Hemb/Mach Galv 1/2",
+        nombre: "Codo hemb/mach Galv 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11916,7 +11916,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Copa Gal 1/2 X3/8- 1/4",
+        nombre: "Copa gal 1/2 x3/8- 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11924,7 +11924,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/2X1",
+        nombre: "Copa gal 1-1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11932,7 +11932,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/2X1/2",
+        nombre: "Copa gal 1-1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11940,7 +11940,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/2X1-1/4",
+        nombre: "Copa gal 1-1/2x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11948,7 +11948,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/2X3/4",
+        nombre: "Copa gal 1-1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11956,7 +11956,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/4X1",
+        nombre: "Copa gal 1-1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11964,7 +11964,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/4X1/2",
+        nombre: "Copa gal 1-1/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11972,7 +11972,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1-1/4X3/4",
+        nombre: "Copa gal 1-1/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -11980,7 +11980,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1X1/2",
+        nombre: "Copa gal 1x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11988,7 +11988,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 1X3/4",
+        nombre: "Copa gal 1x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -11996,7 +11996,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 2X1",
+        nombre: "Copa gal 2X1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12004,7 +12004,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 2X1/2",
+        nombre: "Copa gal 2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12012,7 +12012,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 2X1-1/2",
+        nombre: "Copa gal 2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12020,7 +12020,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 2X1-1/4",
+        nombre: "Copa gal 2x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12028,7 +12028,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 2X3/4",
+        nombre: "Copa gal 2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12036,7 +12036,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 3/4X1/2",
+        nombre: "Copa gal 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -12044,7 +12044,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Gal 3/8X1/4",
+        nombre: "Copa gal 3/8x1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12052,7 +12052,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Niple Bronc 1/4X1-1/2",
+        nombre: "Niple Bronc 1/4x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12060,7 +12060,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Bronc 1/4X2",
+        nombre: "Niple Bronc 1/4x2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12068,7 +12068,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Bronc 1/4X2-1/2",
+        nombre: "Niple Bronc 1/4x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12076,7 +12076,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Bronc 1/4X3",
+        nombre: "Niple Bronc 1/4x3",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12084,7 +12084,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X1",
+        nombre: "Niple gal 1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12092,7 +12092,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X10",
+        nombre: "Niple gal 1/2x10",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12100,7 +12100,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X11",
+        nombre: "Niple gal 1/2x11",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12108,7 +12108,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X1-1/2",
+        nombre: "Niple gal 1/2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12116,7 +12116,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X12",
+        nombre: "Niple gal 1/2x12",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12124,7 +12124,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X2",
+        nombre: "Niple gal 1/2x2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12132,7 +12132,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X20",
+        nombre: "Niple gal 1/2x20",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12140,7 +12140,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X2-1/2",
+        nombre: "Niple gal 1/2x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12148,7 +12148,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X3",
+        nombre: "Niple gal 1/2x3",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12156,7 +12156,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X3-1/2",
+        nombre: "Niple gal 1/2x3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12164,7 +12164,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X4",
+        nombre: "Niple gal 1/2x4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12172,7 +12172,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X4-1/2",
+        nombre: "Niple gal 1/2x4-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12180,7 +12180,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X5",
+        nombre: "Niple gal 1/2x5",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12188,7 +12188,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X6",
+        nombre: "Niple gal 1/2x6",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12196,7 +12196,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X7",
+        nombre: "Niple gal 1/2x7",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12204,7 +12204,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X8",
+        nombre: "Niple gal 1/2x8",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12212,7 +12212,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2X9 - 10",
+        nombre: "Niple gal 1/2x9 - 10",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12220,7 +12220,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X1-1/2",
+        nombre: "Niple gal 1/4x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12228,7 +12228,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X2",
+        nombre: "Niple gal 1/4x2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12236,7 +12236,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X2-1/2",
+        nombre: "Niple gal 1/4x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12244,7 +12244,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X3",
+        nombre: "Niple gal 1/4x3",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12252,7 +12252,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X3-1/2",
+        nombre: "Niple gal 1/4x3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -12260,7 +12260,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X4 - X4-1/2",
+        nombre: "Niple gal 1/4x4 - x4-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -12268,7 +12268,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X5-6",
+        nombre: "Niple gal 1/4x5-6",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13068,7 +13068,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Cobre 3/8X1/4",
+        nombre: "Niple Cobre 3/8x1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13076,7 +13076,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Cobre 1/4X1-1/2",
+        nombre: "Niple Cobre 1/4x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13084,7 +13084,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Cobre 1/4X2",
+        nombre: "Niple Cobre 1/4x2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13092,7 +13092,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Cobre 1/4X2 -1/2",
+        nombre: "Niple Cobre 1/4x2 -1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13100,7 +13100,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Cobre 1/4X3",
+        nombre: "Niple Cobre 1/4x3",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13108,7 +13108,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Semicodo Gal 1/2",
+        nombre: "Semicodo gal 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13116,7 +13116,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Tapon 1\"Hem/Gal",
+        nombre: "Tapon 1\"hem/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13124,7 +13124,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1\"Mach/Gal",
+        nombre: "Tapon 1\"mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13132,7 +13132,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1/2Hemb/Gal",
+        nombre: "Tapon 1/2hemb/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13140,7 +13140,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1/2Mach/Gal",
+        nombre: "Tapon 1/2mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13148,7 +13148,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1-1/2Hem/Gal",
+        nombre: "Tapon 1-1/2hem/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13156,7 +13156,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1-1/2Mach/Gal",
+        nombre: "Tapon 1-1/2mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13164,7 +13164,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1-1/4Hem/Gal",
+        nombre: "Tapon 1-1/4hem/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13172,7 +13172,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 1-1/4Mach/Gal",
+        nombre: "Tapon 1-1/4mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13180,7 +13180,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 2\"Hem/Gal",
+        nombre: "Tapon 2\"hem/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13188,7 +13188,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 2\"Mach/Gal",
+        nombre: "Tapon 2\"mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13196,7 +13196,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 3/4Hemb/Gal",
+        nombre: "Tapon 3/4hemb/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13204,7 +13204,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 3/4Mach/Gal",
+        nombre: "Tapon 3/4mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13212,7 +13212,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 3/8 - 1/4 Mach/Gal",
+        nombre: "Tapon 3/8 - 1/4 mach/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13220,7 +13220,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon 3/8 - 1/4Hemb/Gal",
+        nombre: "Tapon 3/8 - 1/4hemb/gal",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13316,7 +13316,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee/Hemb 1/4Cobr",
+        nombre: "tee/hemb 1/4 Cobr",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13324,7 +13324,7 @@ const productos = [
         subcategoria: "teehemb"
     },
     {
-        nombre: "Tee/Hemb 3/8Cobr",
+        nombre: "tee/hemb 3/8 Cobr",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13404,7 +13404,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Univ/Gal 1\"",
+        nombre: "univ/gal 1\"",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13412,7 +13412,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Univ/Gal 1/2",
+        nombre: "univ/gal 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13420,7 +13420,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Univ/Gal 1-1/2",
+        nombre: "univ/gal 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13428,7 +13428,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Univ/Gal 1-1/4",
+        nombre: "univ/gal 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13436,7 +13436,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Univ/Gal 2\"",
+        nombre: "univ/gal 2\"",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13444,7 +13444,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Univ/Gal 3/4",
+        nombre: "univ/gal 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13452,7 +13452,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Univ/Gal 3/8 - 1/4",
+        nombre: "univ/gal 3/8 - 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13460,7 +13460,7 @@ const productos = [
         subcategoria: "univgal"
     },
     {
-        nombre: "Niple Gal 1/2X14",
+        nombre: "Niple gal 1/2x14",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13468,7 +13468,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4X 7-8-9-10",
+        nombre: "Niple gal 1/4x 7-8-9-10",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13476,7 +13476,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple 1/4X10",
+        nombre: "Niple 1/4x10",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13484,7 +13484,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/2 X 15-16",
+        nombre: "Niple gal 1/2 X 15-16",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13492,7 +13492,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Gal 1/4 X 1",
+        nombre: "Niple gal 1/4 X 1",
         precio: "",
         imagen: "",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
@@ -13524,7 +13524,7 @@ const productos = [
         subcategoria: "tetero"
     },
     {
-        nombre: "Llave Lavap-Pared Bochre",
+        nombre: "Llave lavap-pared Bochre",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13556,7 +13556,7 @@ const productos = [
         subcategoria: "regadera"
     },
     {
-        nombre: "Barra Segur 30Cm",
+        nombre: "Barra Segur 30 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13596,7 +13596,7 @@ const productos = [
         subcategoria: "empaque"
     },
     {
-        nombre: "Sifon En P Lavp Pavco-Gerfor",
+        nombre: "Sifon En P Lavp pavco-gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13628,7 +13628,7 @@ const productos = [
         subcategoria: "valvula"
     },
     {
-        nombre: "Manguera Entrad Lavad 1,5Mt",
+        nombre: "Manguera Entrad Lavad 1,5 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13636,7 +13636,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Acople Lav-Sant Acero",
+        nombre: "Acople lav-sant Acero",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13644,7 +13644,7 @@ const productos = [
         subcategoria: "acople"
     },
     {
-        nombre: "Acople Lav-Sanit Pavco",
+        nombre: "Acople lav-sanit PAVCO",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13660,7 +13660,7 @@ const productos = [
         subcategoria: "acople"
     },
     {
-        nombre: "Acople Lav-Sanit C/Registro",
+        nombre: "Acople lav-sanit c/registro",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13668,7 +13668,7 @@ const productos = [
         subcategoria: "acople"
     },
     {
-        nombre: "Acople Lav-San Largo",
+        nombre: "Acople lav-san Largo",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13700,7 +13700,7 @@ const productos = [
         subcategoria: "agua"
     },
     {
-        nombre: "Arbol D/Entrd Gerfor",
+        nombre: "Arbol d/entrd Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13708,7 +13708,7 @@ const productos = [
         subcategoria: "arbol"
     },
     {
-        nombre: "Arbol D/Sald Gerfor",
+        nombre: "Arbol d/sald Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13740,7 +13740,7 @@ const productos = [
         subcategoria: "arbol"
     },
     {
-        nombre: "Arbol Entrd Grival- Bocher",
+        nombre: "Arbol Entrd grival- Bocher",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13748,7 +13748,7 @@ const productos = [
         subcategoria: "arbol"
     },
     {
-        nombre: "Arbol Ent Fluim- Econ Griv Bocher",
+        nombre: "Arbol Ent fluim- Econ Griv Bocher",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13772,7 +13772,7 @@ const productos = [
         subcategoria: "base"
     },
     {
-        nombre: "Boton Sant Boch -Grv",
+        nombre: "Boton Sant Boch - Grv",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13788,7 +13788,7 @@ const productos = [
         subcategoria: "cuello"
     },
     {
-        nombre: "Brazo Flot 17Cm",
+        nombre: "Brazo Flot 17 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13796,7 +13796,7 @@ const productos = [
         subcategoria: "brazo"
     },
     {
-        nombre: "Brazo Flot 22Cm",
+        nombre: "Brazo Flot 22 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13836,7 +13836,7 @@ const productos = [
         subcategoria: "canast"
     },
     {
-        nombre: "Cartucho Cer/Lar-Der Grv",
+        nombre: "Cartucho cer/lar-der Grv",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13852,7 +13852,7 @@ const productos = [
         subcategoria: "cepillera"
     },
     {
-        nombre: "Chapeta Lavamanos G",
+        nombre: "Chapeta Lavamanos g",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13876,7 +13876,7 @@ const productos = [
         subcategoria: "cheque"
     },
     {
-        nombre: "Cheque 1/2Horz",
+        nombre: "Cheque 1/2 Horz",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13884,7 +13884,7 @@ const productos = [
         subcategoria: "cheque"
     },
     {
-        nombre: "Cheque 1/2Vert",
+        nombre: "Cheque 1/2 Vert",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13900,7 +13900,7 @@ const productos = [
         subcategoria: "cheque"
     },
     {
-        nombre: "Cheque 1-1/2Vert",
+        nombre: "Cheque 1-1/2 Vert",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13908,7 +13908,7 @@ const productos = [
         subcategoria: "cheque"
     },
     {
-        nombre: "Cheque 2 Vertical -Horizont",
+        nombre: "Cheque 2 Vertical - Horizont",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -13924,7 +13924,7 @@ const productos = [
         subcategoria: "cheque"
     },
     {
-        nombre: "Cheque 3/4Hrz",
+        nombre: "Cheque 3/4 Hrz",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13940,7 +13940,7 @@ const productos = [
         subcategoria: "chupa"
     },
     {
-        nombre: "Conj Reg-Ducha Gricol",
+        nombre: "Conj reg-ducha Gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13948,7 +13948,7 @@ const productos = [
         subcategoria: "conj"
     },
     {
-        nombre: "Conj Reg-Ducha Grival Dalia",
+        nombre: "Conj reg-ducha Grival Dalia",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13956,7 +13956,7 @@ const productos = [
         subcategoria: "conj"
     },
     {
-        nombre: "Conj Reg-Ducha Gerfor",
+        nombre: "Conj reg-ducha Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -13988,7 +13988,7 @@ const productos = [
         subcategoria: "desague"
     },
     {
-        nombre: "Desague Senc Pavco- Gerfor",
+        nombre: "Desague Senc pavco- Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14004,7 +14004,7 @@ const productos = [
         subcategoria: "desague"
     },
     {
-        nombre: "Desv/Duch/Tel Grv-Grcol",
+        nombre: "desv/duch/tel grv-grcol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -14012,7 +14012,7 @@ const productos = [
         subcategoria: "desvduchtel"
     },
     {
-        nombre: "Diferencial Electrico 800Kg",
+        nombre: "Diferencial Electrico 800 kg",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14028,7 +14028,7 @@ const productos = [
         subcategoria: "ducha"
     },
     {
-        nombre: "Embolo D/Entr/Gv",
+        nombre: "Embolo d/entr/gv",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -14052,7 +14052,7 @@ const productos = [
         subcategoria: "empaque"
     },
     {
-        nombre: "Empaque D/Nariz Grv",
+        nombre: "Empaque d/nariz Grv",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -14092,7 +14092,7 @@ const productos = [
         subcategoria: "empaque"
     },
     {
-        nombre: "Empaque Llave C/R",
+        nombre: "Empaque Llave c/r",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14100,7 +14100,7 @@ const productos = [
         subcategoria: "empaque"
     },
     {
-        nombre: "Empaque Sello Und Ecn",
+        nombre: "Empaque Sello und Ecn",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14116,7 +14116,7 @@ const productos = [
         subcategoria: "empaque"
     },
     {
-        nombre: "Escudo Ducha Grc -Grv",
+        nombre: "Escudo Ducha Grc - Grv",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14124,7 +14124,7 @@ const productos = [
         subcategoria: "escudo"
     },
     {
-        nombre: "Ext Ducha Crom 30Cm",
+        nombre: "Ext Ducha Crom 30 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14140,7 +14140,7 @@ const productos = [
         subcategoria: "ext"
     },
     {
-        nombre: "Extencion Lavam 25Cm",
+        nombre: "Extencion Lavam 25 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14164,7 +14164,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Filtro 4\"Lavp Blanco",
+        nombre: "Filtro 4\"lavp Blanco",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14188,7 +14188,7 @@ const productos = [
         subcategoria: "filtro"
     },
     {
-        nombre: "Flanche Tq Reserva 1/2\" Pvc",
+        nombre: "Flanche Tq Reserva 1/2\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14196,7 +14196,7 @@ const productos = [
         subcategoria: "flanche"
     },
     {
-        nombre: "Flanche Tq Reserva 3/4 Pvc",
+        nombre: "Flanche Tq Reserva 3/4 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -14204,7 +14204,7 @@ const productos = [
         subcategoria: "flanche"
     },
     {
-        nombre: "Flanche Tq Reserva 1\" Pvc",
+        nombre: "Flanche Tq Reserva 1\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14260,7 +14260,7 @@ const productos = [
         subcategoria: "flotador"
     },
     {
-        nombre: "Flotador Tanq Alto 1\"Comp",
+        nombre: "Flotador Tanq Alto 1\"comp",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -14268,7 +14268,7 @@ const productos = [
         subcategoria: "flotador"
     },
     {
-        nombre: "Flotd/Tanq/Resv 1/2 Comp Gerf",
+        nombre: "flotd/tanq/resv 1/2 Comp Gerf",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14276,7 +14276,7 @@ const productos = [
         subcategoria: "flotdtanqresv"
     },
     {
-        nombre: "Flotd/Tanq/Resv 3/4 Comp",
+        nombre: "flotd/tanq/resv 3/4 Comp",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14308,7 +14308,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 1 1/2 Pvc",
+        nombre: "Granada 1 1/2 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14316,7 +14316,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 1\"Pvc",
+        nombre: "Granada 1\"pvc",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14324,7 +14324,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 1\"Herbert",
+        nombre: "Granada 1\"herbert",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -14332,7 +14332,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 1-1/4 Pvc",
+        nombre: "Granada 1-1/4 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14356,7 +14356,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 2\"Bronce",
+        nombre: "Granada 2\"bronce",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14364,7 +14364,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 2\"Pvc",
+        nombre: "Granada 2\"pvc",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14388,7 +14388,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 3\"Alum",
+        nombre: "Granada 3\"alum",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14396,7 +14396,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Granada 3\"Pvc",
+        nombre: "Granada 3\"pvc",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14412,7 +14412,7 @@ const productos = [
         subcategoria: "griferia"
     },
     {
-        nombre: "Regadera Ducha Crom Con Niple 42Cm",
+        nombre: "Regadera Ducha Crom Con Niple 42 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14484,7 +14484,7 @@ const productos = [
         subcategoria: "lavaplatos"
     },
     {
-        nombre: "Lavaplatos 1X50 Escurrid-Socoda",
+        nombre: "Lavaplatos 1x50 escurrid-socoda",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14516,7 +14516,7 @@ const productos = [
         subcategoria: "arbol"
     },
     {
-        nombre: "Llave D-Paso 1/2 Gas",
+        nombre: "Llave d-paso 1/2 Gas",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14524,7 +14524,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1 Pvc Econom.",
+        nombre: "Llave d-paso 1 PVC econom.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14532,7 +14532,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1 Pvc Fina",
+        nombre: "Llave d-paso 1 PVC Fina",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14540,7 +14540,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 2\"Pvc Econom.",
+        nombre: "Llave d-paso 2\"pvc econom.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14548,7 +14548,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso Cardenas Cromada",
+        nombre: "Llave d-paso Cardenas Cromada",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14556,7 +14556,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Codo Rosca Sold 1/2 Pvc",
+        nombre: "Codo Rosca Sold 1/2 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14572,7 +14572,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1-1/2 Pvc Econom.",
+        nombre: "Llave d-paso 1-1/2 PVC econom.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14580,7 +14580,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1/2 Pvc Econ",
+        nombre: "Llave d-paso 1/2 PVC Econ",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14588,7 +14588,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1/2 Pvc",
+        nombre: "Llave d-paso 1/2 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14596,7 +14596,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1-1/4 Pvc Fina",
+        nombre: "Llave d-paso 1-1/4 PVC Fina",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14604,7 +14604,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1-1/2 Pvc Fina",
+        nombre: "Llave d-paso 1-1/2 PVC Fina",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14612,7 +14612,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1-1/4 Pvc Econom.",
+        nombre: "Llave d-paso 1-1/4 PVC econom.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14620,7 +14620,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 2\" Pvc Fina",
+        nombre: "Llave d-paso 2\" PVC Fina",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14628,7 +14628,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 3\" Pvc",
+        nombre: "Llave d-paso 3\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14636,7 +14636,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 3/4 Pvc Fina",
+        nombre: "Llave d-paso 3/4 PVC Fina",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14644,7 +14644,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1/2 Rc Metal",
+        nombre: "Llave d-paso 1/2 Rc Metal",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14660,7 +14660,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso Pvc 3/4 Eco",
+        nombre: "Llave d-paso PVC 3/4 Eco",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14668,7 +14668,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 3/4 Pvc Econ",
+        nombre: "Llave d-paso 3/4 PVC Econ",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14684,7 +14684,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Lavam Grival-Gricol",
+        nombre: "Llave Lavam grival-gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14700,7 +14700,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Lavaplat-Pared Gerfor",
+        nombre: "Llave lavaplat-pared Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14732,7 +14732,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Lavaplat Pared Grival-Gricol",
+        nombre: "Llave Lavaplat Pared grival-gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14772,7 +14772,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Ter Cobr Cardenas-Corneta",
+        nombre: "Llave Ter Cobr cardenas-corneta",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14796,7 +14796,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Ter C/Racor Pretul",
+        nombre: "Llave Ter c/racor Pretul",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14828,7 +14828,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Valvula Regul Sanit-Lavam Grival",
+        nombre: "Valvula Regul sanit-lavam Grival",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14884,7 +14884,7 @@ const productos = [
         subcategoria: "mariposa"
     },
     {
-        nombre: "Mezc.Ducha 8\" Hellix Pallet Grc",
+        nombre: "mezc.ducha 8\" Hellix Pallet Grc",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14892,7 +14892,7 @@ const productos = [
         subcategoria: "mezcducha"
     },
     {
-        nombre: "Mezc.Lavm 4\"Grival -Gricol",
+        nombre: "mezc.lavm 4\"grival - Gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14900,7 +14900,7 @@ const productos = [
         subcategoria: "mezclavm"
     },
     {
-        nombre: "Mezc.Lavm 8\" Grival",
+        nombre: "mezc.lavm 8\" Grival",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14908,7 +14908,7 @@ const productos = [
         subcategoria: "mezclavm"
     },
     {
-        nombre: "Mezc.Lavplat Unitec",
+        nombre: "mezc.lavplat Unitec",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14916,7 +14916,7 @@ const productos = [
         subcategoria: "mezclavplat"
     },
     {
-        nombre: "Mezc.Lavplat Gerfor",
+        nombre: "mezc.lavplat Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14924,7 +14924,7 @@ const productos = [
         subcategoria: "mezclavplat"
     },
     {
-        nombre: "Mezc.Lavplat Gricol",
+        nombre: "mezc.lavplat Gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14948,7 +14948,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Pitorro Mang/Plast",
+        nombre: "Pitorro mang/plast",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -14964,7 +14964,7 @@ const productos = [
         subcategoria: "plancha"
     },
     {
-        nombre: "Pomo Gricol-",
+        nombre: "Pomo gricol-",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15036,7 +15036,7 @@ const productos = [
         subcategoria: "poso"
     },
     {
-        nombre: "Racor Hembra Mang-Met",
+        nombre: "Racor Hembra mang-met",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15060,7 +15060,7 @@ const productos = [
         subcategoria: "racor"
     },
     {
-        nombre: "Registro Corte H/M 1/2",
+        nombre: "Registro Corte h/m 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15124,7 +15124,7 @@ const productos = [
         subcategoria: "registro"
     },
     {
-        nombre: "Regulacion 1/2Grv",
+        nombre: "Regulacion 1/2 Grv",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15132,7 +15132,7 @@ const productos = [
         subcategoria: "regulacion"
     },
     {
-        nombre: "Rejilla Sosco 3X1-1/2 Cte-Ant",
+        nombre: "Rejilla Sosco 3x1-1/2 cte-ant",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15140,7 +15140,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sosco 3X2 Cte-Ant Aluminio",
+        nombre: "Rejilla Sosco 3X2 cte-ant Aluminio",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15148,7 +15148,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sosco 4X3 Cte-Ant",
+        nombre: "Rejilla Sosco 4X3 cte-ant",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15156,7 +15156,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sosco 5X4 Cte-Ant",
+        nombre: "Rejilla Sosco 5X4 cte-ant",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15164,7 +15164,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Ventilacion 15 X 15 Pvc",
+        nombre: "Rejilla Ventilacion 15 X 15 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15188,7 +15188,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Ventilacion 20 X 20 Pvc",
+        nombre: "Rejilla Ventilacion 20 X 20 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15204,7 +15204,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla 10X10Cuadr-Red Cromada",
+        nombre: "Rejilla 10x10cuadr-red Cromada",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15212,7 +15212,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla 10X10 Cuadr -Red Acero Inox",
+        nombre: "Rejilla 10x10 Cuadr - Red Acero Inox",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15220,7 +15220,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Pvc 5X 4",
+        nombre: "Rejilla PVC 5X 4",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15268,7 +15268,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Metal 3X2 Ant-Cte",
+        nombre: "Rejilla Metal 3X2 ant-cte",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15276,7 +15276,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Pvc 3X2Com-Ant",
+        nombre: "Rejilla PVC 3x2com-ant",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15284,7 +15284,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Pvc 4X3 Cte",
+        nombre: "Rejilla PVC 4X3 Cte",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15292,7 +15292,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sifon 3X2\"",
+        nombre: "Rejilla Sifon 3x2\"",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15300,7 +15300,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sifon 4X3\"",
+        nombre: "Rejilla Sifon 4x3\"",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15308,7 +15308,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sifon 5X4\" Aluminio",
+        nombre: "Rejilla Sifon 5x4\" Aluminio",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15316,7 +15316,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Rejilla Sifon Pvc 3X2",
+        nombre: "Rejilla Sifon PVC 3X2",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15324,7 +15324,7 @@ const productos = [
         subcategoria: "rejilla"
     },
     {
-        nombre: "Airador Hembra-Macho Grival-Bocch-Gricol",
+        nombre: "Airador hembra-macho grival-bocch-gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15348,7 +15348,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Sifon Botell Pavco- Gerfor",
+        nombre: "Sifon Botell pavco- Gerfor",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15356,7 +15356,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Griferia Sanit Pavco",
+        nombre: "Griferia Sanit PAVCO",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15404,7 +15404,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Sifon Flexible Sencillo Pvco-Bocher",
+        nombre: "Sifon Flexible Sencillo pvco-bocher",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15428,7 +15428,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Registro 15X15",
+        nombre: "Tapa Registro 15x15",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15436,7 +15436,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Registro 20X20",
+        nombre: "Tapa Registro 20x20",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15444,7 +15444,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Sanitaria Bln-Bg",
+        nombre: "Tapa Sanitaria bln-bg",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15460,7 +15460,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon Posuelo C-Sosco Pvc",
+        nombre: "Tapon Posuelo c-sosco PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15468,7 +15468,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon Posuelo S-Sosco Pvc",
+        nombre: "Tapon Posuelo s-sosco PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15516,7 +15516,7 @@ const productos = [
         subcategoria: "torre"
     },
     {
-        nombre: "Torre Ceramico Der-Izq Grival",
+        nombre: "Torre Ceramico der-izq Grival",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15524,7 +15524,7 @@ const productos = [
         subcategoria: "torre"
     },
     {
-        nombre: "Torre Multiple-Ceramico Plast Gricol",
+        nombre: "Torre multiple-ceramico Plast Gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15532,7 +15532,7 @@ const productos = [
         subcategoria: "torre"
     },
     {
-        nombre: "Torre Multiple-Ceramico Metal Gricol",
+        nombre: "Torre multiple-ceramico Metal Gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15540,7 +15540,7 @@ const productos = [
         subcategoria: "torre"
     },
     {
-        nombre: "Torre Ceramico Der-Izq Gricol",
+        nombre: "Torre Ceramico der-izq Gricol",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15620,7 +15620,7 @@ const productos = [
         subcategoria: "yee"
     },
     {
-        nombre: "Yee Pvc Lavadora",
+        nombre: "Yee PVC Lavadora",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15676,7 +15676,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Llave Lavaplat Meson Pavco",
+        nombre: "Llave Lavaplat Meson PAVCO",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15684,7 +15684,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Acople Lav-San Doble",
+        nombre: "Acople lav-san Doble",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15692,7 +15692,7 @@ const productos = [
         subcategoria: "acople"
     },
     {
-        nombre: "Acople Lava Monoco Acero 50 Cm",
+        nombre: "Acople Lava Monoco Acero 50 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15708,7 +15708,7 @@ const productos = [
         subcategoria: "tornillo"
     },
     {
-        nombre: "Llave De Paso Universal 2\" Pvc",
+        nombre: "Llave De Paso Universal 2\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15716,7 +15716,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave De Paso Universal 1-1/2\" Pvc",
+        nombre: "Llave De Paso Universal 1-1/2\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15724,7 +15724,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave De Paso Universal 1-1/4\" Pvc",
+        nombre: "Llave De Paso Universal 1-1/4\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15732,7 +15732,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave De Paso Universal 1\" Pvc",
+        nombre: "Llave De Paso Universal 1\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15740,7 +15740,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave De Paso Universal 3/4 Pvc",
+        nombre: "Llave De Paso Universal 3/4 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15748,7 +15748,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1\" Metalic.",
+        nombre: "Llave d-paso 1\" metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15756,7 +15756,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 2\" Metalic.",
+        nombre: "Llave d-paso 2\" metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15764,7 +15764,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1/2 Metalic.",
+        nombre: "Llave d-paso 1/2 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15772,7 +15772,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1-1/2 Metalic.",
+        nombre: "Llave d-paso 1-1/2 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15780,7 +15780,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1-1/4 Metalic.",
+        nombre: "Llave d-paso 1-1/4 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15788,7 +15788,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Lleve D-Paso 3/4 Metalic.",
+        nombre: "Lleve d-paso 3/4 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15796,7 +15796,7 @@ const productos = [
         subcategoria: "lleve"
     },
     {
-        nombre: "Llave D-Paso 3/4 Metalic.",
+        nombre: "Llave d-paso 3/4 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15804,7 +15804,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 3/8 Metalic.",
+        nombre: "Llave d-paso 3/8 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15812,7 +15812,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1/4 Metalic.",
+        nombre: "Llave d-paso 1/4 metalic.",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15820,7 +15820,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave D-Paso 1\" Cortina",
+        nombre: "Llave d-paso 1\" Cortina",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15900,7 +15900,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Lavapl Meson -Flexi",
+        nombre: "Llave Lavapl Meson - Flexi",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -15932,7 +15932,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Canastilla 4\" Pavco",
+        nombre: "Canastilla 4\" PAVCO",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15940,7 +15940,7 @@ const productos = [
         subcategoria: "canastilla"
     },
     {
-        nombre: "Valvula Regul Sanit-Lavam Metal",
+        nombre: "Valvula Regul sanit-lavam Metal",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15956,7 +15956,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Valvula Regul Sanit-Lavam Pavco",
+        nombre: "Valvula Regul sanit-lavam PAVCO",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -15988,7 +15988,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Valvula Regul Doble San-Lav",
+        nombre: "Valvula Regul Doble san-lav",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16028,7 +16028,7 @@ const productos = [
         subcategoria: "registro"
     },
     {
-        nombre: "Pomo Gricol Helix Pal-Cruzeta",
+        nombre: "Pomo Gricol Helix pal-cruzeta",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16108,7 +16108,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Grasa X500- 250 Grs",
+        nombre: "Grasa x500- 250 Grs",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16124,7 +16124,7 @@ const productos = [
         subcategoria: "lavaplatos"
     },
     {
-        nombre: "Silicona Liq 100Ml",
+        nombre: "Silicona Liq 100 ml",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16132,7 +16132,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Liq 250 Ml",
+        nombre: "Silicona Liq 250 ml",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16140,7 +16140,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Liq 30Ml",
+        nombre: "Silicona Liq 30 ml",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16156,7 +16156,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Vaselina 500G- 250 Grm",
+        nombre: "Vaselina 500g- 250 Grm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16172,7 +16172,7 @@ const productos = [
         subcategoria: "repuesto"
     },
     {
-        nombre: "Soldadura Pvc 1/256",
+        nombre: "Soldadura PVC 1/256",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16204,7 +16204,7 @@ const productos = [
         subcategoria: "auto"
     },
     {
-        nombre: "Regadera Ducha Gerfor-Bocher",
+        nombre: "Regadera Ducha gerfor-bocher",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16284,7 +16284,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Barra De Seguridad 40Cm",
+        nombre: "Barra De Seguridad 40 cm",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16444,7 +16444,7 @@ const productos = [
         subcategoria: "calentador"
     },
     {
-        nombre: "Llave Lavamanos Pavco",
+        nombre: "Llave Lavamanos PAVCO",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16452,7 +16452,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Lavap-Meson Boch Cruceta",
+        nombre: "Llave lavap-meson Boch Cruceta",
         precio: "",
         imagen: "",
         descripcion: "Producto de grifería y accesorios hidrosanitarios para baño y cocina.",
@@ -16492,7 +16492,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Pie Amigo 12X14",
+        nombre: "Pie Amigo 12x14",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16596,7 +16596,7 @@ const productos = [
         subcategoria: "cincel"
     },
     {
-        nombre: "Cincel Roto Martillo Grueso1-1/2 X 10",
+        nombre: "Cincel Roto Martillo grueso1-1/2 X 10",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -16628,7 +16628,7 @@ const productos = [
         subcategoria: "pinza"
     },
     {
-        nombre: "Flexometro 5M Bellota",
+        nombre: "Flexometro 5 m Bellota",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16644,7 +16644,7 @@ const productos = [
         subcategoria: "cortabaldosa"
     },
     {
-        nombre: "Corta Loza 110Cm",
+        nombre: "Corta Loza 110 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16692,7 +16692,7 @@ const productos = [
         subcategoria: "lijadora"
     },
     {
-        nombre: "Adap Macho Cpvc 3/4",
+        nombre: "Adap Macho CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16828,7 +16828,7 @@ const productos = [
         subcategoria: "escalera"
     },
     {
-        nombre: "Pistola Sopladora C/Mang",
+        nombre: "Pistola Sopladora c/mang",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16836,7 +16836,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Porra 4 Lb Fn",
+        nombre: "Porra 4 lb Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16860,7 +16860,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Cincel Corte Frio 1/4X5",
+        nombre: "Cincel Corte Frio 1/4x5",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16916,7 +16916,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Adaptador Para Taladro Remach-Uduke",
+        nombre: "Adaptador Para Taladro remach-uduke",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -16948,7 +16948,7 @@ const productos = [
         subcategoria: "pinza"
     },
     {
-        nombre: "Extencion Punta Copa Articulada90Mm",
+        nombre: "Extencion Punta Copa articulada90mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17028,7 +17028,7 @@ const productos = [
         subcategoria: "cizalla"
     },
     {
-        nombre: "Polea 100Mm",
+        nombre: "Polea 100 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17076,7 +17076,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Llave Mixta 6Mm Fn",
+        nombre: "Llave Mixta 6 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17084,7 +17084,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 7Mm Fn",
+        nombre: "Llave Mixta 7 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17092,7 +17092,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 8Mm Fn",
+        nombre: "Llave Mixta 8 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17100,7 +17100,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 10Mm Fn",
+        nombre: "Llave Mixta 10 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17108,7 +17108,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 11Mm Fn",
+        nombre: "Llave Mixta 11 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17116,7 +17116,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 12Mm Fn",
+        nombre: "Llave Mixta 12 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17124,7 +17124,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 13Mm Fn",
+        nombre: "Llave Mixta 13 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17132,7 +17132,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 14Mm Fn",
+        nombre: "Llave Mixta 14 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17140,7 +17140,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 15Mm Fn",
+        nombre: "Llave Mixta 15 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17148,7 +17148,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 16Mm Fn",
+        nombre: "Llave Mixta 16 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17156,7 +17156,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 17Mm Fn",
+        nombre: "Llave Mixta 17 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17164,7 +17164,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 18Mm Fn",
+        nombre: "Llave Mixta 18 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17172,7 +17172,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 19Mm Fn",
+        nombre: "Llave Mixta 19 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17180,7 +17180,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 24Mm Fn",
+        nombre: "Llave Mixta 24 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -17188,7 +17188,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 6Mm Ec",
+        nombre: "Llave Mixta 6 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17196,7 +17196,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 7Mm Ec",
+        nombre: "Llave Mixta 7 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17204,7 +17204,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 8Mm Ec",
+        nombre: "Llave Mixta 8 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17212,7 +17212,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 10Mm Ec",
+        nombre: "Llave Mixta 10 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17220,7 +17220,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 11Mm Ec",
+        nombre: "Llave Mixta 11 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17228,7 +17228,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 12Mm Ec",
+        nombre: "Llave Mixta 12 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17236,7 +17236,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 13Mm Ec",
+        nombre: "Llave Mixta 13 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17244,7 +17244,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 14Mm Ec",
+        nombre: "Llave Mixta 14 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17252,7 +17252,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 15Mm Ec",
+        nombre: "Llave Mixta 15 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17260,7 +17260,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 16Mm Ec",
+        nombre: "Llave Mixta 16 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17268,7 +17268,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 17Mm Ec",
+        nombre: "Llave Mixta 17 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17276,7 +17276,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 18Mm Ec",
+        nombre: "Llave Mixta 18 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17284,7 +17284,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 19Mm Ec",
+        nombre: "Llave Mixta 19 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17292,7 +17292,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 24Mm Ec",
+        nombre: "Llave Mixta 24 mm Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -17396,7 +17396,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Disco C/Fn 9\" Dwalt",
+        nombre: "Disco c/fn 9\" Dwalt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17500,7 +17500,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Comb Rache 19Mm",
+        nombre: "Llave Comb Rache 19 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -17524,7 +17524,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Mixta 9Mm",
+        nombre: "Llave Mixta 9 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17548,7 +17548,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Curva Stria 7/8X3/4",
+        nombre: "Llave Curva Stria 7/8x3/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17572,7 +17572,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 3Mm Corta",
+        nombre: "Llave Allen 3 mm Corta",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17580,7 +17580,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 3Mm Larga",
+        nombre: "Llave Allen 3 mm Larga",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17588,7 +17588,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 4Mm Corta",
+        nombre: "Llave Allen 4 mm Corta",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17596,7 +17596,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 4Mm Larga",
+        nombre: "Llave Allen 4 mm Larga",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17604,7 +17604,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 5Mm Corta",
+        nombre: "Llave Allen 5 mm Corta",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17612,7 +17612,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 5Mm Larga",
+        nombre: "Llave Allen 5 mm Larga",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17620,7 +17620,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 6Mm",
+        nombre: "Llave Allen 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17628,7 +17628,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 7Mm",
+        nombre: "Llave Allen 7 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17636,7 +17636,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 8Mm",
+        nombre: "Llave Allen 8 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17644,7 +17644,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 9Mm",
+        nombre: "Llave Allen 9 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17652,7 +17652,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 10Mm",
+        nombre: "Llave Allen 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17748,7 +17748,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Disco C/Fn 4-1/2 Econom",
+        nombre: "Disco c/fn 4-1/2 Econom",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17756,7 +17756,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Fn 4-1/2 Fino",
+        nombre: "Disco c/fn 4-1/2 Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17764,7 +17764,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Fn 7\" Econom",
+        nombre: "Disco c/fn 7\" Econom",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17772,7 +17772,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Fn 7/8 Fino",
+        nombre: "Disco c/fn 7/8 Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17780,7 +17780,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Mader 4-1/2 Econom",
+        nombre: "Disco c/mader 4-1/2 Econom",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17788,7 +17788,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Mader 4-1/2 Fino",
+        nombre: "Disco c/mader 4-1/2 Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17796,7 +17796,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Meder 7-1/4 Eco",
+        nombre: "Disco c/meder 7-1/4 Eco",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17804,7 +17804,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Meder 7-1/4 Fino",
+        nombre: "Disco c/meder 7-1/4 Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -17812,7 +17812,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco C/Meder 8-1/4 Fino",
+        nombre: "Disco c/meder 8-1/4 Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17860,7 +17860,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco Pulir Metal 4\"Dw",
+        nombre: "Disco Pulir Metal 4\"dw",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17868,7 +17868,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco Pulir Metal 7\"Dw",
+        nombre: "Disco Pulir Metal 7\"dw",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17876,7 +17876,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco Pulir Metal 9\"Dw",
+        nombre: "Disco Pulir Metal 9\"dw",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -17996,7 +17996,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Aerografo Trupper 400Ml",
+        nombre: "Aerografo Trupper 400 ml",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18084,7 +18084,7 @@ const productos = [
         subcategoria: "multimetro"
     },
     {
-        nombre: "Compresor 24Lts 120Psi Sumo",
+        nombre: "Compresor 24 Lts 120 PSI Sumo",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18132,7 +18132,7 @@ const productos = [
         subcategoria: "esmeril"
     },
     {
-        nombre: "Careta P/Soldar",
+        nombre: "Careta p/soldar",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18140,7 +18140,7 @@ const productos = [
         subcategoria: "careta"
     },
     {
-        nombre: "Careta P/Soldar Manual",
+        nombre: "Careta p/soldar Manual",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18332,7 +18332,7 @@ const productos = [
         subcategoria: "esquinero"
     },
     {
-        nombre: "Pie Amigo 10X12",
+        nombre: "Pie Amigo 10x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18348,7 +18348,7 @@ const productos = [
         subcategoria: "pie"
     },
     {
-        nombre: "Pie Amigo 8X10",
+        nombre: "Pie Amigo 8x10",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18356,7 +18356,7 @@ const productos = [
         subcategoria: "pie"
     },
     {
-        nombre: "Pie Amigo 6X4-5",
+        nombre: "Pie Amigo 6x4-5",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18380,7 +18380,7 @@ const productos = [
         subcategoria: "tarro"
     },
     {
-        nombre: "Flexometro 8Mts Global Plus",
+        nombre: "Flexometro 8 mts Global Plus",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18460,7 +18460,7 @@ const productos = [
         subcategoria: "fumigadora"
     },
     {
-        nombre: "Fumigadora 5Lt",
+        nombre: "Fumigadora 5 lt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18628,7 +18628,7 @@ const productos = [
         subcategoria: "vestido"
     },
     {
-        nombre: "Alicate Traba Serrucho 180Mm",
+        nombre: "Alicate Traba Serrucho 180 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18660,7 +18660,7 @@ const productos = [
         subcategoria: "cabuya"
     },
     {
-        nombre: "Careta Guadañar C/Malla",
+        nombre: "Careta Guadañar c/malla",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -18684,7 +18684,7 @@ const productos = [
         subcategoria: "mezclador"
     },
     {
-        nombre: "Taladro 1/2 Dewal 710 W",
+        nombre: "Taladro 1/2 Dewal 710 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -18692,7 +18692,7 @@ const productos = [
         subcategoria: "taladro"
     },
     {
-        nombre: "Juego Copa Sierra 15Pz",
+        nombre: "Juego Copa Sierra 15 Pz",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -18700,7 +18700,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Juego Copa Sierra 5Pz Ec",
+        nombre: "Juego Copa Sierra 5 Pz Ec",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19044,7 +19044,7 @@ const productos = [
         subcategoria: "automaticofn"
     },
     {
-        nombre: "Automatico 100-150Psi",
+        nombre: "Automatico 100-150 PSI",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19052,7 +19052,7 @@ const productos = [
         subcategoria: "automatico"
     },
     {
-        nombre: "Automatico 70--120Psi",
+        nombre: "Automatico 70--120 PSI",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19060,7 +19060,7 @@ const productos = [
         subcategoria: "automatico"
     },
     {
-        nombre: "Adap Rache H1/2-M3/8",
+        nombre: "Adap Rache h1/2-m3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19068,7 +19068,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Rache H1/4-M3/8",
+        nombre: "Adap Rache h1/4-m3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19076,7 +19076,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Rache H3/8-M1/2",
+        nombre: "Adap Rache h3/8-m1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19084,7 +19084,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Rache H1/2-M3/4",
+        nombre: "Adap Rache h1/2-m3/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19092,7 +19092,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Aceitera 250Cc",
+        nombre: "Aceitera 250 Cc",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19348,7 +19348,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Dav 1-1/4",
+        nombre: "Broca esp/dav 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19356,7 +19356,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Escalonada Marmol-14-9-50",
+        nombre: "Broca Escalonada marmol-14-9-50",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19380,7 +19380,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 1\"",
+        nombre: "Broca esp/econ 1\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19388,7 +19388,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 1/4",
+        nombre: "Broca esp/econ 1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19396,7 +19396,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 1/2\"",
+        nombre: "Broca esp/econ 1/2\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19404,7 +19404,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 3/4\"",
+        nombre: "Broca esp/econ 3/4\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19412,7 +19412,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 5/8\"",
+        nombre: "Broca esp/econ 5/8\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19420,7 +19420,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp /Econ 7/8\"",
+        nombre: "Broca Esp / Econ 7/8\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19428,7 +19428,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 1 1/4",
+        nombre: "Broca esp/econ 1 1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19436,7 +19436,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Esp/Econ 3/8",
+        nombre: "Broca esp/econ 3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19452,7 +19452,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 1\"",
+        nombre: "Broca mad/econ 1\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19460,7 +19460,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 1/2",
+        nombre: "Broca mad/econ 1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19468,7 +19468,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 1/4",
+        nombre: "Broca mad/econ 1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19476,7 +19476,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 3/4",
+        nombre: "Broca mad/econ 3/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19484,7 +19484,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 3/8",
+        nombre: "Broca mad/econ 3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19492,7 +19492,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 5/16",
+        nombre: "Broca mad/econ 5/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19500,7 +19500,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 5/8",
+        nombre: "Broca mad/econ 5/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19508,7 +19508,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 1/2X12",
+        nombre: "Broca mad/fina 1/2x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19516,7 +19516,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 1/2X12",
+        nombre: "Broca mad/econ 1/2x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19524,7 +19524,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 1/4X12",
+        nombre: "Broca mad/fina 1/4x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19532,7 +19532,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 1/4X12",
+        nombre: "Broca mad/econ 1/4x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19540,7 +19540,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 3/4X12",
+        nombre: "Broca mad/fina 3/4x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19548,7 +19548,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 3/8X12",
+        nombre: "Broca mad/fina 3/8x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19556,7 +19556,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 3/8X12",
+        nombre: "Broca mad/econ 3/8x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19564,7 +19564,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 5/16X12",
+        nombre: "Broca mad/fina 5/16x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19572,7 +19572,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Econ 5/16X12",
+        nombre: "Broca mad/econ 5/16x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19580,7 +19580,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 5/8X12",
+        nombre: "Broca mad/fina 5/8x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19924,7 +19924,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Vidrio-90 X 13 Mm",
+        nombre: "Broca vidrio-90 X 13 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19940,7 +19940,7 @@ const productos = [
         subcategoria: "punta"
     },
     {
-        nombre: "Punta Cutin Wl 150W",
+        nombre: "Punta Cutin Wl 150 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19948,7 +19948,7 @@ const productos = [
         subcategoria: "punta"
     },
     {
-        nombre: "Punta Cutin Wl 200W",
+        nombre: "Punta Cutin Wl 200 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -19988,7 +19988,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Buril 10Mm Fino",
+        nombre: "Buril 10 mm Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -19996,7 +19996,7 @@ const productos = [
         subcategoria: "buril"
     },
     {
-        nombre: "Buril 6Mm Rubi",
+        nombre: "Buril 6 mm Rubi",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20004,7 +20004,7 @@ const productos = [
         subcategoria: "buril"
     },
     {
-        nombre: "Buril 8Mm Rubi",
+        nombre: "Buril 8 mm Rubi",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20012,7 +20012,7 @@ const productos = [
         subcategoria: "buril"
     },
     {
-        nombre: "Buril Corta Bald 18Mm Fn",
+        nombre: "Buril Corta Bald 18 mm Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20108,7 +20108,7 @@ const productos = [
         subcategoria: "dobladora"
     },
     {
-        nombre: "Cadena Gal 1/8",
+        nombre: "Cadena gal 1/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20116,7 +20116,7 @@ const productos = [
         subcategoria: "cadena"
     },
     {
-        nombre: "Cadena Gal 5/32",
+        nombre: "Cadena gal 5/32",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20124,7 +20124,7 @@ const productos = [
         subcategoria: "cadena"
     },
     {
-        nombre: "Cadena Gal 3/16",
+        nombre: "Cadena gal 3/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20140,7 +20140,7 @@ const productos = [
         subcategoria: "cadena"
     },
     {
-        nombre: "Cadena Gal 5/16",
+        nombre: "Cadena gal 5/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20164,7 +20164,7 @@ const productos = [
         subcategoria: "cadena"
     },
     {
-        nombre: "Calibrador Aire 50Lb",
+        nombre: "Calibrador Aire 50 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20172,7 +20172,7 @@ const productos = [
         subcategoria: "calibrador"
     },
     {
-        nombre: "Calibrador Aire 160Lb",
+        nombre: "Calibrador Aire 160 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20196,7 +20196,7 @@ const productos = [
         subcategoria: "cautin"
     },
     {
-        nombre: "Cautin 100W Mader",
+        nombre: "Cautin 100 w Mader",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20204,7 +20204,7 @@ const productos = [
         subcategoria: "cautin"
     },
     {
-        nombre: "Cautin 80W Plast",
+        nombre: "Cautin 80 w Plast",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20228,7 +20228,7 @@ const productos = [
         subcategoria: "cautin"
     },
     {
-        nombre: "Cepillo M/Plastico 4X16 Acero",
+        nombre: "Cepillo m/plastico 4x16 Acero",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20236,7 +20236,7 @@ const productos = [
         subcategoria: "cepillo"
     },
     {
-        nombre: "Cepillo M/Plastico Bronce",
+        nombre: "Cepillo m/plastico Bronce",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20244,7 +20244,7 @@ const productos = [
         subcategoria: "cepillo"
     },
     {
-        nombre: "Cepillo M/Plastico Rect-6X19",
+        nombre: "Cepillo m/plastico rect-6x19",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20284,7 +20284,7 @@ const productos = [
         subcategoria: "chispero"
     },
     {
-        nombre: "Cepillo D/Vuelta Curvo",
+        nombre: "Cepillo d/vuelta Curvo",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20308,7 +20308,7 @@ const productos = [
         subcategoria: "cizalla"
     },
     {
-        nombre: "Copa Bujia 13/16X1/2",
+        nombre: "Copa Bujia 13/16x1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20316,7 +20316,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Bujia 5/8X1/2",
+        nombre: "Copa Bujia 5/8x1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20324,7 +20324,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X10Mm",
+        nombre: "Copa Larg 1/2x10mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20332,7 +20332,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X11Mm",
+        nombre: "Copa Larg 1/2x11mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20340,7 +20340,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X12Mm",
+        nombre: "Copa Larg 1/2x12mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20348,7 +20348,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X13Mm",
+        nombre: "Copa Larg 1/2x13mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20356,7 +20356,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X15Mm",
+        nombre: "Copa Larg 1/2x15mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20364,7 +20364,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X16Mm",
+        nombre: "Copa Larg 1/2x16mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20372,7 +20372,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X17Mm",
+        nombre: "Copa Larg 1/2x17mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20380,7 +20380,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X18Mm",
+        nombre: "Copa Larg 1/2x18mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20388,7 +20388,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X19Mm",
+        nombre: "Copa Larg 1/2x19mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20396,7 +20396,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X3/8 Mm",
+        nombre: "Copa Larg 1/2x3/8 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20404,7 +20404,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X5/8 Mm",
+        nombre: "Copa Larg 1/2x5/8 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20412,7 +20412,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X7/16 Mm",
+        nombre: "Copa Larg 1/2x7/16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20420,7 +20420,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X9/16 Mm",
+        nombre: "Copa Larg 1/2x9/16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20428,7 +20428,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larg 1/2X14Mm",
+        nombre: "Copa Larg 1/2x14mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20436,7 +20436,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X1/4",
+        nombre: "Copa 1/2x1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20444,7 +20444,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X3/8",
+        nombre: "Copa 1/2x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20452,7 +20452,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X7/16",
+        nombre: "Copa 1/2x7/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20460,7 +20460,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X1/2",
+        nombre: "Copa 1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20468,7 +20468,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X9/16",
+        nombre: "Copa 1/2x9/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20476,7 +20476,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X5/8",
+        nombre: "Copa 1/2x5/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20484,7 +20484,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X3/4",
+        nombre: "Copa 1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20492,7 +20492,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X13/16",
+        nombre: "Copa 1/2x13/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20500,7 +20500,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 1/2X15/16",
+        nombre: "Copa 1/2x15/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20508,7 +20508,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/4X1-7/8",
+        nombre: "Copa 3/4x1-7/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20516,7 +20516,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 7Mm",
+        nombre: "Copa 7 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20524,7 +20524,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 8Mm",
+        nombre: "Copa 8 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20532,7 +20532,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 9Mm",
+        nombre: "Copa 9 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20540,7 +20540,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 10Mm",
+        nombre: "Copa 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20548,7 +20548,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 11Mm",
+        nombre: "Copa 11 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20556,7 +20556,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 12Mm",
+        nombre: "Copa 12 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20564,7 +20564,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 13Mm",
+        nombre: "Copa 13 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20572,7 +20572,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 14Mm",
+        nombre: "Copa 14 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20580,7 +20580,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 15Mm",
+        nombre: "Copa 15 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20588,7 +20588,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 16Mm",
+        nombre: "Copa 16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20596,7 +20596,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 17Mm",
+        nombre: "Copa 17 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20604,7 +20604,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 18Mm",
+        nombre: "Copa 18 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20612,7 +20612,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 19Mm",
+        nombre: "Copa 19 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20620,7 +20620,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 20Mm",
+        nombre: "Copa 20 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20628,7 +20628,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 21 Mm",
+        nombre: "Copa 21 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20636,7 +20636,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 22Mm",
+        nombre: "Copa 22 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20644,7 +20644,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 23Mm",
+        nombre: "Copa 23 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20652,7 +20652,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 24Mm",
+        nombre: "Copa 24 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20660,7 +20660,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 25Mm",
+        nombre: "Copa 25 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20668,7 +20668,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 26Mm",
+        nombre: "Copa 26 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20676,7 +20676,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 27Mm",
+        nombre: "Copa 27 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20684,7 +20684,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 28Mm",
+        nombre: "Copa 28 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20692,7 +20692,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 29Mm",
+        nombre: "Copa 29 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20700,7 +20700,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 30Mm",
+        nombre: "Copa 30 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20708,7 +20708,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 32Mm",
+        nombre: "Copa 32 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20716,7 +20716,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X6 Mm",
+        nombre: "Copa 3/8 X6 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20724,7 +20724,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X7 Mm",
+        nombre: "Copa 3/8 X7 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20732,7 +20732,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X8 Mm",
+        nombre: "Copa 3/8 X8 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20740,7 +20740,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X10 Mm",
+        nombre: "Copa 3/8 X10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20748,7 +20748,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X11 Mm",
+        nombre: "Copa 3/8 X11 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20756,7 +20756,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X12 Mm",
+        nombre: "Copa 3/8 X12 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20772,7 +20772,7 @@ const productos = [
         subcategoria: "espatula"
     },
     {
-        nombre: "Copa 3/8 X13 Mm",
+        nombre: "Copa 3/8 X13 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20780,7 +20780,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X14 Mm",
+        nombre: "Copa 3/8 X14 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20788,7 +20788,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X15 Mm",
+        nombre: "Copa 3/8 X15 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20796,7 +20796,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X16 Mm",
+        nombre: "Copa 3/8 X16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20804,7 +20804,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X17 Mm",
+        nombre: "Copa 3/8 X17 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20812,7 +20812,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8 X19 Mm",
+        nombre: "Copa 3/8 X19 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20820,7 +20820,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X1/4",
+        nombre: "Copa 3/8x1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20828,7 +20828,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X5/16",
+        nombre: "Copa 3/8x5/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20836,7 +20836,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X3/8",
+        nombre: "Copa 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20844,7 +20844,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X7/16",
+        nombre: "Copa 3/8x7/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20852,7 +20852,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X1/2",
+        nombre: "Copa 3/8x1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20860,7 +20860,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X9/16",
+        nombre: "Copa 3/8x9/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20868,7 +20868,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa 3/8X5/8",
+        nombre: "Copa 3/8x5/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20876,7 +20876,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X10 Mm",
+        nombre: "Copa Larga 3/8x10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20884,7 +20884,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X11 Mm",
+        nombre: "Copa Larga 3/8x11 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20892,7 +20892,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X12 Mm",
+        nombre: "Copa Larga 3/8x12 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20900,7 +20900,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X13 Mm",
+        nombre: "Copa Larga 3/8x13 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20908,7 +20908,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X14 Mm",
+        nombre: "Copa Larga 3/8x14 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20916,7 +20916,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X15 Mm",
+        nombre: "Copa Larga 3/8x15 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20924,7 +20924,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X16 Mm",
+        nombre: "Copa Larga 3/8x16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20932,7 +20932,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X17 Mm",
+        nombre: "Copa Larga 3/8x17 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20940,7 +20940,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X18 Mm",
+        nombre: "Copa Larga 3/8x18 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -20948,7 +20948,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X19 Mm",
+        nombre: "Copa Larga 3/8x19 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20956,7 +20956,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X3/8",
+        nombre: "Copa Larga 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20964,7 +20964,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X7/16",
+        nombre: "Copa Larga 3/8x7/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20972,7 +20972,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X1/2",
+        nombre: "Copa Larga 3/8x1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20980,7 +20980,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Copa Larga 3/8X9/16",
+        nombre: "Copa Larga 3/8x9/16",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20988,7 +20988,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Barra 14Lb",
+        nombre: "Barra 14 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -20996,7 +20996,7 @@ const productos = [
         subcategoria: "barra"
     },
     {
-        nombre: "Barra 16Lb",
+        nombre: "Barra 16 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21004,7 +21004,7 @@ const productos = [
         subcategoria: "barra"
     },
     {
-        nombre: "Barra 18Lb",
+        nombre: "Barra 18 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21060,7 +21060,7 @@ const productos = [
         subcategoria: "tranca"
     },
     {
-        nombre: "Tapon Plast Rect 3X1-1/2",
+        nombre: "Tapon Plast Rect 3x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21140,7 +21140,7 @@ const productos = [
         subcategoria: "barreton"
     },
     {
-        nombre: "Barreton 1-1/2 Lb",
+        nombre: "Barreton 1-1/2 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21164,7 +21164,7 @@ const productos = [
         subcategoria: "azadon"
     },
     {
-        nombre: "Azadon 1Lb",
+        nombre: "Azadon 1 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21172,7 +21172,7 @@ const productos = [
         subcategoria: "azadon"
     },
     {
-        nombre: "Azadon 2 Lb",
+        nombre: "Azadon 2 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21180,7 +21180,7 @@ const productos = [
         subcategoria: "azadon"
     },
     {
-        nombre: "Azadon 3 Lb",
+        nombre: "Azadon 3 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21220,7 +21220,7 @@ const productos = [
         subcategoria: "barreton"
     },
     {
-        nombre: "Barreton 2Lb",
+        nombre: "Barreton 2 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21228,7 +21228,7 @@ const productos = [
         subcategoria: "barreton"
     },
     {
-        nombre: "Barreton 4 Lb",
+        nombre: "Barreton 4 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21252,7 +21252,7 @@ const productos = [
         subcategoria: "machete"
     },
     {
-        nombre: "Machete/Peinilla Aguila",
+        nombre: "machete/peinilla Aguila",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21364,7 +21364,7 @@ const productos = [
         subcategoria: "cadena"
     },
     {
-        nombre: "Copa Larga 1/2*17Mm",
+        nombre: "Copa Larga 1/2*17mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21372,7 +21372,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Aspiradora 6 Gl",
+        nombre: "Aspiradora 6 GL",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21436,7 +21436,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destornillador P/ Puntas Econ",
+        nombre: "Destornillador p/ Puntas Econ",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21460,7 +21460,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 1/8X4",
+        nombre: "Destorn Pala 1/8x4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21468,7 +21468,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 1/4X4",
+        nombre: "Destorn Pala 1/4x4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21476,7 +21476,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 1/4X1-1/2 Atil",
+        nombre: "Destorn Pala 1/4x1-1/2 Atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21484,7 +21484,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 1/4X6 Atila",
+        nombre: "Destorn Pala 1/4x6 Atila",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21492,7 +21492,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 1/4X8 Atil",
+        nombre: "Destorn Pala 1/4x8 Atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21500,7 +21500,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 3/16X3Atil",
+        nombre: "Destorn Pala 3/16x3atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21508,7 +21508,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 3/16X4Atil",
+        nombre: "Destorn Pala 3/16x4atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21516,7 +21516,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 3/16X6 Atila",
+        nombre: "Destorn Pala 3/16x6 Atila",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21524,7 +21524,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Pala 3/16X8 Atila",
+        nombre: "Destorn Pala 3/16x8 Atila",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21532,7 +21532,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Stria 1/4X1-3/8 Atil",
+        nombre: "Destorn Stria 1/4x1-3/8 Atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21540,7 +21540,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Stria 1/8X3 Atil",
+        nombre: "Destorn Stria 1/8x3 Atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21548,7 +21548,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Stria 1/4X4 Atil",
+        nombre: "Destorn Stria 1/4x4 Atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21556,7 +21556,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Stria 1/4X8Atil",
+        nombre: "Destorn Stria 1/4x8atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21564,7 +21564,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Stria 3/16X3",
+        nombre: "Destorn Stria 3/16x3",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21572,7 +21572,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Destorn Stria 3/16X8Atil",
+        nombre: "Destorn Stria 3/16x8atil",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21580,7 +21580,7 @@ const productos = [
         subcategoria: "destorn"
     },
     {
-        nombre: "Copa Larg 1/2X3/4",
+        nombre: "Copa Larg 1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21588,7 +21588,7 @@ const productos = [
         subcategoria: "copa"
     },
     {
-        nombre: "Cortabaldosa 60Mm Econ",
+        nombre: "Cortabaldosa 60 mm Econ",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21596,7 +21596,7 @@ const productos = [
         subcategoria: "cortabaldosa"
     },
     {
-        nombre: "Cortabaldosa Rubi 85 Cm",
+        nombre: "Cortabaldosa Rubi 85 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21644,7 +21644,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Diablo Stanley- Atila",
+        nombre: "Diablo stanley- Atila",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -21660,7 +21660,7 @@ const productos = [
         subcategoria: "diablo"
     },
     {
-        nombre: "Decametro 20Mts Truper",
+        nombre: "Decametro 20 mts Truper",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21668,7 +21668,7 @@ const productos = [
         subcategoria: "decametro"
     },
     {
-        nombre: "Cinta Metrica 50Mt",
+        nombre: "Cinta Metrica 50 Mt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21700,7 +21700,7 @@ const productos = [
         subcategoria: "dulce"
     },
     {
-        nombre: "Engrasadora 1Lb",
+        nombre: "Engrasadora 1 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21756,7 +21756,7 @@ const productos = [
         subcategoria: "formon"
     },
     {
-        nombre: "Formon 1/4 - 6Mm",
+        nombre: "Formon 1/4 - 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21772,7 +21772,7 @@ const productos = [
         subcategoria: "formon"
     },
     {
-        nombre: "Formon 3/8 - 10Mm",
+        nombre: "Formon 3/8 - 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21860,7 +21860,7 @@ const productos = [
         subcategoria: "escuadra"
     },
     {
-        nombre: "Tiradera Alumino 128M",
+        nombre: "Tiradera Alumino 128 m",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21868,7 +21868,7 @@ const productos = [
         subcategoria: "tiradera"
     },
     {
-        nombre: "Tiradera Alumino 192-168M",
+        nombre: "Tiradera Alumino 192-168 m",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21876,7 +21876,7 @@ const productos = [
         subcategoria: "tiradera"
     },
     {
-        nombre: "Tiradera 97 Mm",
+        nombre: "Tiradera 97 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21924,7 +21924,7 @@ const productos = [
         subcategoria: "mango"
     },
     {
-        nombre: "Extencion Rache 1/2X10",
+        nombre: "Extencion Rache 1/2x10",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21932,7 +21932,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion Rache 1/2X5",
+        nombre: "Extencion Rache 1/2x5",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21940,7 +21940,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion Rache 3/8X14",
+        nombre: "Extencion Rache 3/8x14",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21948,7 +21948,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion Rache 3/8X6",
+        nombre: "Extencion Rache 3/8x6",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21956,7 +21956,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion Rache 1/4X4",
+        nombre: "Extencion Rache 1/4x4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21964,7 +21964,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion Rache 1/2X2-1/2",
+        nombre: "Extencion Rache 1/2x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -21972,7 +21972,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Mango Rache L 1/2",
+        nombre: "Mango Rache l 1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22148,7 +22148,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Guante Carnaza Ml Puño 20",
+        nombre: "Guante Carnaza ml Puño 20",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22164,7 +22164,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Guante Ingeniero Corto Reforz,",
+        nombre: "Guante Ingeniero Corto reforz,",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22204,7 +22204,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Guante Carnaza Mm Reforz",
+        nombre: "Guante Carnaza mm Reforz",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22212,7 +22212,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Guante Carnaza Ml",
+        nombre: "Guante Carnaza ml",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22220,7 +22220,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Guante Carnaza Ml Reforz",
+        nombre: "Guante Carnaza ml Reforz",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22292,7 +22292,7 @@ const productos = [
         subcategoria: "guaya"
     },
     {
-        nombre: "Hidrolavadora 1200W Gladiat 1305Psi",
+        nombre: "Hidrolavadora 1200 w Gladiat 1305 PSI",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22332,7 +22332,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Hidrolavadora 1400W Black * Decker",
+        nombre: "Hidrolavadora 1400 w Black * Decker",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22420,7 +22420,7 @@ const productos = [
         subcategoria: "corta"
     },
     {
-        nombre: "Recolector De A Sin Mango",
+        nombre: "Recolector De a Sin Mango",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22468,7 +22468,7 @@ const productos = [
         subcategoria: "chaqueta"
     },
     {
-        nombre: "Cortabaldosa 700Mm Uduke",
+        nombre: "Cortabaldosa 700 mm Uduke",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22508,7 +22508,7 @@ const productos = [
         subcategoria: "mango"
     },
     {
-        nombre: "Taladro 1/2 900W Troper-Gladiator",
+        nombre: "Taladro 1/2 900 w troper-gladiator",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22516,7 +22516,7 @@ const productos = [
         subcategoria: "taladro"
     },
     {
-        nombre: "Brida Pulidora Inter-Ext",
+        nombre: "Brida Pulidora inter-ext",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22580,7 +22580,7 @@ const productos = [
         subcategoria: "gato"
     },
     {
-        nombre: "Pala Hoyador M/Metalico",
+        nombre: "Pala Hoyador m/metalico",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22636,7 +22636,7 @@ const productos = [
         subcategoria: "hacha"
     },
     {
-        nombre: "Pistola Pintar Econ-Troop",
+        nombre: "Pistola Pintar econ-troop",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22668,7 +22668,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Pistola De Calor Elite 1600W",
+        nombre: "Pistola De Calor Elite 1600 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22676,7 +22676,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Llave Allen 8Mm Larga",
+        nombre: "Llave Allen 8 mm Larga",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22684,7 +22684,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Allen 7Mm Larga",
+        nombre: "Llave Allen 7 mm Larga",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22700,7 +22700,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Polea 40 Mm",
+        nombre: "Polea 40 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22764,7 +22764,7 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Pistola Gravedad 120 Psi",
+        nombre: "Pistola Gravedad 120 PSI",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22788,7 +22788,7 @@ const productos = [
         subcategoria: "tijera"
     },
     {
-        nombre: "Juego Llave Forte Mm-Pul",
+        nombre: "Juego Llave Forte mm-pul",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22820,7 +22820,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Destornillador P/ Puntas Fino",
+        nombre: "Destornillador p/ Puntas Fino",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22884,7 +22884,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Juego Copa Sierra X 3Pz Fn",
+        nombre: "Juego Copa Sierra X 3 Pz Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22892,7 +22892,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Juego Copa Sierra X 3Pz Ecn",
+        nombre: "Juego Copa Sierra X 3 Pz Ecn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -22972,7 +22972,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Juego Copas 19Pz 3/8 Milimet",
+        nombre: "Juego Copas 19 Pz 3/8 Milimet",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22988,7 +22988,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Polea B1-----4\"",
+        nombre: "Polea b1-----4\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -22996,7 +22996,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea B1------2\"",
+        nombre: "Polea b1------2\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23004,7 +23004,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea B1----- 2- 1/2\"",
+        nombre: "Polea b1----- 2- 1/2\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23012,7 +23012,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea B1-----3\"",
+        nombre: "Polea b1-----3\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23052,7 +23052,7 @@ const productos = [
         subcategoria: "medidor"
     },
     {
-        nombre: "Regulador Gas C/Mang Fn",
+        nombre: "Regulador Gas c/mang Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23092,7 +23092,7 @@ const productos = [
         subcategoria: "nylon"
     },
     {
-        nombre: "Nylon Guadaña Mts",
+        nombre: "Nylon Guadaña mts",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23316,7 +23316,7 @@ const productos = [
         subcategoria: "yoyo"
     },
     {
-        nombre: "Escobilla B-01",
+        nombre: "Escobilla b-01",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23324,7 +23324,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-03",
+        nombre: "Escobilla b-03",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23332,7 +23332,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-08",
+        nombre: "Escobilla b-08",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23340,7 +23340,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-13",
+        nombre: "Escobilla b-13",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23348,7 +23348,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-17",
+        nombre: "Escobilla b-17",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23356,7 +23356,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-18",
+        nombre: "Escobilla b-18",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23372,7 +23372,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-28",
+        nombre: "Escobilla b-28",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23380,7 +23380,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-30",
+        nombre: "Escobilla b-30",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23388,7 +23388,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-37",
+        nombre: "Escobilla b-37",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23404,7 +23404,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-69",
+        nombre: "Escobilla b-69",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23420,7 +23420,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-45",
+        nombre: "Escobilla b-45",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23428,7 +23428,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-47",
+        nombre: "Escobilla b-47",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23436,7 +23436,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-55",
+        nombre: "Escobilla b-55",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23444,7 +23444,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-60",
+        nombre: "Escobilla b-60",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23452,7 +23452,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-64",
+        nombre: "Escobilla b-64",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23460,7 +23460,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-65",
+        nombre: "Escobilla b-65",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23468,7 +23468,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-70",
+        nombre: "Escobilla b-70",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23476,7 +23476,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-71",
+        nombre: "Escobilla b-71",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23484,7 +23484,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-73",
+        nombre: "Escobilla b-73",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23492,7 +23492,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-83",
+        nombre: "Escobilla b-83",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23500,7 +23500,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-88",
+        nombre: "Escobilla b-88",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23508,7 +23508,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla B-92",
+        nombre: "Escobilla b-92",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23524,7 +23524,7 @@ const productos = [
         subcategoria: "escuadra"
     },
     {
-        nombre: "Escobilla A-01",
+        nombre: "Escobilla a-01",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23532,7 +23532,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla A-18",
+        nombre: "Escobilla a-18",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23548,7 +23548,7 @@ const productos = [
         subcategoria: "tijera"
     },
     {
-        nombre: "Escobilla A-24",
+        nombre: "Escobilla a-24",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23556,7 +23556,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Escobilla A-13",
+        nombre: "Escobilla a-13",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23564,7 +23564,7 @@ const productos = [
         subcategoria: "escobilla"
     },
     {
-        nombre: "Pulidora Dwe 490-B3 9\"",
+        nombre: "Pulidora Dwe 490-b3 9\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23580,7 +23580,7 @@ const productos = [
         subcategoria: "mototool"
     },
     {
-        nombre: "Caladora Profe 650W Trooper",
+        nombre: "Caladora Profe 650 w Trooper",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23596,7 +23596,7 @@ const productos = [
         subcategoria: "pulidora"
     },
     {
-        nombre: "Pulidora 4-1/2 Troper 950W",
+        nombre: "Pulidora 4-1/2 Troper 950 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23604,7 +23604,7 @@ const productos = [
         subcategoria: "pulidora"
     },
     {
-        nombre: "Pulidora Truper 800W 4-1/2",
+        nombre: "Pulidora Truper 800 w 4-1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23612,7 +23612,7 @@ const productos = [
         subcategoria: "pulidora"
     },
     {
-        nombre: "Pulidora Magnun 850W",
+        nombre: "Pulidora Magnun 850 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23620,7 +23620,7 @@ const productos = [
         subcategoria: "pulidora"
     },
     {
-        nombre: "Taladro Percutor 1/2 Truper 650W",
+        nombre: "Taladro Percutor 1/2 Truper 650 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23636,7 +23636,7 @@ const productos = [
         subcategoria: "mototool"
     },
     {
-        nombre: "Taladro Furius1/2",
+        nombre: "Taladro furius1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23692,7 +23692,7 @@ const productos = [
         subcategoria: "enganche"
     },
     {
-        nombre: "Taladro Trooper 3/8 400W",
+        nombre: "Taladro Trooper 3/8 400 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23708,7 +23708,7 @@ const productos = [
         subcategoria: "prensa"
     },
     {
-        nombre: "Ruteadora Trooper 1-3/4 Hp",
+        nombre: "Ruteadora Trooper 1-3/4 hp",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23716,7 +23716,7 @@ const productos = [
         subcategoria: "ruteadora"
     },
     {
-        nombre: "Cargador Bateria Truper 75 A",
+        nombre: "Cargador Bateria Truper 75 a",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23724,7 +23724,7 @@ const productos = [
         subcategoria: "cargador"
     },
     {
-        nombre: "Compresor Mini + Aerografo Ec-1",
+        nombre: "Compresor Mini + Aerografo ec-1",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23732,7 +23732,7 @@ const productos = [
         subcategoria: "compresor"
     },
     {
-        nombre: "Soldador Inv 200A Ie8200/6 Gladi",
+        nombre: "Soldador Inv 200 a ie8200/6 Gladi",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23740,7 +23740,7 @@ const productos = [
         subcategoria: "soldador"
     },
     {
-        nombre: "Compresor 24Lts Einhell",
+        nombre: "Compresor 24 Lts Einhell",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23748,7 +23748,7 @@ const productos = [
         subcategoria: "compresor"
     },
     {
-        nombre: "Compresor Port-Pistola Met",
+        nombre: "Compresor port-pistola Met",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -23756,7 +23756,7 @@ const productos = [
         subcategoria: "compresor"
     },
     {
-        nombre: "Compresor Port-Pistola Plas Daew",
+        nombre: "Compresor port-pistola Plas Daew",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23804,7 +23804,7 @@ const productos = [
         subcategoria: "bugui"
     },
     {
-        nombre: "Bugui Metalico 120Kg Colima",
+        nombre: "Bugui Metalico 120 kg Colima",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23812,7 +23812,7 @@ const productos = [
         subcategoria: "bugui"
     },
     {
-        nombre: "Platon Bugui Metal -Plast",
+        nombre: "Platon Bugui Metal - Plast",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23844,7 +23844,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca 10Mm",
+        nombre: "Broca 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23868,7 +23868,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mm 8",
+        nombre: "Broca mm 8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23884,7 +23884,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mm 5",
+        nombre: "Broca mm 5",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23892,7 +23892,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mad/Fina 7/8",
+        nombre: "Broca mad/fina 7/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -23900,7 +23900,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Mm 6",
+        nombre: "Broca mm 6",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24084,7 +24084,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Machuelo 1/2 R.O",
+        nombre: "Machuelo 1/2 r.o",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24092,7 +24092,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Machuelo 1/4 Rf - R/O",
+        nombre: "Machuelo 1/4 Rf - r/o",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24100,7 +24100,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Machuelo 10X1,5",
+        nombre: "Machuelo 10x1,5",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24108,7 +24108,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Machuelo 12X1,25",
+        nombre: "Machuelo 12x1,25",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24132,7 +24132,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Machuelo 5/16 R.O Rf",
+        nombre: "Machuelo 5/16 r.o Rf",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24156,7 +24156,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Machuelo 8X1,25",
+        nombre: "Machuelo 8x1,25",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24196,7 +24196,7 @@ const productos = [
         subcategoria: "mandril"
     },
     {
-        nombre: "Manila 16Mm",
+        nombre: "Manila 16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24204,7 +24204,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila 13Mm",
+        nombre: "Manila 13 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24212,7 +24212,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila Mts",
+        nombre: "Manila mts",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24220,7 +24220,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila 6Mm",
+        nombre: "Manila 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24228,7 +24228,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila 5Mm",
+        nombre: "Manila 5 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24236,7 +24236,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila 3Mm",
+        nombre: "Manila 3 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24244,7 +24244,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila Algodón 3Mm",
+        nombre: "Manila Algodón 3 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24252,7 +24252,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila Algodón 6Mm",
+        nombre: "Manila Algodón 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24260,7 +24260,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila Algodón 8Mm",
+        nombre: "Manila Algodón 8 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24268,7 +24268,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manila Algodón 10Mm",
+        nombre: "Manila Algodón 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24276,7 +24276,7 @@ const productos = [
         subcategoria: "manila"
     },
     {
-        nombre: "Manometro 150-160Lb",
+        nombre: "Manometro 150-160 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24284,7 +24284,7 @@ const productos = [
         subcategoria: "manometro"
     },
     {
-        nombre: "Manometro 200 - 300 Lb",
+        nombre: "Manometro 200 - 300 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24308,7 +24308,7 @@ const productos = [
         subcategoria: "marco"
     },
     {
-        nombre: "Martillo 27Mm Tubular",
+        nombre: "Martillo 27 mm Tubular",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24412,7 +24412,7 @@ const productos = [
         subcategoria: "llanta"
     },
     {
-        nombre: "Llanta Tp-Tractor",
+        nombre: "Llanta tp-tractor",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24420,7 +24420,7 @@ const productos = [
         subcategoria: "llanta"
     },
     {
-        nombre: "Llanta-Rin Tp-Tractor",
+        nombre: "llanta-rin tp-tractor",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24428,7 +24428,7 @@ const productos = [
         subcategoria: "llantarin"
     },
     {
-        nombre: "Llanta-Rin Rojo",
+        nombre: "llanta-rin Rojo",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24452,7 +24452,7 @@ const productos = [
         subcategoria: "llanta"
     },
     {
-        nombre: "Llanta Mazisa C/Rin",
+        nombre: "Llanta Mazisa c/rin",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -24460,7 +24460,7 @@ const productos = [
         subcategoria: "llanta"
     },
     {
-        nombre: "Llana Lisa M Plastico Acero",
+        nombre: "Llana Lisa m Plastico Acero",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24468,7 +24468,7 @@ const productos = [
         subcategoria: "llana"
     },
     {
-        nombre: "Llana Lisa M Madera Fina",
+        nombre: "Llana Lisa m Madera Fina",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24556,7 +24556,7 @@ const productos = [
         subcategoria: "kit"
     },
     {
-        nombre: "Kit Protec-Industrail Ecn",
+        nombre: "Kit protec-industrail Ecn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24564,7 +24564,7 @@ const productos = [
         subcategoria: "kit"
     },
     {
-        nombre: "Kit Protec-Industrail Fn",
+        nombre: "Kit protec-industrail Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24572,7 +24572,7 @@ const productos = [
         subcategoria: "kit"
     },
     {
-        nombre: "Lapiz Rojo-Negro Ngv",
+        nombre: "Lapiz rojo-negro Ngv",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24644,7 +24644,7 @@ const productos = [
         subcategoria: "pie"
     },
     {
-        nombre: "Riel 40Cm",
+        nombre: "Riel 40 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -24652,7 +24652,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel En U 3 Mts Cal 18",
+        nombre: "Riel En U 3 mts Cal 18",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24660,7 +24660,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Riel Extension 30Cm",
+        nombre: "Riel Extension 30 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24676,7 +24676,7 @@ const productos = [
         subcategoria: "platacho"
     },
     {
-        nombre: "Platacho -Madera 30 X 18",
+        nombre: "Platacho - Madera 30 X 18",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24684,7 +24684,7 @@ const productos = [
         subcategoria: "platacho"
     },
     {
-        nombre: "Platacho-Madera 22 X 8",
+        nombre: "platacho-madera 22 X 8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24756,7 +24756,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Taladro Perc Inhalambri 21V Furius",
+        nombre: "Taladro Perc Inhalambri 21 v Furius",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24804,7 +24804,7 @@ const productos = [
         subcategoria: "tenaza"
     },
     {
-        nombre: "Terlenca Blanco---Color",
+        nombre: "Terlenca blanco---color",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24836,7 +24836,7 @@ const productos = [
         subcategoria: "decodificador"
     },
     {
-        nombre: "Tijera Podar 24\"-36\" M/Extendible",
+        nombre: "Tijera Podar 24\"-36\" m/extendible",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24868,7 +24868,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Llanta- Rin Aluminio",
+        nombre: "llanta- Rin Aluminio",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24876,7 +24876,7 @@ const productos = [
         subcategoria: "llanta"
     },
     {
-        nombre: "Machuelo 4Mm",
+        nombre: "Machuelo 4 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24892,7 +24892,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Señorita 2Tonl",
+        nombre: "Señorita 2 Tonl",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -24900,7 +24900,7 @@ const productos = [
         subcategoria: "senorita"
     },
     {
-        nombre: "Señorita 4Tonl",
+        nombre: "Señorita 4 Tonl",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25068,7 +25068,7 @@ const productos = [
         subcategoria: "nivel"
     },
     {
-        nombre: "Palustre 8 M Madera",
+        nombre: "Palustre 8 m Madera",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25100,7 +25100,7 @@ const productos = [
         subcategoria: "piedra"
     },
     {
-        nombre: "Piedra Copa C60-36-24",
+        nombre: "Piedra Copa c60-36-24",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25108,7 +25108,7 @@ const productos = [
         subcategoria: "piedra"
     },
     {
-        nombre: "Piedra Esmeril 6X3/4 Grano 36-60",
+        nombre: "Piedra Esmeril 6x3/4 Grano 36-60",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25140,7 +25140,7 @@ const productos = [
         subcategoria: "piedra"
     },
     {
-        nombre: "Pinza Curva Int- Ext Stanley",
+        nombre: "Pinza Curva int- Ext Stanley",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25188,7 +25188,7 @@ const productos = [
         subcategoria: "pinza"
     },
     {
-        nombre: "Martillo 16Mm",
+        nombre: "Martillo 16 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25196,7 +25196,7 @@ const productos = [
         subcategoria: "martillo"
     },
     {
-        nombre: "Racor Mach 3/8X1/4 - 3/8X3/8",
+        nombre: "Racor Mach 3/8x1/4 - 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25252,7 +25252,7 @@ const productos = [
         subcategoria: "prensa"
     },
     {
-        nombre: "Juego De Copas Y Llave X25Pz",
+        nombre: "Juego De Copas Y Llave x25pz",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25276,7 +25276,7 @@ const productos = [
         subcategoria: "machuelo"
     },
     {
-        nombre: "Rodachina 5\" Naranja 150Kg",
+        nombre: "Rodachina 5\" Naranja 150 kg",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25340,7 +25340,7 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Polea B1-----14\"",
+        nombre: "Polea b1-----14\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25348,7 +25348,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea En V Doble 2\"",
+        nombre: "Polea En v Doble 2\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25356,7 +25356,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea En V Doble 3\"",
+        nombre: "Polea En v Doble 3\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25364,7 +25364,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea En V Doble 4\"",
+        nombre: "Polea En v Doble 4\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25380,7 +25380,7 @@ const productos = [
         subcategoria: "racor"
     },
     {
-        nombre: "Manila Algodón 4Mm",
+        nombre: "Manila Algodón 4 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25508,7 +25508,7 @@ const productos = [
         subcategoria: "polaina"
     },
     {
-        nombre: "Porra 16 Lb",
+        nombre: "Porra 16 lb",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25516,7 +25516,7 @@ const productos = [
         subcategoria: "porra"
     },
     {
-        nombre: "Porra 6Lb Fn",
+        nombre: "Porra 6 lb Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25652,7 +25652,7 @@ const productos = [
         subcategoria: "recogedor"
     },
     {
-        nombre: "Rache 1/2X3/8 Tr",
+        nombre: "Rache 1/2x3/8 Tr",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25684,7 +25684,7 @@ const productos = [
         subcategoria: "remachadora"
     },
     {
-        nombre: "Remachadora Forte -Pretu",
+        nombre: "Remachadora Forte - Pretu",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25724,7 +25724,7 @@ const productos = [
         subcategoria: "rodaja"
     },
     {
-        nombre: "Extencion Caja Novafor 1Mt",
+        nombre: "Extencion Caja Novafor 1 Mt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25732,7 +25732,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Extencion Caja Novafor 50Cm",
+        nombre: "Extencion Caja Novafor 50 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25780,7 +25780,7 @@ const productos = [
         subcategoria: "punta"
     },
     {
-        nombre: "Ceramica Fachada Tanzania Mix 30X45",
+        nombre: "Ceramica Fachada Tanzania Mix 30x45",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25860,7 +25860,7 @@ const productos = [
         subcategoria: "funda"
     },
     {
-        nombre: "Rodaja Corta Baldosa 10Mm Uduque",
+        nombre: "Rodaja Corta Baldosa 10 mm Uduque",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25876,7 +25876,7 @@ const productos = [
         subcategoria: "afilador"
     },
     {
-        nombre: "Buril Corta Baldosa 18Mm",
+        nombre: "Buril Corta Baldosa 18 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25884,7 +25884,7 @@ const productos = [
         subcategoria: "buril"
     },
     {
-        nombre: "Rodaja Corta Baldosa 22Mm",
+        nombre: "Rodaja Corta Baldosa 22 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25900,7 +25900,7 @@ const productos = [
         subcategoria: "botas"
     },
     {
-        nombre: "Macho Mang 3/8X1/4 Rosca",
+        nombre: "Macho Mang 3/8x1/4 Rosca",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25908,7 +25908,7 @@ const productos = [
         subcategoria: "macho"
     },
     {
-        nombre: "Hembra Mang 3/8X3/8",
+        nombre: "Hembra Mang 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25916,7 +25916,7 @@ const productos = [
         subcategoria: "hembra"
     },
     {
-        nombre: "Racor Hembra 3/8X3/8",
+        nombre: "Racor Hembra 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25940,7 +25940,7 @@ const productos = [
         subcategoria: "fitting"
     },
     {
-        nombre: "Fitting Macho 1/4X1/4",
+        nombre: "Fitting Macho 1/4x1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -25948,7 +25948,7 @@ const productos = [
         subcategoria: "fitting"
     },
     {
-        nombre: "Macho Mang 1/4X3/8 Rosca",
+        nombre: "Macho Mang 1/4x3/8 Rosca",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25956,7 +25956,7 @@ const productos = [
         subcategoria: "macho"
     },
     {
-        nombre: "Macho Mang 1/2X3/8 Rosca",
+        nombre: "Macho Mang 1/2x3/8 Rosca",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -25996,7 +25996,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Macho Mang 1/2X1/2",
+        nombre: "Macho Mang 1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -26004,7 +26004,7 @@ const productos = [
         subcategoria: "macho"
     },
     {
-        nombre: "Macho Mang 1/4X1/2 Rosca",
+        nombre: "Macho Mang 1/4x1/2 Rosca",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26012,7 +26012,7 @@ const productos = [
         subcategoria: "macho"
     },
     {
-        nombre: "Macho Mang 3/8X1/2 Rosca",
+        nombre: "Macho Mang 3/8x1/2 Rosca",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26220,7 +26220,7 @@ const productos = [
         subcategoria: "broquero"
     },
     {
-        nombre: "Voltimetro C/ Ele",
+        nombre: "Voltimetro c/ Ele",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26244,7 +26244,7 @@ const productos = [
         subcategoria: "racor"
     },
     {
-        nombre: "Boquilla Abanico -Punto",
+        nombre: "Boquilla Abanico - Punto",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -26340,7 +26340,7 @@ const productos = [
         subcategoria: "cruzeta"
     },
     {
-        nombre: "Niple 1/2X3/8 Npt",
+        nombre: "Niple 1/2x3/8 Npt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26348,7 +26348,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple 1/2X 1/4 Npt",
+        nombre: "Niple 1/2x 1/4 Npt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26396,7 +26396,7 @@ const productos = [
         subcategoria: "protector"
     },
     {
-        nombre: "Racor Mang Gas 3/8X5/8",
+        nombre: "Racor Mang Gas 3/8x5/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26716,7 +26716,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Hombresolo Recto Truper- Sata 10\"",
+        nombre: "Hombresolo Recto truper- Sata 10\"",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26740,7 +26740,7 @@ const productos = [
         subcategoria: "remachadora"
     },
     {
-        nombre: "Cincel De Pala Rotomart 3/4X1O",
+        nombre: "Cincel De Pala Rotomart 3/4x1o",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -26764,7 +26764,7 @@ const productos = [
         subcategoria: "cincel"
     },
     {
-        nombre: "Cincel Pala 3/4 X10\" Forte",
+        nombre: "Cincel Pala 3/4 x10\" Forte",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26772,7 +26772,7 @@ const productos = [
         subcategoria: "cincel"
     },
     {
-        nombre: "Portaelectrodo 500Ammp",
+        nombre: "Portaelectrodo 500 Ammp",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26836,7 +26836,7 @@ const productos = [
         subcategoria: "bugui"
     },
     {
-        nombre: "Guante P/Soldar Rojo",
+        nombre: "Guante p/soldar Rojo",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -26868,7 +26868,7 @@ const productos = [
         subcategoria: "vidrio"
     },
     {
-        nombre: "Vidrio Careta Transp.",
+        nombre: "Vidrio Careta transp.",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26900,7 +26900,7 @@ const productos = [
         subcategoria: "fumigadora"
     },
     {
-        nombre: "Sonda Cañeria 30Mm",
+        nombre: "Sonda Cañeria 30 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26924,7 +26924,7 @@ const productos = [
         subcategoria: "arbol"
     },
     {
-        nombre: "Llana Lisa M Madera Econ",
+        nombre: "Llana Lisa m Madera Econ",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26932,7 +26932,7 @@ const productos = [
         subcategoria: "llana"
     },
     {
-        nombre: "Llana Lisa M Plastico Econ",
+        nombre: "Llana Lisa m Plastico Econ",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26964,7 +26964,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Rodachina 4\"Plano Naranja Girat",
+        nombre: "Rodachina 4\"plano Naranja Girat",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26972,7 +26972,7 @@ const productos = [
         subcategoria: "rodachina"
     },
     {
-        nombre: "Cinta Transp X 100Mts",
+        nombre: "Cinta Transp X 100 mts",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -26980,7 +26980,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Platacho Plastica Negra 32X22",
+        nombre: "Platacho Plastica Negra 32x22",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27028,7 +27028,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Juego Brocas P/Metal 29 Pzas",
+        nombre: "Juego Brocas p/metal 29 Pzas",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27044,7 +27044,7 @@ const productos = [
         subcategoria: "cizalla"
     },
     {
-        nombre: "Porra 8Lb Fn",
+        nombre: "Porra 8 lb Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27052,7 +27052,7 @@ const productos = [
         subcategoria: "porra"
     },
     {
-        nombre: "Porra 18Lb Fn",
+        nombre: "Porra 18 lb Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27076,7 +27076,7 @@ const productos = [
         subcategoria: "plancha"
     },
     {
-        nombre: "Caja D-Herraminta Metal 21",
+        nombre: "Caja d-herraminta Metal 21",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27124,7 +27124,7 @@ const productos = [
         subcategoria: "mezclador"
     },
     {
-        nombre: "Caja D-Herramienta 15",
+        nombre: "Caja d-herramienta 15",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27164,7 +27164,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Llave Comb Rache 10Mm",
+        nombre: "Llave Comb Rache 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27172,7 +27172,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Comb Rache 13Mm",
+        nombre: "Llave Comb Rache 13 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27180,7 +27180,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Comb Rache 14Mm",
+        nombre: "Llave Comb Rache 14 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27188,7 +27188,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Comb Rache 15Mm",
+        nombre: "Llave Comb Rache 15 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27196,7 +27196,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Llave Comb Rache 17Mm",
+        nombre: "Llave Comb Rache 17 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27260,7 +27260,7 @@ const productos = [
         subcategoria: "aspersor"
     },
     {
-        nombre: "Macho Mang 1/4X1/4",
+        nombre: "Macho Mang 1/4x1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27268,7 +27268,7 @@ const productos = [
         subcategoria: "macho"
     },
     {
-        nombre: "Macho Mang 3/8X3/8",
+        nombre: "Macho Mang 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27308,7 +27308,7 @@ const productos = [
         subcategoria: "corta"
     },
     {
-        nombre: "Pulidora Truper 4-1/2 1200 W",
+        nombre: "Pulidora Truper 4-1/2 1200 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27316,7 +27316,7 @@ const productos = [
         subcategoria: "pulidora"
     },
     {
-        nombre: "Hidrolavadora Elite 1500W",
+        nombre: "Hidrolavadora Elite 1500 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27380,7 +27380,7 @@ const productos = [
         subcategoria: "bisturi"
     },
     {
-        nombre: "Lima P/Fresas",
+        nombre: "Lima p/fresas",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27452,7 +27452,7 @@ const productos = [
         subcategoria: "soldador"
     },
     {
-        nombre: "Combo Soldador Taladro- Pulidora Furius",
+        nombre: "Combo Soldador taladro- Pulidora Furius",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27516,7 +27516,7 @@ const productos = [
         subcategoria: "soldador"
     },
     {
-        nombre: "Soldador Inver 200A Furius",
+        nombre: "Soldador Inver 200 a Furius",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27540,7 +27540,7 @@ const productos = [
         subcategoria: "taladro"
     },
     {
-        nombre: "Compresor 40Lts 1 Hp Cabezote 1065",
+        nombre: "Compresor 40 Lts 1 hp Cabezote 1065",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27580,7 +27580,7 @@ const productos = [
         subcategoria: "pulidora"
     },
     {
-        nombre: "Taladro Black Y Decker 3/8 500W",
+        nombre: "Taladro Black Y Decker 3/8 500 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27620,7 +27620,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Caladora 400W",
+        nombre: "Sierra Caladora 400 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27628,7 +27628,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Caladora 600W",
+        nombre: "Sierra Caladora 600 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27652,7 +27652,7 @@ const productos = [
         subcategoria: "nivel"
     },
     {
-        nombre: "Compresor 2,5 5 Hp Ranger-Leon",
+        nombre: "Compresor 2,5 5 hp ranger-leon",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27660,7 +27660,7 @@ const productos = [
         subcategoria: "compresor"
     },
     {
-        nombre: "Soldador Multi Pr Mig Furius 125A",
+        nombre: "Soldador Multi Pr Mig Furius 125 a",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27676,7 +27676,7 @@ const productos = [
         subcategoria: "destornillador"
     },
     {
-        nombre: "Cincel Pala - Punta 1/2X9",
+        nombre: "Cincel Pala - Punta 1/2x9",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27708,7 +27708,7 @@ const productos = [
         subcategoria: "bota"
     },
     {
-        nombre: "Martillo 29Mm Tubular Colima",
+        nombre: "Martillo 29 mm Tubular Colima",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27732,7 +27732,7 @@ const productos = [
         subcategoria: "barbuquejo"
     },
     {
-        nombre: "Sonda Cañeria 20M",
+        nombre: "Sonda Cañeria 20 m",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27756,7 +27756,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Diferencial 2T X 5M",
+        nombre: "Diferencial 2T X 5 m",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27772,7 +27772,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco Guadaña 6X1/4X1",
+        nombre: "Disco Guadaña 6x1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27780,7 +27780,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Copa 5/16X 1-7/18",
+        nombre: "Copa 5/16x 1-7/18",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27812,7 +27812,7 @@ const productos = [
         subcategoria: "espatula"
     },
     {
-        nombre: "Escuadra 12 M-Plas",
+        nombre: "Escuadra 12 m-plas",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27820,7 +27820,7 @@ const productos = [
         subcategoria: "escuadra"
     },
     {
-        nombre: "Broca Esp/Econ 1-1/2",
+        nombre: "Broca esp/econ 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27868,7 +27868,7 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Barra Seguridad 90Cm",
+        nombre: "Barra Seguridad 90 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -27884,7 +27884,7 @@ const productos = [
         subcategoria: "sacabujia"
     },
     {
-        nombre: "Barra Seguridad 60Cm",
+        nombre: "Barra Seguridad 60 cm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27932,7 +27932,7 @@ const productos = [
         subcategoria: "valvula"
     },
     {
-        nombre: "Broca Metal 9/16 A 3/8",
+        nombre: "Broca Metal 9/16 a 3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27940,7 +27940,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Broca Metal 5/8 A 3/8",
+        nombre: "Broca Metal 5/8 a 3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27972,7 +27972,7 @@ const productos = [
         subcategoria: "cortabaldosa"
     },
     {
-        nombre: "Esmeriladora Angular 4-1/2 Ergo Pro 800W Y 1200W",
+        nombre: "Esmeriladora Angular 4-1/2 Ergo Pro 800 w Y 1200 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -27988,7 +27988,7 @@ const productos = [
         subcategoria: "navaja"
     },
     {
-        nombre: "Cinta Metrica 30M",
+        nombre: "Cinta Metrica 30 m",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28020,7 +28020,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Juego Llave Mixta 7-8-9 Pz Forte- Ding",
+        nombre: "Juego Llave Mixta 7-8-9 Pz forte- Ding",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28100,7 +28100,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Llave Allen 6Mm Larga",
+        nombre: "Llave Allen 6 mm Larga",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28108,7 +28108,7 @@ const productos = [
         subcategoria: "llave"
     },
     {
-        nombre: "Porra Caucho 12 Oz",
+        nombre: "Porra Caucho 12 oz",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28148,7 +28148,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Porra Caucho 19 Oz",
+        nombre: "Porra Caucho 19 oz",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28156,7 +28156,7 @@ const productos = [
         subcategoria: "porra"
     },
     {
-        nombre: "Disco Diamantado 9\" Dewalt- Irwin",
+        nombre: "Disco Diamantado 9\" dewalt- Irwin",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28212,7 +28212,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Disco Tugs Aluminio 10\"X 80D",
+        nombre: "Disco Tugs Aluminio 10\"x 80D",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28292,7 +28292,7 @@ const productos = [
         subcategoria: "tapaboca"
     },
     {
-        nombre: "Llave Allen 10Mm Corta",
+        nombre: "Llave Allen 10 mm Corta",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28340,7 +28340,7 @@ const productos = [
         subcategoria: "alicate"
     },
     {
-        nombre: "Minipulidora 4-1/2 Neo 1010 W",
+        nombre: "Minipulidora 4-1/2 Neo 1010 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28476,7 +28476,7 @@ const productos = [
         subcategoria: "sacabocado"
     },
     {
-        nombre: "Cinta Antidesliznate Gruesa Rollo -Mt",
+        nombre: "Cinta Antidesliznate Gruesa Rollo - Mt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28484,7 +28484,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Sierra Circular Stanley 600W",
+        nombre: "Sierra Circular Stanley 600 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28516,7 +28516,7 @@ const productos = [
         subcategoria: "cruzeta"
     },
     {
-        nombre: "Rotomartillo Sds Plus 1\" Neo 10026K",
+        nombre: "Rotomartillo Sds Plus 1\" Neo 10026k",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28572,7 +28572,7 @@ const productos = [
         subcategoria: "delantal"
     },
     {
-        nombre: "Polea 60Mm",
+        nombre: "Polea 60 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28580,7 +28580,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea 70Mm",
+        nombre: "Polea 70 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28588,7 +28588,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Polea 80Mm",
+        nombre: "Polea 80 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28596,7 +28596,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Magnetizador-Desmanetizador",
+        nombre: "magnetizador-desmanetizador",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28604,7 +28604,7 @@ const productos = [
         subcategoria: "magnetizadordesmanetizador"
     },
     {
-        nombre: "Bomba Lapicero 1Hp",
+        nombre: "Bomba Lapicero 1 hp",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28620,7 +28620,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Copa 36Mm",
+        nombre: "Copa 36 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28660,7 +28660,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Corta Circulo Ceramica 10-50Mm",
+        nombre: "Corta Circulo Ceramica 10-50 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28716,7 +28716,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Conector Rap Macho- Hembra 1/4 Croma",
+        nombre: "Conector Rap macho- Hembra 1/4 Croma",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28724,7 +28724,7 @@ const productos = [
         subcategoria: "conector"
     },
     {
-        nombre: "Niple Macho-Macho 1/4 Cr",
+        nombre: "Niple macho-macho 1/4 Cr",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28732,7 +28732,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Macho Semiconoco 9/16X12",
+        nombre: "Macho Semiconoco 9/16x12",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28748,7 +28748,7 @@ const productos = [
         subcategoria: "macho"
     },
     {
-        nombre: "Disco Sierra 10\"Dw",
+        nombre: "Disco Sierra 10\"dw",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28756,7 +28756,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Sierra Copa Ceramica 25 Mm",
+        nombre: "Sierra Copa Ceramica 25 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28772,7 +28772,7 @@ const productos = [
         subcategoria: "cincel"
     },
     {
-        nombre: "Sierra Copa Ceramica 38Mm",
+        nombre: "Sierra Copa Ceramica 38 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28780,7 +28780,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Copa Ceramica 50Mm",
+        nombre: "Sierra Copa Ceramica 50 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28788,7 +28788,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Copa Ceramica 20-22 Mm",
+        nombre: "Sierra Copa Ceramica 20-22 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28796,7 +28796,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Copa Ceramica 28 Mm",
+        nombre: "Sierra Copa Ceramica 28 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28804,7 +28804,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Copa Ceramica 25 Ct- Mm",
+        nombre: "Sierra Copa Ceramica 25 ct- mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28812,7 +28812,7 @@ const productos = [
         subcategoria: "sierra"
     },
     {
-        nombre: "Sierra Copa Ceramica 32 Mm",
+        nombre: "Sierra Copa Ceramica 32 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28844,7 +28844,7 @@ const productos = [
         subcategoria: "pala"
     },
     {
-        nombre: "Disco Sierra 10\"X60 D",
+        nombre: "Disco Sierra 10\"x60 D",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28852,7 +28852,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Disco Sierra 14\"X 40D",
+        nombre: "Disco Sierra 14\"x 40D",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28860,7 +28860,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Mosqueton 3\"Acero",
+        nombre: "Mosqueton 3\"acero",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28868,7 +28868,7 @@ const productos = [
         subcategoria: "mosqueton"
     },
     {
-        nombre: "Decametro 30M Truper",
+        nombre: "Decametro 30 m Truper",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28876,7 +28876,7 @@ const productos = [
         subcategoria: "decametro"
     },
     {
-        nombre: "Lapiz Rojo -Negro Grav",
+        nombre: "Lapiz Rojo - Negro Grav",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28900,7 +28900,7 @@ const productos = [
         subcategoria: "adapt"
     },
     {
-        nombre: "Rotomartillo 3/8 400W",
+        nombre: "Rotomartillo 3/8 400 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -28948,7 +28948,7 @@ const productos = [
         subcategoria: "botas"
     },
     {
-        nombre: "Disco C/Fn 9\" Barracuda",
+        nombre: "Disco c/fn 9\" Barracuda",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28972,7 +28972,7 @@ const productos = [
         subcategoria: "lima"
     },
     {
-        nombre: "Broca Escalonada 3/16A1/2",
+        nombre: "Broca Escalonada 3/16a1/2",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -28996,7 +28996,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Juego Eslingas Y Rache 1500Kg",
+        nombre: "Juego Eslingas Y Rache 1500 kg",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29004,7 +29004,7 @@ const productos = [
         subcategoria: "juego"
     },
     {
-        nombre: "Broca Metal 10Mm",
+        nombre: "Broca Metal 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29020,7 +29020,7 @@ const productos = [
         subcategoria: "disco"
     },
     {
-        nombre: "Broca Esp/ 9/16 Fina",
+        nombre: "Broca esp/ 9/16 Fina",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29076,7 +29076,7 @@ const productos = [
         subcategoria: "cera"
     },
     {
-        nombre: "Racor Hembra 5/16X 1/4",
+        nombre: "Racor Hembra 5/16x 1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29084,7 +29084,7 @@ const productos = [
         subcategoria: "racor"
     },
     {
-        nombre: "Racor Macho 1/4X1/4 - 1/4X 3/8",
+        nombre: "Racor Macho 1/4x1/4 - 1/4x 3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29108,7 +29108,7 @@ const productos = [
         subcategoria: "broca"
     },
     {
-        nombre: "Calibrador De Presion 200Psi Cabeza Doble Trroper",
+        nombre: "Calibrador De Presion 200 PSI Cabeza Doble Trroper",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29116,7 +29116,7 @@ const productos = [
         subcategoria: "calibrador"
     },
     {
-        nombre: "Vaselina 30Ml",
+        nombre: "Vaselina 30 ml",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29164,7 +29164,7 @@ const productos = [
         subcategoria: "marketing"
     },
     {
-        nombre: "Atomizador I Lt",
+        nombre: "Atomizador I lt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29188,7 +29188,7 @@ const productos = [
         subcategoria: "cinturon"
     },
     {
-        nombre: "Hidrof 60Lt",
+        nombre: "Hidrof 60 lt",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29252,7 +29252,7 @@ const productos = [
         subcategoria: "tijera"
     },
     {
-        nombre: "Polea 50 Mm",
+        nombre: "Polea 50 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29268,7 +29268,7 @@ const productos = [
         subcategoria: "nivel"
     },
     {
-        nombre: "Soldador Inversor 3En 1",
+        nombre: "Soldador Inversor 3 En 1",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29316,7 +29316,7 @@ const productos = [
         subcategoria: "linterna"
     },
     {
-        nombre: "Copa Larga 1/2X30",
+        nombre: "Copa Larga 1/2x30",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29332,7 +29332,7 @@ const productos = [
         subcategoria: "corta"
     },
     {
-        nombre: "Corta Tubo Pvc 1-5/8",
+        nombre: "Corta Tubo PVC 1-5/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29356,7 +29356,7 @@ const productos = [
         subcategoria: "estufa"
     },
     {
-        nombre: "Cautin 40W",
+        nombre: "Cautin 40 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29364,7 +29364,7 @@ const productos = [
         subcategoria: "cautin"
     },
     {
-        nombre: "Cautin 60W",
+        nombre: "Cautin 60 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29428,7 +29428,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Curva Emt 1 Larga -Corta",
+        nombre: "Curva Emt 1 Larga - Corta",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29444,7 +29444,7 @@ const productos = [
         subcategoria: "exten"
     },
     {
-        nombre: "Cortabaldosa 65Cm Cortag",
+        nombre: "Cortabaldosa 65 cm Cortag",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29452,7 +29452,7 @@ const productos = [
         subcategoria: "cortabaldosa"
     },
     {
-        nombre: "Adap Macho 1/4X1/4",
+        nombre: "Adap Macho 1/4x1/4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29460,7 +29460,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Macho 3/8X3/8",
+        nombre: "Adap Macho 3/8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29548,7 +29548,7 @@ const productos = [
         subcategoria: "cruzeta"
     },
     {
-        nombre: "Porra 2 Lb Fn",
+        nombre: "Porra 2 lb Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29580,7 +29580,7 @@ const productos = [
         subcategoria: "extencion"
     },
     {
-        nombre: "Candado 25 Mm Ecn",
+        nombre: "Candado 25 mm Ecn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29588,7 +29588,7 @@ const productos = [
         subcategoria: "candado"
     },
     {
-        nombre: "Taladro 3/8 Truper 600W",
+        nombre: "Taladro 3/8 Truper 600 w",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29644,7 +29644,7 @@ const productos = [
         subcategoria: "machete"
     },
     {
-        nombre: "Cuchilla Guad Bello-Herr",
+        nombre: "Cuchilla Guad bello-herr",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29708,7 +29708,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Perlin Bloq 10M",
+        nombre: "Perlin Bloq 10 m",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29732,7 +29732,7 @@ const productos = [
         subcategoria: "rodillo"
     },
     {
-        nombre: "Porra 3 Lb Fn",
+        nombre: "Porra 3 lb Fn",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29740,7 +29740,7 @@ const productos = [
         subcategoria: "porra"
     },
     {
-        nombre: "Porra 21 Lb Eco",
+        nombre: "Porra 21 lb Eco",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29764,7 +29764,7 @@ const productos = [
         subcategoria: "iman"
     },
     {
-        nombre: "Lima Colima-Troper",
+        nombre: "Lima colima-troper",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29780,7 +29780,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Plastico Ngr X 6Mts X 1,1",
+        nombre: "Plastico Ngr X 6 mts X 1,1",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29788,7 +29788,7 @@ const productos = [
         subcategoria: "plastico"
     },
     {
-        nombre: "Fimugadora 22Lts",
+        nombre: "Fimugadora 22 Lts",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -29860,7 +29860,7 @@ const productos = [
         subcategoria: "guante"
     },
     {
-        nombre: "Cabezote Comprensor 2 Hp",
+        nombre: "Cabezote Comprensor 2 hp",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29868,7 +29868,7 @@ const productos = [
         subcategoria: "cabezote"
     },
     {
-        nombre: "Inflador Calibrador C/Manometro",
+        nombre: "Inflador Calibrador c/manometro",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29876,7 +29876,7 @@ const productos = [
         subcategoria: "inflador"
     },
     {
-        nombre: "Motor Monof Siemens 1,0Hp",
+        nombre: "Motor Monof Siemens 1,0 hp",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29884,7 +29884,7 @@ const productos = [
         subcategoria: "motor"
     },
     {
-        nombre: "Motor Monof.Weg 5.Ohp1800 T/C Hierro",
+        nombre: "Motor monof.weg 5.ohp1800 t/c Hierro",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29892,7 +29892,7 @@ const productos = [
         subcategoria: "motor"
     },
     {
-        nombre: "Inflador Llanta Tg4",
+        nombre: "Inflador Llanta TG4",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -29924,7 +29924,7 @@ const productos = [
         subcategoria: "gafa"
     },
     {
-        nombre: "Gafa-Careta",
+        nombre: "gafa-careta",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30004,7 +30004,7 @@ const productos = [
         subcategoria: "mercancia"
     },
     {
-        nombre: "Manila 10Mm",
+        nombre: "Manila 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
@@ -30020,7 +30020,7 @@ const productos = [
         subcategoria: "dilatacion"
     },
     {
-        nombre: "Concertina Acero X 6Mt",
+        nombre: "Concertina Acero X 6 Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30028,7 +30028,7 @@ const productos = [
         subcategoria: "concertina"
     },
     {
-        nombre: "Tubo Rect Estruc 100 X 50 2Mm",
+        nombre: "Tubo Rect Estruc 100 X 50 2 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30100,7 +30100,7 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Tubo Cuad 40X40 2Mm",
+        nombre: "Tubo Cuad 40x40 2 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30124,7 +30124,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cuadr 1 1/2 Cal 16 X1,5",
+        nombre: "Tubo Cuadr 1 1/2 Cal 16 x1,5",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30140,7 +30140,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Semicodo Gal 3/4",
+        nombre: "Semicodo gal 3/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30148,7 +30148,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Gal 1",
+        nombre: "Semicodo gal 1",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30164,7 +30164,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Gal 1-1/4",
+        nombre: "Semicodo gal 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30172,7 +30172,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Gal 1-1/2",
+        nombre: "Semicodo gal 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30180,7 +30180,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Gal 2",
+        nombre: "Semicodo gal 2",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30204,7 +30204,7 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Alambre Galv C-18",
+        nombre: "Alambre Galv c-18",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30212,7 +30212,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre Gal C-8",
+        nombre: "Alambre gal c-8",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30228,7 +30228,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre Galv C-12",
+        nombre: "Alambre Galv c-12",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30236,7 +30236,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre Galv C-14",
+        nombre: "Alambre Galv c-14",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30244,7 +30244,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre Galv C-16",
+        nombre: "Alambre Galv c-16",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30252,7 +30252,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre Galv C-20",
+        nombre: "Alambre Galv c-20",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30260,7 +30260,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alambre Negro C-18",
+        nombre: "Alambre Negro c-18",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30268,7 +30268,7 @@ const productos = [
         subcategoria: "alambre"
     },
     {
-        nombre: "Alampuas 12.5X250",
+        nombre: "Alampuas 12.5x250",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30284,7 +30284,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Alampuas 12.5X350",
+        nombre: "Alampuas 12.5x350",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30292,7 +30292,7 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 12.5X200",
+        nombre: "Alampuas 12.5x200",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30300,7 +30300,7 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Perlin Bloq 5M",
+        nombre: "Perlin Bloq 5 m",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30308,7 +30308,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin Bloq 7M",
+        nombre: "Perlin Bloq 7 m",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30316,7 +30316,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin Bloq 4M",
+        nombre: "Perlin Bloq 4 m",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30324,7 +30324,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Alampuas 14X200",
+        nombre: "Alampuas 14x200",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30332,7 +30332,7 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 14X350",
+        nombre: "Alampuas 14x350",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30340,7 +30340,7 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 14X500",
+        nombre: "Alampuas 14x500",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30436,7 +30436,7 @@ const productos = [
         subcategoria: "anglhierro"
     },
     {
-        nombre: "Fleje Cortina Cr - Galv Cal24",
+        nombre: "Fleje Cortina Cr - Galv cal24",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30452,7 +30452,7 @@ const productos = [
         subcategoria: "grapa"
     },
     {
-        nombre: "Grapa X Lb",
+        nombre: "Grapa X lb",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30468,7 +30468,7 @@ const productos = [
         subcategoria: "hierro"
     },
     {
-        nombre: "Malla Electr X Rollo 3,7Mm",
+        nombre: "Malla Electr X Rollo 3,7 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30476,7 +30476,7 @@ const productos = [
         subcategoria: "malla"
     },
     {
-        nombre: "Malla Electr X Rollo 3Mm",
+        nombre: "Malla Electr X Rollo 3 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30492,7 +30492,7 @@ const productos = [
         subcategoria: "malla"
     },
     {
-        nombre: "Perlin Bloq 6Mt 1,4Mm",
+        nombre: "Perlin Bloq 6 Mt 1,4 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30500,7 +30500,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin Bloq 9Mt",
+        nombre: "Perlin Bloq 9 Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30508,7 +30508,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin 4X2 Cal16-100X50X12X1,5",
+        nombre: "Perlin 4X2 cal16-100x50x12x1,5",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30516,7 +30516,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin 4X2 Cal14-100X50X12X2,0",
+        nombre: "Perlin 4X2 cal14-100x50x12x2,0",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30524,7 +30524,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin 305 X 80 X2 Mm",
+        nombre: "Perlin 305 X 80 X2 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30540,7 +30540,7 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin 6X2 Cal14- 150X50X12X2,0",
+        nombre: "Perlin 6X2 cal14- 150x50x12x2,0",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30580,7 +30580,7 @@ const productos = [
         subcategoria: "platinas"
     },
     {
-        nombre: "Platina 1 1/2X1/4",
+        nombre: "Platina 1 1/2x1/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30628,7 +30628,7 @@ const productos = [
         subcategoria: "platinas"
     },
     {
-        nombre: "Platina 1/2 X3/16",
+        nombre: "Platina 1/2 x3/16",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30652,7 +30652,7 @@ const productos = [
         subcategoria: "platinas"
     },
     {
-        nombre: "Platina 2 X1/4",
+        nombre: "Platina 2 x1/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30668,7 +30668,7 @@ const productos = [
         subcategoria: "platinas"
     },
     {
-        nombre: "Platina 3/4 X3/16",
+        nombre: "Platina 3/4 x3/16",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30676,7 +30676,7 @@ const productos = [
         subcategoria: "platinas"
     },
     {
-        nombre: "Platina 3/4X1/4",
+        nombre: "Platina 3/4x1/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30684,7 +30684,7 @@ const productos = [
         subcategoria: "platinas"
     },
     {
-        nombre: "Platina 4X1/4",
+        nombre: "Platina 4x1/4",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30716,7 +30716,7 @@ const productos = [
         subcategoria: "puntilla"
     },
     {
-        nombre: "Puntilla 2\" A 3-1/2",
+        nombre: "Puntilla 2\" a 3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30852,7 +30852,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cuadr 1 Cal20- 1 X 0,80",
+        nombre: "Tubo Cuadr 1 cal20- 1 X 0,80",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30876,7 +30876,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Estruc 100X100 2Mm",
+        nombre: "Tubo Estruc 100x100 2 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30884,7 +30884,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Estruc 150X150 4 Mm",
+        nombre: "Tubo Estruc 150x150 4 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -30908,7 +30908,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Peinazo 3X1-1/2",
+        nombre: "Tubo Peinazo 3x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30972,7 +30972,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectang 3/4X1-1/2 Cal20-",
+        nombre: "Tubo Rectang 3/4x1-1/2 cal20-",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30980,7 +30980,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectang 2X1 C18-25X50 1,1Mm",
+        nombre: "Tubo Rectang 2X1 c18-25x50 1,1 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -30988,7 +30988,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectang 2X1 C20 25X50 0,80",
+        nombre: "Tubo Rectang 2X1 C20 25x50 0,80",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31004,7 +31004,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectang 3X1-1/2 Cl18 1,10",
+        nombre: "Tubo Rectang 3x1-1/2 cl18 1,10",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31012,7 +31012,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectang 60X40 2Mm",
+        nombre: "Tubo Rectang 60x40 2 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31052,7 +31052,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Varilla 11Mm",
+        nombre: "Varilla 11 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31084,7 +31084,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Varilla 4,5Tripa Pollo",
+        nombre: "Varilla 4,5 Tripa Pollo",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31108,7 +31108,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Varilla 12Mm",
+        nombre: "Varilla 12 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31124,7 +31124,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Varilla Cuadr 11 Mm",
+        nombre: "Varilla Cuadr 11 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31164,7 +31164,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Varilla Lisa 3/4Mm",
+        nombre: "Varilla Lisa 3/4 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31172,7 +31172,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Perlin Bloq 8 Mts",
+        nombre: "Perlin Bloq 8 mts",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31188,7 +31188,7 @@ const productos = [
         subcategoria: "hierro"
     },
     {
-        nombre: "Tubo Poste 1 Cal18",
+        nombre: "Tubo Poste 1 cal18",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31220,7 +31220,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Varilla 9 Mm",
+        nombre: "Varilla 9 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31236,7 +31236,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Perlin Bloq 10Mt",
+        nombre: "Perlin Bloq 10 Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31268,7 +31268,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectangular 3/4X1-1/2 Galv Cal 20",
+        nombre: "Tubo Rectangular 3/4x1-1/2 Galv Cal 20",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31276,7 +31276,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Rectangular 3X1-1/2 Galv Cal 18",
+        nombre: "Tubo Rectangular 3x1-1/2 Galv Cal 18",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31284,7 +31284,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cuadrado 60X60 2Mm",
+        nombre: "Tubo Cuadrado 60x60 2 mm",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31300,7 +31300,7 @@ const productos = [
         subcategoria: "varillas"
     },
     {
-        nombre: "Alampuas 12,5X400",
+        nombre: "Alampuas 12,5x400",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31308,7 +31308,7 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 14,5 X500Mts",
+        nombre: "Alampuas 14,5 x500mts",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
@@ -31356,7 +31356,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Perlin 3 X1-1/2 Cal 18",
+        nombre: "Perlin 3 x1-1/2 Cal 18",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31412,7 +31412,7 @@ const productos = [
         subcategoria: "puntiacero"
     },
     {
-        nombre: "Alampuas 14 X135",
+        nombre: "Alampuas 14 x135",
         precio: "",
         imagen: "",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31492,7 +31492,7 @@ const productos = [
         subcategoria: "tabla"
     },
     {
-        nombre: "Cuarton Chanul 3Mt Rgs",
+        nombre: "Cuarton Chanul 3 Mt Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31500,7 +31500,7 @@ const productos = [
         subcategoria: "cuarton"
     },
     {
-        nombre: "Cuarton Chanul 5Mts Rgs",
+        nombre: "Cuarton Chanul 5 mts Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31508,7 +31508,7 @@ const productos = [
         subcategoria: "cuarton"
     },
     {
-        nombre: "Liston 6Mts Rgs",
+        nombre: "Liston 6 mts Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31516,7 +31516,7 @@ const productos = [
         subcategoria: "liston"
     },
     {
-        nombre: "Pilar Madr 3Mt Rgs",
+        nombre: "Pilar Madr 3 Mt Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31524,7 +31524,7 @@ const productos = [
         subcategoria: "pilar"
     },
     {
-        nombre: "Viga Chanul X 4Mt Rgs",
+        nombre: "Viga Chanul X 4 Mt Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31532,7 +31532,7 @@ const productos = [
         subcategoria: "viga"
     },
     {
-        nombre: "Vigueta Chanul 2X3M Rgs",
+        nombre: "Vigueta Chanul 2x3m Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31540,7 +31540,7 @@ const productos = [
         subcategoria: "vigueta"
     },
     {
-        nombre: "Vigueta Chanul 2X5M Rgs",
+        nombre: "Vigueta Chanul 2x5m Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31548,7 +31548,7 @@ const productos = [
         subcategoria: "vigueta"
     },
     {
-        nombre: "Vigueta Chanul 2X6M Rgs",
+        nombre: "Vigueta Chanul 2x6m Rgs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31556,7 +31556,7 @@ const productos = [
         subcategoria: "vigueta"
     },
     {
-        nombre: "Vigueta Chanul 2X7Mt Grs",
+        nombre: "Vigueta Chanul 2x7mt Grs",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de maderas para construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31572,7 +31572,7 @@ const productos = [
         subcategoria: "angeo"
     },
     {
-        nombre: "Cortagoteras 1,5Mm X 50Cm",
+        nombre: "Cortagoteras 1,5 mm X 50 cm",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
@@ -31596,7 +31596,7 @@ const productos = [
         subcategoria: "malla"
     },
     {
-        nombre: "Malla Eslabonad 1,80 X 10 Mts Cal12",
+        nombre: "Malla Eslabonad 1,80 X 10 mts cal12",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
@@ -31604,7 +31604,7 @@ const productos = [
         subcategoria: "malla"
     },
     {
-        nombre: "Malla Pajarito 1Mt",
+        nombre: "Malla Pajarito 1 Mt",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
@@ -31668,7 +31668,7 @@ const productos = [
         subcategoria: "plastico"
     },
     {
-        nombre: "Plastico Transparaente 1,5X Mt",
+        nombre: "Plastico Transparaente 1,5x Mt",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
@@ -31692,7 +31692,7 @@ const productos = [
         subcategoria: "angeo"
     },
     {
-        nombre: "Angeo Fibra De Vidrio 1Mt",
+        nombre: "Angeo Fibra De Vidrio 1 Mt",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
@@ -31716,7 +31716,7 @@ const productos = [
         subcategoria: "tela"
     },
     {
-        nombre: "Platacho Plastico 9X10",
+        nombre: "Platacho Plastico 9x10",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31764,7 +31764,7 @@ const productos = [
         subcategoria: "malla"
     },
     {
-        nombre: "Malla Galv Recub Pvc 2,10",
+        nombre: "Malla Galv Recub PVC 2,10",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -31796,7 +31796,7 @@ const productos = [
         subcategoria: "angeo"
     },
     {
-        nombre: "Polea Bi. . . 12\"",
+        nombre: "Polea bi. . . 12\"",
         precio: "",
         imagen: "",
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
@@ -31844,7 +31844,7 @@ const productos = [
         subcategoria: "acopl"
     },
     {
-        nombre: "Adap Hembra Part A 1-1/2\"",
+        nombre: "Adap Hembra Part a 1-1/2\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -31852,7 +31852,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hembra Part A 1-1/4",
+        nombre: "Adap Hembra Part a 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -31860,7 +31860,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hembra Part A 2\"",
+        nombre: "Adap Hembra Part a 2\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -31868,7 +31868,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hembra Part A 1\"",
+        nombre: "Adap Hembra Part a 1\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32060,7 +32060,7 @@ const productos = [
         subcategoria: "acople"
     },
     {
-        nombre: "Adap Hemb 1/2X1/2",
+        nombre: "Adap Hemb 1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32068,7 +32068,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hemb 1X3/4",
+        nombre: "Adap Hemb 1x3/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32084,7 +32084,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hemb 3/4X1/2",
+        nombre: "Adap Hemb 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32092,7 +32092,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hemb 1-1/2X1",
+        nombre: "Adap Hemb 1-1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32108,7 +32108,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hemb 2X1-1/2",
+        nombre: "Adap Hemb 2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32116,7 +32116,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Mach 1/2X1/2",
+        nombre: "Adap Mach 1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32132,7 +32132,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Mach 3/4X1/2",
+        nombre: "Adap Mach 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32140,7 +32140,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Mach 3/4X3/4",
+        nombre: "Adap Mach 3/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32148,7 +32148,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Mach 1-1/2X1-1/2",
+        nombre: "Adap Mach 1-1/2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32156,7 +32156,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Buje Polietil 1-1/2X1",
+        nombre: "Buje Polietil 1-1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32164,7 +32164,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 1-1/2X3/4",
+        nombre: "Buje Polietil 1-1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32172,7 +32172,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 1-1/4X1",
+        nombre: "Buje Polietil 1-1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32180,7 +32180,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 1X1/2",
+        nombre: "Buje Polietil 1x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32188,7 +32188,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 1X3/4",
+        nombre: "Buje Polietil 1x3/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32204,7 +32204,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 2X1/2",
+        nombre: "Buje Polietil 2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32212,7 +32212,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 2X1-1/2",
+        nombre: "Buje Polietil 2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32220,7 +32220,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Polietil 3/4X1/2",
+        nombre: "Buje Polietil 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32292,7 +32292,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hembra Part A 3\"",
+        nombre: "Adap Hembra Part a 3\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32492,7 +32492,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Manguera Gas 1Mt",
+        nombre: "Manguera Gas 1 Mt",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32500,7 +32500,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Manguera Gas 1,5Mt",
+        nombre: "Manguera Gas 1,5 Mt",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32508,7 +32508,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Manguera Gas 2Mt",
+        nombre: "Manguera Gas 2 Mt",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32516,7 +32516,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Manguera Gas 3Mt",
+        nombre: "Manguera Gas 3 Mt",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32524,7 +32524,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Manguera Gas 4Mt",
+        nombre: "Manguera Gas 4 Mt",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32644,7 +32644,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee Rap/Rosca 1\"",
+        nombre: "Tee rap/rosca 1\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32748,7 +32748,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol/Gal 1\"",
+        nombre: "Union pol/gal 1\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32756,7 +32756,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol/Gal 1/2",
+        nombre: "Union pol/gal 1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32764,7 +32764,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol/Gal 1-1/2",
+        nombre: "Union pol/gal 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32772,7 +32772,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol/Gal 1-1/4",
+        nombre: "Union pol/gal 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32780,7 +32780,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol/Gal 2",
+        nombre: "Union pol/gal 2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32788,7 +32788,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol/Gal 3/4",
+        nombre: "Union pol/gal 3/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32820,7 +32820,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rap/Ext 1",
+        nombre: "Union rap/ext 1",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32828,7 +32828,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rap/Ext 1/2",
+        nombre: "Union rap/ext 1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32836,7 +32836,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rap/Ext 1-1/2",
+        nombre: "Union rap/ext 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32844,7 +32844,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rap/Ext 1-1/4",
+        nombre: "Union rap/ext 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32852,7 +32852,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rap/Ext 2",
+        nombre: "Union rap/ext 2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32860,7 +32860,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rap/Ext 3/4",
+        nombre: "Union rap/ext 3/4",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -32900,7 +32900,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee Rapida Rosca 1/2 X 1/2 X1/2",
+        nombre: "Tee Rapida Rosca 1/2 X 1/2 x1/2",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32908,7 +32908,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee Rapida Rosca 1\"X1\"X1\"",
+        nombre: "Tee Rapida Rosca 1\"x1\"x1\"",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -32924,7 +32924,7 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Manguera Gas 6 Mts",
+        nombre: "Manguera Gas 6 mts",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -33108,7 +33108,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Adap Hembra Rapido Mangu 1/2-X 1/2 Ng",
+        nombre: "Adap Hembra Rapido Mangu 1/2-x 1/2 Ng",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -33252,7 +33252,7 @@ const productos = [
         subcategoria: "mapei"
     },
     {
-        nombre: "Acronal 295 X1/1",
+        nombre: "Acronal 295 x1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33260,7 +33260,7 @@ const productos = [
         subcategoria: "acronal"
     },
     {
-        nombre: "Acronal X1/4",
+        nombre: "Acronal x1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -33332,7 +33332,7 @@ const productos = [
         subcategoria: "carpincol"
     },
     {
-        nombre: "Carpincol 250Gr",
+        nombre: "Carpincol 250 Gr",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33340,7 +33340,7 @@ const productos = [
         subcategoria: "carpincol"
     },
     {
-        nombre: "Carpincol 500Gr",
+        nombre: "Carpincol 500 Gr",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33364,7 +33364,7 @@ const productos = [
         subcategoria: "colbon"
     },
     {
-        nombre: "Cromo Zinc Amar-Verd Every 1/1",
+        nombre: "Cromo Zinc amar-verd Every 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33372,7 +33372,7 @@ const productos = [
         subcategoria: "cromo"
     },
     {
-        nombre: "Cromo Zinc Amar-Verd Every 1/4 -1/8",
+        nombre: "Cromo Zinc amar-verd Every 1/4 -1/8",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33412,7 +33412,7 @@ const productos = [
         subcategoria: "catalizador"
     },
     {
-        nombre: "Esm Alum/Bitum 1/1",
+        nombre: "Esm alum/bitum 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33420,7 +33420,7 @@ const productos = [
         subcategoria: "esm"
     },
     {
-        nombre: "Esm Alum/Bitum 1/16",
+        nombre: "Esm alum/bitum 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33428,7 +33428,7 @@ const productos = [
         subcategoria: "esm"
     },
     {
-        nombre: "Esm Alum/Bitum 1/4",
+        nombre: "Esm alum/bitum 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -33476,7 +33476,7 @@ const productos = [
         subcategoria: "esmalte"
     },
     {
-        nombre: "Esmalte 3En 1 Every 1/1",
+        nombre: "Esmalte 3 En 1 Every 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33484,7 +33484,7 @@ const productos = [
         subcategoria: "esmalte"
     },
     {
-        nombre: "Esmalte 3En 1 1/4 -----18",
+        nombre: "Esmalte 3 En 1 1/4 -----18",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -33492,7 +33492,7 @@ const productos = [
         subcategoria: "esmalte"
     },
     {
-        nombre: "Esmalte 3En 1 1/16",
+        nombre: "Esmalte 3 En 1 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33500,7 +33500,7 @@ const productos = [
         subcategoria: "esmalte"
     },
     {
-        nombre: "Vinilo T, 1 Cuñete",
+        nombre: "Vinilo t, 1 Cuñete",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -33508,7 +33508,7 @@ const productos = [
         subcategoria: "vinilo"
     },
     {
-        nombre: "Pintura T,1 --1/1",
+        nombre: "Pintura t,1 --1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33532,7 +33532,7 @@ const productos = [
         subcategoria: "plus"
     },
     {
-        nombre: "Vinilo T,2 Cuñete",
+        nombre: "Vinilo t,2 Cuñete",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33540,7 +33540,7 @@ const productos = [
         subcategoria: "vinilo"
     },
     {
-        nombre: "Vinilo T,2 Galon",
+        nombre: "Vinilo t,2 Galon",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33692,7 +33692,7 @@ const productos = [
         subcategoria: "anticorrosivo"
     },
     {
-        nombre: "Wash-Primer 1/1",
+        nombre: "wash-primer 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33700,7 +33700,7 @@ const productos = [
         subcategoria: "washprimer"
     },
     {
-        nombre: "Wash-Primer 1/4",
+        nombre: "wash-primer 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -33708,7 +33708,7 @@ const productos = [
         subcategoria: "washprimer"
     },
     {
-        nombre: "Wash-Primer 1/16",
+        nombre: "wash-primer 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -33740,7 +33740,7 @@ const productos = [
         subcategoria: "placco"
     },
     {
-        nombre: "Placo-Vareta 1/1",
+        nombre: "placo-vareta 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33844,7 +33844,7 @@ const productos = [
         subcategoria: "masilla"
     },
     {
-        nombre: "Masilla 2Lk Lite 1/4",
+        nombre: "Masilla 2 Lk Lite 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33852,7 +33852,7 @@ const productos = [
         subcategoria: "masilla"
     },
     {
-        nombre: "Masilla 2Lk Lite 1/8",
+        nombre: "Masilla 2 Lk Lite 1/8",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -33932,7 +33932,7 @@ const productos = [
         subcategoria: "fibra"
     },
     {
-        nombre: "Resina Kilo -Catal",
+        nombre: "Resina Kilo - Catal",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34004,7 +34004,7 @@ const productos = [
         subcategoria: "aerosol"
     },
     {
-        nombre: "Aerosol Oro-Plata",
+        nombre: "Aerosol oro-plata",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34116,7 +34116,7 @@ const productos = [
         subcategoria: "pinton"
     },
     {
-        nombre: "Pinturapoliuretano Aluminio Gl",
+        nombre: "Pinturapoliuretano Aluminio GL",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34244,7 +34244,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Catalizada Brillante 1/4 M 550*-650",
+        nombre: "Laca Catalizada Brillante 1/4 m 550*-650",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34260,7 +34260,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Catalizada Mate 1/4 M 570",
+        nombre: "Laca Catalizada Mate 1/4 m 570",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34292,7 +34292,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Grueso 1/1",
+        nombre: "Laca Aluminio g-grueso 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34300,7 +34300,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Grueso 1/4-1/8",
+        nombre: "Laca Aluminio g-grueso 1/4-1/8",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34308,7 +34308,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Grueso 1/16",
+        nombre: "Laca Aluminio g-grueso 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34316,7 +34316,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Fino 1/1",
+        nombre: "Laca Aluminio g-fino 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -34324,7 +34324,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Fino 1/4",
+        nombre: "Laca Aluminio g-fino 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -34332,7 +34332,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Fino 1/16",
+        nombre: "Laca Aluminio g-fino 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -34340,7 +34340,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Medio 1/1",
+        nombre: "Laca Aluminio g-medio 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34348,7 +34348,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Medio 1/4",
+        nombre: "Laca Aluminio g-medio 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34356,7 +34356,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Aluminio G-Medio 1/16",
+        nombre: "Laca Aluminio g-medio 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34420,7 +34420,7 @@ const productos = [
         subcategoria: "pintura"
     },
     {
-        nombre: "Laca Azul Prusia-Verd 1/4",
+        nombre: "Laca Azul prusia-verd 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -34580,7 +34580,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Rojo Ferr- Cadmio-Berbellon 1/1",
+        nombre: "Laca Rojo ferr- cadmio-berbellon 1/1",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34588,7 +34588,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Rojo Cadmio-Berbellon 1/4",
+        nombre: "Laca Rojo cadmio-berbellon 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -34596,7 +34596,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Rojo Cadmio-Berbellon 1/16",
+        nombre: "Laca Rojo cadmio-berbellon 1/16",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34900,7 +34900,7 @@ const productos = [
         subcategoria: "catalizador"
     },
     {
-        nombre: "Estuco Relleno Cuñete- Balde Panelton",
+        nombre: "Estuco Relleno cuñete- Balde Panelton",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34932,7 +34932,7 @@ const productos = [
         subcategoria: "koraza"
     },
     {
-        nombre: "Emulsion Asfalt\\ Cuñet",
+        nombre: "Emulsion asfalt\\ Cuñet",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34972,7 +34972,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Cat Tras-Semimate 1/4",
+        nombre: "Laca Cat tras-semimate 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34980,7 +34980,7 @@ const productos = [
         subcategoria: "laca"
     },
     {
-        nombre: "Laca Cat Trans-Mate 1/4",
+        nombre: "Laca Cat trans-mate 1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -34996,7 +34996,7 @@ const productos = [
         subcategoria: "esmalte"
     },
     {
-        nombre: "Impercryl Arqu 1/1 Gris - Blan-Azul",
+        nombre: "Impercryl Arqu 1/1 Gris - blan-azul",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -35100,7 +35100,7 @@ const productos = [
         subcategoria: "acido"
     },
     {
-        nombre: "Vinilo T.1 Balde",
+        nombre: "Vinilo t.1 Balde",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -35132,7 +35132,7 @@ const productos = [
         subcategoria: "estuco"
     },
     {
-        nombre: "Brea Liquida Gl",
+        nombre: "Brea Liquida GL",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -35188,7 +35188,7 @@ const productos = [
         subcategoria: "vinilico"
     },
     {
-        nombre: "Mastick Bolsa X 20Kl",
+        nombre: "Mastick Bolsa X 20 Kl",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -35276,7 +35276,7 @@ const productos = [
         subcategoria: "base"
     },
     {
-        nombre: "Base Graniplas Gl",
+        nombre: "Base Graniplas GL",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -35484,7 +35484,7 @@ const productos = [
         subcategoria: "pintura"
     },
     {
-        nombre: "Vinilux 2,5 Gl",
+        nombre: "Vinilux 2,5 GL",
         precio: "",
         imagen: "",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
@@ -35628,7 +35628,7 @@ const productos = [
         subcategoria: "acido"
     },
     {
-        nombre: "Acido Oxalico X Lb",
+        nombre: "Acido Oxalico X lb",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35660,7 +35660,7 @@ const productos = [
         subcategoria: "inmunizante"
     },
     {
-        nombre: "Carro Aspir/Pisc 12Ruedas",
+        nombre: "Carro aspir/pisc 12 Ruedas",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -35668,7 +35668,7 @@ const productos = [
         subcategoria: "carro"
     },
     {
-        nombre: "Carro Aspir/Pisc 8Ruedas Negro",
+        nombre: "Carro aspir/pisc 8 Ruedas Negro",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35684,7 +35684,7 @@ const productos = [
         subcategoria: "cepillo"
     },
     {
-        nombre: "Cepillo 18\"C/Ref Aluminio",
+        nombre: "Cepillo 18\"c/ref Aluminio",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -35740,7 +35740,7 @@ const productos = [
         subcategoria: "cloro"
     },
     {
-        nombre: "Rojo Penol X 20Ml",
+        nombre: "Rojo Penol X 20 ml",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35780,7 +35780,7 @@ const productos = [
         subcategoria: "desmanchador"
     },
     {
-        nombre: "Destapaya-Diablo Rojo",
+        nombre: "destapaya-diablo Rojo",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35812,7 +35812,7 @@ const productos = [
         subcategoria: "dispensador"
     },
     {
-        nombre: "Ortotoluidina 20Ml",
+        nombre: "Ortotoluidina 20 ml",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -35820,7 +35820,7 @@ const productos = [
         subcategoria: "ortotoluidina"
     },
     {
-        nombre: "Kit Compar/Ph-Cloro",
+        nombre: "Kit compar/ph-cloro",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35836,7 +35836,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Mang/Pisc 15Mts",
+        nombre: "mang/pisc 15 mts",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -35844,7 +35844,7 @@ const productos = [
         subcategoria: "mangpisc"
     },
     {
-        nombre: "Mang/Pisc 7Mts",
+        nombre: "mang/pisc 7 mts",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35860,7 +35860,7 @@ const productos = [
         subcategoria: "nasa"
     },
     {
-        nombre: "Nasa Tp/Bolsa",
+        nombre: "Nasa tp/bolsa",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35892,7 +35892,7 @@ const productos = [
         subcategoria: "sulfato"
     },
     {
-        nombre: "Sulfato D/Alumnio Tp A",
+        nombre: "Sulfato d/alumnio Tp a",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35900,7 +35900,7 @@ const productos = [
         subcategoria: "sulfato"
     },
     {
-        nombre: "Tubo Piscina 4,8Mt",
+        nombre: "Tubo Piscina 4,8 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35940,7 +35940,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Acido Nitrico 1/2 Gal",
+        nombre: "Acido Nitrico 1/2 gal",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35956,7 +35956,7 @@ const productos = [
         subcategoria: "acido"
     },
     {
-        nombre: "Despador S. C Tarro",
+        nombre: "Despador s. C Tarro",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35972,7 +35972,7 @@ const productos = [
         subcategoria: "soda"
     },
     {
-        nombre: "Petroleo Bot-Can",
+        nombre: "Petroleo bot-can",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -35980,7 +35980,7 @@ const productos = [
         subcategoria: "petroleo"
     },
     {
-        nombre: "Carro Aspir/Pisci 8Ruedas Estadar",
+        nombre: "Carro aspir/pisci 8 Ruedas Estadar",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36020,7 +36020,7 @@ const productos = [
         subcategoria: "formol"
     },
     {
-        nombre: "Adap/Bajt/Agua.Lluv C/Amz 4\"",
+        nombre: "adap/bajt/agua.lluv c/amz 4\"",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36068,7 +36068,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Union Canl.Amaz C/Bajante",
+        nombre: "Union canl.amaz c/bajante",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36164,7 +36164,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Hembra Cpvc",
+        nombre: "Adap Hembra CPVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36236,7 +36236,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Adap Macho Cpvc",
+        nombre: "Adap Macho CPVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36268,7 +36268,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Adap/Bajt/Agua.Lluv C/Amz",
+        nombre: "adap/bajt/agua.lluv c/amz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36276,7 +36276,7 @@ const productos = [
         subcategoria: "adapbajtagualluv"
     },
     {
-        nombre: "Adapt 20Mm Rc/1/2",
+        nombre: "Adapt 20 mm rc/1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36300,7 +36300,7 @@ const productos = [
         subcategoria: "brida"
     },
     {
-        nombre: "Buj 3/4X1/2Cpvc",
+        nombre: "Buj 3/4x1/2cpvc",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36324,7 +36324,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 2X1-1/2",
+        nombre: "Buje Presion 2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36332,7 +36332,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 2X1-1/4",
+        nombre: "Buje Presion 2x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36356,7 +36356,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 2X3/4",
+        nombre: "Buje Presion 2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36364,7 +36364,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 2X1/2",
+        nombre: "Buje Presion 2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36372,7 +36372,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1-1/2X1-1/4",
+        nombre: "Buje Presion 1-1/2x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36380,7 +36380,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1-1/2X 1",
+        nombre: "Buje Presion 1-1/2x 1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36388,7 +36388,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1-1/2X3/4",
+        nombre: "Buje Presion 1-1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36396,7 +36396,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1-1/2X1/2",
+        nombre: "Buje Presion 1-1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36404,7 +36404,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1-1/4X1",
+        nombre: "Buje Presion 1-1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36420,7 +36420,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Buje Presion 1-1/4X3/4",
+        nombre: "Buje Presion 1-1/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36428,7 +36428,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1-1/4X1/2",
+        nombre: "Buje Presion 1-1/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36436,7 +36436,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1X3/4",
+        nombre: "Buje Presion 1x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36444,7 +36444,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 1X1/2",
+        nombre: "Buje Presion 1x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36452,7 +36452,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Presion 3/4X1/2",
+        nombre: "Buje Presion 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36460,7 +36460,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1/2X3/8",
+        nombre: "Buje Rosca 1/2x3/8",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36468,7 +36468,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 2X1-1/2",
+        nombre: "Buje Rosca 2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36476,7 +36476,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 2X1-1/4",
+        nombre: "Buje Rosca 2x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36492,7 +36492,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 2X3/4",
+        nombre: "Buje Rosca 2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36500,7 +36500,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 2X1/2",
+        nombre: "Buje Rosca 2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36508,7 +36508,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/2 X1-1/4",
+        nombre: "Buje Rosca 1-1/2 x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36516,7 +36516,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/2X1",
+        nombre: "Buje Rosca 1-1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36524,7 +36524,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/2X3/4",
+        nombre: "Buje Rosca 1-1/2x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36532,7 +36532,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/2X1/2",
+        nombre: "Buje Rosca 1-1/2x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36540,7 +36540,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/4X1",
+        nombre: "Buje Rosca 1-1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36548,7 +36548,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/4X3/4",
+        nombre: "Buje Rosca 1-1/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36556,7 +36556,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1-1/4X1/2",
+        nombre: "Buje Rosca 1-1/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36564,7 +36564,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1X3/4",
+        nombre: "Buje Rosca 1x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36572,7 +36572,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 1X1/2",
+        nombre: "Buje Rosca 1x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36580,7 +36580,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Rosca 3/4X1/2",
+        nombre: "Buje Rosca 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36588,7 +36588,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Sanit 2X1-1/2",
+        nombre: "Buje Sanit 2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36596,7 +36596,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Sanit 3X1-1/2",
+        nombre: "Buje Sanit 3x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36644,7 +36644,7 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Canal Amazona X 3Mts",
+        nombre: "Canal Amazona X 3 mts",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36740,7 +36740,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Codo Cpvc 1/2",
+        nombre: "Codo CPVC 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36748,7 +36748,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Codo Hm-Mach-Dicol 1/2",
+        nombre: "Codo hm-mach-dicol 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36852,7 +36852,7 @@ const productos = [
         subcategoria: "collarin"
     },
     {
-        nombre: "Cruz/Hemb Dicol",
+        nombre: "cruz/hemb Dicol",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36876,7 +36876,7 @@ const productos = [
         subcategoria: "gafas"
     },
     {
-        nombre: "Lubricante C/Amz",
+        nombre: "Lubricante c/amz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36884,7 +36884,7 @@ const productos = [
         subcategoria: "lubricante"
     },
     {
-        nombre: "Niple Dicol 1/2X1-1/2",
+        nombre: "Niple Dicol 1/2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36892,7 +36892,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Dicol 1/2X4",
+        nombre: "Niple Dicol 1/2x4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36900,7 +36900,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Semicodo Baj/Can/Amaz",
+        nombre: "Semicodo baj/can/amaz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36932,7 +36932,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Sanit 2Cxc",
+        nombre: "Semicodo Sanit 2 Cxc",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36940,7 +36940,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Sanit 2Cxe",
+        nombre: "Semicodo Sanit 2 Cxe",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -36948,7 +36948,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Sanit 3Cxc",
+        nombre: "Semicodo Sanit 3 Cxc",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36956,7 +36956,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Sanit 3Cxe",
+        nombre: "Semicodo Sanit 3 Cxe",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36964,7 +36964,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Sanit 4Cxc",
+        nombre: "Semicodo Sanit 4 Cxc",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -36972,7 +36972,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo Sanit 4Cxe",
+        nombre: "Semicodo Sanit 4 Cxe",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37052,7 +37052,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Sifon San 1-1/2C/R",
+        nombre: "Sifon San 1-1/2c/r",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37060,7 +37060,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Sifon San2\"C/R",
+        nombre: "Sifon san2\"c/r",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37100,7 +37100,7 @@ const productos = [
         subcategoria: "sifon"
     },
     {
-        nombre: "Soporte Bajante C/Amz",
+        nombre: "Soporte Bajante c/amz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37116,7 +37116,7 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Tanque Reserva 1000Lt",
+        nombre: "Tanque Reserva 1000 lt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37124,7 +37124,7 @@ const productos = [
         subcategoria: "tanque"
     },
     {
-        nombre: "Tanque Reserva 1500Lt",
+        nombre: "Tanque Reserva 1500 lt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37132,7 +37132,7 @@ const productos = [
         subcategoria: "tanque"
     },
     {
-        nombre: "Tanque Reserva 2000L",
+        nombre: "Tanque Reserva 2000 l",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37140,7 +37140,7 @@ const productos = [
         subcategoria: "tanque"
     },
     {
-        nombre: "Tanque Reserva 250Lt",
+        nombre: "Tanque Reserva 250 lt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37148,7 +37148,7 @@ const productos = [
         subcategoria: "tanque"
     },
     {
-        nombre: "Tanque Reserva 500Lts",
+        nombre: "Tanque Reserva 500 Lts",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37172,7 +37172,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapa Exter Der-Izq C/Amz",
+        nombre: "Tapa Exter der-izq c/amz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37180,7 +37180,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapa Inter Der-Izq C/Amz",
+        nombre: "Tapa Inter der-izq c/amz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37188,7 +37188,7 @@ const productos = [
         subcategoria: "tapa"
     },
     {
-        nombre: "Tapon Cpvc 1/2",
+        nombre: "Tapon CPVC 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37220,7 +37220,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tapon Presion Liso 1/2 Cpvc",
+        nombre: "Tapon Presion Liso 1/2 CPVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37412,7 +37412,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Tee Cpvc 1/2",
+        nombre: "Tee CPVC 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37452,7 +37452,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee 20Mm 1/2",
+        nombre: "Tee 20 mm 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37468,7 +37468,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee 3-2Red",
+        nombre: "Tee 3-2 Red",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37476,7 +37476,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee 4-2Red",
+        nombre: "Tee 4-2 Red",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37484,7 +37484,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee 4-3Red",
+        nombre: "Tee 4-3 Red",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37564,7 +37564,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Trans Mt/Cpvc1/2",
+        nombre: "Trans mt/cpvc1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37580,7 +37580,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cpvc",
+        nombre: "Tubo CPVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37692,7 +37692,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Presion 1/2 Pavco R9",
+        nombre: "Tubo Presion 1/2 PAVCO R9",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37700,7 +37700,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Sanit 2 Pavco X Mt",
+        nombre: "Tubo Sanit 2 PAVCO X Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37708,7 +37708,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Sanit 3 Pavco X Mt",
+        nombre: "Tubo Sanit 3 PAVCO X Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37716,7 +37716,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Sanit Pavco 4\"",
+        nombre: "Tubo Sanit PAVCO 4\"",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37772,7 +37772,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union 20Mm 1/2",
+        nombre: "Union 20 mm 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -37812,7 +37812,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Cpvc 1/2\"",
+        nombre: "Union CPVC 1/2\"",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37820,7 +37820,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Adapt Macho/Hembra 1/2 Dicol",
+        nombre: "Adapt macho/hembra 1/2 Dicol",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37932,7 +37932,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Bajt Tubo C-Amaz",
+        nombre: "Union Bajt Tubo c-amaz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37940,7 +37940,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Canl.Amaz C/Bajante 4\"",
+        nombre: "Union canl.amaz c/bajante 4\"",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -37948,7 +37948,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Esquina Int-Ext C/Amz",
+        nombre: "Union Esquina int-ext c/amz",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38004,7 +38004,7 @@ const productos = [
         subcategoria: "univer"
     },
     {
-        nombre: "Univer Cpvc",
+        nombre: "Univer CPVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38012,7 +38012,7 @@ const productos = [
         subcategoria: "univer"
     },
     {
-        nombre: "Universal R/C 1-1/4",
+        nombre: "Universal r/c 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38020,7 +38020,7 @@ const productos = [
         subcategoria: "universal"
     },
     {
-        nombre: "Universal R/C 2\"",
+        nombre: "Universal r/c 2\"",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38028,7 +38028,7 @@ const productos = [
         subcategoria: "universal"
     },
     {
-        nombre: "Yee 3X2Red",
+        nombre: "Yee 3x2red",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38036,7 +38036,7 @@ const productos = [
         subcategoria: "yee"
     },
     {
-        nombre: "Yee 4-2Red",
+        nombre: "Yee 4-2 Red",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38052,7 +38052,7 @@ const productos = [
         subcategoria: "yee"
     },
     {
-        nombre: "Yee San 2\"Dobl",
+        nombre: "Yee San 2\"dobl",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38068,7 +38068,7 @@ const productos = [
         subcategoria: "yee"
     },
     {
-        nombre: "Yee San 3\"Dobl",
+        nombre: "Yee San 3\"dobl",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38084,7 +38084,7 @@ const productos = [
         subcategoria: "yee"
     },
     {
-        nombre: "Yee San 4\"Dobl",
+        nombre: "Yee San 4\"dobl",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38124,7 +38124,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Niple Dicol 1/2X2",
+        nombre: "Niple Dicol 1/2x2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38180,7 +38180,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Silleta Pvc 4X3",
+        nombre: "Silleta PVC 4X3",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38196,7 +38196,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Lamina Pvc Cielo Razo",
+        nombre: "Lamina PVC Cielo Razo",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38204,7 +38204,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Union Repar-Pres 3/4",
+        nombre: "Union repar-pres 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38212,7 +38212,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Repar-Pres 1",
+        nombre: "Union repar-pres 1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38220,7 +38220,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Repar-Pres 1-1/2",
+        nombre: "Union repar-pres 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38228,7 +38228,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Repar-Pres 2",
+        nombre: "Union repar-pres 2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38276,7 +38276,7 @@ const productos = [
         subcategoria: "universal"
     },
     {
-        nombre: "Niple Rosca Pvc 1/2",
+        nombre: "Niple Rosca PVC 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38284,7 +38284,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Rosca Pvc 3/4",
+        nombre: "Niple Rosca PVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38292,7 +38292,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Rosca Pvc 1-1/4",
+        nombre: "Niple Rosca PVC 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38300,7 +38300,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Rosca Pvc 1-1/2",
+        nombre: "Niple Rosca PVC 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38308,7 +38308,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Niple Rosca Pvc 2\"",
+        nombre: "Niple Rosca PVC 2\"",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38316,7 +38316,7 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Tee Rosca Pvc 1",
+        nombre: "Tee Rosca PVC 1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38324,7 +38324,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee Rosca Pvc 1-1/4",
+        nombre: "Tee Rosca PVC 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38332,7 +38332,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee Rosca Pvc 1-1/2",
+        nombre: "Tee Rosca PVC 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38340,7 +38340,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Tee Rosca Pvc 2",
+        nombre: "Tee Rosca PVC 2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38348,7 +38348,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Codo Rosca Pvc 1",
+        nombre: "Codo Rosca PVC 1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38356,7 +38356,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Codo Rosca Pvc1-1/4",
+        nombre: "Codo Rosca pvc1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38364,7 +38364,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Codo Rosca Pvc 1-1/2",
+        nombre: "Codo Rosca PVC 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38372,7 +38372,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Codo Rosca Pvc 2",
+        nombre: "Codo Rosca PVC 2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38380,7 +38380,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Buje Copa Pvc Rosca 3/4X1/2",
+        nombre: "Buje Copa PVC Rosca 3/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38388,7 +38388,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Copa Pvc Rosca 1X1/2",
+        nombre: "Buje Copa PVC Rosca 1x1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38396,7 +38396,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Buje Copa Pvc Rosca 1X3/4",
+        nombre: "Buje Copa PVC Rosca 1x3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38404,7 +38404,7 @@ const productos = [
         subcategoria: "buje"
     },
     {
-        nombre: "Union Rosca Pvc 1",
+        nombre: "Union Rosca PVC 1",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38412,7 +38412,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rosca Pvc 1-1/4",
+        nombre: "Union Rosca PVC 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38420,7 +38420,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rosca Pvc 1-1/2",
+        nombre: "Union Rosca PVC 1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38428,7 +38428,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union Rosca Pvc 2",
+        nombre: "Union Rosca PVC 2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38436,7 +38436,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Llave De Paso Universal 1/2 Pvc",
+        nombre: "Llave De Paso Universal 1/2 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38468,7 +38468,7 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Tee Pre 1/2 Rosc/Lisa",
+        nombre: "Tee Pre 1/2 rosc/lisa",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38476,7 +38476,7 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Adap-Bajante Econo",
+        nombre: "adap-bajante Econo",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38484,7 +38484,7 @@ const productos = [
         subcategoria: "adapbajante"
     },
     {
-        nombre: "Silleta Pvc 4X2",
+        nombre: "Silleta PVC 4X2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38500,7 +38500,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Niple Dicol 1/2X3",
+        nombre: "Niple Dicol 1/2x3",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38516,7 +38516,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Te Cpvc 3/4",
+        nombre: "Te CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38524,7 +38524,7 @@ const productos = [
         subcategoria: "cpvc"
     },
     {
-        nombre: "Codo Cpvc 3/4",
+        nombre: "Codo CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38532,7 +38532,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Union Cpvc 3/4",
+        nombre: "Union CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38540,7 +38540,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Adap Hembra Cpvc 3/4",
+        nombre: "Adap Hembra CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38548,7 +38548,7 @@ const productos = [
         subcategoria: "adap"
     },
     {
-        nombre: "Tapon Liso Cpvc 3/4",
+        nombre: "Tapon Liso CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38556,7 +38556,7 @@ const productos = [
         subcategoria: "tapon"
     },
     {
-        nombre: "Universal Cpvc 3/4",
+        nombre: "Universal CPVC 3/4",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38564,7 +38564,7 @@ const productos = [
         subcategoria: "universal"
     },
     {
-        nombre: "Buje Cpvc 3/4 A1/2",
+        nombre: "Buje CPVC 3/4 a1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38596,7 +38596,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Codo P A Lp 1/2",
+        nombre: "Codo P a Lp 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38620,7 +38620,7 @@ const productos = [
         subcategoria: "registro"
     },
     {
-        nombre: "Granada 3/4 Pvc",
+        nombre: "Granada 3/4 PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38628,7 +38628,7 @@ const productos = [
         subcategoria: "granada"
     },
     {
-        nombre: "Flanche Tq Reserva 2\" Pvc",
+        nombre: "Flanche Tq Reserva 2\" PVC",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38636,7 +38636,7 @@ const productos = [
         subcategoria: "flanche"
     },
     {
-        nombre: "Tee Presion 3/4 A1/2",
+        nombre: "Tee Presion 3/4 a1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38660,7 +38660,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Union Pvc 1/2 Interna",
+        nombre: "Union PVC 1/2 Interna",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38668,7 +38668,7 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Tanque Bot 300Lts",
+        nombre: "Tanque Bot 300 Lts",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38676,7 +38676,7 @@ const productos = [
         subcategoria: "tanque"
     },
     {
-        nombre: "Tanque Bot 600Lts",
+        nombre: "Tanque Bot 600 Lts",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38700,7 +38700,7 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Codo Sanit4 Novaf",
+        nombre: "Codo sanit4 Novaf",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38708,7 +38708,7 @@ const productos = [
         subcategoria: "codo"
     },
     {
-        nombre: "Grasa 300Grs Grv",
+        nombre: "Grasa 300 Grs Grv",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38716,7 +38716,7 @@ const productos = [
         subcategoria: "grasa"
     },
     {
-        nombre: "Adesivos Dec Uv",
+        nombre: "Adesivos Dec UV",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38748,7 +38748,7 @@ const productos = [
         subcategoria: "wpc"
     },
     {
-        nombre: "Uv Adhesivo",
+        nombre: "UV Adhesivo",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38756,7 +38756,7 @@ const productos = [
         subcategoria: "adhesivo"
     },
     {
-        nombre: "Lamina Pared Pvc Uv Marmol",
+        nombre: "Lamina Pared PVC UV Marmol",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38828,7 +38828,7 @@ const productos = [
         subcategoria: "punta"
     },
     {
-        nombre: "Superboard 6Mm",
+        nombre: "Superboard 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38836,7 +38836,7 @@ const productos = [
         subcategoria: "superboard"
     },
     {
-        nombre: "Superboard 8- 10- 14 Mm",
+        nombre: "Superboard 8- 10- 14 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38868,7 +38868,7 @@ const productos = [
         subcategoria: "angulo"
     },
     {
-        nombre: "Superboard 20Mm",
+        nombre: "Superboard 20 mm",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38900,7 +38900,7 @@ const productos = [
         subcategoria: "vigueta"
     },
     {
-        nombre: "Cinta Malla 20Mt",
+        nombre: "Cinta Malla 20 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38916,7 +38916,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Cinta Malla 90Mt",
+        nombre: "Cinta Malla 90 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -38956,7 +38956,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Sika Dur Panel 1Kl",
+        nombre: "Sika Dur Panel 1 Kl",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38964,7 +38964,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika Dur Panel 2Kl",
+        nombre: "Sika Dur Panel 2 Kl",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -38988,7 +38988,7 @@ const productos = [
         subcategoria: "torn"
     },
     {
-        nombre: "Torn Cabeza Plana P/Broca 1/2",
+        nombre: "Torn Cabeza Plana p/broca 1/2",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -39100,7 +39100,7 @@ const productos = [
         subcategoria: "vigueta"
     },
     {
-        nombre: "Frescasa 2,5\" 15,24X 1,22 18,5Mt",
+        nombre: "Frescasa 2,5\" 15,24x 1,22 18,5 Mt",
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
@@ -39148,7 +39148,7 @@ const productos = [
         subcategoria: "mapecure"
     },
     {
-        nombre: "Mapeplast Concretos Wp20 1/1",
+        nombre: "Mapeplast Concretos wp20 1/1",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39188,7 +39188,7 @@ const productos = [
         subcategoria: "aerosol"
     },
     {
-        nombre: "Lubricante Penetrante 400Ml",
+        nombre: "Lubricante Penetrante 400 ml",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39236,7 +39236,7 @@ const productos = [
         subcategoria: "crema"
     },
     {
-        nombre: "Electr 6011X1/8 West Arco Ho Kl",
+        nombre: "Electr 6011x1/8 West Arco Ho Kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39244,7 +39244,7 @@ const productos = [
         subcategoria: "electr"
     },
     {
-        nombre: "Electr 6011X1/8Linc",
+        nombre: "Electr 6011x1/8linc",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39252,7 +39252,7 @@ const productos = [
         subcategoria: "electr"
     },
     {
-        nombre: "Electr 6011X3/32 Linc",
+        nombre: "Electr 6011x3/32 Linc",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39260,7 +39260,7 @@ const productos = [
         subcategoria: "electr"
     },
     {
-        nombre: "Electr 6013X1/8 Sweldin",
+        nombre: "Electr 6013x1/8 Sweldin",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39268,7 +39268,7 @@ const productos = [
         subcategoria: "electr"
     },
     {
-        nombre: "Electr 6013X1/8Linc",
+        nombre: "Electr 6013x1/8linc",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39276,7 +39276,7 @@ const productos = [
         subcategoria: "electr"
     },
     {
-        nombre: "Electr 6013X3/32 Linc",
+        nombre: "Electr 6013x3/32 Linc",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39332,7 +39332,7 @@ const productos = [
         subcategoria: "limpiador"
     },
     {
-        nombre: "Limpiador Pvc 1/4",
+        nombre: "Limpiador PVC 1/4",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39396,7 +39396,7 @@ const productos = [
         subcategoria: "paternit"
     },
     {
-        nombre: "Paternit 500Grm",
+        nombre: "Paternit 500 Grm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39412,7 +39412,7 @@ const productos = [
         subcategoria: "pegante"
     },
     {
-        nombre: "Pegadit- Superbonder",
+        nombre: "pegadit- Superbonder",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39452,7 +39452,7 @@ const productos = [
         subcategoria: "pegaucho"
     },
     {
-        nombre: "Sika Igasol Cuñ-Gal",
+        nombre: "Sika Igasol cuñ-gal",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39460,7 +39460,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika 1 X1Kl",
+        nombre: "Sika 1 x1kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39468,7 +39468,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika 1 X2Kl",
+        nombre: "Sika 1 x2kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39476,7 +39476,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika 1 X4Kl",
+        nombre: "Sika 1 x4kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39484,7 +39484,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika Antisol X 20Kl Blanco",
+        nombre: "Sika Antisol X 20 Kl Blanco",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39492,7 +39492,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika Dur 32 3Kg",
+        nombre: "Sika Dur 32 3 kg",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39500,7 +39500,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sikasil 280Negra",
+        nombre: "Sikasil 280 Negra",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39532,7 +39532,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika Imper-Mur 2K",
+        nombre: "Sika imper-mur 2K",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39540,7 +39540,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika Mortero 2Kl",
+        nombre: "Sika Mortero 2 Kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39548,7 +39548,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sika Panel X 2Kg",
+        nombre: "Sika Panel X 2 kg",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39564,7 +39564,7 @@ const productos = [
         subcategoria: "brilla"
     },
     {
-        nombre: "Sika 10 Transp/Repelente",
+        nombre: "Sika 10 transp/repelente",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39572,7 +39572,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Sikaset L 5Kl",
+        nombre: "Sikaset l 5 Kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39580,7 +39580,7 @@ const productos = [
         subcategoria: "sikaset"
     },
     {
-        nombre: "Sika Impermur 4Kl",
+        nombre: "Sika Impermur 4 Kl",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39588,7 +39588,7 @@ const productos = [
         subcategoria: "sika"
     },
     {
-        nombre: "Silicona Trans-Blanc 50 Mm",
+        nombre: "Silicona trans-blanc 50 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39596,7 +39596,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Trans 70 Ml",
+        nombre: "Silicona Trans 70 ml",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39604,7 +39604,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Ultragris 50Mm",
+        nombre: "Silicona Ultragris 50 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39628,7 +39628,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Negra O Roja 50 Ml",
+        nombre: "Silicona Negra O Roja 50 ml",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39636,7 +39636,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Negra O Roja 70Ml",
+        nombre: "Silicona Negra O Roja 70 ml",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39652,7 +39652,7 @@ const productos = [
         subcategoria: "mapefle"
     },
     {
-        nombre: "Silicona Transp 28G",
+        nombre: "Silicona Transp 28 g",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39676,7 +39676,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Silicona Tubo Mapei Bla-Trans",
+        nombre: "Silicona Tubo Mapei bla-trans",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39684,7 +39684,7 @@ const productos = [
         subcategoria: "silicona"
     },
     {
-        nombre: "Sintesolda 10Mn",
+        nombre: "Sintesolda 10 Mn",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39748,7 +39748,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Cpvc 1/28",
+        nombre: "Soldadura CPVC 1/28",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39756,7 +39756,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Cpvc 1/32",
+        nombre: "Soldadura CPVC 1/32",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39764,7 +39764,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Cpvc 1/64",
+        nombre: "Soldadura CPVC 1/64",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39772,7 +39772,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/16",
+        nombre: "Soldadura PVC 1/16",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39780,7 +39780,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/28",
+        nombre: "Soldadura PVC 1/28",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39788,7 +39788,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/32",
+        nombre: "Soldadura PVC 1/32",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39796,7 +39796,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/4",
+        nombre: "Soldadura PVC 1/4",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39804,7 +39804,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/64",
+        nombre: "Soldadura PVC 1/64",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39812,7 +39812,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc1/8",
+        nombre: "Soldadura pvc1/8",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39892,7 +39892,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/4 Eco",
+        nombre: "Soldadura PVC 1/4 Eco",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39900,7 +39900,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/8 Ec",
+        nombre: "Soldadura PVC 1/8 Ec",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -39916,7 +39916,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Soldadura Pvc 1/32 Eco",
+        nombre: "Soldadura PVC 1/32 Eco",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39924,7 +39924,7 @@ const productos = [
         subcategoria: "soldadura"
     },
     {
-        nombre: "Pegaucho Pl Bot- Caneca",
+        nombre: "Pegaucho Pl bot- Caneca",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39964,7 +39964,7 @@ const productos = [
         subcategoria: "mapeflex"
     },
     {
-        nombre: "Electr 7018X1/8",
+        nombre: "Electr 7018x1/8",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39972,7 +39972,7 @@ const productos = [
         subcategoria: "electr"
     },
     {
-        nombre: "Traba Rosca F.Media 6Ml",
+        nombre: "Traba Rosca f.media 6 ml",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39988,7 +39988,7 @@ const productos = [
         subcategoria: "mapelatex"
     },
     {
-        nombre: "Pegatodo-- Pegatanke",
+        nombre: "pegatodo-- Pegatanke",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -39996,7 +39996,7 @@ const productos = [
         subcategoria: "pegatodo"
     },
     {
-        nombre: "Masilla Raly 10Min",
+        nombre: "Masilla Raly 10 Min",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40012,7 +40012,7 @@ const productos = [
         subcategoria: "fijatornillos"
     },
     {
-        nombre: "Teja Metal 100Gr",
+        nombre: "Teja Metal 100 Gr",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40044,7 +40044,7 @@ const productos = [
         subcategoria: "elect"
     },
     {
-        nombre: "Electr 7018X3/32",
+        nombre: "Electr 7018x3/32",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40076,7 +40076,7 @@ const productos = [
         subcategoria: "sosco"
     },
     {
-        nombre: "Cinta Doble Faz X 2Mts",
+        nombre: "Cinta Doble Faz X 2 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40084,7 +40084,7 @@ const productos = [
         subcategoria: "cinta"
     },
     {
-        nombre: "Lamina Gal 4 X 8Cal16",
+        nombre: "Lamina gal 4 X 8cal16",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40108,7 +40108,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Cr 2X1 Cal22",
+        nombre: "Lamina Cr 2X1 cal22",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40124,7 +40124,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Cr 4X8Cal 18",
+        nombre: "Lamina Cr 4x8cal 18",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40132,7 +40132,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Cr 4X8Cal 22",
+        nombre: "Lamina Cr 4x8cal 22",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40140,7 +40140,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Cr 2X1 Cal18",
+        nombre: "Lamina Cr 2X1 cal18",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40148,7 +40148,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Gal 2X1 Cal 20",
+        nombre: "Lamina gal 2X1 Cal 20",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40164,7 +40164,7 @@ const productos = [
         subcategoria: "marco"
     },
     {
-        nombre: "Lamina Gal 4X8Cal20",
+        nombre: "Lamina gal 4x8cal20",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40172,7 +40172,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Gal 4X8Cal18",
+        nombre: "Lamina gal 4x8cal18",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40188,7 +40188,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Gal 1X2 Cal18",
+        nombre: "Lamina gal 1X2 cal18",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40196,7 +40196,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Gal 1X2Cal 22",
+        nombre: "Lamina gal 1x2cal 22",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40212,7 +40212,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Gal 4X8Cal22",
+        nombre: "Lamina gal 4x8cal22",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40220,7 +40220,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Alfajor 2,5Mm",
+        nombre: "Lamina Alfajor 2,5 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40228,7 +40228,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Lamina Ballesta 2X1 Cal20",
+        nombre: "Lamina Ballesta 2X1 cal20",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40236,7 +40236,7 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Mdf 12 Mm",
+        nombre: "MDF 12 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40244,7 +40244,7 @@ const productos = [
         subcategoria: "mdf"
     },
     {
-        nombre: "Mdf 15Mm",
+        nombre: "MDF 15 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40252,7 +40252,7 @@ const productos = [
         subcategoria: "mdf"
     },
     {
-        nombre: "Mdf 18Mm",
+        nombre: "MDF 18 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40260,7 +40260,7 @@ const productos = [
         subcategoria: "mdf"
     },
     {
-        nombre: "Mdf 3Mm 1,83 X 2,44",
+        nombre: "MDF 3 mm 1,83 X 2,44",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40268,7 +40268,7 @@ const productos = [
         subcategoria: "mdf"
     },
     {
-        nombre: "Fumigadora 25Lt",
+        nombre: "Fumigadora 25 lt",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40276,7 +40276,7 @@ const productos = [
         subcategoria: "fumigadora"
     },
     {
-        nombre: "Mdf 4Mm",
+        nombre: "MDF 4 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40284,7 +40284,7 @@ const productos = [
         subcategoria: "mdf"
     },
     {
-        nombre: "Mdf 9 Mm",
+        nombre: "MDF 9 mm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40292,7 +40292,7 @@ const productos = [
         subcategoria: "mdf"
     },
     {
-        nombre: "Mdf",
+        nombre: "MDF",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40308,7 +40308,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Teja Trapezoidal 5 Mts",
+        nombre: "Teja Trapezoidal 5 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40324,7 +40324,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Teja Trapezoidal Metal 3 Mts",
+        nombre: "Teja Trapezoidal Metal 3 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40468,7 +40468,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Teja Zin 3.05 30X10",
+        nombre: "Teja Zin 3.05 30x10",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40476,7 +40476,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Terminal C/S Eternit",
+        nombre: "Terminal c/s Eternit",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40484,7 +40484,7 @@ const productos = [
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal S/S Eternit",
+        nombre: "Terminal s/s Eternit",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40500,7 +40500,7 @@ const productos = [
         subcategoria: "zin"
     },
     {
-        nombre: "Union Pvc Cielo Razo",
+        nombre: "Union PVC Cielo Razo",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40516,7 +40516,7 @@ const productos = [
         subcategoria: "caballete"
     },
     {
-        nombre: "Canal Galv X 6Mts",
+        nombre: "Canal Galv X 6 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40588,7 +40588,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Cortagoteras 1,5Mm X 10 Cm",
+        nombre: "Cortagoteras 1,5 mm X 10 cm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40596,7 +40596,7 @@ const productos = [
         subcategoria: "cortagoteras"
     },
     {
-        nombre: "Cortagoteras 1,5Mm X 15Cm",
+        nombre: "Cortagoteras 1,5 mm X 15 cm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40604,7 +40604,7 @@ const productos = [
         subcategoria: "cortagoteras"
     },
     {
-        nombre: "Cortagoteras 1,5Mm X 30Cm",
+        nombre: "Cortagoteras 1,5 mm X 30 cm",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40620,7 +40620,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Teja Transp Upvc X6 Mts",
+        nombre: "Teja Transp Upvc X6 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -40628,7 +40628,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Teja Upvc 2,Mm 2,5 Mm X 6Mts",
+        nombre: "Teja Upvc 2, mm 2,5 mm X 6 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40692,7 +40692,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Teja Trapezoidal Metal 4Mts",
+        nombre: "Teja Trapezoidal Metal 4 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40708,7 +40708,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Cortagoteras 1,5Mm X 20Cm X 10Mts",
+        nombre: "Cortagoteras 1,5 mm X 20 cm X 10 mts",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40724,7 +40724,7 @@ const productos = [
         subcategoria: "teja"
     },
     {
-        nombre: "Superboard 4Mm Grande Y Pq",
+        nombre: "Superboard 4 mm Grande Y Pq",
         precio: "",
         imagen: "",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica.",
@@ -40740,7 +40740,7 @@ const productos = [
         subcategoria: "remache"
     },
     {
-        nombre: "Arandela 4 Mm",
+        nombre: "Arandela 4 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40748,7 +40748,7 @@ const productos = [
         subcategoria: "arandela"
     },
     {
-        nombre: "Torn/Hex 4X20 Mm",
+        nombre: "torn/hex 4x20 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40756,7 +40756,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 4X25 Mm",
+        nombre: "torn/hex 4x25 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40820,7 +40820,7 @@ const productos = [
         subcategoria: "arandela"
     },
     {
-        nombre: "Arandela 10Mm",
+        nombre: "Arandela 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40844,7 +40844,7 @@ const productos = [
         subcategoria: "arandela"
     },
     {
-        nombre: "Arandela 3/8 124N 106 G",
+        nombre: "Arandela 3/8 124n 106 g",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40884,7 +40884,7 @@ const productos = [
         subcategoria: "arandela"
     },
     {
-        nombre: "Arandela 8Mm",
+        nombre: "Arandela 8 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40916,7 +40916,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Cancamo Abiern6 1-1/4",
+        nombre: "Cancamo abiern6 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40932,7 +40932,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Cancamo C/Aldaba",
+        nombre: "Cancamo c/aldaba",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40948,7 +40948,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Draiwal 10X1",
+        nombre: "Draiwal 10x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -40956,7 +40956,7 @@ const productos = [
         subcategoria: "draiwal"
     },
     {
-        nombre: "Draiwal 10X2-1/2",
+        nombre: "Draiwal 10x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41004,7 +41004,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Chazo Expansión 1/4 Cerrado -Abierto",
+        nombre: "Chazo Expansión 1/4 Cerrado - Abierto",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41012,7 +41012,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Expansión 5/8 Abierto- Cerrado",
+        nombre: "Chazo Expansión 5/8 abierto- Cerrado",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41020,7 +41020,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Expansión 5/16 Abierto-Cerrado",
+        nombre: "Chazo Expansión 5/16 abierto-cerrado",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41028,7 +41028,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Expansión 1/2 Abierto-Cerrado",
+        nombre: "Chazo Expansión 1/2 abierto-cerrado",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41036,7 +41036,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Expansión 3/8 Abierto-Cerrado",
+        nombre: "Chazo Expansión 3/8 abierto-cerrado",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41044,7 +41044,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Draiwal 6X1/2",
+        nombre: "Draiwal 6x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41068,7 +41068,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Cancamo L 1-7/8",
+        nombre: "Cancamo l 1-7/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41076,7 +41076,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Cancamo L 3/4",
+        nombre: "Cancamo l 3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41084,7 +41084,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Chazo 1/2Plas",
+        nombre: "Chazo 1/2 Plas",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41124,7 +41124,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Exp 1/2X2-1/2",
+        nombre: "Chazo Exp 1/2x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41140,7 +41140,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Exp 1/4X1-3/8",
+        nombre: "Chazo Exp 1/4x1-3/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41148,7 +41148,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Exp 5/16X1-1/2",
+        nombre: "Chazo Exp 5/16x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41156,7 +41156,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Exp 5/16X2-1/2",
+        nombre: "Chazo Exp 5/16x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41164,7 +41164,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Exp 5/16X1-7/8",
+        nombre: "Chazo Exp 5/16x1-7/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41180,7 +41180,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Exp 1/4X2 1/4",
+        nombre: "Chazo Exp 1/4x2 1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41196,7 +41196,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Chazo Expan 3/8X3",
+        nombre: "Chazo Expan 3/8x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41204,7 +41204,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Draiwal 10X4",
+        nombre: "Draiwal 10x4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41212,7 +41212,7 @@ const productos = [
         subcategoria: "draiwal"
     },
     {
-        nombre: "Draiwal 10X1-1/2",
+        nombre: "Draiwal 10x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41220,7 +41220,7 @@ const productos = [
         subcategoria: "draiwal"
     },
     {
-        nombre: "Draiwal 10X2",
+        nombre: "Draiwal 10x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41244,7 +41244,7 @@ const productos = [
         subcategoria: "cancamo"
     },
     {
-        nombre: "Draiwal 10X3",
+        nombre: "Draiwal 10x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41252,7 +41252,7 @@ const productos = [
         subcategoria: "draiwal"
     },
     {
-        nombre: "Draiwal 10X3-1/2",
+        nombre: "Draiwal 10x3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41268,7 +41268,7 @@ const productos = [
         subcategoria: "draiwal"
     },
     {
-        nombre: "Draiwal 6X3/4",
+        nombre: "Draiwal 6x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41300,7 +41300,7 @@ const productos = [
         subcategoria: "draywall"
     },
     {
-        nombre: "Draiwall 7X1-5/8",
+        nombre: "Draiwall 7x1-5/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41308,7 +41308,7 @@ const productos = [
         subcategoria: "draiwall"
     },
     {
-        nombre: "Draiwall 8X1-1/4",
+        nombre: "Draiwall 8x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41316,7 +41316,7 @@ const productos = [
         subcategoria: "draiwall"
     },
     {
-        nombre: "Draiwall 8X2-1/2",
+        nombre: "Draiwall 8x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41332,7 +41332,7 @@ const productos = [
         subcategoria: "draiwall"
     },
     {
-        nombre: "Draiwall 8X1/2",
+        nombre: "Draiwall 8x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41348,7 +41348,7 @@ const productos = [
         subcategoria: "draywal"
     },
     {
-        nombre: "Draywal 8X3/4",
+        nombre: "Draywal 8x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41372,7 +41372,7 @@ const productos = [
         subcategoria: "draywall"
     },
     {
-        nombre: "Gols Lam 10X1/2",
+        nombre: "Gols Lam 10x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41380,7 +41380,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X1",
+        nombre: "Gols Lamn 10x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41388,7 +41388,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X1 1/2",
+        nombre: "Gols Lamn 10x1 1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41396,7 +41396,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X1 1/4",
+        nombre: "Gols Lamn 10x1 1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41404,7 +41404,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X2",
+        nombre: "Gols Lamn 10x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41412,7 +41412,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X3",
+        nombre: "Gols Lamn 10x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41420,7 +41420,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X3/4",
+        nombre: "Gols Lamn 10x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41428,7 +41428,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 10X5/8",
+        nombre: "Gols Lamn 10x5/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41436,7 +41436,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X1",
+        nombre: "Gols Lamn 12x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41444,7 +41444,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X1-1/2",
+        nombre: "Gols Lamn 12x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41452,7 +41452,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X1-1/4",
+        nombre: "Gols Lamn 12x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41460,7 +41460,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X2",
+        nombre: "Gols Lamn 12x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41468,7 +41468,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X2-1/2",
+        nombre: "Gols Lamn 12x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41476,7 +41476,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X3",
+        nombre: "Gols Lamn 12x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41484,7 +41484,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 12X5/8",
+        nombre: "Gols Lamn 12x5/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41492,7 +41492,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X1",
+        nombre: "Gols Lamn 14x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41500,7 +41500,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X1-1/2",
+        nombre: "Gols Lamn 14x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41508,7 +41508,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X1-1/4",
+        nombre: "Gols Lamn 14x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41516,7 +41516,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X2",
+        nombre: "Gols Lamn 14x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41524,7 +41524,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X2-1/2",
+        nombre: "Gols Lamn 14x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41532,7 +41532,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X3",
+        nombre: "Gols Lamn 14x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41540,7 +41540,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 14X3/4",
+        nombre: "Gols Lamn 14x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41564,7 +41564,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 6X1/2",
+        nombre: "Gols Lamn 6x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41580,7 +41580,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 6X3/4",
+        nombre: "Gols Lamn 6x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41604,7 +41604,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 8X1/2",
+        nombre: "Gols Lamn 8x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41612,7 +41612,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 8X1-1/2",
+        nombre: "Gols Lamn 8x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41636,7 +41636,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 8X3/4",
+        nombre: "Gols Lamn 8x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41644,7 +41644,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Gols Lamn 8X3/8",
+        nombre: "Gols Lamn 8x3/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41700,7 +41700,7 @@ const productos = [
         subcategoria: "guaza"
     },
     {
-        nombre: "Gols Lamn 10X2 1/2",
+        nombre: "Gols Lamn 10x2 1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41732,7 +41732,7 @@ const productos = [
         subcategoria: "torn"
     },
     {
-        nombre: "Torn/ Nivelador 3/8- Autoperf",
+        nombre: "torn/ Nivelador 3/8- Autoperf",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41740,7 +41740,7 @@ const productos = [
         subcategoria: "torn"
     },
     {
-        nombre: "Torn/Brist 10-25",
+        nombre: "torn/brist 10-25",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41748,7 +41748,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 10-30",
+        nombre: "torn/brist 10-30",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41756,7 +41756,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 10-40",
+        nombre: "torn/brist 10-40",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41764,7 +41764,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 10-50",
+        nombre: "torn/brist 10-50",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41772,7 +41772,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 5X16-20-25",
+        nombre: "torn/brist 5x16-20-25",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41780,7 +41780,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 6-16",
+        nombre: "torn/brist 6-16",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41788,7 +41788,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 6-20",
+        nombre: "torn/brist 6-20",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41796,7 +41796,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 6-25",
+        nombre: "torn/brist 6-25",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41804,7 +41804,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 6-30",
+        nombre: "torn/brist 6-30",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41812,7 +41812,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 6-40",
+        nombre: "torn/brist 6-40",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41820,7 +41820,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 6-50",
+        nombre: "torn/brist 6-50",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41828,7 +41828,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 8-20",
+        nombre: "torn/brist 8-20",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41836,7 +41836,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 8-25",
+        nombre: "torn/brist 8-25",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41844,7 +41844,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 8-30",
+        nombre: "torn/brist 8-30",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41852,7 +41852,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 8-40",
+        nombre: "torn/brist 8-40",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41860,7 +41860,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Brist 8-50",
+        nombre: "torn/brist 8-50",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41868,7 +41868,7 @@ const productos = [
         subcategoria: "tornbrist"
     },
     {
-        nombre: "Torn/Carrj 1/4X1-1/2",
+        nombre: "torn/carrj 1/4x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41876,7 +41876,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 1/4X2",
+        nombre: "torn/carrj 1/4x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41884,7 +41884,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 1/4X2-1/2",
+        nombre: "torn/carrj 1/4x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41892,7 +41892,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 1/4X3",
+        nombre: "torn/carrj 1/4x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41900,7 +41900,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 5/16X1-1/2",
+        nombre: "torn/carrj 5/16x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41908,7 +41908,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 5/16X2",
+        nombre: "torn/carrj 5/16x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41916,7 +41916,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 5/16X2-1/2",
+        nombre: "torn/carrj 5/16x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41924,7 +41924,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 5/16X3",
+        nombre: "torn/carrj 5/16x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41932,7 +41932,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 3/8X1-1/2",
+        nombre: "torn/carrj 3/8x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41940,7 +41940,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 3/8X2",
+        nombre: "torn/carrj 3/8x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -41948,7 +41948,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 3/8X2-1/2",
+        nombre: "torn/carrj 3/8x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41956,7 +41956,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 3/8X3 3-1/2",
+        nombre: "torn/carrj 3/8x3 3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41964,7 +41964,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Estf 3/16X1",
+        nombre: "torn/estf 3/16x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41972,7 +41972,7 @@ const productos = [
         subcategoria: "tornestf"
     },
     {
-        nombre: "Torn/Estf 3/16X1/2",
+        nombre: "torn/estf 3/16x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41980,7 +41980,7 @@ const productos = [
         subcategoria: "tornestf"
     },
     {
-        nombre: "Torn/Estf 3/16X1-1/2- 1-1/4",
+        nombre: "torn/estf 3/16x1-1/2- 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41988,7 +41988,7 @@ const productos = [
         subcategoria: "tornestf"
     },
     {
-        nombre: "Torn/Estf 3/16X2",
+        nombre: "torn/estf 3/16x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -41996,7 +41996,7 @@ const productos = [
         subcategoria: "tornestf"
     },
     {
-        nombre: "Torn/Estf 3/16X3/4",
+        nombre: "torn/estf 3/16x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42004,7 +42004,7 @@ const productos = [
         subcategoria: "tornestf"
     },
     {
-        nombre: "Torn/Hex 1/2X1",
+        nombre: "torn/hex 1/2x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42012,7 +42012,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X1-1/2",
+        nombre: "torn/hex 1/2x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42020,7 +42020,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X1-1/4",
+        nombre: "torn/hex 1/2x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42028,7 +42028,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X2",
+        nombre: "torn/hex 1/2x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42036,7 +42036,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X2-1/2",
+        nombre: "torn/hex 1/2x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42044,7 +42044,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X3",
+        nombre: "torn/hex 1/2x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42052,7 +42052,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X3-1/2 G2----G5",
+        nombre: "torn/hex 1/2x3-1/2 g2----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42060,7 +42060,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/2X4",
+        nombre: "torn/hex 1/2x4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42068,7 +42068,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn Autop C/P 8 X 1-1/4",
+        nombre: "Torn Autop c/p 8 X 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42076,7 +42076,7 @@ const productos = [
         subcategoria: "torn"
     },
     {
-        nombre: "Torn/Hex 1/4X1\" G2----G5",
+        nombre: "torn/hex 1/4x1\" g2----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42084,7 +42084,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X1/2",
+        nombre: "torn/hex 1/4x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42092,7 +42092,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X1-1/2 G2---G5",
+        nombre: "torn/hex 1/4x1-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42100,7 +42100,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X1-1/4",
+        nombre: "torn/hex 1/4x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42108,7 +42108,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X2",
+        nombre: "torn/hex 1/4x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42116,7 +42116,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X2-1/2 G2---G5",
+        nombre: "torn/hex 1/4x2-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42124,7 +42124,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X3- 3-1/2",
+        nombre: "torn/hex 1/4x3- 3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42132,7 +42132,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4X3/4",
+        nombre: "torn/hex 1/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42140,7 +42140,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 10-1X25Mm",
+        nombre: "torn/hex 10-1x25mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42148,7 +42148,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 10-1X30Mm",
+        nombre: "torn/hex 10-1x30mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42156,7 +42156,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn Autopr C/Plana 3/4",
+        nombre: "Torn Autopr c/plana 3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42164,7 +42164,7 @@ const productos = [
         subcategoria: "torn"
     },
     {
-        nombre: "Torn Autp C/Plana 1\"",
+        nombre: "Torn Autp c/plana 1\"",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42172,7 +42172,7 @@ const productos = [
         subcategoria: "torn"
     },
     {
-        nombre: "Torn/Hex 10-1X40Mm",
+        nombre: "torn/hex 10-1x40mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42180,7 +42180,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 10-1X50Mm",
+        nombre: "torn/hex 10-1x50mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42188,7 +42188,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X1 G2---G5",
+        nombre: "torn/hex 3/8x1 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42196,7 +42196,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X1-1/2 G2---G5",
+        nombre: "torn/hex 3/8x1-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42204,7 +42204,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X1-1/4",
+        nombre: "torn/hex 3/8x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42212,7 +42212,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X2 G2---G5",
+        nombre: "torn/hex 3/8x2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42220,7 +42220,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X2-1/2 G2-----G5",
+        nombre: "torn/hex 3/8x2-1/2 g2-----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42228,7 +42228,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X3 G2-G5",
+        nombre: "torn/hex 3/8x3 g2-g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42236,7 +42236,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X3/4",
+        nombre: "torn/hex 3/8x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42244,7 +42244,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X3-1/2 G2---G5",
+        nombre: "torn/hex 3/8x3-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42252,7 +42252,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X4 G2----G5",
+        nombre: "torn/hex 3/8x4 g2----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42260,7 +42260,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X4-1/2",
+        nombre: "torn/hex 3/8x4-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42268,7 +42268,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 3/8X5",
+        nombre: "torn/hex 3/8x5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42276,7 +42276,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X1",
+        nombre: "torn/hex 5/16x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42284,7 +42284,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X1/2",
+        nombre: "torn/hex 5/16x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42292,7 +42292,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X1-1/2 G2---G5",
+        nombre: "torn/hex 5/16x1-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42300,7 +42300,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X1-1/4",
+        nombre: "torn/hex 5/16x1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42308,7 +42308,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X2 G2----G5",
+        nombre: "torn/hex 5/16x2 g2----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42316,7 +42316,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X2-1/2 G2--G5",
+        nombre: "torn/hex 5/16x2-1/2 g2--g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42324,7 +42324,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X3 G2---G5",
+        nombre: "torn/hex 5/16x3 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42332,7 +42332,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X3/4 G2----G5",
+        nombre: "torn/hex 5/16x3/4 g2----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42340,7 +42340,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X3-1/2 G2---G5",
+        nombre: "torn/hex 5/16x3-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42348,7 +42348,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X4",
+        nombre: "torn/hex 5/16x4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42356,7 +42356,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X4-1/2",
+        nombre: "torn/hex 5/16x4-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42364,7 +42364,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X5",
+        nombre: "torn/hex 5/16x5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42372,7 +42372,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16X5-1/2",
+        nombre: "torn/hex 5/16x5-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42380,7 +42380,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 6-1X15Mm",
+        nombre: "torn/hex 6-1x15mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42388,7 +42388,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 6-1X20Mm",
+        nombre: "torn/hex 6-1x20mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42396,7 +42396,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 6-1X25Mm",
+        nombre: "torn/hex 6-1x25mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42404,7 +42404,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 6-1X30Mm",
+        nombre: "torn/hex 6-1x30mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42412,7 +42412,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 6-1X40Mm",
+        nombre: "torn/hex 6-1x40mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42420,7 +42420,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 6-1X50Mm",
+        nombre: "torn/hex 6-1x50mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42428,7 +42428,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X1 G2---G5",
+        nombre: "torn/hex 7/16x1 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42436,7 +42436,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X1-1/2",
+        nombre: "torn/hex 7/16x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42444,7 +42444,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X2 G2---G5",
+        nombre: "torn/hex 7/16x2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42452,7 +42452,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X2-1/2 G2---G5",
+        nombre: "torn/hex 7/16x2-1/2 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42460,7 +42460,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X3 G2---G5",
+        nombre: "torn/hex 7/16x3 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42468,7 +42468,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X3-1/2",
+        nombre: "torn/hex 7/16x3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42476,7 +42476,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7/16X4",
+        nombre: "torn/hex 7/16x4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42484,7 +42484,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7-1X25Mm",
+        nombre: "torn/hex 7-1x25mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42492,7 +42492,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7-1X30Mm",
+        nombre: "torn/hex 7-1x30mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42500,7 +42500,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7-1X40Mm",
+        nombre: "torn/hex 7-1x40mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42508,7 +42508,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 7-1X50Mm",
+        nombre: "torn/hex 7-1x50mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42516,7 +42516,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 8-1X20Mm",
+        nombre: "torn/hex 8-1x20mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42524,7 +42524,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 8-1X25Mm",
+        nombre: "torn/hex 8-1x25mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42532,7 +42532,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 8-1X30Mm",
+        nombre: "torn/hex 8-1x30mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42540,7 +42540,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 8-1X40Mm",
+        nombre: "torn/hex 8-1x40mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42548,7 +42548,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 8-1X50Mm",
+        nombre: "torn/hex 8-1x50mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42556,7 +42556,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 9/16X1-1/2",
+        nombre: "torn/hex 9/16x1-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42564,7 +42564,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 9/16X2",
+        nombre: "torn/hex 9/16x2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42572,7 +42572,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 9/16X2-1/2",
+        nombre: "torn/hex 9/16x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42580,7 +42580,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 9/16X3",
+        nombre: "torn/hex 9/16x3",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42588,7 +42588,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Neopreno 10 X 3\" Y 4",
+        nombre: "torn/neopreno 10 X 3\" Y 4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42604,7 +42604,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 1/2 G2-----G5",
+        nombre: "Tuerca 1/2 g2-----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42612,7 +42612,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 1/4 G2-----G5",
+        nombre: "Tuerca 1/4 g2-----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42628,7 +42628,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 10-1M",
+        nombre: "Tuerca 10-1 m",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42652,7 +42652,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 3/8 G2----G5",
+        nombre: "Tuerca 3/8 g2----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42660,7 +42660,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 5/16 G2-----G5",
+        nombre: "Tuerca 5/16 g2-----g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42676,7 +42676,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 6Mm --5Mm",
+        nombre: "Tuerca 6 mm --5 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42684,7 +42684,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 7/16 G2---G5",
+        nombre: "Tuerca 7/16 g2---g5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42692,7 +42692,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 7-1Mm",
+        nombre: "Tuerca 7-1 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42700,7 +42700,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 8-1 M",
+        nombre: "Tuerca 8-1 m",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42804,7 +42804,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca Seguridad 6Mm",
+        nombre: "Tuerca Seguridad 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42812,7 +42812,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca Seguridad 7Mm",
+        nombre: "Tuerca Seguridad 7 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42820,7 +42820,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca Seguridad 8Mm",
+        nombre: "Tuerca Seguridad 8 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42828,7 +42828,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca Seguridad 10Mm",
+        nombre: "Tuerca Seguridad 10 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42844,7 +42844,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Varilla Rosca 1/2 X 3Mt",
+        nombre: "Varilla Rosca 1/2 X 3 Mt",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42852,7 +42852,7 @@ const productos = [
         subcategoria: "varilla"
     },
     {
-        nombre: "Varilla Rosca 3/8 X 3Mt",
+        nombre: "Varilla Rosca 3/8 X 3 Mt",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42932,7 +42932,7 @@ const productos = [
         subcategoria: "varilla"
     },
     {
-        nombre: "Torn/Hex 1/4 X 3/4 R.Fina",
+        nombre: "torn/hex 1/4 X 3/4 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42940,7 +42940,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4 X 1\" R Fina",
+        nombre: "torn/hex 1/4 X 1\" R Fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42948,7 +42948,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4 X 1- 1/4 R.Fina",
+        nombre: "torn/hex 1/4 X 1- 1/4 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42956,7 +42956,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4 X 1- 1/2 R.Fina",
+        nombre: "torn/hex 1/4 X 1- 1/2 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42964,7 +42964,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 1/4 X 2\" R.Fina",
+        nombre: "torn/hex 1/4 X 2\" r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -42972,7 +42972,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16 X 3/4 R.Fina",
+        nombre: "torn/hex 5/16 X 3/4 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42980,7 +42980,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16 X 1\" R.Fina",
+        nombre: "torn/hex 5/16 X 1\" r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42988,7 +42988,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16 X 1- 1/4 R.Fina",
+        nombre: "torn/hex 5/16 X 1- 1/4 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -42996,7 +42996,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16 X 1- 1/2 R.Fina",
+        nombre: "torn/hex 5/16 X 1- 1/2 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43004,7 +43004,7 @@ const productos = [
         subcategoria: "tornhex"
     },
     {
-        nombre: "Torn/Hex 5/16 X 2\" R.Fina",
+        nombre: "torn/hex 5/16 X 2\" r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43020,7 +43020,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Tuerca 1/4 R.Fina",
+        nombre: "Tuerca 1/4 r.fina",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -43028,7 +43028,7 @@ const productos = [
         subcategoria: "tuerca"
     },
     {
-        nombre: "Gols Lamn 12X1/2",
+        nombre: "Gols Lamn 12x1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43036,7 +43036,7 @@ const productos = [
         subcategoria: "gols"
     },
     {
-        nombre: "Torn/Carrj 3/8 X1",
+        nombre: "torn/carrj 3/8 X1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -43044,7 +43044,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 1/4X3/4",
+        nombre: "torn/carrj 1/4x3/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -43052,7 +43052,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 1/4 X 4 Y 5",
+        nombre: "torn/carrj 1/4 X 4 Y 5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43060,7 +43060,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 1/4X1",
+        nombre: "torn/carrj 1/4x1",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -43068,7 +43068,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 5/16 X3-1/2",
+        nombre: "torn/carrj 5/16 x3-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43076,7 +43076,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 5/16X 4 Y 5",
+        nombre: "torn/carrj 5/16x 4 Y 5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43092,7 +43092,7 @@ const productos = [
         subcategoria: "capelote"
     },
     {
-        nombre: "Torn/Neopr 14 X 1-1/4",
+        nombre: "torn/neopr 14 X 1-1/4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43268,7 +43268,7 @@ const productos = [
         subcategoria: "pines"
     },
     {
-        nombre: "Torn/Neopreno 10 X 1-1/2---2\" Teja",
+        nombre: "torn/neopreno 10 X 1-1/2---2\" Teja",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43508,7 +43508,7 @@ const productos = [
         subcategoria: "pines"
     },
     {
-        nombre: "Mini Soldador Lcd Inversor Maxwelld",
+        nombre: "Mini Soldador LCD Inversor Maxwelld",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -43540,7 +43540,7 @@ const productos = [
         subcategoria: "pines"
     },
     {
-        nombre: "Torn/Carrj 3/8 X 4",
+        nombre: "torn/carrj 3/8 X 4",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43548,7 +43548,7 @@ const productos = [
         subcategoria: "torncarrj"
     },
     {
-        nombre: "Torn/Carrj 3/8X 5",
+        nombre: "torn/carrj 3/8x 5",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -43572,7 +43572,7 @@ const productos = [
         subcategoria: "tornillo"
     },
     {
-        nombre: "Tornillo Autoperforante 14X2 5/8",
+        nombre: "Tornillo Autoperforante 14x2 5/8",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43620,7 +43620,7 @@ const productos = [
         subcategoria: "tor"
     },
     {
-        nombre: "Torn/Neopreno 10X2-1/2",
+        nombre: "torn/neopreno 10x2-1/2",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -43644,7 +43644,7 @@ const productos = [
         subcategoria: "chazo"
     },
     {
-        nombre: "Arandela 6Mm",
+        nombre: "Arandela 6 mm",
         precio: "",
         imagen: "",
         descripcion: "Tornillo o elemento de fijación para ensamble en construcción y carpintería.",
@@ -45084,10 +45084,10 @@ function mostrarProductos(lista) {
         return;
     }
 
-    // Ordena alfabéticamente por nombre (A-Z), sin importar el orden en que se agregaron arriba
-    listaOrdenadaActual = [...lista].sort((a, b) =>
-        a.nombre.localeCompare(b.nombre, "es", { sensitivity: "base" })
-    );
+    // Se respeta el orden en que están cargados los productos (tus productos reales
+    // primero, y luego los del inventario en el mismo orden del PDF por categoría),
+    // en vez de reordenarlos alfabéticamente.
+    listaOrdenadaActual = [...lista];
 
     productosMostrados = 0;
     renderizarSiguientePagina();
@@ -45279,3 +45279,25 @@ function actualizarContador() {
 }
 document.addEventListener("DOMContentLoaded", actualizarContador);
 
+// Muestra/oculta TODOS los filtros
+function toggleFiltros() {
+    const panel = document.getElementById("panel-filtros");
+    const flecha = document.getElementById("flecha-filtros");
+    if (!panel) return;
+    panel.classList.toggle("panel-filtros-oculto");
+    if (flecha) {
+        flecha.textContent = panel.classList.contains("panel-filtros-oculto") ? "▾" : "▴";
+    }
+}
+
+// Al cargar: ocultos en celular, visibles en computador
+document.addEventListener("DOMContentLoaded", function () {
+    const panel = document.getElementById("panel-filtros");
+    const flecha = document.getElementById("flecha-filtros");
+    if (panel && window.innerWidth <= 768) {
+        panel.classList.add("panel-filtros-oculto");
+    }
+    if (panel && flecha) {
+        flecha.textContent = panel.classList.contains("panel-filtros-oculto") ? "▾" : "▴";
+    }
+});
