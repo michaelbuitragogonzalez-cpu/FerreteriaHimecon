@@ -516,12 +516,12 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
     margin-bottom: 50px;
 }
 
-/* Botón "🔍 Filtros" que solo se ve en celular */
+/* Botón "🔍 Filtros ▾" que muestra/oculta todos los filtros (en computador y celular) */
 #boton-filtros {
-    display: none;
+    display: block;
     width: 100%;
     max-width: 700px;
-    margin: 18px auto 0;
+    margin: 18px auto 20px;
     padding: 14px;
     border: none;
     border-radius: 50px;
@@ -532,21 +532,12 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
     cursor: pointer;
 }
 
-/* En celular, el panel de filtros arranca oculto para dejar más espacio a los productos */
+/* Cuando el panel está oculto, desaparecen categorías, subcategorías y tipos */
+#panel-filtros.panel-filtros-oculto {
+    display: none;
+}
+
 @media (max-width: 768px) {
-    #boton-filtros {
-        display: block;
-    }
-
-    #panel-filtros {
-        display: none;
-    }
-
-    #panel-filtros.panel-filtros-abierto {
-        display: block;
-        margin-top: 15px;
-    }
-
     .categorias, .subcategorias, .subsubcategorias {
         gap: 10px;
         margin-bottom: 20px;
