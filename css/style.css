@@ -1138,6 +1138,9 @@ nav a::after {
     position: fixed;
     bottom: 24px;
     left: 24px;
+    touch-action: none; /* para que el arrastre funcione bien en celular */
+    cursor: grab;
+    user-select: none;
     padding: 14px 22px;
     border: none;
     border-radius: 50px;
@@ -1440,4 +1443,11 @@ body.modo-oscuro .pantalla {
     #productos {
         grid-template-columns: 1fr !important;
     }
+}
+
+/* Mientras se está arrastrando el botón del pedido */
+#boton-pedido.arrastrando {
+    cursor: grabbing;
+    opacity: 0.85;
+    transition: none !important;
 }

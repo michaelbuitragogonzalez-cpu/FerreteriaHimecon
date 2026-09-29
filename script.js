@@ -45116,6 +45116,101 @@ function togglePanelPedido() {
     panel.classList.toggle("panel-pedido-abierto");
 }
 
+// ===== ARRASTRAR EL BOTÓN DEL PEDIDO =====
+// El botón 🛒 se puede arrastrar a cualquier parte de la pantalla para que no estorbe,
+// y recuerda dónde quedó (por navegador) para la próxima visita.
+(function habilitarArrastreBotonPedido() {
+    const boton = document.getElementById("boton-pedido");
+    if (!boton) return;
+
+    let arrastrando = false;
+    let movido = false;
+    let offsetX = 0;
+    let offsetY = 0;
+
+    function posicionarEn(x, y) {
+        const ancho = boton.offsetWidth || 140;
+        const alto = boton.offsetHeight || 50;
+        // No dejar que se salga de la pantalla
+        x = Math.max(4, Math.min(x, window.innerWidth - ancho - 4));
+        y = Math.max(4, Math.min(y, window.innerHeight - alto - 4));
+        boton.style.left = x + "px";
+        boton.style.top = y + "px";
+        boton.style.bottom = "auto";
+        boton.style.right = "auto";
+    }
+
+    function guardarPosicion(x, y) {
+        try {
+            localStorage.setItem("himecon-pos-boton-pedido", JSON.stringify({ x, y }));
+        } catch (e) {}
+    }
+
+    function restaurarPosicion() {
+        let pos = null;
+        try {
+            pos = JSON.parse(localStorage.getItem("himecon-pos-boton-pedido"));
+        } catch (e) {}
+        if (pos && typeof pos.x === "number" && typeof pos.y === "number") {
+            posicionarEn(pos.x, pos.y);
+        }
+    }
+
+    function empezar(clientX, clientY) {
+        arrastrando = true;
+        movido = false;
+        const rect = boton.getBoundingClientRect();
+        offsetX = clientX - rect.left;
+        offsetY = clientY - rect.top;
+        boton.classList.add("arrastrando");
+    }
+
+    function mover(clientX, clientY) {
+        if (!arrastrando) return;
+        movido = true;
+        posicionarEn(clientX - offsetX, clientY - offsetY);
+    }
+
+    function terminar() {
+        if (!arrastrando) return;
+        arrastrando = false;
+        boton.classList.remove("arrastrando");
+        if (movido) {
+            const rect = boton.getBoundingClientRect();
+            guardarPosicion(rect.left, rect.top);
+        }
+    }
+
+    // Mouse (computador)
+    boton.addEventListener("mousedown", e => {
+        empezar(e.clientX, e.clientY);
+    });
+    document.addEventListener("mousemove", e => mover(e.clientX, e.clientY));
+    document.addEventListener("mouseup", terminar);
+
+    // Táctil (celular)
+    boton.addEventListener("touchstart", e => {
+        const t = e.touches[0];
+        empezar(t.clientX, t.clientY);
+    }, { passive: true });
+    document.addEventListener("touchmove", e => {
+        if (!arrastrando) return;
+        const t = e.touches[0];
+        mover(t.clientX, t.clientY);
+    }, { passive: true });
+    document.addEventListener("touchend", terminar);
+
+    // Si hubo arrastre real, no se abre el panel; si fue un toque/clic simple, sí
+    boton.addEventListener("click", () => {
+        if (!movido) {
+            togglePanelPedido();
+        }
+        movido = false;
+    });
+
+    restaurarPosicion();
+})();
+
 function renderizarPanelPedido() {
     const contenedorLista = document.getElementById("panel-pedido-lista");
     const botonEnviar = document.getElementById("boton-enviar-pedido");
