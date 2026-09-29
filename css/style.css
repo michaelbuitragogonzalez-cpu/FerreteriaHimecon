@@ -709,34 +709,6 @@ will-change: transform, box-shadow;
     line-height: 1.7;
 }
 
-/* Trazo SVG integrado de la Flecha Ondulada */
-.contacto-texto::after {
-    content: "";
-    display: block;
-    width: 100%;
-    max-width: 450px;
-    height: 80px;
-    margin-top: 30px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 80' fill='none' stroke='%2339A9FF' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M 10 40 Q 40 10 70 40 T 130 40 T 190 40 T 250 40 T 310 40 T 370 40' /%3E%3Cpath d='M 355 25 L 375 40 L 355 55' /%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: flechaOnduladaLoca 3s cubic-bezier(0.45, 0, 0.55, 1) infinite;
-    transform-origin: left center;
-    will-change: transform, filter;
-}
-
-@keyframes flechaOnduladaLoca {
-    0%, 100% { transform: scaleX(1) scaleY(1) translateY(0); }
-    30% { transform: scaleX(1.15) scaleY(0.9) translateX(5px); }
-    60% { transform: scaleX(0.95) scaleY(1.1) translateY(-4px); }
-    80% { transform: scaleX(1.08) scaleY(0.95) translateX(10px); }
-}
-
-.contacto:hover .contacto-texto::after {
-    filter: drop-shadow(0px 5px 8px rgba(37, 211, 102, 0.4));
-    filter: hue-rotate(45deg) saturate(2);
-}
-
 .datos {
     margin-top: 10px;
 }
@@ -1145,28 +1117,348 @@ body.modo-oscuro .pantalla {
 
 
 /* =========================================================
-   HIMECON - VERSION CELULAR (todo lo movil vive SOLO aqui)
+   HIMECON - ESTILO MODERNO Y PROFESIONAL (PC + celular)
+   Va ANTES del bloque celular para que el celular lo ajuste.
    ========================================================= */
-@keyframes flechaOnduladaMovil {
-    0%, 100% { transform: rotate(90deg) scale(1); }
-    50%      { transform: rotate(90deg) scale(1.1) translateX(6px); }
+:root {
+    --azul: #39A9FF;
+    --azul-osc: #1e88e5;
+    --texto: #1c2430;
+    --gris: #5b6675;
+    --borde: #e6ecf3;
+    --fondo-suave: #f5f8fc;
+    --radio: 18px;
+    --sombra-sm: 0 2px 8px rgba(20,40,80,.06);
+    --sombra-md: 0 10px 30px rgba(20,40,80,.10);
+    --sombra-lg: 0 18px 40px rgba(20,40,80,.16);
 }
 
+/* ---- Base: tipografia y accesibilidad ---- */
+body { color: var(--texto); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+h1, h2, h3 { letter-spacing: -0.02em; line-height: 1.2; }
+section[id] { scroll-margin-top: 90px; }
+:focus-visible { outline: 3px solid rgba(57,169,255,.55); outline-offset: 2px; }
+
+/* ---- Flotado se mantiene; al pasar el mouse se detiene y se ve el efecto de elevar ---- */
+.card:hover, .producto:hover, .boton:hover { animation: none; }
+
+/* ---- Encabezado tipo cristal ---- */
+header {
+    background: rgba(255,255,255,.88);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    padding: 14px 6%;
+}
+header.scrolled { box-shadow: var(--sombra-md); }
+.logo img { width: 110px; }
+.logo img:hover { transform: scale(1.06); }
+nav ul { gap: 32px; margin-left: auto; margin-right: 16px; }
+nav a { font-size: 16px; font-weight: 500; transition: color .2s ease; }
+nav a:hover { transform: none; }
+nav a::after { height: 2px; bottom: -6px; transition: width .25s ease; }
+#boton-modo-oscuro {
+    display: grid;
+    place-items: center;
+    margin-left: 0;
+    border: 1px solid var(--borde);
+    background: var(--fondo-suave);
+    transition: border-color .2s ease, transform .2s ease;
+}
+#boton-modo-oscuro:hover { border-color: var(--azul); transform: rotate(15deg); }
+body.modo-oscuro #boton-modo-oscuro { background: #262626; border-color: #3a3a3a; }
+body.modo-oscuro header { border-color: #2a2a2a; }
+
+/* ---- Botones ---- */
+.boton {
+    background: linear-gradient(135deg, #4db5ff, #2b98f0);
+    padding: 13px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(57,169,255,.35);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.boton:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(57,169,255,.45); }
+.boton:active { transform: scale(.97); }
+
+/* ---- Inicio (hero de catalogo.html y bienvenida de index.html) ---- */
+.hero {
+    background:
+        radial-gradient(1000px 480px at 85% 5%, rgba(57,169,255,.18), transparent 60%),
+        linear-gradient(#fff, #eef7ff);
+}
+.hero-text h1 { font-size: clamp(34px, 4.6vw, 56px); font-weight: 800; }
+.hero-text p { color: var(--gris); }
+.inicio {
+    background:
+        radial-gradient(900px 500px at 12% 8%, rgba(57,169,255,.18), transparent 60%),
+        radial-gradient(800px 500px at 92% 92%, rgba(57,169,255,.14), transparent 60%),
+        linear-gradient(135deg, #eef8ff, #fff);
+}
+.pantalla { padding: 24px; }
+.pantalla h1 { font-size: clamp(32px, 4.8vw, 64px); font-weight: 800; }
+.logo-grande { filter: drop-shadow(0 12px 24px rgba(20,40,80,.15)); }
+
+/* ---- Titulos con detalle azul ---- */
+.beneficios h2::after, .catalogo h2::after, .pagina-productos h1::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--azul);
+    margin: 14px auto 0;
+}
+.nosotros-texto h2::after, .contacto-texto h2::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--azul);
+    margin: 14px 0 0;
+}
+.pagina-productos h1 { font-weight: 800; }
+.nosotros-texto h2 { font-size: clamp(28px, 3vw, 38px); font-weight: 800; }
+.nosotros-texto:hover { transform: none; }
+.nosotros-imagen img { border-radius: 24px; box-shadow: var(--sombra-lg); }
+.nosotros-imagen img:hover { transform: scale(1.02); }
+
+/* ---- Tarjetas de beneficios ---- */
+.card {
+    width: auto;
+    flex: 1 1 280px;
+    max-width: 340px;
+    padding: 30px 26px;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    text-align: left;
+    box-shadow: var(--sombra-sm);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.card:hover { transform: translateY(-6px); box-shadow: var(--sombra-md); }
+.icono {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 28px;
+    margin-bottom: 18px;
+    background: rgba(57,169,255,.12);
+    border-radius: 16px;
+}
+.icono:hover { transform: none; }
+.card h3 { font-size: 20px; }
+
+/* ---- Contacto: datos en tarjetitas ---- */
+.datos { display: grid; gap: 10px; margin-top: 18px; width: 100%; max-width: 520px; }
+.datos p {
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    padding: 12px 16px;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: left;
+    color: var(--texto);
+    box-shadow: var(--sombra-sm);
+    overflow-wrap: anywhere;
+}
+body.modo-oscuro .datos p { background: #1e1e1e; border-color: #333; }
+
+/* ---- Buscador con lupa ---- */
+#buscador {
+    padding: 15px 20px 15px 50px;
+    border: 1px solid var(--borde);
+    box-shadow: var(--sombra-sm);
+    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat 18px center / 20px;
+    transition: box-shadow .2s ease, border-color .2s ease;
+}
+#buscador:focus {
+    transform: none;
+    border-color: var(--azul);
+    box-shadow: 0 0 0 4px rgba(57,169,255,.18);
+}
+body.modo-oscuro #buscador { background-color: #262626; border-color: #3a3a3a; color: #e6e6e6; }
+
+/* ---- Boton de filtros y panel ---- */
+#boton-filtros {
+    background: #fff;
+    color: var(--azul-osc);
+    border: 1.5px solid var(--azul);
+    border-radius: 14px;
+    box-shadow: var(--sombra-sm);
+    transition: background .2s ease, color .2s ease;
+}
+#boton-filtros:hover { background: var(--azul); color: #fff; }
+body.modo-oscuro #boton-filtros { background: #1e1e1e; color: var(--azul); }
+body.modo-oscuro #boton-filtros:hover { background: var(--azul); color: #fff; }
+
+#panel-filtros {
+    max-width: 1100px;
+    margin: 0 auto 32px;
+    padding: 22px;
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 20px;
+    box-shadow: var(--sombra-sm);
+}
+.categorias, .subcategorias, .subsubcategorias { gap: 10px; margin-bottom: 16px; }
+.subcategorias, .subsubcategorias { margin-top: 0; }
+#panel-filtros > :last-child { margin-bottom: 0; }
+
+/* ---- Chips de filtros (con estado activo) ---- */
+.categorias button, .subcategorias button, .subsubcategorias button {
+    background: #fff;
+    color: var(--texto);
+    border: 1px solid var(--borde);
+    box-shadow: var(--sombra-sm);
+    font-weight: 500;
+    padding: 9px 18px;
+    font-size: 14px;
+    transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.categorias button:hover, .subcategorias button:hover, .subsubcategorias button:hover {
+    transform: none;
+    background: #fff;
+    border-color: var(--azul);
+    color: var(--azul-osc);
+    box-shadow: var(--sombra-sm);
+}
+.categorias button.activo, .subcategorias button.activo, .subsubcategorias button.activo {
+    background: var(--azul);
+    border-color: var(--azul);
+    color: #fff;
+}
+body.modo-oscuro .categorias button.activo,
+body.modo-oscuro .subcategorias button.activo,
+body.modo-oscuro .subsubcategorias button.activo {
+    background: var(--azul);
+    border-color: var(--azul);
+    color: #fff;
+}
+
+/* ---- Cuadricula y tarjetas de producto ---- */
+#productos {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 22px;
+    margin-top: 30px;
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    text-align: left;
+    box-shadow: var(--sombra-sm);
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.producto:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--sombra-lg);
+    border-color: rgba(57,169,255,.5);
+}
+.producto img {
+    height: 180px;
+    padding: 10px;
+    margin-bottom: 14px;
+    background: var(--fondo-suave);
+    border-radius: 12px;
+    transition: transform .3s ease;
+}
+.producto:hover img { transform: scale(1.04); }
+body.modo-oscuro .producto img { background: #2a2a2a; }
+.producto h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    min-height: 2.6em;
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.producto .precio-producto {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+.producto:hover .precio-producto { transform: none; }
+.producto p:not(.precio-producto) {
+    flex: 1;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--gris);
+    margin-bottom: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/* El boton de WhatsApp en verde: se reconoce al instante */
+.producto .boton {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 11px 16px;
+    background: linear-gradient(135deg, #2fdc78, #1fbf5f);
+    box-shadow: 0 6px 16px rgba(37,211,102,.3);
+    filter: none;
+}
+.producto .boton:hover { box-shadow: 0 10px 22px rgba(37,211,102,.4); }
+.producto .boton-agregar-pedido {
+    margin-top: 8px;
+    padding: 10px;
+    transition: background .2s ease, color .2s ease;
+}
+.producto .boton-agregar-pedido:hover { background: rgba(57,169,255,.1); }
+.producto .boton-agregar-pedido.agregado:hover { background: var(--azul-osc); }
+
+/* ---- Pedido ---- */
+#boton-pedido { background: linear-gradient(135deg, #4db5ff, #2b98f0); }
+#panel-pedido { border-radius: 20px; border: 1px solid var(--borde); }
+#panel-pedido-cabecera { background: linear-gradient(135deg, #4db5ff, #2b98f0); }
+
+/* ---- Pie de pagina ---- */
+footer { background: linear-gradient(180deg, #111827, #0b1220); padding: 48px 24px; }
+footer img { width: 110px; }
+footer p { font-size: 14px; color: #9aa4b2; }
+
+/* ---- Modo oscuro: partes que faltaban ---- */
+body.modo-oscuro .hero {
+    background:
+        radial-gradient(1000px 480px at 85% 5%, rgba(57,169,255,.12), transparent 60%),
+        linear-gradient(#121212, #161c26);
+}
+body.modo-oscuro .hero-text p,
+body.modo-oscuro .subtitulo,
+body.modo-oscuro .contador-productos,
+body.modo-oscuro .pantalla p { color: #b5bcc6; }
+
+/* ---- Respeta a quien pide menos movimiento ---- */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* =========================================================
+   HIMECON - VERSION CELULAR (todo lo movil vive SOLO aqui)
+   ========================================================= */
 /* Barra de filtros en modo oscuro */
 body.modo-oscuro #barra-filtros { background: #1a1a1a; }
 body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1e1e1e; }
 
 @media (max-width: 768px) {
 
-    /* ---- Menos animacion = mas fluido y mas ordenado en celular ---- */
+    /* ---- Paleta fija en celular (el flotado se mantiene) ---- */
     :root { animation: none; }
-    .logo img, nav a, .hero-text h1, .hero-text p, .hero-image img, .boton,
-    .nosotros-texto, .nosotros-texto p, .nosotros-imagen img, .beneficios h2,
-    .card, .card p, .card h3, .icono, .producto, .producto h3, .producto p,
-    .contacto-boton {
-        animation: none;
-        will-change: auto;
-    }
     /* Sin efectos "hover" pegados al tocar */
     .logo img:hover, nav a:hover, .hero-image img:hover, .nosotros-texto:hover,
     .nosotros-imagen img:hover, .beneficios h2:hover, .card:hover, .icono:hover,
@@ -1224,25 +1516,20 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
     .cards { flex-direction: column; align-items: stretch; gap: 14px; }
     .card {
         width: 100%;
+        max-width: none;
         padding: 20px 18px;
         border-radius: 18px;
         text-align: left;
         box-shadow: 0 6px 18px rgba(0,0,0,.06);
     }
-    .icono { font-size: 32px; margin-bottom: 8px; }
+    .icono { width: 52px; height: 52px; font-size: 26px; margin-bottom: 12px; }
     .card h3 { font-size: 18px; margin-bottom: 8px; }
     .card p { font-size: 14px; line-height: 1.55; }
 
     /* ---- Contacto ---- */
+    .nosotros-texto h2::after, .contacto-texto h2::after { margin-left: auto; margin-right: auto; }
+    .datos p { font-size: 14px; padding: 10px 12px; }
     .contacto-texto { align-items: center; text-align: center !important; width: 100%; }
-    .contacto-texto::after {
-        max-width: 120px;
-        height: 40px;
-        margin: 44px 0;
-        transform: rotate(90deg);
-        transform-origin: center center;
-        animation: flechaOnduladaMovil 2.5s ease-in-out infinite;
-    }
     .contacto-boton { align-self: center; margin: 0; }
 
     /* ---- Pagina de productos / catalogo ---- */
@@ -1251,8 +1538,8 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
     .subtitulo { font-size: 13px; margin-bottom: 14px; }
     #buscador, .buscador {
         font-size: 15px;
-        padding: 12px 16px;
-        box-shadow: 0 4px 14px rgba(0,0,0,.08);
+        padding: 12px 16px 12px 46px;
+        box-shadow: var(--sombra-sm);
     }
     .pagina-productos #buscador { margin-bottom: 14px; }
     #boton-filtros { margin: 12px auto; padding: 12px; font-size: 14px; }
@@ -1286,6 +1573,9 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
     .subcategorias button { padding: 6px 14px; font-size: 12.5px; }
     .subsubcategorias button { padding: 5px 12px; font-size: 12px; }
     #boton-mas-categorias, #boton-mas-subcategorias { display: none !important; }
+
+    #panel-filtros { padding: 12px 10px; margin-bottom: 16px; border-radius: 16px; }
+    .categorias button, .subcategorias button, .subsubcategorias button { box-shadow: none; }
 
     /* Cuadricula: 2 columnas para ver mas productos de una vez */
     #productos {
@@ -1332,6 +1622,7 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
         overflow: hidden;
     }
     .producto p:not(.precio-producto) {
+        flex: 1;
         font-size: 11.5px;
         line-height: 1.35;
         margin: 0 0 8px;
@@ -1344,8 +1635,8 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
     .producto .precio-producto {
         display: block;
         font-size: 16px;
-        margin: auto 0 8px;
-        padding-top: 2px;
+        margin: 0 0 4px;
+        padding: 0;
     }
     .producto .boton {
         display: block;

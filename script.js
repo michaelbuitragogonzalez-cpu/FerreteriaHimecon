@@ -45579,3 +45579,36 @@ document.addEventListener("DOMContentLoaded", function () {
         flecha.textContent = panel.classList.contains("panel-filtros-oculto") ? "▾" : "▴";
     }
 });
+
+// ===== MEJORAS VISUALES =====
+// Marca el filtro elegido (categoría / subcategoría / tipo) con la clase "activo"
+(function () {
+    function marcarPrimero(id) {
+        const b = document.querySelector('#' + id + ' button');
+        if (b) b.classList.add('activo');
+    }
+    const primeraCategoria = document.querySelector('.categorias button');
+    if (primeraCategoria) primeraCategoria.classList.add('activo');
+
+    document.addEventListener('click', function (e) {
+        const btn = e.target.closest('.categorias button, #subcategorias button, #subsubcategorias button');
+        if (!btn) return;
+        const grupo = btn.parentElement;
+        grupo.querySelectorAll('button').forEach(function (b) { b.classList.remove('activo'); });
+        btn.classList.add('activo');
+        // Al cambiar de nivel, el de abajo se vuelve a dibujar: se marca su primer botón
+        if (grupo.classList.contains('categorias')) marcarPrimero('subcategorias');
+        if (grupo.id === 'subcategorias') marcarPrimero('subsubcategorias');
+        // En celular, deja el chip elegido a la vista
+        if (btn.scrollIntoView) btn.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+    });
+})();
+
+// Sombra suave en el encabezado al hacer scroll
+(function () {
+    const header = document.querySelector('header');
+    if (!header) return;
+    const actualizar = function () { header.classList.toggle('scrolled', window.scrollY > 10); };
+    actualizar();
+    window.addEventListener('scroll', actualizar, { passive: true });
+})();
