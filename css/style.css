@@ -1703,3 +1703,74 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
 @media (max-width: 340px) {
     #productos { grid-template-columns: 1fr; }
 }
+
+/* Botón secundario (ej: "Cómo llegar" junto al de WhatsApp) */
+.boton-secundario {
+    background: white;
+    color: #39A9FF;
+    border: 2px solid #39A9FF;
+}
+
+/* Mapa de Google en la sección de contacto */
+.mapa-contenedor {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+}
+.mapa-contenedor iframe {
+    width: 100%;
+    height: 260px;
+    border: 0;
+    display: block;
+}
+body.modo-oscuro .mapa-contenedor {
+    filter: grayscale(0.3) invert(0.92) contrast(0.9);
+}
+
+/* ===========================================================
+   VISTA PREVIA DE IMAGEN (lightbox) al tocar la foto del producto
+=========================================================== */
+.producto img {
+    cursor: zoom-in;
+}
+#lightbox-imagen {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#lightbox-imagen.lightbox-abierto {
+    display: flex;
+}
+#lightbox-imagen img {
+    max-width: 90vw;
+    max-height: 85vh;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+#lightbox-imagen .lightbox-cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: white;
+    color: #222;
+    border: none;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .mapa-contenedor iframe {
+        height: 200px;
+    }
+}

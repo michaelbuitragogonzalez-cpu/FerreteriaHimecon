@@ -44998,6 +44998,23 @@ const buscador = document.getElementById("buscador");
 const subcategoriasContenedor = document.getElementById("subcategorias");
 const subsubcategoriasContenedor = document.getElementById("subsubcategorias");
 
+// ===== VISTA PREVIA DE IMAGEN (lightbox) =====
+function abrirLightbox(rutaImagen, nombreProducto) {
+    const caja = document.getElementById("lightbox-imagen");
+    const img = document.getElementById("lightbox-imagen-img");
+    if (!caja || !img) return;
+    img.src = rutaImagen;
+    img.alt = nombreProducto;
+    caja.classList.add("lightbox-abierto");
+}
+
+function cerrarLightbox(e) {
+    // Se cierra al tocar el fondo oscuro o el botón ✕, pero NO al tocar la imagen misma
+    if (e && e.target && e.target.id === "lightbox-imagen-img") return;
+    const caja = document.getElementById("lightbox-imagen");
+    if (caja) caja.classList.remove("lightbox-abierto");
+}
+
 // ===== MODO OSCURO =====
 function aplicarModoOscuro(activar) {
     document.body.classList.toggle("modo-oscuro", activar);
@@ -45295,6 +45312,8 @@ function construirTarjeta(producto, indiceGlobal) {
         .replace(/"/g, '&quot;');
     const altEscapado = producto.nombre.replace(/"/g, '&quot;');
 
+    const rutaImagenEscapada = rutaImagen.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+
     return `
         <div class="producto">
 
@@ -45302,6 +45321,7 @@ function construirTarjeta(producto, indiceGlobal) {
                 src="${rutaImagen}"
                 alt="${altEscapado}"
                 loading="lazy"
+                onclick="abrirLightbox('${rutaImagenEscapada}', '${nombreEscapado}')"
                 onerror="this.onerror=null; this.src='${imagenRespaldo}';">
 
             <h3>${producto.nombre}</h3>
