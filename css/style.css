@@ -690,10 +690,10 @@ will-change: transform, box-shadow;
 }
 
 .contacto-texto {
-    text-align: center !important;
+    text-align: left !important;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex: 1;
     position: relative;
 }
@@ -1250,6 +1250,7 @@ body.modo-oscuro header { border-color: #2a2a2a; }
 .card h3 { font-size: 20px; }
 
 /* ---- Contacto: datos en tarjetitas ---- */
+.contacto-texto h2::after { margin: 14px 0 0; }
 .datos { display: grid; gap: 10px; margin-top: 18px; width: 100%; max-width: 520px; }
 .datos p {
     background: #fff;
@@ -1258,7 +1259,7 @@ body.modo-oscuro header { border-color: #2a2a2a; }
     padding: 12px 16px;
     font-size: 15px;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
     color: var(--texto);
     box-shadow: var(--sombra-sm);
     overflow-wrap: anywhere;
@@ -1317,17 +1318,47 @@ body.modo-oscuro #boton-filtros:hover { background: var(--azul); color: #fff; }
     font-size: 14px;
     transition: background .2s ease, color .2s ease, border-color .2s ease;
 }
-.categorias button:hover, .subcategorias button:hover, .subsubcategorias button:hover {
-    transform: none;
+/* Cada nivel con su propio color para distinguirlos bien */
+.categorias button {
+    background: #e6f3ff;
+    border: 1.5px solid #a9d4fa;
+    color: #1769b3;
+    font-weight: 600;
+}
+.subcategorias button {
     background: #fff;
-    border-color: var(--azul);
+    border: 1.5px solid var(--azul);
     color: var(--azul-osc);
-    box-shadow: var(--sombra-sm);
+    font-weight: 600;
+}
+.subsubcategorias button {
+    background: #eef1f5;
+    border: 1.5px solid #c5cdd8;
+    color: #3d4856;
+    font-weight: 600;
+}
+.categorias button:hover {
+    transform: none;
+    background: #d3eaff;
+    border-color: var(--azul);
+    box-shadow: 0 4px 12px rgba(57,169,255,.25);
+}
+.subcategorias button:hover {
+    transform: none;
+    background: #eaf5ff;
+    box-shadow: 0 4px 12px rgba(57,169,255,.25);
+}
+.subsubcategorias button:hover {
+    transform: none;
+    background: #e1e6ed;
+    border-color: #9aa6b5;
 }
 .categorias button.activo, .subcategorias button.activo, .subsubcategorias button.activo {
     background: var(--azul);
     border-color: var(--azul);
     color: #fff;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(57,169,255,.4);
 }
 body.modo-oscuro .categorias button.activo,
 body.modo-oscuro .subcategorias button.activo,
@@ -1336,6 +1367,11 @@ body.modo-oscuro .subsubcategorias button.activo {
     border-color: var(--azul);
     color: #fff;
 }
+
+/* Chips en modo oscuro */
+body.modo-oscuro .categorias button { background: #1f3346; border: 1.5px solid #2f5b82; color: #9fd2ff; }
+body.modo-oscuro .subcategorias button { background: #1e1e1e; border: 1.5px solid var(--azul); color: #7cc4ff; }
+body.modo-oscuro .subsubcategorias button { background: #2a2a2a; border: 1.5px solid #4a4a4a; color: #ddd; }
 
 /* ---- Cuadricula y tarjetas de producto ---- */
 #productos {
@@ -1531,10 +1567,10 @@ body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1
     .card p { font-size: 14px; line-height: 1.55; }
 
     /* ---- Contacto ---- */
-    .nosotros-texto h2::after, .contacto-texto h2::after { margin-left: auto; margin-right: auto; }
+    .nosotros-texto h2::after { margin-left: auto; margin-right: auto; }
     .datos p { font-size: 14px; padding: 10px 12px; }
-    .contacto-texto { align-items: center; text-align: center !important; width: 100%; }
-    .contacto-boton { align-self: center; margin: 0; }
+    .contacto-texto { align-items: flex-start; text-align: left !important; width: 100%; }
+    .contacto-boton { align-self: flex-start; margin: 0; }
 
     /* ---- Pagina de productos / catalogo ---- */
     .pagina-productos { padding: 130px 8px 90px; }
