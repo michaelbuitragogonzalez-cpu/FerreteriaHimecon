@@ -418,17 +418,14 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
 #productos {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-  #productos {
-    margin-top: 60px;
-    display: grid;
-    /* auto-fit con un tamaño máximo fijo genera las 5 columnas y permite alinearlas al centro perfectamente */
-    grid-template-columns: repeat(auto-fit, minmax(350px, 220px));
-    gap: 15px;
-    justify-content: center; /* Centra las tarjetas cuando hay poquitas en pantalla */
-}
- 
+    /* Ancho máximo para que en pantallas grandes no se estiren en 7-8 columnas apretadas:
+       máximo ~4 columnas de tarjetas más grandes y espaciosas, centradas */
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    justify-content: center;
 }
 
 
