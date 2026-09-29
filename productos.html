@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos | HIMECON</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -43,6 +44,9 @@
     <button id="boton-filtros" onclick="toggleFiltros()" type="button">
         🔍 Filtros <span id="flecha-filtros">▾</span>
     </button>
+
+    <!-- Texto de ayuda que explica el botón de filtros (se oculta solo después de tocarlo una vez) -->
+    <p id="tip-filtros">👆 Pulsa aquí para ver más o menos filtros y mantener tu pantalla limpia</p>
 
     <!-- Contenedor que agrupa categorías, subcategorías y tipos para poder ocultarlo -->
     <div id="panel-filtros">
@@ -97,6 +101,32 @@
     <img src="img/logo.png" alt="Logo HIMECON">
     <p>© 2026 HIMECON. Todos los derechos reservados.By Michael Buitrago Gonzalez</p>
 </footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/573206150674" class="whatsapp-flotante" target="_blank" aria-label="Escríbenos por WhatsApp">
+    <img src="img/whatsapp.png" alt="WhatsApp" onerror="this.style.display='none'; this.parentElement.innerHTML='💬';">
+</a>
+
+<!-- Botón "subir arriba" -->
+<button id="boton-subir" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Subir arriba">⬆</button>
+
+<!-- Botón flotante del pedido (aparece cuando hay al menos 1 producto agregado) -->
+<button id="boton-pedido" onclick="togglePanelPedido()">
+    🛒 Pedido <span id="contador-pedido">0</span>
+</button>
+
+<!-- Panel del pedido -->
+<div id="panel-pedido">
+    <div id="panel-pedido-cabecera">
+        <h3>Tu pedido</h3>
+        <button onclick="togglePanelPedido()" aria-label="Cerrar">✕</button>
+    </div>
+    <div id="panel-pedido-lista"></div>
+    <div id="panel-pedido-acciones">
+        <button onclick="vaciarPedido()" id="boton-vaciar-pedido">Vaciar</button>
+        <a id="boton-enviar-pedido" href="#" target="_blank" class="boton">Enviar por WhatsApp</a>
+    </div>
+</div>
 
 <script src="script.js"></script>
 

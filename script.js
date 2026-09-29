@@ -45009,6 +45009,110 @@ function toggleFiltros() {
     }
 }
 
+// ===== LISTA DE PEDIDO =====
+// Permite al cliente marcar varios productos y mandarlos en UN SOLO mensaje de WhatsApp,
+// en vez de escribir uno por uno. Se guarda en localStorage para que no se pierda
+// si el cliente recarga la página o sigue viendo más productos.
+let listaPedido = [];
+
+function cargarPedidoGuardado() {
+    try {
+        const guardado = localStorage.getItem("himecon-pedido");
+        listaPedido = guardado ? JSON.parse(guardado) : [];
+    } catch (e) {
+        listaPedido = [];
+    }
+}
+
+function guardarPedido() {
+    try {
+        localStorage.setItem("himecon-pedido", JSON.stringify(listaPedido));
+    } catch (e) {
+        // Si el navegador bloquea localStorage, el pedido sigue funcionando
+        // durante la sesión, solo no se recuerda al recargar.
+    }
+}
+
+function estaEnElPedido(nombre) {
+    return listaPedido.includes(nombre);
+}
+
+function toggleProductoEnPedido(nombre) {
+    const idx = listaPedido.indexOf(nombre);
+    if (idx === -1) {
+        listaPedido.push(nombre);
+    } else {
+        listaPedido.splice(idx, 1);
+    }
+    guardarPedido();
+    actualizarBotonPedido();
+    renderizarPanelPedido();
+    // Vuelve a dibujar la tarjeta correspondiente para que cambie a "✅ En el pedido"
+    filtrarLista();
+}
+
+function quitarDelPedido(nombre) {
+    toggleProductoEnPedido(nombre);
+}
+
+function vaciarPedido() {
+    listaPedido = [];
+    guardarPedido();
+    actualizarBotonPedido();
+    renderizarPanelPedido();
+    filtrarLista();
+}
+
+function actualizarBotonPedido() {
+    const boton = document.getElementById("boton-pedido");
+    const contador = document.getElementById("contador-pedido");
+    if (!boton || !contador) return;
+    contador.textContent = listaPedido.length;
+    boton.style.display = listaPedido.length > 0 ? "block" : "none";
+}
+
+function togglePanelPedido() {
+    const panel = document.getElementById("panel-pedido");
+    if (!panel) return;
+    panel.classList.toggle("panel-pedido-abierto");
+}
+
+function renderizarPanelPedido() {
+    const contenedorLista = document.getElementById("panel-pedido-lista");
+    const botonEnviar = document.getElementById("boton-enviar-pedido");
+    if (!contenedorLista || !botonEnviar) return;
+
+    if (listaPedido.length === 0) {
+        contenedorLista.innerHTML = "<p style='color:#888; font-size:13px;'>Todavía no has agregado productos.</p>";
+        botonEnviar.style.pointerEvents = "none";
+        botonEnviar.style.opacity = "0.5";
+        return;
+    }
+
+    contenedorLista.innerHTML = listaPedido.map(nombre => {
+        const nombreEscapado = nombre.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        return `
+            <div class="item-pedido">
+                <span>${nombre}</span>
+                <button onclick="quitarDelPedido('${nombreEscapado}')" aria-label="Quitar">🗑️</button>
+            </div>
+        `;
+    }).join("");
+
+    botonEnviar.style.pointerEvents = "auto";
+    botonEnviar.style.opacity = "1";
+
+    const listaTexto = listaPedido.map((nombre, i) => `${i + 1}. ${nombre}`).join("\n");
+    const mensajePedido = encodeURIComponent(
+        `Hola, quiero pedir estos productos:\n\n${listaTexto}\n\n¿Me confirman disponibilidad y precio?`
+    );
+    botonEnviar.href = `https://wa.me/${numeroWhatsApp}?text=${mensajePedido}`;
+}
+
+cargarPedidoGuardado();
+actualizarBotonPedido();
+renderizarPanelPedido();
+
 let categoriaActual = "todos";
 let subcategoriaActual = "todas";
 let tipoActual = "todos";
@@ -45030,7 +45134,7 @@ const POR_PAGINA = 60;
 let listaOrdenadaActual = [];
 let productosMostrados = 0;
 
-function construirTarjeta(producto) {
+function construirTarjeta(producto, indiceGlobal) {
     const tieneImagenReal = producto.imagen && producto.imagen.trim() !== "";
 
     const lineaFoto = tieneImagenReal
@@ -45049,12 +45153,20 @@ function construirTarjeta(producto) {
         ? producto.imagen
         : imagenRespaldo;
 
+    const enElPedido = estaEnElPedido(producto.nombre);
+
+    const nombreEscapado = producto.nombre
+        .replace(/\\/g, '\\\\')
+        .replace(/'/g, "\\'")
+        .replace(/"/g, '&quot;');
+    const altEscapado = producto.nombre.replace(/"/g, '&quot;');
+
     return `
         <div class="producto">
 
             <img
                 src="${rutaImagen}"
-                alt="${producto.nombre}"
+                alt="${altEscapado}"
                 loading="lazy"
                 onerror="this.onerror=null; this.src='${imagenRespaldo}';">
 
@@ -45070,6 +45182,12 @@ function construirTarjeta(producto) {
                 target="_blank">
                 Solicitar por WhatsApp
             </a>
+
+            <button
+                class="boton-agregar-pedido ${enElPedido ? 'agregado' : ''}"
+                onclick="toggleProductoEnPedido('${nombreEscapado}')">
+                ${enElPedido ? '✅ En el pedido' : '➕ Agregar al pedido'}
+            </button>
 
         </div>
         `;
@@ -45288,7 +45406,31 @@ function toggleFiltros() {
     if (flecha) {
         flecha.textContent = panel.classList.contains("panel-filtros-oculto") ? "▾" : "▴";
     }
+    ocultarTipFiltros();
 }
+
+// El texto "Pulsa aquí para ver más o menos filtros..." solo se ve hasta que
+// el cliente use el botón por primera vez (o pasen unos segundos), y ya no
+// vuelve a salir en futuras visitas del mismo navegador.
+function ocultarTipFiltros() {
+    const tip = document.getElementById("tip-filtros");
+    if (tip) tip.classList.add("tip-filtros-oculto");
+    try {
+        localStorage.setItem("himecon-tip-filtros-visto", "1");
+    } catch (e) {}
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    let yaVisto = false;
+    try {
+        yaVisto = localStorage.getItem("himecon-tip-filtros-visto") === "1";
+    } catch (e) {}
+    if (yaVisto) {
+        ocultarTipFiltros();
+    } else {
+        setTimeout(ocultarTipFiltros, 8000); // se esconde solo a los 8 seg si no lo tocan
+    }
+});
 
 // Al cargar: ocultos en celular, visibles en computador
 document.addEventListener("DOMContentLoaded", function () {
