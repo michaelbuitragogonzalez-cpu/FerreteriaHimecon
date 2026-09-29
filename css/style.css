@@ -1806,3 +1806,90 @@ body.modo-oscuro .contacto-imagen-relleno {
         height: 130px;
     }
 }
+
+/* =========================================================
+   HIMECON - CONTACTO ORGANIZADO (solo CSS, mismo contenido)
+   Arriba: título, texto y datos a la izquierda / tarjeta de
+   acciones (logo + botones) a la derecha.
+   Abajo: mapa ancho.
+   ========================================================= */
+.contacto-contenido {
+    display: grid;
+    grid-template-columns: 1.15fr .85fr;
+    grid-template-areas:
+        "titulo  acciones"
+        "texto   acciones"
+        "datos   acciones"
+        "mapa    mapa";
+    column-gap: 40px;
+    row-gap: 0;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+/* El bloque de texto "se abre" para que sus piezas se acomoden en la cuadrícula */
+.contacto-texto { display: contents; }
+.contacto-texto h2 { grid-area: titulo; }
+.contacto-texto > p { grid-area: texto; margin-bottom: 4px; }
+.contacto-contenido .datos { grid-area: datos; max-width: none; margin-top: 14px; }
+.datos p a { color: var(--azul-osc); font-weight: 600; text-decoration: none; }
+.datos p a:hover { text-decoration: underline; }
+
+/* Tarjeta de acciones: logo + botones */
+.contacto-boton {
+    grid-area: acciones;
+    align-self: stretch;
+    justify-content: center;
+    gap: 14px;
+    min-width: 0;
+    padding: 28px;
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 22px;
+    box-shadow: var(--sombra-md);
+}
+.contacto-boton .contacto-imagen-relleno {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 6px;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+.contacto-boton .boton { display: block; width: 100%; text-align: center; }
+body.modo-oscuro .contacto-boton { background: #1e1e1e; border-color: #333; }
+body.modo-oscuro .contacto-boton .contacto-imagen-relleno { background: transparent; }
+body.modo-oscuro .boton-secundario { background: transparent; }
+
+/* Mapa: franja ancha al final */
+.contacto-contenido .contacto-visual { grid-area: mapa; max-width: none; margin-top: 32px; }
+.contacto-contenido .mapa-contenedor {
+    border: 1px solid var(--borde);
+    border-radius: 22px;
+    box-shadow: var(--sombra-md);
+    opacity: 1;
+}
+.contacto-contenido .mapa-contenedor iframe { height: 280px; filter: grayscale(.15); }
+body.modo-oscuro .contacto-contenido .mapa-contenedor { border-color: #333; }
+
+@media (max-width: 768px) {
+    .contacto-contenido {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "titulo"
+            "texto"
+            "datos"
+            "acciones"
+            "mapa";
+        gap: 0;
+        max-width: 100%;
+        text-align: left;
+    }
+    .contacto-boton { align-self: stretch; margin: 20px 0 0; padding: 20px; }
+    .contacto-boton .contacto-imagen-relleno { width: 100px; height: 100px; }
+    .contacto-contenido .contacto-visual { margin-top: 20px; }
+    .contacto-contenido .mapa-contenedor { border-radius: 18px; }
+    .contacto-contenido .mapa-contenedor iframe { height: 220px; }
+}
