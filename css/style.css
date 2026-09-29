@@ -13,7 +13,8 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
     color: #222;
     background: white;
     overflow-x: hidden;
@@ -482,26 +483,6 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
 @media (max-width: 992px) {
     #productos { grid-template-columns: repeat(3, 1fr); }
 }
-@media (max-width: 768px) {
-    #productos { 
-        grid-template-columns: repeat(2, 1fr) !important; 
-        gap: 12px;
-    }
-    .card, .categorias button, .producto {
-        width: auto !important;
-    }
-    /* Menos relleno arriba/lados para aprovechar mejor la pantalla del celular */
-    .pagina-productos {
-        padding: 110px 4% 60px;
-    }
-    .pagina-productos h1 {
-        font-size: 28px;
-    }
-    .subtitulo {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-}
 
 
 /* Filtros de categorías */
@@ -534,12 +515,6 @@ nav ul li:nth-child(3) a { animation-delay: 0.6s; }
     display: none;
 }
 
-@media (max-width: 768px) {
-    .categorias, .subcategorias, .subsubcategorias {
-        gap: 10px;
-        margin-bottom: 20px;
-    }
-}
 
 .subcategorias, .subsubcategorias {
     margin-top: -30px;
@@ -742,7 +717,7 @@ will-change: transform, box-shadow;
     max-width: 450px;
     height: 80px;
     margin-top: 30px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 400 80' fill='none' stroke='%2339A9FF' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M 10 40 Q 40 10 70 40 T 130 40 T 190 40 T 250 40 T 310 40 T 370 40' /%3E%3Cpath d='M 355 25 L 375 40 L 355 55' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 80' fill='none' stroke='%2339A9FF' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M 10 40 Q 40 10 70 40 T 130 40 T 190 40 T 250 40 T 310 40 T 370 40' /%3E%3Cpath d='M 355 25 L 375 40 L 355 55' /%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: contain;
     animation: flechaOnduladaLoca 3s cubic-bezier(0.45, 0, 0.55, 1) infinite;
@@ -792,116 +767,6 @@ footer p {
     color: #aaa;
 }
 
-/* ---------------------------------------------------------
-   SECCIÓN DISPOSITIVOS MÓVILES (ÚNICA @MEDIA UNIFICADA)
-   --------------------------------------------------------- */
-@media (max-width: 768px) {
-    header {
-        position: relative; 
-        padding: 15px 20px;
-    }
-    
-    nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    nav ul {
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    nav a {
-        font-size: 16px;
-    }
-    
-    .logo img {
-        width: 120px;
-    }
-    
-    .hero {
-        padding: 40px 25px 40px; 
-        min-height: auto;
-    }
-    
-    .nosotros, .beneficios, .catalogo, .contacto, .pagina-productos {
-        padding: 60px 25px 40px;
-    }
-    
-    .hero, .nosotros-contenido, .contacto-contenido, .cards, .categorias {
-        flex-direction: column;
-        text-align: center;
-        gap: 40px;
-    }
-    
-    .hero-text h1 {
-        font-size: 32px; 
-        line-height: 1.2;
-    }
-    
-    .hero-text p {
-        font-size: 16px;
-    }
-    
-    .hero-image img {
-        max-width: 280px;
-    }
-    
-    .nosotros-texto h2, .beneficios h2, .pagina-productos h1, .contacto-texto h2 {
-        font-size: 30px;
-    }
-    
-    .nosotros-texto p, .subtitulo {
-        font-size: 16px;
-    }
-    
-    .card, .categorias button, .producto {
-        width: 100%;
-    }
-    
-    .subcategorias, .subsubcategorias {
-        margin-top: 10px;
-    }
-    
-    #productos {
-        grid-template-columns: 1fr;
-    }
-    
-    .contacto-texto {
-        align-items: center;
-        text-align: center !important;
-        width: 100%;
-    }
-    
-    .contacto-texto::after {
-        max-width: 250px;
-        height: 60px;
-        margin: 20px auto;
-        transform: rotate(90deg);
-        transform-origin: center center;
-        animation: flechaOnduladaMovil 2.5s ease-in-out infinite; 
-    }
-    
-    @keyframes flechaOnduladaMovil {
-        0%, 100% { transform: rotate(90deg) scale(1); }
-        50% { transform: rotate(90deg) scale(1.1) translateY(6px); } 
-    }
-    
-    .contacto-boton {
-        align-self: center;
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    
-    footer {
-        padding: 30px 20px;
-    }
-    
-    .nosotros, .beneficios, .catalogo, .contacto {
-        scroll-margin-top: 20px;
-    }
-}
 /* =========================================================
    HIMECON - CAMBIO DE PALETA MUY SUAVE
    No modifica el diseño ni las animaciones existentes.
@@ -986,100 +851,6 @@ nav a::after {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Sombrita para darle profundidad */
 }
 
-/* =========================================================
-   HIMECON - OPTIMIZACIÓN DE AMPLITUD PARA CELULARES
-   (Código 100% limpio y compatible sin errores)
-   ========================================================= */
-@media (max-width: 768px) {
-    /* 1. Forzamos que la página use todo el ancho de la pantalla */
-    body, .pagina-productos, .contenedor {
-        padding-left: 6px !important;
-        padding-right: 6px !important;
-        overflow-x: hidden !important;
-    }
-
-    /* 2. Reconfiguración del catálogo a 2 columnas muy amplias */
-    #productos {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 10px !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin-top: 30px !important;
-    }
-
-    /* 3. Tarjeta del producto totalmente adaptada */
-    .producto {
-        width: 100% !important;
-        padding: 10px !important;
-        margin: 0 !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: space-between !important;
-        border-radius: 12px !important;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.06) !important;
-    }
-
-    /* 4. Control de imágenes para que se alineen solas */
-    .producto img {
-        width: 100% !important;
-        height: 110px !important;
-        object-fit: cover !important; /* Mantiene la proporción sin estirar el producto */
-        margin-bottom: 6px !important;
-    }
-
-        /* 5. Título optimizado a 2 líneas máximas con estándares incluidos */
-    .producto h3 {
-        font-size: 13px !important;
-        line-height: 1.2 !important;
-        margin: 4px 0 !important;
-        
-        /* Compatibilidad para navegadores basados en Webkit (Chrome, Safari, Edge) */
-        display: -webkit-box !important;
-        -webkit-line-clamp: 2 !important;
-        -webkit-box-orient: vertical !important;
-        
-        /* PROPIEDADES ESTÁNDAR (Para quitar el error de compatibilidad) */
-        display: box !important;
-        line-clamp: 2 !important;
-        box-orient: vertical !important;
-        overflow: hidden !important;
-    }
-
-    /* 6. Precio destacado */
-    .producto .precio-producto {
-        font-size: 14px !important;
-        margin-bottom: 4px !important;
-    }
-
-    /* 7. Descripción adaptada a 2 líneas máximas con estándares incluidos */
-    .producto p:not(.precio-producto) {
-        font-size: 11px !important;
-        line-height: 1.3 !important;
-        margin-bottom: 6px !important;
-        
-        /* Compatibilidad para navegadores basados en Webkit */
-        display: -webkit-box !important;
-        -webkit-line-clamp: 2 !important;
-        -webkit-box-orient: vertical !important;
-        
-        /* PROPIEDADES ESTÁNDAR (Para quitar el error de compatibilidad) */
-        display: box !important;
-        line-clamp: 2 !important;
-        box-orient: vertical !important;
-        overflow: hidden !important;
-    }
-
-    }
-
-    /* 8. Botón de WhatsApp optimizado para pantallas táctiles */
-    .producto .boton {
-        font-size: 11px !important;
-        padding: 8px 2px !important;
-        width: 100% !important;
-        text-align: center !important;
-        margin-top: auto !important; /* Alinea los botones al fondo de la tarjeta */
-    }
 
 
 /* ===========================================================
@@ -1171,7 +942,6 @@ nav a::after {
     border-radius: 16px;
     box-shadow: 0 10px 35px rgba(0,0,0,0.3);
     z-index: 1000;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
 }
@@ -1261,31 +1031,6 @@ nav a::after {
     color: white;
 }
 
-@media (max-width: 768px) {
-    .whatsapp-flotante {
-        width: 50px;
-        height: 50px;
-        bottom: 18px;
-        right: 18px;
-    }
-    #boton-subir {
-        bottom: 18px;
-        right: 78px;
-        width: 40px;
-        height: 40px;
-    }
-    #boton-pedido {
-        bottom: 18px;
-        left: 18px;
-        padding: 12px 18px;
-        font-size: 13px;
-    }
-    #panel-pedido {
-        bottom: 78px;
-        left: 18px;
-        width: calc(100vw - 36px);
-    }
-}
 
 /* Texto de ayuda flotante sobre el botón de filtros */
 #tip-filtros {
@@ -1390,61 +1135,240 @@ body.modo-oscuro .pantalla {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    #boton-mas-categorias, #boton-mas-subcategorias {
-        display: block;
-    }
-
-    .categorias {
-        max-height: 190px;
-        overflow: hidden;
-        position: relative;
-    }
-    .categorias.categorias-expandida {
-        max-height: none;
-    }
-
-    .subcategorias {
-        max-height: 140px;
-        overflow: hidden;
-    }
-    .subcategorias.subcategorias-expandida {
-        max-height: none;
-    }
-
-    /* Más amplio en celular: menos relleno, tarjetas y textos más cómodos */
-    header nav {
-        padding: 14px 4%;
-    }
-    .pagina-productos {
-        padding: 130px 4% 70px;
-    }
-    #productos {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 14px;
-    }
-    .producto {
-        padding: 14px;
-    }
-    .producto h3 {
-        font-size: 15px;
-    }
-    .buscador, #buscador {
-        font-size: 15px;
-        padding: 12px 16px;
-    }
-}
-
-@media (max-width: 420px) {
-    /* Pantallas muy angostas: una sola columna, tarjetas más grandes y legibles */
-    #productos {
-        grid-template-columns: 1fr !important;
-    }
-}
 
 /* Mientras se está arrastrando el botón del pedido */
 #boton-pedido.arrastrando {
     cursor: grabbing;
     opacity: 0.85;
     transition: none !important;
+}
+
+
+/* =========================================================
+   HIMECON - VERSION CELULAR (todo lo movil vive SOLO aqui)
+   ========================================================= */
+@keyframes flechaOnduladaMovil {
+    0%, 100% { transform: rotate(90deg) scale(1); }
+    50%      { transform: rotate(90deg) scale(1.1) translateX(6px); }
+}
+
+/* Barra de filtros en modo oscuro */
+body.modo-oscuro #barra-filtros { background: #1a1a1a; }
+body.modo-oscuro .producto .boton-agregar-pedido:not(.agregado) { background: #1e1e1e; }
+
+@media (max-width: 768px) {
+
+    /* ---- Menos animacion = mas fluido y mas ordenado en celular ---- */
+    :root { animation: none; }
+    .logo img, nav a, .hero-text h1, .hero-text p, .hero-image img, .boton,
+    .nosotros-texto, .nosotros-texto p, .nosotros-imagen img, .beneficios h2,
+    .card, .card p, .card h3, .icono, .producto, .producto h3, .producto p,
+    .contacto-boton {
+        animation: none;
+        will-change: auto;
+    }
+    /* Sin efectos "hover" pegados al tocar */
+    .logo img:hover, nav a:hover, .hero-image img:hover, .nosotros-texto:hover,
+    .nosotros-imagen img:hover, .beneficios h2:hover, .card:hover, .icono:hover,
+    .producto:hover, .producto:hover img, .producto:hover .precio-producto,
+    .boton:hover, #buscador:focus {
+        transform: none;
+    }
+    .boton:hover { box-shadow: none; }
+
+    /* ---- Encabezado compacto en una sola fila ---- */
+    header { position: relative; padding: 10px 16px; }
+    header nav { padding: 0; }
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px 12px;
+    }
+    .logo img { width: 84px; }
+    nav ul { gap: 14px; flex-wrap: wrap; justify-content: flex-end; align-items: center; }
+    nav a { font-size: 14px; }
+    nav a::after { display: none; }
+
+    /* ---- Inicio ---- */
+    .hero {
+        flex-direction: column;
+        min-height: auto;
+        padding: 32px 20px 40px;
+        gap: 24px;
+        text-align: center;
+    }
+    .hero-text h1 { font-size: 28px; margin-bottom: 12px; }
+    .hero-text p { font-size: 15px; line-height: 1.6; margin: 0 auto 22px; }
+    .hero-image img { max-width: 240px; }
+
+    /* ---- Secciones ---- */
+    .nosotros, .beneficios, .catalogo, .contacto {
+        padding: 44px 20px;
+        scroll-margin-top: 10px;
+    }
+    .nosotros-contenido, .contacto-contenido {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    .nosotros-texto h2, .beneficios h2, .catalogo h2, .contacto-texto h2 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .nosotros-texto p, .contacto-texto p { font-size: 15px; line-height: 1.6; }
+    .nosotros-imagen img { max-width: 100%; border-radius: 18px; }
+
+    /* ---- Tarjetas de beneficios ---- */
+    .cards { flex-direction: column; align-items: stretch; gap: 14px; }
+    .card {
+        width: 100%;
+        padding: 20px 18px;
+        border-radius: 18px;
+        text-align: left;
+        box-shadow: 0 6px 18px rgba(0,0,0,.06);
+    }
+    .icono { font-size: 32px; margin-bottom: 8px; }
+    .card h3 { font-size: 18px; margin-bottom: 8px; }
+    .card p { font-size: 14px; line-height: 1.55; }
+
+    /* ---- Contacto ---- */
+    .contacto-texto { align-items: center; text-align: center !important; width: 100%; }
+    .contacto-texto::after {
+        max-width: 120px;
+        height: 40px;
+        margin: 44px 0;
+        transform: rotate(90deg);
+        transform-origin: center center;
+        animation: flechaOnduladaMovil 2.5s ease-in-out infinite;
+    }
+    .contacto-boton { align-self: center; margin: 0; }
+
+    /* ---- Pagina de productos / catalogo ---- */
+    .pagina-productos { padding: 130px 8px 90px; }
+    .pagina-productos h1 { font-size: 24px; margin-bottom: 8px; }
+    .subtitulo { font-size: 13px; margin-bottom: 14px; }
+    #buscador, .buscador {
+        font-size: 15px;
+        padding: 12px 16px;
+        box-shadow: 0 4px 14px rgba(0,0,0,.08);
+    }
+    .pagina-productos #buscador { margin-bottom: 14px; }
+    #boton-filtros { margin: 12px auto; padding: 12px; font-size: 14px; }
+    .contador-productos { font-size: 13px; margin-bottom: 12px; }
+
+    /* Filtros: fila de "chips" que se desliza con el dedo */
+    .categorias, .subcategorias, .subsubcategorias {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+        max-height: none;
+        gap: 8px;
+        margin: 0 0 10px;
+        padding: 2px 2px 6px;
+        text-align: left;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+    .categorias::-webkit-scrollbar,
+    .subcategorias::-webkit-scrollbar,
+    .subsubcategorias::-webkit-scrollbar { display: none; }
+    .categorias button, .subcategorias button, .subsubcategorias button {
+        flex: 0 0 auto;
+        width: auto;
+        white-space: nowrap;
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+    .subcategorias button { padding: 6px 14px; font-size: 12.5px; }
+    .subsubcategorias button { padding: 5px 12px; font-size: 12px; }
+    #boton-mas-categorias, #boton-mas-subcategorias { display: none !important; }
+
+    /* Cuadricula: 2 columnas para ver mas productos de una vez */
+    #productos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        width: 100%;
+        max-width: 100%;
+        margin: 16px 0 0;
+        padding: 0;
+    }
+
+    /* Tarjeta de producto: compacta, con toda la informacion visible */
+    .producto {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 10px;
+        border-radius: 16px;
+        text-align: left;
+        border: 1px solid #eef1f6;
+        box-shadow: 0 4px 14px rgba(0,0,0,.06);
+    }
+    .producto img {
+        width: 100%;
+        height: 120px;
+        object-fit: contain;
+        background: #f7f8fb;
+        border-radius: 10px;
+        padding: 6px;
+        margin-bottom: 8px;
+    }
+    .producto h3 {
+        font-size: 13.5px;
+        line-height: 1.25;
+        min-height: 2.5em;
+        margin: 0 0 4px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .producto p:not(.precio-producto) {
+        font-size: 11.5px;
+        line-height: 1.35;
+        margin: 0 0 8px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .producto .precio-producto {
+        display: block;
+        font-size: 16px;
+        margin: auto 0 8px;
+        padding-top: 2px;
+    }
+    .producto .boton {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 9px 4px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .producto .boton-agregar-pedido { margin-top: 6px; padding: 8px 4px; font-size: 12px; }
+    body.modo-oscuro .producto { border-color: #333; }
+    body.modo-oscuro .producto img { background: #2a2a2a; }
+
+    /* ---- Botones flotantes y pie de pagina ---- */
+    .whatsapp-flotante { width: 50px; height: 50px; bottom: 18px; right: 18px; }
+    #boton-subir { bottom: 18px; right: 78px; width: 40px; height: 40px; }
+    #boton-pedido { bottom: 18px; left: 18px; padding: 12px 18px; font-size: 13px; }
+    #panel-pedido { bottom: 78px; left: 18px; width: calc(100vw - 36px); }
+    footer { padding: 30px 20px 90px; }
+    footer img { width: 100px; margin-bottom: 14px; }
+}
+
+/* Celulares muy angostos: 1 columna solo por debajo de 340px */
+@media (max-width: 340px) {
+    #productos { grid-template-columns: 1fr; }
 }
