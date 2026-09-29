@@ -44998,15 +44998,54 @@ const buscador = document.getElementById("buscador");
 const subcategoriasContenedor = document.getElementById("subcategorias");
 const subsubcategoriasContenedor = document.getElementById("subsubcategorias");
 
-// Muestra/oculta el panel de filtros en móvil (botón "🔍 Filtros")
-function toggleFiltros() {
-    const panel = document.getElementById("panel-filtros");
-    const flecha = document.getElementById("flecha-filtros");
-    if (!panel) return;
-    panel.classList.toggle("panel-filtros-abierto");
-    if (flecha) {
-        flecha.textContent = panel.classList.contains("panel-filtros-abierto") ? "▴" : "▾";
-    }
+// ===== MODO OSCURO =====
+function aplicarModoOscuro(activar) {
+    document.body.classList.toggle("modo-oscuro", activar);
+    const boton = document.getElementById("boton-modo-oscuro");
+    if (boton) boton.textContent = activar ? "☀️" : "🌙";
+}
+
+function toggleModoOscuro() {
+    const activar = !document.body.classList.contains("modo-oscuro");
+    aplicarModoOscuro(activar);
+    try {
+        localStorage.setItem("himecon-modo-oscuro", activar ? "1" : "0");
+    } catch (e) {}
+}
+
+(function inicializarModoOscuro() {
+    let guardado = null;
+    try {
+        guardado = localStorage.getItem("himecon-modo-oscuro");
+    } catch (e) {}
+    if (guardado === "1") aplicarModoOscuro(true);
+})();
+
+// ===== CATEGORÍAS Y SUBCATEGORÍAS COLAPSABLES EN CELULAR =====
+function toggleCategoriasExpandidas() {
+    const cont = document.querySelector(".categorias");
+    const boton = document.getElementById("boton-mas-categorias");
+    if (!cont) return;
+    const expandido = cont.classList.toggle("categorias-expandida");
+    if (boton) boton.textContent = expandido ? "Ver menos categorías ▴" : "Ver más categorías ▾";
+}
+
+function toggleSubcategoriasExpandidas() {
+    if (!subcategoriasContenedor) return;
+    const boton = document.getElementById("boton-mas-subcategorias");
+    const expandido = subcategoriasContenedor.classList.toggle("subcategorias-expandida");
+    if (boton) boton.textContent = expandido ? "Ver menos ▴" : "Ver más ▾";
+}
+
+// Oculta el botón "Ver más" de subcategorías cuando la categoría elegida
+// tiene pocas y no hace falta desplegar nada
+function actualizarBotonMasSubcategorias() {
+    const boton = document.getElementById("boton-mas-subcategorias");
+    if (!boton || !subcategoriasContenedor) return;
+    subcategoriasContenedor.classList.remove("subcategorias-expandida");
+    boton.textContent = "Ver más ▾";
+    // Si el contenido no desborda la altura colapsada, no tiene caso mostrar el botón
+    boton.style.display = subcategoriasContenedor.scrollHeight > 150 ? "" : "none";
 }
 
 // ===== LISTA DE PEDIDO =====
@@ -45322,6 +45361,7 @@ function mostrarSubcategorias(categoria) {
     // Si esa categoría no tiene subcategorías definidas, no se muestra nada
     if (!opciones || opciones.length === 0) {
         subcategoriasContenedor.innerHTML = "";
+        actualizarBotonMasSubcategorias();
         return;
     }
 
@@ -45332,6 +45372,7 @@ function mostrarSubcategorias(categoria) {
     });
 
     subcategoriasContenedor.innerHTML = html;
+    actualizarBotonMasSubcategorias();
 }
 
 // Dibuja los botones de tipo (tercer nivel) según la subcategoría elegida

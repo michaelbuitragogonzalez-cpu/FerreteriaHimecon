@@ -1304,3 +1304,140 @@ nav a::after {
     0%, 100% { transform: translateY(0); opacity: 1; }
     50% { transform: translateY(-4px); opacity: 0.7; }
 }
+
+/* ===========================================================
+   BOTÓN DE MODO OSCURO (en el menú de catalogo.html y productos.html)
+=========================================================== */
+#boton-modo-oscuro {
+    background: none;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* ===========================================================
+   MODO OSCURO
+   Se activa agregando la clase "modo-oscuro" al <body> (JS + localStorage)
+=========================================================== */
+body.modo-oscuro {
+    background: #121212;
+    color: #e6e6e6;
+}
+body.modo-oscuro header,
+body.modo-oscuro footer {
+    background: #1a1a1a;
+    color: #e6e6e6;
+}
+body.modo-oscuro .nosotros,
+body.modo-oscuro .beneficios,
+body.modo-oscuro .catalogo,
+body.modo-oscuro .contacto,
+body.modo-oscuro .pagina-productos {
+    background: #121212;
+    color: #e6e6e6;
+}
+body.modo-oscuro .card,
+body.modo-oscuro .producto,
+body.modo-oscuro #panel-pedido,
+body.modo-oscuro #panel-filtros {
+    background: #1e1e1e;
+    color: #e6e6e6;
+    border-color: #333;
+}
+body.modo-oscuro .producto h3,
+body.modo-oscuro .producto p,
+body.modo-oscuro .card h3,
+body.modo-oscuro .card p,
+body.modo-oscuro .nosotros-texto p,
+body.modo-oscuro .contacto-texto p,
+body.modo-oscuro .datos p {
+    color: #e6e6e6;
+}
+body.modo-oscuro input,
+body.modo-oscuro .categorias button,
+body.modo-oscuro .subcategorias button,
+body.modo-oscuro .subsubcategorias button {
+    background: #262626;
+    color: #e6e6e6;
+    border: 1px solid #3a3a3a;
+}
+body.modo-oscuro .item-pedido {
+    border-color: #333;
+}
+body.modo-oscuro .pantalla {
+    background: #121212;
+    color: #e6e6e6;
+}
+
+/* ===========================================================
+   CATEGORÍAS Y SUBCATEGORÍAS COLAPSABLES (para que en celular
+   no se vea un mar de botones desordenado)
+=========================================================== */
+#boton-mas-categorias, #boton-mas-subcategorias {
+    display: none; /* en computador se ven todas de una vez */
+    margin: 6px auto 14px;
+    padding: 8px 18px;
+    border: 1px solid #39A9FF;
+    border-radius: 50px;
+    background: white;
+    color: #39A9FF;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #boton-mas-categorias, #boton-mas-subcategorias {
+        display: block;
+    }
+
+    .categorias {
+        max-height: 190px;
+        overflow: hidden;
+        position: relative;
+    }
+    .categorias.categorias-expandida {
+        max-height: none;
+    }
+
+    .subcategorias {
+        max-height: 140px;
+        overflow: hidden;
+    }
+    .subcategorias.subcategorias-expandida {
+        max-height: none;
+    }
+
+    /* Más amplio en celular: menos relleno, tarjetas y textos más cómodos */
+    header nav {
+        padding: 14px 4%;
+    }
+    .pagina-productos {
+        padding: 130px 4% 70px;
+    }
+    #productos {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 14px;
+    }
+    .producto {
+        padding: 14px;
+    }
+    .producto h3 {
+        font-size: 15px;
+    }
+    .buscador, #buscador {
+        font-size: 15px;
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    /* Pantallas muy angostas: una sola columna, tarjetas más grandes y legibles */
+    #productos {
+        grid-template-columns: 1fr !important;
+    }
+}

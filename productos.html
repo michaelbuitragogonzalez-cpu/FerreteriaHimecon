@@ -24,6 +24,7 @@
             <li><a href="productos.html">Productos</a></li>
             <li><a href="catalogo.html#contacto">Contacto</a></li>
         </ul>
+        <button id="boton-modo-oscuro" onclick="toggleModoOscuro()" aria-label="Cambiar a modo oscuro" type="button">🌙</button>
     </nav>
 </header>
 
@@ -82,8 +83,12 @@
 
         </div>
 
+        <!-- Se ve solo en celular: despliega el resto de categorías si no caben en 2 filas -->
+        <button id="boton-mas-categorias" onclick="toggleCategoriasExpandidas()" type="button">Ver más categorías ▾</button>
+
         <!-- SUBCATEGORIAS (se llenan solas con JavaScript según la categoría elegida) -->
         <div class="subcategorias" id="subcategorias"></div>
+        <button id="boton-mas-subcategorias" onclick="toggleSubcategoriasExpandidas()" type="button">Ver más ▾</button>
 
         <!-- TIPOS (tercer nivel, se llena solo según la subcategoría elegida) -->
         <div class="subsubcategorias" id="subsubcategorias"></div>
