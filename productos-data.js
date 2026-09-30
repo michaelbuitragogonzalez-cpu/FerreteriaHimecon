@@ -2855,7 +2855,7 @@ const productos = [
     {
         nombre: "Piragua Anolk Alt X Mts",
         precio: "",
-        imagen: "img/piraguaanolok.jpeg",
+        imagen: "img/piragua.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "piragua"
