@@ -26,6 +26,31 @@ const urlSitio = "https://michaelbuitragogonzalez-cpu.github.io/FerreteriaHimeco
 // Imagen que se muestra cuando un producto todavía no tiene foto
 const imagenRespaldo = "img/sin-imagen.png";
 
+// =====================================================================
+// ⚠️ HORARIO DE ATENCIÓN — EDITA AQUÍ TUS HORAS REALES ⚠️
+// (Los que hay ahora son de EJEMPLO.)
+// Formato de 24 horas: ["07:00", "18:00"] = de 7:00 a. m. a 6:00 p. m.
+// Si cierras al mediodía pon dos franjas: [["07:00","12:00"], ["14:00","18:00"]]
+// Vacío [] = cerrado todo el día.  0 = domingo, 1 = lunes ... 6 = sábado.
+// La hora se calcula siempre con la hora de Colombia (aunque el cliente esté en otro país).
+// =====================================================================
+const HORARIO_TIENDA = {
+    0: [],                        // Domingo
+    1: [["07:00", "18:00"]],      // Lunes
+    2: [["07:00", "18:00"]],      // Martes
+    3: [["07:00", "18:00"]],      // Miércoles
+    4: [["07:00", "18:00"]],      // Jueves
+    5: [["07:00", "18:00"]],      // Viernes
+    6: [["07:00", "18:00"]]       // Sábado
+};
+
+// FESTIVOS O DÍAS ESPECIALES (opcional). Fecha "AAAA-MM-DD" y sus horas; [] = cerrado ese día.
+// Ejemplos (quita las // para usarlos):
+//   "2026-12-25": [],                        // Navidad: cerrado
+//   "2026-12-24": [["07:00", "12:00"]],      // Nochebuena: solo hasta el mediodía
+const HORARIO_ESPECIAL = {
+};
+
 const productos = [
 
     {
@@ -45631,4 +45656,135 @@ document.addEventListener("DOMContentLoaded", function () {
     const actualizar = function () { header.classList.toggle('scrolled', window.scrollY > 10); };
     actualizar();
     window.addEventListener('scroll', actualizar, { passive: true });
+})();
+
+
+// =====================================================================
+// ===== HORARIO Y "ABIERTO AHORA" (hora de Colombia) =====
+// =====================================================================
+(function () {
+    const etiquetas = document.querySelectorAll('[data-estado-tienda]');
+    const lista = document.getElementById('horario-lista');
+    if (!etiquetas.length && !lista) return;
+
+    const DIAS = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+    const ORDEN = [1, 2, 3, 4, 5, 6, 0];
+
+    function aMin(h) { const p = h.split(':'); return Number(p[0]) * 60 + Number(p[1]); }
+    function fmt(h) {
+        const p = h.split(':').map(Number);
+        const suf = p[0] >= 12 ? 'p. m.' : 'a. m.';
+        return (p[0] % 12 || 12) + ':' + String(p[1]).padStart(2, '0') + ' ' + suf;
+    }
+
+    // Fecha y hora actuales en Colombia
+    function ahoraColombia() {
+        const partes = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit',
+            hour: '2-digit', minute: '2-digit', hour12: false
+        }).formatToParts(new Date());
+        const get = function (t) { return Number(partes.find(function (p) { return p.type === t; }).value); };
+        let h = get('hour'); if (h === 24) h = 0;
+        return { y: get('year'), m: get('month'), d: get('day'), min: h * 60 + get('minute') };
+    }
+
+    // Franjas de un día: primero se mira si es un día especial; si no, el horario normal
+    function franjasDelDia(ahora, sumaDias) {
+        const f = new Date(Date.UTC(ahora.y, ahora.m - 1, ahora.d + sumaDias));
+        const iso = f.toISOString().slice(0, 10);
+        const dow = f.getUTCDay();
+        const franjas = (HORARIO_ESPECIAL[iso] !== undefined) ? HORARIO_ESPECIAL[iso] : (HORARIO_TIENDA[dow] || []);
+        return { dow: dow, franjas: franjas };
+    }
+
+    // LA REGLA: compara el día y la hora de ahora con la tabla de horarios
+    function calcular() {
+        const ahora = ahoraColombia();
+        const hoy = franjasDelDia(ahora, 0);
+
+        // 1) ¿Estamos dentro de alguna franja de hoy?  -> ABIERTO
+        for (let i = 0; i < hoy.franjas.length; i++) {
+            if (ahora.min >= aMin(hoy.franjas[i][0]) && ahora.min < aMin(hoy.franjas[i][1])) {
+                return { dia: hoy.dow, abierto: true, texto: 'Abierto ahora · Cierra a las ' + fmt(hoy.franjas[i][1]) };
+            }
+        }
+        // 2) Si no, se busca la próxima vez que abre  -> CERRADO
+        for (let s = 0; s <= 7; s++) {
+            const dia = franjasDelDia(ahora, s);
+            for (let i = 0; i < dia.franjas.length; i++) {
+                if (s === 0 && aMin(dia.franjas[i][0]) <= ahora.min) continue;   // esa franja de hoy ya pasó
+                const cuando = s === 0 ? 'hoy' : s === 1 ? 'mañana' : 'el ' + DIAS[dia.dow].toLowerCase();
+                return { dia: hoy.dow, abierto: false, texto: 'Cerrado · Abre ' + cuando + ' a las ' + fmt(dia.franjas[i][0]) };
+            }
+        }
+        return { dia: hoy.dow, abierto: false, texto: 'Cerrado' };
+    }
+
+    if (lista) {
+        lista.innerHTML = ORDEN.map(function (d) {
+            const franjas = HORARIO_TIENDA[d] || [];
+            const horas = franjas.length
+                ? franjas.map(function (f) { return fmt(f[0]) + ' – ' + fmt(f[1]); }).join(' · ')
+                : 'Cerrado';
+            return '<li data-dia="' + d + '"' + (franjas.length ? '' : ' class="cerrado-dia"') + '><span>' + DIAS[d] + '</span><span>' + horas + '</span></li>';
+        }).join('');
+    }
+
+    function pintar() {
+        const e = calcular();
+        etiquetas.forEach(function (el) {
+            el.textContent = e.texto;
+            el.classList.toggle('abierto', e.abierto);
+            el.classList.toggle('cerrado', !e.abierto);
+        });
+        if (lista) {
+            lista.querySelectorAll('li').forEach(function (li) {
+                li.classList.toggle('hoy', Number(li.dataset.dia) === e.dia);
+            });
+        }
+    }
+    pintar();
+    setInterval(pintar, 60000);   // se actualiza solo cada minuto
+})();
+
+// =====================================================================
+// ===== NÚMEROS QUE SUBEN SOLOS (+25 años, productos, categorías) =====
+// =====================================================================
+(function () {
+    const numeros = document.querySelectorAll('.stat-numero');
+    if (!numeros.length) return;
+    const sinMovimiento = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function poner(el, valor) {
+        el.textContent = (el.dataset.prefijo || '') + Math.round(valor).toLocaleString('es-CO');
+    }
+
+    numeros.forEach(function (el) {
+        let meta = el.dataset.target;
+        if (meta === 'productos') {
+            const total = (typeof productos !== 'undefined') ? productos.length : 0;
+            meta = total >= 100 ? Math.floor(total / 100) * 100 : total;   // ej: 10.847 -> +10.800
+        }
+        el.dataset.meta = Number(meta) || 0;
+        if (!sinMovimiento && 'IntersectionObserver' in window) poner(el, 0);
+        else poner(el, el.dataset.meta);
+    });
+
+    function animar(el) {
+        const meta = Number(el.dataset.meta);
+        const dur = 1600, ini = performance.now();
+        (function paso(t) {
+            const p = Math.min(Math.max((t - ini) / dur, 0), 1);
+            poner(el, meta * (1 - Math.pow(1 - p, 3)));   // arranca rápido y frena suave
+            if (p < 1) requestAnimationFrame(paso);
+        })(ini);
+    }
+
+    if (sinMovimiento || !('IntersectionObserver' in window)) return;
+    const obs = new IntersectionObserver(function (entradas) {
+        entradas.forEach(function (en) {
+            if (en.isIntersecting) { animar(en.target); obs.unobserve(en.target); }
+        });
+    }, { threshold: 0.4 });
+    numeros.forEach(function (el) { obs.observe(el); });
 })();

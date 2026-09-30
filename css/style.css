@@ -1893,3 +1893,112 @@ body.modo-oscuro .contacto-contenido .mapa-contenedor { border-color: #333; }
     .contacto-contenido .mapa-contenedor { border-radius: 18px; }
     .contacto-contenido .mapa-contenedor iframe { height: 220px; }
 }
+
+/* =========================================================
+   HIMECON - "ABIERTO AHORA", HORARIO Y NUMEROS
+   ========================================================= */
+
+/* ---- Pastilla Abierto / Cerrado ---- */
+.estado-tienda {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto 16px;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.estado-tienda:empty { display: none; }
+.estado-tienda::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: currentColor; }
+.estado-tienda.abierto { background: rgba(34,197,94,.14); color: #15803d; }
+.estado-tienda.abierto::before { animation: pulsoAbierto 1.8s ease-out infinite; }
+.estado-tienda.cerrado { background: rgba(239,68,68,.12); color: #b91c1c; }
+@keyframes pulsoAbierto {
+    0%   { box-shadow: 0 0 0 0 rgba(34,197,94,.55); }
+    100% { box-shadow: 0 0 0 9px rgba(34,197,94,0); }
+}
+body.modo-oscuro .estado-tienda.abierto { background: rgba(34,197,94,.18); color: #4ade80; }
+body.modo-oscuro .estado-tienda.cerrado { background: rgba(239,68,68,.18); color: #f87171; }
+
+/* ---- Horario dentro de Contactanos ---- */
+.contacto-contenido {
+    grid-template-areas:
+        "titulo   acciones"
+        "texto    acciones"
+        "datos    acciones"
+        "horario  acciones"
+        "mapa     mapa";
+}
+.horario-contacto {
+    grid-area: horario;
+    margin-top: 14px;
+    padding: 18px 20px;
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 16px;
+    box-shadow: var(--sombra-sm);
+    text-align: left;
+}
+.horario-contacto h3 { font-size: 18px; margin-bottom: 12px; }
+.horario-contacto .estado-tienda { margin: 0 0 12px; }
+.horario-lista { list-style: none; margin: 0; padding: 0; }
+.horario-lista li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 14.5px;
+    color: var(--gris);
+}
+.horario-lista li.hoy { background: rgba(57,169,255,.12); color: var(--texto); font-weight: 700; }
+.horario-lista li.cerrado-dia span:last-child { color: #b91c1c; }
+body.modo-oscuro .horario-contacto { background: #1e1e1e; border-color: #333; }
+body.modo-oscuro .horario-lista li { color: #b5bcc6; }
+body.modo-oscuro .horario-lista li.hoy { color: #fff; }
+body.modo-oscuro .horario-lista li.cerrado-dia span:last-child { color: #f87171; }
+
+/* ---- Franja de numeros ---- */
+.estadisticas { position: relative; z-index: 2; padding: 0 6%; margin-top: -34px; }
+.estadisticas-contenido {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 26px 10px;
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 22px;
+    box-shadow: var(--sombra-md);
+}
+.stat { padding: 6px 12px; text-align: center; }
+.stat + .stat { border-left: 1px solid var(--borde); }
+.stat-numero {
+    display: block;
+    font-size: clamp(28px, 4vw, 46px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--azul-osc);
+}
+.stat-texto { display: block; margin-top: 2px; font-size: 14px; color: var(--gris); }
+body.modo-oscuro .estadisticas-contenido { background: #1e1e1e; border-color: #333; }
+body.modo-oscuro .stat + .stat { border-color: #333; }
+body.modo-oscuro .stat-texto { color: #b5bcc6; }
+
+@media (max-width: 768px) {
+    .contacto-contenido {
+        grid-template-areas:
+            "titulo"
+            "texto"
+            "datos"
+            "horario"
+            "acciones"
+            "mapa";
+    }
+    .estadisticas { padding: 0 16px; margin-top: -26px; }
+    .estadisticas-contenido { padding: 18px 4px; border-radius: 18px; }
+    .stat { padding: 4px 6px; }
+    .stat-texto { font-size: 12px; line-height: 1.3; }
+}

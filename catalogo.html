@@ -34,6 +34,7 @@
 =========================== -->
 <section class="hero">
     <div class="hero-text">
+        <div class="estado-tienda" data-estado-tienda></div>
         <h1>¿Qué esperas?</h1>
 
         <p>Encuentra aquí todo lo que necesitas para construir o remodelar tu hogar.</p>
@@ -43,6 +44,26 @@
 
     <div class="hero-image">
         <img src="img/logo.png" alt="Himecon">
+    </div>
+</section>
+
+<!-- ===========================
+     NÚMEROS (suben solos al llegar a esta parte)
+=========================== -->
+<section class="estadisticas" aria-label="Himecon en cifras">
+    <div class="estadisticas-contenido">
+        <div class="stat">
+            <span class="stat-numero" data-target="25" data-prefijo="+">+25</span>
+            <span class="stat-texto">años de experiencia</span>
+        </div>
+        <div class="stat">
+            <span class="stat-numero" data-target="productos" data-prefijo="+">+</span>
+            <span class="stat-texto">productos en el catálogo</span>
+        </div>
+        <div class="stat">
+            <span class="stat-numero" data-target="25">25</span>
+            <span class="stat-texto">categorías</span>
+        </div>
     </div>
 </section>
 
@@ -128,6 +149,13 @@
                         Carrera 7 # 9-23, La Victoria, Valle, Barrio Centro
                     </a>
                 </p>
+            </div>
+
+            <!-- Horario de atención (las horas se editan en script.js, arriba del todo) -->
+            <div class="horario-contacto">
+                <h3>🕒 Horario de atención</h3>
+                <div class="estado-tienda" data-estado-tienda></div>
+                <ul id="horario-lista" class="horario-lista"></ul>
             </div>
 
             <!-- Mapa (más pequeño/sutil) -->
