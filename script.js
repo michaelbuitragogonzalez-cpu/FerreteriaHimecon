@@ -25,13 +25,13 @@ const imagenRespaldo = "img/sin-imagen.png";
 // La hora se calcula siempre con la hora de Colombia (aunque el cliente esté en otro país).
 // =====================================================================
 const HORARIO_TIENDA = {
-    0: [],                        // Domingo
-    1: [["07:00", "18:00"]],      // Lunes
-    2: [["07:00", "18:00"]],      // Martes
-    3: [["07:00", "18:00"]],      // Miércoles
-    4: [["07:00", "18:00"]],      // Jueves
-    5: [["07:00", "18:00"]],      // Viernes
-    6: [["07:00", "18:00"]]       // Sábado
+    0: [["08:00", "11:00"]],                        // Domingo
+    1: [["07:30", "12:00"], ["14:00", "17:00"]],      // Lunes
+    2: [["07:30", "12:00"], ["14:00", "17:00"]],      // Martes
+    3: [["07:30", "12:00"], ["14:00", "17:00"]],      // Miércoles
+    4: [["07:30", "12:00"], ["14:00", "17:00"]],      // Jueves
+    5: [["07:30", "12:00"], ["14:00", "17:00"]],      // Viernes
+    6: [["07:30", "12:00"]]       // Sábado
 };
 
 // FESTIVOS O DÍAS ESPECIALES (opcional). Fecha "AAAA-MM-DD" y sus horas; [] = cerrado ese día.
@@ -39,8 +39,10 @@ const HORARIO_TIENDA = {
 //   "2026-12-25": [],                        // Navidad: cerrado
 //   "2026-12-24": [["07:00", "12:00"]],      // Nochebuena: solo hasta el mediodía
 const HORARIO_ESPECIAL = {
-};
+    
 
+};  
+     
 /* =========================================================
    A PARTIR DE AQUÍ NO ES NECESARIO EDITAR NADA
 ========================================================= */

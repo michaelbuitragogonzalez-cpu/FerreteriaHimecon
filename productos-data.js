@@ -2643,18 +2643,23 @@ const productos = [
     tipo: ""
 },
 
+
+
+
+
+
     // ===== PRODUCTOS AGREGADOS DESDE InformeInventario.pdf (autogenerado, orden del PDF, incluye sin existencia) =====
     {
-        nombre: "Curva Cond 1-1/2",
+        nombre: "Curva Cond 1 ½ Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/curvacond.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
         categoria: "electricos",
         subcategoria: "curva"
     },
     {
         nombre: "Espatula Plastica",
-        precio: "",
+        precio: "img/espatulaplastica.jpeg",
         imagen: "img/espatulaplastica.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
@@ -2662,7 +2667,7 @@ const productos = [
     },
     {
         nombre: "Estuco Impadoc X 10K",
-        precio: "",
+        precio: "img/estucoimpadoc.jpeg",
         imagen: "img/estucoimpadoc.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
