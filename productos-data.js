@@ -2659,7 +2659,7 @@ const productos = [
     },
     {
         nombre: "Espatula Plastica",
-        precio: "img/espatulaplastica.jpeg",
+        precio: "",
         imagen: "img/espatulaplastica.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
@@ -2667,7 +2667,7 @@ const productos = [
     },
     {
         nombre: "Estuco Impadoc X 10K",
-        precio: "img/estucoimpadoc.jpeg",
+        precio: "",
         imagen: "img/estucoimpadoc.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
@@ -2681,54 +2681,16 @@ const productos = [
         categoria: "herramienta",
         subcategoria: "zapatico"
     },
-    {
-        nombre: "Tubo Presion 4",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Adap Hem P Al P 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "adap"
-    },
-    {
-        nombre: "Flete",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "flete"
-    },
+    
     {
         nombre: "Pegante Extrafuerte",
         precio: "",
-        imagen: "",
+        imagen: "img/peganteextrafuerte.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "pegante"
     },
-    {
-        nombre: "Pines Ri 1.9",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "pines"
-    },
-    {
-        nombre: "Pines Rs 4",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "pines"
-    },
+    
     {
         nombre: "Broca Multimaterial 3/16 X 6",
         precio: "",
@@ -22642,9 +22604,9 @@ const productos = [
         subcategoria: "pistola"
     },
     {
-        nombre: "Pintura Poliuretano Blanco 1/1",
+        nombre: "Pintura Poliuretano Blanco ",
         precio: "",
-        imagen: "",
+        imagen: "img/pinturapoliuterano.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "pintura"
@@ -33236,152 +33198,73 @@ const productos = [
     {
         nombre: "Mapepur Universal Lata",
         precio: "",
-        imagen: "",
+        imagen: "img/mapepuruniversal.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "mapepur"
     },
     {
-        nombre: "Mapei Uno X 2K",
+        nombre: "Mapei Uno ",
         precio: "",
-        imagen: "",
+        imagen: "img/mapeiuno.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "mapei"
     },
     {
-        nombre: "Acronal 295 x1/1",
+        nombre: "Acronal",
         precio: "",
-        imagen: "",
+        imagen: "img/acronal.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "acronal"
     },
+  
     {
-        nombre: "Acronal x1/4",
+        nombre: "Barniz Poliuretano",
         precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "pintura",
-        subcategoria: "acronal"
-    },
-    {
-        nombre: "Barniz Poliur Tonner 1/1",
-        precio: "",
-        imagen: "",
+        imagen: "img/barnizpoliuretano.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "barniz"
     },
     {
-        nombre: "Barniz Ever 1/1",
+        nombre: "Barniz Every",
         precio: "",
-        imagen: "",
+        imagen: "img/barnizevery.jpg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "barniz"
     },
     {
-        nombre: "Barniz Ever 1/4",
+        nombre: "Bases Automotrices",
         precio: "",
-        imagen: "",
+        imagen: "img/basesautomotrices.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "barniz"
-    },
-    {
-        nombre: "Base Blanca 1/1----1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "pintura",
         subcategoria: "base"
     },
     {
-        nombre: "Base Every Color 1/1-----1/4",
+        nombre: "Carpincol",
         precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "base"
-    },
-    {
-        nombre: "Base Blanca 1/8-------1/16-----1/32",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "pintura",
-        subcategoria: "base"
-    },
-    {
-        nombre: "Brillacarro 1/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "pintura",
-        subcategoria: "brillacarro"
-    },
-    {
-        nombre: "Carpincol 1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "pintura",
-        subcategoria: "carpincol"
-    },
-    {
-        nombre: "Carpincol 250 Gr",
-        precio: "",
-        imagen: "",
+        imagen: "img/carpincol.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "carpincol"
     },
+    
     {
-        nombre: "Carpincol 500 Gr",
+        nombre: "Colbon",
         precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "carpincol"
-    },
-    {
-        nombre: "Colbon 1/1",
-        precio: "",
-        imagen: "",
+        imagen: "img/colbon.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
         categoria: "pintura",
         subcategoria: "colbon"
     },
     {
-        nombre: "Colbon Btll",
+        nombre: "Cromo Zinc",
         precio: "",
-        imagen: "",
+        imagen: "img/cromozinc.jpeg",
         descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "colbon"
-    },
-    {
-        nombre: "Cromo Zinc amar-verd Every 1/1",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "cromo"
-    },
-    {
-        nombre: "Cromo Zinc amar-verd Every 1/4 -1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "cromo"
-    },
-    {
-        nombre: "Cromo Zinc Blanco 1/1",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "pintura",
         subcategoria: "cromo"
     },

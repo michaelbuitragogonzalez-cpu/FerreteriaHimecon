@@ -1988,17 +1988,51 @@ body.modo-oscuro .stat + .stat { border-color: #333; }
 body.modo-oscuro .stat-texto { color: #b5bcc6; }
 
 @media (max-width: 768px) {
+    /* 1. Reordenación de la cuadrícula de contacto en vertical */
     .contacto-contenido {
-        grid-template-areas:
-            "titulo"
-            "texto"
-            "datos"
-            "horario"
-            "acciones"
-            "mapa";
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
-    .estadisticas { padding: 0 16px; margin-top: -26px; }
-    .estadisticas-contenido { padding: 18px 4px; border-radius: 18px; }
-    .stat { padding: 4px 6px; }
-    .stat-texto { font-size: 12px; line-height: 1.3; }
+    
+    /* 2. Ajuste de la franja de números para pantallas pequeñas */
+    .estadisticas { 
+        padding: 0 16px; 
+        margin-top: -20px; 
+    }
+    .estadisticas-contenido { 
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        gap: 16px;
+        padding: 20px 12px; 
+        border-radius: 18px; 
+    }
+    .stat { 
+        padding: 8px 0; 
+    }
+    /* Quitamos el borde izquierdo y ponemos una línea divisoria sutil abajo */
+    .stat + .stat { 
+        border-left: none; 
+        border-top: 1px solid var(--borde); 
+    }
+    body.modo-oscuro .stat + .stat { 
+        border-top-color: #333; 
+    }
+    .stat-numero {
+        font-size: 32px; /* Tamaño controlado para celulares */
+    }
+    .stat-texto { 
+        font-size: 13px; 
+        line-height: 1.3; 
+    }
+
+    /* 3. Ajustes finos para el módulo de horarios en el celular */
+    .horario-contacto {
+        padding: 16px 14px;
+        border-radius: 14px;
+    }
+    .horario-lista li {
+        font-size: 13.5px; /* Texto ligeramente más pequeño para evitar saltos de línea */
+        padding: 8px 6px;
+    }
 }
+
