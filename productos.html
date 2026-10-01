@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | HIMECON</title>
+    <meta name="description" content="Explora miles de productos: hierros, PVC, eléctricos, herramienta, pintura y más. Pide por WhatsApp.">
+    <meta name="theme-color" content="#39A9FF">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ferretería Himecon">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:title" content="Productos | HIMECON">
+    <meta property="og:description" content="Explora miles de productos: hierros, PVC, eléctricos, herramienta, pintura y más. Pide por WhatsApp.">
+    <meta property="og:url" content="https://michaelbuitragogonzalez-cpu.github.io/FerreteriaHimecon/productos.html">
+    <meta property="og:image" content="https://michaelbuitragogonzalez-cpu.github.io/FerreteriaHimecon/img/logo.png">
+    <meta property="og:image:alt" content="Logo de Ferretería Himecon">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ===========================
+     NAVBAR
+=========================== -->
+<header>
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo HIMECON">
+        </div>
+
+        <ul>
+            <li><a href="catalogo.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="catalogo.html#contacto">Contacto</a></li>
+        </ul>
+        <button id="boton-modo-oscuro" onclick="toggleModoOscuro()" aria-label="Cambiar a modo oscuro" type="button">🌙</button>
+    </nav>
+</header>
+
+<!-- ===========================
+     PRODUCTOS
+=========================== -->
+<section class="catalogo pagina-productos">
+    <h1>Nuestros Productos</h1>
+
+    <p class="subtitulo">Encuentra herramientas, materiales y soluciones para tus proyectos.</p>
+    <p class="contador-productos">Mostrando <span id="cantidad-productos">0</span> productos</p>
+
+
+    <!-- BUSCADOR -->
+    <input type="text" id="buscador" placeholder="Buscar producto...">
+
+    <!-- BOTÓN QUE MUESTRA/OCULTA LOS FILTROS -->
+    <button id="boton-filtros" onclick="toggleFiltros()" type="button">
+        🔍 Filtros <span id="flecha-filtros">▾</span>
+    </button>
+
+    <!-- Texto de ayuda que explica el botón de filtros (se oculta solo después de tocarlo una vez) -->
+    <p id="tip-filtros">👆 Pulsa aquí para ver más o menos filtros y mantener tu pantalla limpia</p>
+
+    <!-- Contenedor que agrupa categorías, subcategorías y tipos para poder ocultarlo -->
+    <div id="panel-filtros">
+
+        <!-- CATEGORIAS -->
+        <div class="categorias">
+            <button onclick="filtrarCategoria('todos')">Todos</button>
+            <button onclick="filtrarCategoria('tubospvc')">Tubos PVC</button>
+            <button onclick="filtrarCategoria('hierros')">Hierros</button>
+            <button onclick="filtrarCategoria('accesoriospvc')">Accesorios PVC</button>
+            <button onclick="filtrarCategoria('soldaduralimpiadorespvc')">Soldaduras y Limpiadores para PVC (PAVCO)</button>
+            <button onclick="filtrarCategoria('alambres')">Alambres</button>
+            <button onclick="filtrarCategoria('aluminios')">Aluminios</button>
+            <button onclick="filtrarCategoria('mallas')">Mallas</button>
+            <button onclick="filtrarCategoria('tejas')">Tejas</button>
+            <button onclick="filtrarCategoria('electricos')">Eléctricos</button>
+            <button onclick="filtrarCategoria('herramienta')">Herramienta</button>
+            <button onclick="filtrarCategoria('griferia')">Grifería</button>
+            <button onclick="filtrarCategoria('tornillos')">Tornillos</button>
+            <button onclick="filtrarCategoria('piscina')">Piscina</button>
+            <button onclick="filtrarCategoria('pintura')">Pintura</button>
+            <button onclick="filtrarCategoria('galvanizadoinventario')">Galvanizado (Inventario)</button>
+            <button onclick="filtrarCategoria('cerrajeria')">Cerrajería</button>
+            <button onclick="filtrarCategoria('mangueras')">Mangueras</button>
+            <button onclick="filtrarCategoria('iluminacion')">Iluminación</button>
+            <button onclick="filtrarCategoria('aluminioinventario')">Aluminio (Inventario)</button>
+            <button onclick="filtrarCategoria('ceramica')">Cerámica</button>
+            <button onclick="filtrarCategoria('cemento')">Cemento y Agregados</button>
+            <button onclick="filtrarCategoria('mallasinventario')">Mallas (Inventario)</button>
+            <button onclick="filtrarCategoria('maderas')">Maderas</button>
+            <button onclick="filtrarCategoria('soldaduras')">Soldaduras</button>
+            <button onclick="filtrarCategoria('varios')">Varios</button>
+
+        </div>
+
+        <!-- Se ve solo en celular: despliega el resto de categorías si no caben en 2 filas -->
+        <button id="boton-mas-categorias" onclick="toggleCategoriasExpandidas()" type="button">Ver más categorías ▾</button>
+
+        <!-- SUBCATEGORIAS (se llenan solas con JavaScript según la categoría elegida) -->
+        <div class="subcategorias" id="subcategorias"></div>
+        <button id="boton-mas-subcategorias" onclick="toggleSubcategoriasExpandidas()" type="button">Ver más ▾</button>
+
+        <!-- TIPOS (tercer nivel, se llena solo según la subcategoría elegida) -->
+        <div class="subsubcategorias" id="subsubcategorias"></div>
+
+    </div>
+
+    <!-- PRODUCTOS GENERADOS POR JAVASCRIPT -->
+    <div id="productos"></div>
+</section>
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+<footer>
+    <img src="img/logo.png" alt="Logo HIMECON">
+    <p>© 2026 HIMECON. Todos los derechos reservados. By Michael Buitrago Gonzalez 💝</p>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/573206150674" class="whatsapp-flotante" target="_blank" aria-label="Escríbenos por WhatsApp">
+    <img src="img/whatsapp.png" alt="WhatsApp" onerror="this.style.display='none'; this.parentElement.innerHTML='💬';">
+</a>
+
+<!-- Botón "subir arriba" -->
+<button id="boton-subir" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Subir arriba">⬆</button>
+
+<!-- Botón flotante del pedido (aparece cuando hay al menos 1 producto agregado). Se puede arrastrar. -->
+<button id="boton-pedido">
+    🛒 Pedido <span id="contador-pedido">0</span>
+</button>
+
+<!-- Panel del pedido -->
+<div id="panel-pedido">
+    <div id="panel-pedido-cabecera">
+        <h3>Tu pedido</h3>
+        <button onclick="togglePanelPedido()" aria-label="Cerrar">✕</button>
+    </div>
+    <div id="panel-pedido-lista"></div>
+    <div id="panel-pedido-acciones">
+        <button onclick="vaciarPedido()" id="boton-vaciar-pedido">Vaciar</button>
+        <a id="boton-enviar-pedido" href="#" target="_blank" class="boton">Enviar por WhatsApp</a>
+    </div>
+</div>
+
+<!-- Vista previa de imagen (lightbox) -->
+<div id="lightbox-imagen" onclick="cerrarLightbox(event)">
+    <button class="lightbox-cerrar" onclick="cerrarLightbox(event)" aria-label="Cerrar">✕</button>
+    <img id="lightbox-imagen-img" src="" alt="">
+</div>
+
+<script src="productos-data.js" defer></script>
+<script src="script.js" defer></script>
+
+</body>
+</html> 
