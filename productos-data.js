@@ -151,7 +151,7 @@ const productos = [
         imagen: "img/peresion.jpeg",
         descripcion: "Tubería de pared gruesa para sistemas de riego, distribución de agua y bombeo",
         categoria: "tubospvc",
-        subcategoria: "presion" 
+        subcategoria: "presion"
     },
    {
          nombre: "Tuberia a Presión ½ Pulg ",
@@ -35100,7 +35100,54 @@ const productos = [
         categoria: "pintura",
         subcategoria: "cinta"
     },
-    
+    {
+        nombre: "Barniz",
+        precio: "",
+        imagen: "",
+        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        categoria: "pintura",
+        subcategoria: "barniz"
+    },
+    {
+        nombre: "Barniz 557 1/16 - 1/32",
+        precio: "",
+        imagen: "",
+        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        categoria: "pintura",
+        subcategoria: "barniz"
+    },
+    {
+        nombre: "Barniz Poliur Tonn 1/16 - 1/32",
+        precio: "",
+        imagen: "",
+        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
+        categoria: "pintura",
+        subcategoria: "barniz"
+    },
+    {
+        nombre: "Barniz Poliur Tonn 1/4 - 1/8",
+        precio: "",
+        imagen: "",
+        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
+        categoria: "pintura",
+        subcategoria: "barniz"
+    },
+    {
+        nombre: "Barniz 557 1/4 - 1/8",
+        precio: "",
+        imagen: "",
+        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        categoria: "pintura",
+        subcategoria: "barniz"
+    },
+    {
+        nombre: "Barniz 557 1/1",
+        precio: "",
+        imagen: "",
+        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
+        categoria: "pintura",
+        subcategoria: "barniz"
+    },
     {
         nombre: "Base Pardo 1/1 --1/4--1/8",
         precio: "",
