@@ -2676,7 +2676,7 @@ const productos = [
     {
         nombre: "Zapatico Puerta",
         precio: "",
-        imagen: "img/zapatico.jpeg",
+        imagen: "img/zapaticopuerta.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "zapatico"
@@ -2692,9 +2692,9 @@ const productos = [
     },
     
     {
-        nombre: "Broca Multimaterial 3/16 X 6",
+        nombre: "Broca Multimaterial 3/16 X 6 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/brocamulti.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "broca"
@@ -2702,71 +2702,40 @@ const productos = [
     {
         nombre: "Pistola Petrolizadora",
         precio: "",
-        imagen: "",
+        imagen: "img/pistolapetrolizadora.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "pistola"
     },
     {
-        nombre: "Soldador Gladiador 250 a Ie 9250",
+        nombre: "Nivel Con Iman 48 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "soldador"
-    },
-    {
-        nombre: "Nivel Con Iman 48'",
-        precio: "",
-        imagen: "",
+        imagen: "img/niveliman.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "nivel"
     },
     {
-        nombre: "Waipe Bol Pq",
+        nombre: "Estopa Waipe",
         precio: "",
-        imagen: "",
+        imagen: "img/waype.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "waipe"
     },
-    {
-        nombre: "Guardacabo 3/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "guardacabo"
-    },
-    {
-        nombre: "Aplicación Espiral",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "aplicacion"
-    },
+  
     {
         nombre: "Panel LED 3 w",
         precio: "",
-        imagen: "",
+        imagen: "img/paneled.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "panel"
     },
     {
-        nombre: "Antena Directv HD",
+        nombre: "Sierra Copa Metal 1 1/2",
         precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "antena"
-    },
-    {
-        nombre: "Sierra Copa Metal 1-1/2",
-        precio: "",
-        imagen: "",
+        imagen: "img/sierracopal.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "sierra"
@@ -2774,15 +2743,15 @@ const productos = [
     {
         nombre: "Barra De Uña Trooper",
         precio: "",
-        imagen: "",
+        imagen: "img/barradeuña.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "barra"
     },
     {
-        nombre: "Sierracopa Bimetal 2\"",
+        nombre: "Sierracopa Bimetal 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/sierracopal.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "sierracopa"
@@ -2844,65 +2813,9 @@ const productos = [
         subcategoria: "piragua"
     },
     {
-        nombre: "Argolla Dord 1 ¼ Pulg",
+        nombre: "Argollas para tubo cortinero",
         precio: "",
         imagen: "img/argolladord.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Dord 1 Pulg",
-        precio: "",
-        imagen: "img/argolladord.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Dord ¾ Pulg ",
-        precio: "",
-        imagen: "img/argolladord.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Dord ½ Pulg",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Anlok 1\"\"1/4\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Anlok 1\"\"\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Anlok 3/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla Anlok 1/2",
-        precio: "",
-        imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "argolla"
@@ -3132,25 +3045,9 @@ const productos = [
         subcategoria: "soporte"
     },
     {
-        nombre: "Soporte 1-1/4 Crom",
+        nombre: "Soportes Cortineros",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "soporte"
-    },
-    {
-        nombre: "Soporte 1-1/2 Crom",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "soporte"
-    },
-    {
-        nombre: "Soporte 3/4dobl/anolk-dor",
-        precio: "",
-        imagen: "",
+        imagen: "img/soportescortineros.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soporte"
@@ -3196,22 +3093,6 @@ const productos = [
         subcategoria: "dilatacbronc"
     },
     {
-        nombre: "Tubo Cort 1/2 X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cort 1\" X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubo"
-    },
-    {
         nombre: "Tee Alumn Anolk",
         precio: "",
         imagen: "",
@@ -3219,14 +3100,7 @@ const productos = [
         categoria: "aluminioinventario",
         subcategoria: "tee"
     },
-    {
-        nombre: "Tubo Cort 3/4 X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubo"
-    },
+
     {
         nombre: "Terminal 1/2 Cromo",
         precio: "",
@@ -3243,22 +3117,7 @@ const productos = [
         categoria: "aluminioinventario",
         subcategoria: "terminal"
     },
-    {
-        nombre: "Argolla 1/2 Crom",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
-    {
-        nombre: "Argolla 3/4 Crom",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "argolla"
-    },
+    
     {
         nombre: "Soporte Aluminio 1-1/2",
         precio: "",
@@ -3284,7 +3143,7 @@ const productos = [
         subcategoria: "margarita"
     },
     {
-        nombre: "Platina Aluminio 1 X 1/8",
+        nombre: "Platina Aluminio 1 X 1/8 Pulg",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3292,7 +3151,7 @@ const productos = [
         subcategoria: "platina"
     },
     {
-        nombre: "Platina Aluminio 1 X 3/16",
+        nombre: "Platina Aluminio 1 X 3/16 Pulg",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3301,14 +3160,6 @@ const productos = [
     },
     {
         nombre: "Tubo Crudo 3/4 X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cort 1-1/4 X Mt",
         precio: "",
         imagen: "",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -18052,33 +17903,33 @@ const productos = [
         subcategoria: "compresor"
     },
     {
-        nombre: "Argolla Sapo 3/4",
+        nombre: "Argolla Sapo 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/argollasapo.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla Sapo 1",
+        nombre: "Argolla Sapo 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/argollasapo.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla Sapo 1-1/2",
+        nombre: "Argolla Sapo 1 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/argollasapo.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "argolla"
     },
     {
-        nombre: "Argolla Sapo 2",
+        nombre: "Argolla Sapo 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/argollasapo.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "argolla"
@@ -29292,9 +29143,9 @@ const productos = [
         subcategoria: "corta"
     },
     {
-        nombre: "Corta Tubo PVC 1-5/8",
+        nombre: "Corta Tubo PVC 1 5/8 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/cortatubo.webp",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "corta"
@@ -29668,9 +29519,9 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Perlin Bloq 10 m",
+        nombre: "Perlin Bloquelon 10 m",
         precio: "",
-        imagen: "",
+        imagen: "img/perlinbloquelon.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "herramienta",
         subcategoria: "perlin"
@@ -30260,26 +30111,26 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Perlin Bloq 5 m",
+        nombre: "Perlin Bloquelon 5 m",
         precio: "",
-        imagen: "",
+        imagen: "img/perlinbloquelon.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin Bloq 7 m",
+        nombre: "Perlin Bloquelon 7 m",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/perlinbloquelon.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin Bloq 4 m",
+        nombre: "Perlin Bloquelon 4 m",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/perlinbloquelon.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "perlineria"
     },
@@ -30314,86 +30165,6 @@ const productos = [
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "amarra"
-    },
-    {
-        nombre: "Angulo 1 1/2 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 1 1/2 X 3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 1 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 1 X 3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 1 1/2 X 1/8 Milimet",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 2 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 2 X 3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 2 X 1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
-    },
-    {
-        nombre: "Angulo 3/4 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "anglhierro"
     },
     {
         nombre: "Fleje Cortina Cr - Galv cal24",
@@ -30452,204 +30223,20 @@ const productos = [
         subcategoria: "malla"
     },
     {
-        nombre: "Perlin Bloq 6 Mt 1,4 mm",
+        nombre: "Perlin Bloquelon 6 Mt 1,4 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/perlinbloquelon.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "perlineria"
     },
     {
-        nombre: "Perlin Bloq 9 Mt",
+        nombre: "Perlin Bloquelon 9 Mt",
         precio: "",
-        imagen: "",
+        imagen: "img/perlinbloquelon.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 4X2 cal16-100x50x12x1,5",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 4X2 cal14-100x50x12x2,0",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 305 X 80 X2 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 3 X 1-1/2 C16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 6X2 cal14- 150x50x12x2,0",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 6X2 Cal 16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Perlin 8X2 Cal 14",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
-        nombre: "Platina 1 1/2 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1 1/2 X 3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1 1/2x1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1 X 1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1 X 3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1/2 X 1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1/2 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 1/2 x3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 2 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 2 X 3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 2 x1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 3/4 X 1/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 3/4 x3/16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 3/4x1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "platinas"
-    },
-    {
-        nombre: "Platina 4x1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "platinas"
     },
     {
         nombre: "Puntilla De Acero X Libra",
@@ -30996,150 +30583,6 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Varilla 5/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla 3/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla 11 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Cuad 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla 3/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla 4,5 Tripa Pollo",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Cuad 10.5",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Lisa",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla 12 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Cuad 5/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Cuadr 11 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Lisa 1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Lisa 10.5",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Lisa 12.5",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Lisa 5/8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Lisa 3/4 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Perlin Bloq 8 mts",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
-    {
         nombre: "Hierro 1/4 Kl Chipa",
         precio: "",
         imagen: "",
@@ -31180,36 +30623,20 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Varilla 9 mm",
+        nombre: "Varilla Anclaje 5/8 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
-        nombre: "Varilla Anclaje 5/8",
-        precio: "",
-        imagen: "",
+        imagen: "img/variilaanclaje.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "varillas"
     },
     {
-        nombre: "Perlin Bloq 10 Mt",
+        nombre: "Perlin Bloquelon 10 Mt",
         precio: "",
-        imagen: "",
+        imagen: "img/perlinbloquelon.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "perlineria"
-    },
-    {
-        nombre: "Varilla 1/4\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "varillas"
     },
     {
         nombre: "Tubo Cuadrado 1\" Galvaniz Cal 20",
@@ -31252,14 +30679,6 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Varilla Entorchada 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "varillas"
-    },
-    {
         nombre: "Alampuas 12,5x400",
         precio: "",
         imagen: "",
@@ -31299,14 +30718,7 @@ const productos = [
         categoria: "hierros",
         subcategoria: "tubo"
     },
-    {
-        nombre: "Perlin 3 X 1-1/2 Cal 14",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
-    },
+
     {
         nombre: "Tubo Estructur 100 X 100 Cal 16",
         precio: "",
@@ -31314,14 +30726,6 @@ const productos = [
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
-    },
-    {
-        nombre: "Perlin 3 x1-1/2 Cal 18",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "perlineria"
     },
     {
         nombre: "Tubo Eliptico 1-1/2 Galvanizado",
@@ -38925,26 +38329,10 @@ const productos = [
         subcategoria: "tee"
     },
     {
-        nombre: "Angulo Aluminio Natural",
+        nombre: "Angulos Aluminio",
         precio: "",
-        imagen: "",
+        imagen: "img/anguloaluminio.jpeg",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "angulo"
-    },
-    {
-        nombre: "Angulo Aluminio Anolok",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "angulo"
-    },
-    {
-        nombre: "Angulo Aluminio Blanco",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "piscina",
         subcategoria: "angulo"
     },
