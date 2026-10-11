@@ -1,0 +1,379 @@
+/* =========================================================
+   HIMECON - EXTRAS (extras.css)
+   Estilos de: calculadora de materiales, WhatsApp "Cotización
+   Express" y Modo Obra. Va DESPUÉS de style.css.
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   Botones de acción del inicio (hero) y de productos
+   --------------------------------------------------------- */
+.hero-acciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+button.boton {
+    border: 0;
+    font-family: inherit;
+    cursor: pointer;
+}
+.hero-acciones .boton-secundario { box-shadow: none; }
+
+.calc-banda { text-align: center; margin: 0 auto 22px; }
+.calc-banda .boton { font-size: 15px; padding: 12px 26px; }
+
+/* ---------------------------------------------------------
+   MODO OBRA: interruptor en el menú
+   --------------------------------------------------------- */
+body.perfil-maestro { --perfil: #c2610a; --perfil-suave: rgba(194, 97, 10, .14); }
+body.perfil-hogar   { --perfil: #0d8a7c; --perfil-suave: rgba(13, 138, 124, .14); }
+
+.perfil-switch {
+    display: inline-flex;
+    padding: 3px;
+    gap: 2px;
+    margin-right: 10px;
+    background: var(--fondo-suave, #f5f8fc);
+    border: 1px solid var(--borde, #e6ecf3);
+    border-radius: 50px;
+}
+.perfil-switch button {
+    border: 0;
+    background: transparent;
+    color: var(--gris, #5b6675);
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 13px;
+    border-radius: 50px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background .2s ease, color .2s ease;
+}
+.perfil-switch button:hover { color: var(--texto, #1c2430); }
+.perfil-switch button.activo { background: #39A9FF; color: #fff; }
+body.perfil-maestro .perfil-switch button.activo { background: var(--perfil); }
+body.perfil-hogar .perfil-switch button.activo { background: var(--perfil); }
+
+body.modo-oscuro .perfil-switch { background: #262626; border-color: #3a3a3a; }
+body.modo-oscuro .perfil-switch button { color: #b5bcc6; }
+body.modo-oscuro .perfil-switch button:hover { color: #fff; }
+
+/* La página toma el color del modo */
+body.perfil-maestro .hero,
+body.perfil-hogar .hero {
+    background:
+        radial-gradient(1000px 480px at 85% 5%, var(--perfil-suave), transparent 60%),
+        linear-gradient(#fff, #f6f8fb);
+}
+body.modo-oscuro.perfil-maestro .hero,
+body.modo-oscuro.perfil-hogar .hero {
+    background:
+        radial-gradient(1000px 480px at 85% 5%, var(--perfil-suave), transparent 60%),
+        linear-gradient(#121212, #161c26);
+}
+body.perfil-maestro header, body.perfil-hogar header { border-bottom: 2px solid var(--perfil); }
+
+/* Atajos en el inicio */
+.hero-atajos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    font-size: 14px;
+    color: var(--gris, #5b6675);
+}
+.hero-atajos a {
+    text-decoration: none;
+    color: var(--perfil);
+    border: 1.5px solid var(--perfil);
+    background: #fff;
+    border-radius: 50px;
+    padding: 6px 14px;
+    font-weight: 600;
+    animation: none;
+    transition: background .2s ease, color .2s ease;
+}
+.hero-atajos a:hover { background: var(--perfil); color: #fff; transform: none; }
+.hero-atajos a::after { display: none; }
+body.modo-oscuro .hero-atajos a { background: transparent; }
+body.modo-oscuro .hero-atajos a:hover { background: var(--perfil); }
+
+/* Atajos en la página de productos */
+#atajos-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--perfil);
+}
+#atajos-perfil button {
+    border: 1.5px solid var(--perfil);
+    background: #fff;
+    color: var(--perfil);
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background .2s ease, color .2s ease;
+}
+#atajos-perfil button:hover { background: var(--perfil); color: #fff; }
+body.modo-oscuro #atajos-perfil button { background: transparent; }
+body.modo-oscuro #atajos-perfil button:hover { background: var(--perfil); color: #fff; }
+#productos { scroll-margin-top: 90px; }
+
+/* Tarjetas destacadas por el modo */
+.producto.producto-destacado { position: relative; border-color: var(--perfil); }
+.producto.producto-destacado::before {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+    padding: 3px 10px;
+    border-radius: 50px;
+    background: var(--perfil);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+body.perfil-maestro .producto.producto-destacado::before { content: "Para obra"; }
+body.perfil-hogar .producto.producto-destacado::before { content: "Para el hogar"; }
+
+/* ---------------------------------------------------------
+   WHATSAPP "COTIZACIÓN EXPRESS"
+   El botón actual se mete dentro de .wa-cot y conserva su sitio.
+   --------------------------------------------------------- */
+.wa-cot {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 999;
+}
+.wa-cot .whatsapp-flotante {
+    position: static;
+    transform: translate(var(--mx, 0px), calc(var(--my, 0px) + var(--nudge, 0px)));
+    transition: transform .28s cubic-bezier(.2, .8, .3, 1.2), box-shadow .2s ease;
+}
+.wa-cot .whatsapp-flotante:hover {
+    transform: translate(var(--mx, 0px), calc(var(--my, 0px) + var(--nudge, 0px))) scale(1.08);
+}
+
+.wa-menu {
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 12px);
+    width: 230px;
+    padding: 14px;
+    background: #fff;
+    border: 1px solid var(--borde, #e6ecf3);
+    border-radius: 18px;
+    box-shadow: var(--sombra-lg, 0 18px 40px rgba(20, 40, 80, .16));
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px) scale(.97);
+    transform-origin: bottom right;
+    transition: opacity .2s ease, transform .2s ease, visibility .2s;
+}
+.wa-cot.abierto .wa-menu { opacity: 1; visibility: visible; transform: none; }
+/* Puente invisible para que el menú no se cierre al pasar del botón al menú */
+.wa-menu::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 14px; }
+
+.wa-menu-titulo { font-size: 14px; font-weight: 700; color: var(--texto, #1c2430); margin-bottom: 10px; }
+.wa-menu-opciones { display: grid; gap: 8px; }
+.wa-menu-opciones a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #e8f9ef;
+    color: #14803f;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background .2s ease, color .2s ease;
+}
+.wa-menu-opciones a:hover { background: #25D366; color: #fff; }
+.wa-menu-opciones a.wa-otra { background: transparent; border: 1px solid var(--borde, #e6ecf3); color: var(--gris, #5b6675); }
+.wa-menu-opciones a.wa-otra:hover { background: #f1f4f8; color: var(--texto, #1c2430); }
+
+body.modo-oscuro .wa-menu { background: #1e1e1e; border-color: #333; }
+body.modo-oscuro .wa-menu-titulo { color: #e6e6e6; }
+body.modo-oscuro .wa-menu-opciones a { background: rgba(37, 211, 102, .15); color: #6ee79f; }
+body.modo-oscuro .wa-menu-opciones a:hover { background: #25D366; color: #fff; }
+body.modo-oscuro .wa-menu-opciones a.wa-otra { background: transparent; border-color: #3a3a3a; color: #b5bcc6; }
+
+@media (max-width: 768px) {
+    .wa-cot { right: 18px; bottom: 18px; }
+}
+
+/* ---------------------------------------------------------
+   CALCULADORA DE MATERIALES (ventana flotante)
+   --------------------------------------------------------- */
+body.calc-bloquea { overflow: hidden; }
+
+.calc-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background: rgba(12, 22, 40, .55);
+}
+.calc-overlay.abierto { display: flex; }
+
+.calc-modal {
+    position: relative;
+    width: min(560px, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 28px 26px 24px;
+    background: #fff;
+    color: var(--texto, #1c2430);
+    border-radius: 22px;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, .35);
+    animation: calcEntrada .22s ease-out;
+}
+@keyframes calcEntrada {
+    from { opacity: 0; transform: translateY(14px) scale(.98); }
+    to   { opacity: 1; transform: none; }
+}
+.calc-cerrar {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--fondo-suave, #f5f8fc);
+    color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+.calc-cerrar:hover { background: #e6ecf3; }
+
+.calc-cuerpo h2 { font-size: 22px; margin: 0 40px 6px 0; }
+.calc-sub { color: var(--gris, #5b6675); font-size: 15px; line-height: 1.5; margin-bottom: 18px; }
+
+.calc-opciones { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.calc-opcion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    border: 1.5px solid var(--borde, #e6ecf3);
+    border-radius: 16px;
+    background: #fff;
+    color: inherit;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    transition: border-color .2s ease, background .2s ease;
+}
+.calc-opcion:hover { border-color: #39A9FF; background: rgba(57, 169, 255, .07); }
+.calc-opcion-icono {
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    background: rgba(57, 169, 255, .12);
+    border-radius: 12px;
+}
+
+.calc-form { display: grid; gap: 14px; }
+.calc-campo { display: grid; gap: 6px; font-size: 14px; font-weight: 600; }
+.calc-campo input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1.5px solid var(--borde, #e6ecf3);
+    border-radius: 12px;
+    font-size: 17px; /* 16px o más evita el zoom automático en iPhone */
+    background: #fff;
+    color: inherit;
+}
+.calc-campo input:focus { outline: none; border-color: #39A9FF; box-shadow: 0 0 0 4px rgba(57, 169, 255, .18); }
+.calc-error { min-height: 1.2em; color: #b91c1c; font-size: 13.5px; }
+
+.calc-acciones { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+.calc-btn {
+    flex: 1 1 160px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 18px;
+    border: 0;
+    border-radius: 50px;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calc-btn-principal { background: linear-gradient(135deg, #4db5ff, #2b98f0); color: #fff; }
+.calc-btn-wa { background: linear-gradient(135deg, #2fdc78, #1fbf5f); color: #fff; }
+.calc-btn-wa.deshabilitado { opacity: .45; pointer-events: none; }
+.calc-btn-suave { background: var(--fondo-suave, #f5f8fc); color: var(--texto, #1c2430); border: 1px solid var(--borde, #e6ecf3); }
+
+.calc-lista { list-style: none; margin: 0 0 12px; padding: 0; }
+.calc-lista li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--borde, #e6ecf3);
+}
+.calc-lista li.en-cero { opacity: .45; }
+.calc-item-nombre { display: grid; min-width: 0; }
+.calc-item-nombre strong { font-size: 14.5px; line-height: 1.3; }
+.calc-item-nombre small { font-size: 12.5px; color: var(--gris, #5b6675); }
+.calc-cant { display: flex; align-items: center; gap: 6px; flex: 0 0 auto; }
+.calc-cant button {
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid var(--borde, #e6ecf3);
+    border-radius: 50%;
+    background: #fff;
+    color: inherit;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+.calc-cant button:hover { border-color: #39A9FF; color: #1e88e5; }
+.calc-cant output { min-width: 38px; text-align: center; font-weight: 800; font-size: 16px; font-variant-numeric: tabular-nums; }
+.calc-nota { font-size: 13px; color: var(--gris, #5b6675); line-height: 1.45; }
+
+body.modo-oscuro .calc-modal { background: #1e1e1e; color: #e6e6e6; }
+body.modo-oscuro .calc-sub, body.modo-oscuro .calc-nota, body.modo-oscuro .calc-item-nombre small { color: #b5bcc6; }
+body.modo-oscuro .calc-cerrar, body.modo-oscuro .calc-btn-suave { background: #2a2a2a; border-color: #3a3a3a; color: #e6e6e6; }
+body.modo-oscuro .calc-opcion, body.modo-oscuro .calc-campo input, body.modo-oscuro .calc-cant button { background: #262626; border-color: #3a3a3a; color: #e6e6e6; }
+body.modo-oscuro .calc-lista li { border-color: #333; }
+body.modo-oscuro .calc-error { color: #f87171; }
+
+@media (max-width: 520px) {
+    .calc-modal { padding: 24px 18px 20px; border-radius: 20px; }
+    .calc-opciones { grid-template-columns: 1fr; }
+    .perfil-switch { margin-right: 0; }
+    .perfil-switch button { padding: 6px 10px; font-size: 12.5px; }
+}
+
+/* Menos movimiento: sin animaciones nuevas */
+@media (prefers-reduced-motion: reduce) {
+    .calc-modal { animation: none; }
+    .wa-cot .whatsapp-flotante { transition: none; }
+}

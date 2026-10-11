@@ -38,6 +38,7 @@
     </script>
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/extras.css">
 </head>
 
 <body>
@@ -70,7 +71,10 @@
 
         <p>Encuentra aquí todo lo que necesitas para construir o remodelar tu hogar.</p>
 
-        <a href="productos.html" class="boton">Explorar catálogo</a>
+        <div class="hero-acciones">
+            <button type="button" class="boton" data-abrir-calculadora>🛠️ Calcular mis materiales</button>
+            <a href="productos.html" class="boton boton-secundario">Ver catálogo</a>
+        </div>
     </div>
 
     <div class="hero-image">
@@ -88,7 +92,7 @@
             <span class="stat-texto">Años de experiencia</span>
         </div>
         <div class="stat">
-            <span class="stat-numero" data-target="5400" data-prefijo="+">+</span>
+            <span class="stat-numero" data-target="5000" data-prefijo="+">+</span>
             <span class="stat-texto">Productos en el catálogo</span>
         </div>
         <div class="stat">
@@ -224,6 +228,7 @@
 </a>
 
 <script src="script.js" defer></script>
+<script src="extras.js" defer></script>
 
 </body>
 </html>
