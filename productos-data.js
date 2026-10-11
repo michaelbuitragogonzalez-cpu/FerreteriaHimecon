@@ -29838,14 +29838,7 @@ const productos = [
         categoria: "hierros",
         subcategoria: "concertina"
     },
-    {
-        nombre: "Tubo Rect Estruc 100 X 50 2 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
+
     {
         nombre: "Lamina Cr 4X8 Cal 16",
         precio: "",
@@ -29879,22 +29872,6 @@ const productos = [
         subcategoria: "plancha"
     },
     {
-        nombre: "Tubo Cuadrado 1-1/2 Galv Cal 20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectangular 2X1 Galv Cal 20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
         nombre: "Lamina Galv 4X8 Cal 26",
         precio: "",
         imagen: "",
@@ -29903,49 +29880,25 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Alampuas 16,5 X 100",
+        nombre: "Alambre de Puas 16,5 X 100",
         precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
     {
-        nombre: "Tubo Cuad 40x40 2 mm",
+        nombre: "Tubo Aguas Negras Calibre 14, 3 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboaguasnegras.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Aguas N 3 Cal 14",
+        nombre: "Tubo Poste Calibre 16, 3/4 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Poste 3/4 Cal 116",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cuadr 1 1/2 Cal 16 x1,5",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 3X 1-1/2 Cal 16 1,50",
-        precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -30015,98 +29968,34 @@ const productos = [
         subcategoria: "polea"
     },
     {
-        nombre: "Alambre Galv c-18",
+        nombre: "Alambre de Puas 12.5 X 250",
         precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre gal c-8",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Galv 10",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Galv c-12",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Galv c-14",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Galv c-16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Galv c-20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Negro c-18",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alampuas 12.5x250",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
     {
-        nombre: "Tubo Poste 1-1/4 Cal 18",
+        nombre: "Tubo Poste Calibre 18, 1-1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Alampuas 12.5x350",
+        nombre: "Alambre de Puas 12.5 X 350",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/alampuas.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 12.5x200",
+        nombre: "Alambre de Puas 12.5 X 200",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/alampuas.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
@@ -30135,25 +30024,25 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Alampuas 14x200",
+        nombre: "Alambre de Puas 14 X 200",
         precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 14x350",
+        nombre: "Alambre de Puas 14 X 350",
         precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
     {
-        nombre: "Alampuas 14x500",
+        nombre: "Alambre de Puas 14 X 500",
         precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
@@ -30303,33 +30192,33 @@ const productos = [
         subcategoria: "resorte"
     },
     {
-        nombre: "Tubo Aguas Neg 1",
+        nombre: "Tubo Aguas Negras 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboaguasnegras.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Aguas Neg 1-1/2",
+        nombre: "Tubo Aguas Negras 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboaguasnegras.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Aguas Neg 1-1/4",
+        nombre: "Tubo Aguas Negras 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboaguasnegras.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Aguas Neg 2",
+        nombre: "Tubo Aguas Negras 2 Pulg ",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboaguasnegras.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -30382,82 +30271,19 @@ const productos = [
         categoria: "hierros",
         subcategoria: "tubo"
     },
+
     {
-        nombre: "Tubo Cuadr 1 Cal 18",
+        nombre: "Tubo Eliptico Calibre 20, 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboeliptico.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cuadr",
+        nombre: "Tubo Peinazo 3 X 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cuadr 1 cal20- 1 X 0,80",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cuadr 1-1/2 Cal 18",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cuadr 3/4 Cal 20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Estruc 100x100 2 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Estruc 150x150 4 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Eliptico 1-1/2 Cal 20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Eliptico 2 Cal 20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Peinazo 3x1-1/2",
-        precio: "",
-        imagen: "",
+        imagen: "img/tubopeinazo.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -30479,106 +30305,42 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 1 1/2 C16",
+        nombre: "Tubo Poste Calibre 16, 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 1 1/4 C16",
+        nombre: "Tubo Poste Callibre 16, 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 1 C16",
+        nombre: "Tubo Poste Calibre 16, 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 1-1/2 C18",
+        nombre: "Tubo Poste Calibre 18, 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 2\" Cal 16",
+        nombre: "Tubo Poste Calibre 16, 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 3/4x1-1/2 cal20-",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 2X1 c18-25x50 1,1 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 2X1 C20 25x50 0,80",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 3 X 1-1/2 Cal 14",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 3x1-1/2 cl18 1,10",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 60x40 2 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectan 4 X 1-1/2 Cal 18 - 1,10",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 2 X 1 Cal 16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
@@ -30591,37 +30353,30 @@ const productos = [
         subcategoria: "hierro"
     },
     {
-        nombre: "Tubo Poste 1 cal18",
+        nombre: "Tubo Poste calibre 18, 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Alambre Cerca Electr 14 X Kl",
+        nombre: "Alambre Cerca Electrica 14 X Kl",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Alambre Cerca Electr 12 X Kl",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "alambre"
-    },
-    {
-        nombre: "Tubo Cuadr 1-1/2 Cal 20- 0,80",
-        precio: "",
-        imagen: "",
+        imagen: "img/alambrecercaelectrica.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
-        subcategoria: "tubo"
+        subcategoria: "alambre"
     },
+    {
+        nombre: "Alambre Cerca Electrica 12 X Kl",
+        precio: "",
+        imagen: "img/alambrecercaelectrica.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
+        categoria: "hierros",
+        subcategoria: "alambre"
+    },
+
     {
         nombre: "Varilla Anclaje 5/8 Pulg",
         precio: "",
@@ -30639,98 +30394,41 @@ const productos = [
         subcategoria: "perlineria"
     },
     {
-        nombre: "Tubo Cuadrado 1\" Galvaniz Cal 20",
+        nombre: "Alambre de Puas 12,5 X 400",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cuadrado 3/4 Galvaniz",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectangular 3/4x1-1/2 Galv Cal 20",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectangular 3x1-1/2 Galv Cal 18",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cuadrado 60x60 2 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Alampuas 12,5x400",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "alampuas"
-    },
-    {
-        nombre: "Alampuas 14,5 x500mts",
-        precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
     {
-        nombre: "Tubo Rectg 4 X 1-1/2 Cal 16",
+        nombre: "Alambre de Puas 14,5 X 500",
         precio: "",
-        imagen: "",
+        imagen: "img/alampuas.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
+        categoria: "hierros",
+        subcategoria: "alampuas"
+    },
+    {
+        nombre: "Tubo Poste Calibre 14, 1 - 1/2 Pulg ",
+        precio: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 1-1/2 Cal 14",
+        nombre: "Tubo Poste Calibre 18, 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 3/4 Cal 18",
+        nombre: "Tubo Eliptico Galvanizado 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-
-    {
-        nombre: "Tubo Estructur 100 X 100 Cal 16",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Eliptico 1-1/2 Galvanizado",
-        precio: "",
-        imagen: "",
+        imagen: "img/tuboeliptico.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -30776,10 +30474,10 @@ const productos = [
         subcategoria: "puntiacero"
     },
     {
-        nombre: "Alampuas 14 x135",
+        nombre: "Alambre de Puas 14 X 135",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/alampuas.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "alampuas"
     },
@@ -30791,34 +30489,19 @@ const productos = [
         categoria: "hierros",
         subcategoria: "resorte"
     },
+
     {
-        nombre: "Tubo Rect 4 X 1- 1/2 Cal 19",
+        nombre: "Tubo Aguas Negras Calibre 14, 2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Aguas Neg 2\" Cal 14",
-        precio: "",
-        imagen: "",
+        imagen: "img/tuboaguasnegras.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Poste 2 Cal 18",
+        nombre: "Tubo Poste Calibre 18, 2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Rectang 3X 1-1/2 Cal 20",
-        precio: "",
-        imagen: "",
+        imagen: "img/tuboposte.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -36865,158 +36548,6 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo CPVC",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Novafor 12\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 6\" Polyplex",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 1\" Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 1/2 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 1-1/2 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 1-1/4 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 2\" Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 3\" Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 3/4 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 1 1/2 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 3 X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 4 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 6 Xmt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Presion 1/2 PAVCO R9",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 2 PAVCO X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 3 PAVCO X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit PAVCO 4\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit 6 Econ",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
         nombre: "Tubo Vent 1 1/2",
         precio: "",
         imagen: "",
@@ -37793,14 +37324,6 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Tubo Novaford 20\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
         nombre: "Te CPVC 3/4",
         precio: "",
         imagen: "",
@@ -37936,14 +37459,7 @@ const productos = [
         categoria: "piscina",
         subcategoria: "union"
     },
-    {
-        nombre: "Tubo Novafor 6",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
+
     {
         nombre: "Union PVC 1/2 Interna",
         precio: "",
@@ -37969,22 +37485,6 @@ const productos = [
         subcategoria: "tanque"
     },
     {
-        nombre: "Tubo Novaf 8\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Sanit Sem 4",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
-    {
         nombre: "Codo sanit4 Novaf",
         precio: "",
         imagen: "",
@@ -38008,14 +37508,7 @@ const productos = [
         categoria: "piscina",
         subcategoria: "adesivos"
     },
-    {
-        nombre: "Tubo Sanit 2 X Mt",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "tubo"
-    },
+
     {
         nombre: "Tapa Canal Galv",
         precio: "",
