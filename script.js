@@ -121,9 +121,8 @@ function actualizarBotonMasSubcategorias() {
 
 // ===== LISTA DE PEDIDO =====
 // Permite al cliente marcar varios productos y mandarlos en UN SOLO mensaje de WhatsApp,
-// en vez de escribir uno por uno. Se guarda en localStorage para que no se pierda
+// en vez de escribir uno por uno. Se guarda en sessionStorage para que no se pierda
 // si el cliente recarga la página o sigue viendo más productos.
-javascript
 function cargarPedidoGuardado() {
     try {
         const guardado = sessionStorage.getItem("himecon-pedido");
