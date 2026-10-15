@@ -3423,9 +3423,9 @@ const productos = [
         subcategoria: "inserto"
     },
     {
-        nombre: "Inmunisante Dwt",
+        nombre: "Inmunizante Dwt",
         precio: "",
-        imagen: "",
+        imagen: "img/inmunisante.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "inmunisante"
@@ -34357,14 +34357,6 @@ const productos = [
         subcategoria: "pintura"
     },
     {
-        nombre: "Funestan Inmunizante",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "funestan"
-    },
-    {
         nombre: "Alguisida Botella",
         precio: "",
         imagen: "",
@@ -34397,9 +34389,9 @@ const productos = [
         subcategoria: "alcohol"
     },
     {
-        nombre: "Inmunisante Funestan",
+        nombre: "Inmunizante Funestan",
         precio: "",
-        imagen: "",
+        imagen: "img/inmunisantemadera.jpeg",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
         categoria: "piscina",
         subcategoria: "inmunisante"
@@ -34407,7 +34399,7 @@ const productos = [
     {
         nombre: "Inmunizante Inmulina Galon",
         precio: "",
-        imagen: "",
+        imagen: "img/inmunisanteinmulina.jpeg",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
         categoria: "piscina",
         subcategoria: "inmunizante"
