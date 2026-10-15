@@ -40,112 +40,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/extras.css">
     <link rel="stylesheet" href="css/movil.css">
-    <!-- Reloj digital compacto flotante -->
-    <style>
-        .reloj-himecon-wrap {
-            position: fixed;
-            left: 16px;
-            bottom: 16px;
-            z-index: 999;
-            display: block;
-            width: 190px;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .reloj-himecon {
-            position: relative;
-            isolation: isolate;
-            width: 100%;
-            padding: 11px 12px 10px;
-            overflow: hidden;
-            text-align: center;
-            color: #eaf7ff;
-            background: linear-gradient(145deg, rgba(7, 21, 34, .97), rgba(10, 32, 52, .97) 55%, rgba(11, 18, 32, .97));
-            border: 1px solid rgba(57, 169, 255, .55);
-            border-radius: 15px;
-            box-shadow: 0 6px 22px rgba(5, 33, 56, .28), inset 0 0 16px rgba(57, 169, 255, .07);
-            backdrop-filter: blur(8px);
-        }
-        .reloj-himecon::before {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            width: 90px;
-            height: 90px;
-            top: -60px;
-            left: calc(50% - 45px);
-            border-radius: 50%;
-            background: #39a9ff;
-            filter: blur(35px);
-            opacity: .23;
-        }
-        .reloj-etiqueta {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 6px;
-            margin-bottom: 5px;
-            color: #a9dfff;
-            font-size: 8px;
-            font-weight: 700;
-            letter-spacing: 1.1px;
-            text-transform: uppercase;
-        }
-        .reloj-led {
-            width: 5px;
-            height: 5px;
-            flex: 0 0 5px;
-            border-radius: 50%;
-            background: #50f3a5;
-            box-shadow: 0 0 7px #50f3a5;
-            animation: pulsoLedHimecon 1.8s ease-in-out infinite;
-        }
-        .reloj-hora {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2px;
-            font-family: "Courier New", Consolas, monospace;
-            font-size: 27px;
-            font-weight: 700;
-            font-variant-numeric: tabular-nums;
-            line-height: 1.15;
-            letter-spacing: 0;
-            color: #e8f8ff;
-            text-shadow: 0 0 6px rgba(57, 169, 255, .95), 0 0 14px rgba(57, 169, 255, .48);
-        }
-        .reloj-separador {
-            color: #39a9ff;
-            animation: parpadeoHimecon 1s steps(2, start) infinite;
-        }
-        .reloj-fecha {
-            margin-top: 5px;
-            color: #c0d5e6;
-            font-size: 9px;
-            font-weight: 500;
-            line-height: 1.3;
-            text-transform: capitalize;
-        }
-        .reloj-pie { display: none; }
-        @keyframes pulsoLedHimecon {
-            0%, 100% { opacity: 1; }
-            50% { opacity: .45; }
-        }
-        @keyframes parpadeoHimecon {
-            50% { opacity: .45; }
-        }
-        @media (max-width: 480px) {
-            .reloj-himecon-wrap { left: 10px; bottom: 10px; width: 155px; }
-            .reloj-himecon { padding: 9px 8px 8px; border-radius: 12px; }
-            .reloj-etiqueta { font-size: 7px; letter-spacing: .8px; }
-            .reloj-hora { font-size: 22px; }
-            .reloj-fecha { font-size: 8px; }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .reloj-led, .reloj-separador { animation: none; }
-        }
-    </style>
-
 </head>
 
 <body>
@@ -167,21 +61,6 @@
         <button id="boton-modo-oscuro" onclick="toggleModoOscuro()" aria-label="Cambiar a modo oscuro" type="button">🌙</button>
     </nav>
 </header>
-
-
-<!-- ===========================
-     RELOJ DIGITAL PREMIUM + LED
-=========================== -->
-<section class="reloj-himecon-wrap" aria-label="Reloj digital">
-    <div class="reloj-himecon">
-        <div class="reloj-etiqueta"><span class="reloj-led" aria-hidden="true"></span> Hora local · Himecon</div>
-        <div class="reloj-hora" aria-label="Hora actual">
-            <span id="reloj-hora">00</span><span class="reloj-separador" aria-hidden="true">:</span><span id="reloj-minutos">00</span><span class="reloj-separador" aria-hidden="true">:</span><span id="reloj-segundos">00</span>
-        </div>
-        <div class="reloj-fecha" id="reloj-fecha">Cargando fecha…</div>
-        <div class="reloj-pie">Precisión · Tecnología · Compromiso</div>
-    </div>
-</section>
 
 <!-- ===========================
      HERO
@@ -351,38 +230,6 @@
 
 <script src="script.js" defer></script>
 <script src="extras.js" defer></script>
-
-
-<script>
-(function () {
-    const zonaHoraria = 'America/Bogota';
-    const horaEl = document.getElementById('reloj-hora');
-    const minutosEl = document.getElementById('reloj-minutos');
-    const segundosEl = document.getElementById('reloj-segundos');
-    const fechaEl = document.getElementById('reloj-fecha');
-
-    function actualizarRelojHimecon() {
-        const ahora = new Date();
-        const partesHora = new Intl.DateTimeFormat('es-CO', {
-            timeZone: zonaHoraria,
-            hour: '2-digit', minute: '2-digit', second: '2-digit',
-            hourCycle: 'h23'
-        }).formatToParts(ahora);
-        const partes = {};
-        partesHora.forEach(parte => { partes[parte.type] = parte.value; });
-        horaEl.textContent = partes.hour || '00';
-        minutosEl.textContent = partes.minute || '00';
-        segundosEl.textContent = partes.second || '00';
-        fechaEl.textContent = new Intl.DateTimeFormat('es-CO', {
-            timeZone: zonaHoraria,
-            weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
-        }).format(ahora);
-    }
-
-    actualizarRelojHimecon();
-    window.setInterval(actualizarRelojHimecon, 1000);
-})();
-</script>
 
 </body>
 </html>
