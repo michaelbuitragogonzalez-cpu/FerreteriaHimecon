@@ -3375,49 +3375,49 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Union Polit 1-1/2",
+        nombre: "Union Polietileno 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "union"
     },
     {
-        nombre: "Inserto 3/4",
+        nombre: "Inserto 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "inserto"
     },
     {
-        nombre: "Union Polit 2\"",
+        nombre: "Union Polietileno 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "union"
     },
     {
-        nombre: "Inserto 2\"",
+        nombre: "Inserto 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "varios",
         subcategoria: "inserto"
     },
     {
-        nombre: "Inserto 1-1/2",
+        nombre: "Inserto 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "varios",
         subcategoria: "inserto"
     },
     {
-        nombre: "Inserto 1\" Excluido",
+        nombre: "Inserto 1 Pulg Excluido",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "inserto"
@@ -3439,9 +3439,9 @@ const productos = [
         subcategoria: "cloro"
     },
     {
-        nombre: "Union Polit 1/2",
+        nombre: "Union Polietileno 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "union"
@@ -3463,30 +3463,6 @@ const productos = [
         subcategoria: "ladrillo"
     },
     {
-        nombre: "Bloque made/t",
-        precio: "",
-        imagen: "",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "bloque"
-    },
-    {
-        nombre: "Bloque made/v",
-        precio: "",
-        imagen: "",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "bloque"
-    },
-    {
-        nombre: "Bloque made/ l",
-        precio: "",
-        imagen: "",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "bloque"
-    },
-    {
         nombre: "Cañabrava Rgs",
         precio: "",
         imagen: "",
@@ -3503,9 +3479,9 @@ const productos = [
         subcategoria: "media"
     },
     {
-        nombre: "Cuchilla guadaña/estrella",
+        nombre: "Cuchilla Guadaña Estrella",
         precio: "",
-        imagen: "",
+        imagen: "img/cuchillaguadañaestrella.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "cuchilla"
@@ -3513,7 +3489,7 @@ const productos = [
     {
         nombre: "Cuchilla Guadaña Colim",
         precio: "",
-        imagen: "",
+        imagen: "img/cuchillaguadañacolim.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "cuchilla"
@@ -31196,41 +31172,41 @@ const productos = [
         subcategoria: "manguera"
     },
     {
-        nombre: "Inserto 3/4 Exclu",
+        nombre: "Inserto 3/4 Pulg Excluido",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "inserto"
     },
     {
-        nombre: "Inserto 1-1/2 Excluid",
+        nombre: "Inserto 1 - 1/2 Pulg Excluido",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "inserto"
     },
     {
-        nombre: "Inserto 2 Excluido",
+        nombre: "Inserto 2 Pulg Excluido",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "inserto"
     },
     {
-        nombre: "Union Pol 2 Ng",
+        nombre: "Union Polietileno 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union Pol 1-1/2 Ng",
+        nombre: "Union Polietileno 1-1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
@@ -31244,7 +31220,7 @@ const productos = [
         subcategoria: "acopl"
     },
     {
-        nombre: "Inserto 1/2 Exclui",
+        nombre: "Inserto 1/2 Pulg Excluido",
         precio: "",
         imagen: "",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
@@ -31604,73 +31580,73 @@ const productos = [
         subcategoria: "union"
     },
     {
-        nombre: "Union pol/gal 1\"",
+        nombre: "Union polietileno Galvanizada 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolitg.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union pol/gal 1/2",
+        nombre: "Union polietileno Galvanizada 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolitg.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union pol/gal 1-1/2",
+        nombre: "Union polietileno Galvanizada 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolitg.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union pol/gal 1-1/4",
+        nombre: "Union polietileno Galvanizada 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolitg.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union pol/gal 2",
+        nombre: "Union polietileno Galvanizada 2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolitg.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union pol/gal 3/4",
+        nombre: "Union polietileno Galvanizada 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolitg.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union Polit 1\"",
+        nombre: "Union polietileno 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union Polit 1-1/4",
+        nombre: "Union polietileno 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
     },
     {
-        nombre: "Union Polt 3/4",
+        nombre: "Union polietileno 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/unionpolit.jpeg",
         descripcion: "Manguera para conducción de agua, aire u otros fluidos en obra o el hogar.",
         categoria: "mangueras",
         subcategoria: "union"
@@ -34805,9 +34781,9 @@ const productos = [
         subcategoria: "adapbajtagualluv"
     },
     {
-        nombre: "Inserto 1/2",
+        nombre: "Inserto 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
         categoria: "piscina",
         subcategoria: "inserto"
@@ -34823,7 +34799,7 @@ const productos = [
     {
         nombre: "Inserto 1 Gravado",
         precio: "",
-        imagen: "",
+        imagen: "img/insertos.jpeg",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "piscina",
         subcategoria: "inserto"
@@ -42132,7 +42108,6 @@ const subcategoriasPorCategoria = {
     varios: [
         { valor: "inserto", texto: "Inserto" },
         { valor: "union", texto: "Union" },
-        { valor: "bloque", texto: "Bloque" },
         { valor: "cuchilla", texto: "Cuchilla" },
         { valor: "inmunisante", texto: "Inmunisante" },
         { valor: "cloro", texto: "Cloro" },
