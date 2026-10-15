@@ -778,7 +778,7 @@ document.addEventListener("DOMContentLoaded", function () {
         lista.innerHTML = ORDEN.map(function (d) {
             const franjas = HORARIO_TIENDA[d] || [];
             const horas = franjas.length
-                ? franjas.map(function (f) { return fmt(f[0]) + ' – ' + fmt(f[1]); }).join(' · ')
+                ? franjas.map(function (f) { return '<em class="franja">' + fmt(f[0]) + ' – ' + fmt(f[1]) + '</em>'; }).join('<em class="sep"> · </em>')
                 : 'Cerrado';
             return '<li data-dia="' + d + '"' + (franjas.length ? '' : ' class="cerrado-dia"') + '><span>' + DIAS[d] + '</span><span>' + horas + '</span></li>';
         }).join('');

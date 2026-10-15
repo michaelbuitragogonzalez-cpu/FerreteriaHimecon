@@ -330,3 +330,145 @@
 @media (max-width: 768px) and (prefers-reduced-motion: reduce) {
     .calc-modal { animation: none; }
 }
+
+
+/* =========================================================
+   AJUSTES V2: menú con Modo Obra, atajos y horario
+   ========================================================= */
+
+/* Las franjas del horario (las crea script.js). En PC se ven en una línea con " · " */
+.horario-lista em { font-style: normal; }
+
+@media (max-width: 768px) {
+
+    /* ---------------------------------------------------------
+       Menú en 2 filas ordenadas:
+       fila 1 = logo | enlaces | luna      fila 2 = Todo · Obra · Hogar
+       --------------------------------------------------------- */
+    header nav {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 10px 6px;
+    }
+    header nav .logo { grid-column: 1; grid-row: 1; }
+    header nav ul {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+    header nav #boton-modo-oscuro { grid-column: 3; grid-row: 1; }
+
+    /* Interruptor de modo: ocupa todo el ancho, 3 botones iguales */
+    header nav .perfil-switch {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 100%;
+        margin: 0;
+        padding: 3px;
+        gap: 3px;
+    }
+    header nav .perfil-switch button {
+        min-height: 38px;
+        padding: 8px 4px;
+        font-size: 13.5px;
+        text-align: center;
+    }
+
+    /* ---------------------------------------------------------
+       Atajos del Modo Obra / Hogar: cuadrícula 2 x 2
+       --------------------------------------------------------- */
+    .hero-atajos,
+    #atajos-perfil {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+        width: 100%;
+        max-width: 340px;
+        font-size: 13px;
+    }
+    .hero-atajos { margin: 18px auto 0; }
+    .hero-atajos > span,
+    #atajos-perfil > span {
+        grid-column: 1 / -1;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .hero-atajos a,
+    #atajos-perfil button {
+        display: block;
+        min-height: 42px;
+        padding: 10px 8px;
+        text-align: center;
+        font-size: 13.5px;
+        border-radius: 14px;
+    }
+    /* En productos: dentro de una tarjetita suave del color del modo */
+    #atajos-perfil {
+        max-width: none;
+        margin: 0 0 14px;
+        padding: 12px;
+        background: var(--perfil-suave);
+        border-radius: 18px;
+    }
+
+    /* ---------------------------------------------------------
+       Horario: día a la izquierda, horas a la derecha, 1 franja por línea
+       --------------------------------------------------------- */
+    .horario-contacto {
+        padding: 18px 16px 6px;
+        border-radius: 20px;
+        box-shadow: var(--sombra-sm);
+    }
+    .horario-contacto h3 { font-size: 17px; margin-bottom: 10px; }
+    .horario-contacto .estado-tienda { margin: 0 0 6px; font-size: 13px; }
+
+    .horario-lista li {
+        display: grid;
+        grid-template-columns: 5.6em minmax(0, 1fr);
+        align-items: start;
+        column-gap: 12px;
+        padding: 11px 0;
+        border-radius: 0;
+        border-bottom: 1px solid var(--borde, #e6ecf3);
+        font-size: 14px;
+        line-height: 1.45;
+    }
+    .horario-lista li:last-child { border-bottom: 0; }
+    .horario-lista li span:first-child {
+        max-width: none;
+        font-weight: 600;
+    }
+    .horario-lista li span:last-child {
+        text-align: right;
+        flex: none;
+    }
+    .horario-lista .franja { display: block; white-space: nowrap; }
+    .horario-lista .sep { display: none; }
+
+    /* El día de hoy: franja resaltada que sobresale un poco */
+    .horario-lista li.hoy {
+        margin: 4px -10px;
+        padding: 11px 10px;
+        border-radius: 12px;
+        border-bottom-color: transparent;
+    }
+
+    /* ---------------------------------------------------------
+       Productos: quitar el hueco de 130px bajo el menú
+       (el menú ya no es fijo en celular)
+       --------------------------------------------------------- */
+    .pagina-productos { padding-top: 28px; }
+}
+
+/* Celulares angostos: enlaces del menú un poco más compactos */
+@media (max-width: 380px) {
+    header nav ul a { padding: 8px 7px; font-size: 13px; }
+    .logo img { width: 68px; }
+    header nav .perfil-switch button { font-size: 12.5px; }
+}
