@@ -29992,7 +29992,7 @@ const productos = [
         subcategoria: "amarra"
     },
     {
-        nombre: "Fleje Cortina Galvanizado Calibbre 24",
+        nombre: "Fleje Cortina Galvanizado Calibre 24",
         precio: "",
         imagen: "img/flejecortina.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
