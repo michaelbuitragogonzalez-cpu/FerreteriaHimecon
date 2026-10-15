@@ -4687,9 +4687,9 @@ const productos = [
         subcategoria: "avellanador"
     },
     {
-        nombre: "Polea Doble 2-1/2",
+        nombre: "Polea Doble 2 - 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad.",
         categoria: "cerrajeria",
         subcategoria: "polea"
@@ -4729,7 +4729,7 @@ const productos = [
     {
         nombre: "Polea 30 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Producto de cerrajería para puertas, ventanas y sistemas de seguridad. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "cerrajeria",
         subcategoria: "polea"
@@ -16841,7 +16841,7 @@ const productos = [
     {
         nombre: "Polea 100 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
@@ -22513,7 +22513,7 @@ const productos = [
     {
         nombre: "Polea 40 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
@@ -22797,46 +22797,6 @@ const productos = [
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "juego"
-    },
-    {
-        nombre: "Polea b1-----4\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "polea"
-    },
-    {
-        nombre: "Polea b1------2\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "polea"
-    },
-    {
-        nombre: "Polea b1----- 2- 1/2\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "polea"
-    },
-    {
-        nombre: "Polea b1-----3\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "polea"
-    },
-    {
-        nombre: "Repuesto Polichadora Gr",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "repuesto"
     },
     {
         nombre: "Repuesto Polichadora Pq",
@@ -25151,33 +25111,25 @@ const productos = [
         subcategoria: "riel"
     },
     {
-        nombre: "Polea b1-----14\"",
+        nombre: "Polea En v Doble 2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "polea"
-    },
-    {
-        nombre: "Polea En v Doble 2\"",
-        precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
     },
     {
-        nombre: "Polea En v Doble 3\"",
+        nombre: "Polea En v Doble 3 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
     },
     {
-        nombre: "Polea En v Doble 4\"",
+        nombre: "Polea En v Doble 4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
@@ -26293,14 +26245,6 @@ const productos = [
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "juego"
-    },
-    {
-        nombre: "Polea B1 ----1-1/2\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "herramienta",
-        subcategoria: "polea"
     },
     {
         nombre: "Lima Nichols",
@@ -28385,7 +28329,7 @@ const productos = [
     {
         nombre: "Polea 60 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
@@ -28401,7 +28345,7 @@ const productos = [
     {
         nombre: "Polea 80 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
@@ -29065,7 +29009,7 @@ const productos = [
     {
         nombre: "Polea 50 mm",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "polea"
@@ -29821,19 +29765,11 @@ const productos = [
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
         categoria: "herramienta",
         subcategoria: "manila"
-    },
-    {
-        nombre: "Dilatacion Bronce",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "dilatacion"
-    },
+    },    
     {
         nombre: "Concertina Acero X 6 Mt",
         precio: "",
-        imagen: "",
+        imagen: "img/concertinaacero.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "concertina"
@@ -29864,9 +29800,9 @@ const productos = [
         subcategoria: "lamina"
     },
     {
-        nombre: "Plancha Fogon 3 Boq Gr",
+        nombre: "Plancha Fogon",
         precio: "",
-        imagen: "",
+        imagen: "img/planchafogon.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "plancha"
@@ -29952,17 +29888,17 @@ const productos = [
         subcategoria: "semicodo"
     },
     {
-        nombre: "Polea 16\"",
+        nombre: "Polea 16 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "polea"
     },
     {
-        nombre: "Polea 14\"",
+        nombre: "Polea 14 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/polea.jpg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "polea"
@@ -30050,63 +29986,31 @@ const productos = [
     {
         nombre: "Amarra Para Zin",
         precio: "",
-        imagen: "",
+        imagen: "img/amarrazin.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "amarra"
     },
     {
-        nombre: "Fleje Cortina Cr - Galv cal24",
+        nombre: "Fleje Cortina Galvanizado Calibbre 24",
         precio: "",
-        imagen: "",
+        imagen: "img/flejecortina.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "fleje"
     },
     {
-        nombre: "Grapa X Kl",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "grapa"
-    },
-    {
-        nombre: "Grapa X lb",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "grapa"
-    },
-    {
         nombre: "Hierro 3/8 Kl Chipa",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/hierrochipa.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "hierro"
     },
     {
-        nombre: "Malla Electr X Rollo 3,7 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "malla"
-    },
-    {
-        nombre: "Malla Electr X Rollo 3 mm",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "malla"
-    },
-    {
         nombre: "Malla Electrosoldada",
         precio: "",
-        imagen: "",
+        imagen: "img/mallaelectrosoldada.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "malla"
@@ -30129,17 +30033,17 @@ const productos = [
     },
 
     {
-        nombre: "Resorte Cortina 1 1/2 Par",
+        nombre: "Resorte Cortina 1 1/2 Pulg, Par",
         precio: "",
-        imagen: "",
+        imagen: "img/resortecortina.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "resorte"
     },
     {
-        nombre: "Resorte Cortina 1 1/4 Par",
+        nombre: "Resorte Cortina 1 1/4 Pulg, Par",
         precio: "",
-        imagen: "",
+        imagen: "img/resortecortina.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "resorte"
@@ -30300,8 +30204,8 @@ const productos = [
     {
         nombre: "Hierro 1/4 Kl Chipa",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/hierrochipa.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "hierro"
     },
@@ -30395,9 +30299,9 @@ const productos = [
         subcategoria: "alampuas"
     },
     {
-        nombre: "Resorte Cortina 2\"",
+        nombre: "Resorte Cortina 2 Pulg, Par",
         precio: "",
-        imagen: "",
+        imagen: "img/resortecortina.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "resorte"
@@ -30754,14 +30658,6 @@ const productos = [
         descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
         categoria: "mallasinventario",
         subcategoria: "angeo"
-    },
-    {
-        nombre: "Polea bi. . . 12\"",
-        precio: "",
-        imagen: "",
-        descripcion: "Malla para refuerzo, cerramiento o filtrado en obra y proyectos generales.",
-        categoria: "mallasinventario",
-        subcategoria: "polea"
     },
     {
         nombre: "Acopl Macho Mang 1-1/2\"",
@@ -43403,16 +43299,8 @@ const subcategoriasPorCategoria = {
             texto: "Polea",
         },
         {
-            valor: "grapa",
-            texto: "Grapa",
-        },
-        {
             valor: "hierro",
             texto: "Hierro",
-        },
-        {
-            valor: "dilatacion",
-            texto: "Dilatacion",
         },
         {
             valor: "concertina",
