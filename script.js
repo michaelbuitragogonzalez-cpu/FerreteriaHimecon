@@ -123,20 +123,20 @@ function actualizarBotonMasSubcategorias() {
 // Permite al cliente marcar varios productos y mandarlos en UN SOLO mensaje de WhatsApp,
 // en vez de escribir uno por uno. Se guarda en localStorage para que no se pierda
 // si el cliente recarga la página o sigue viendo más productos.
-let listaPedido = [];
-
+javascript
 function cargarPedidoGuardado() {
     try {
-        const guardado = localStorage.getItem("himecon-pedido");
+        const guardado = sessionStorage.getItem("himecon-pedido");
         listaPedido = guardado ? JSON.parse(guardado) : [];
     } catch (e) {
         listaPedido = [];
     }
 }
 
+
 function guardarPedido() {
     try {
-        localStorage.setItem("himecon-pedido", JSON.stringify(listaPedido));
+        sessionStorage.setItem("himecon-pedido", JSON.stringify(listaPedido));
     } catch (e) {
         // Si el navegador bloquea localStorage, el pedido sigue funcionando
         // durante la sesión, solo no se recuerda al recargar.
