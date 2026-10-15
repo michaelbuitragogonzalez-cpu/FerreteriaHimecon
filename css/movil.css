@@ -1,0 +1,332 @@
+/* =========================================================
+   HIMECON - REFINAMIENTO MÓVIL (movil.css)
+   Va al FINAL, después de style.css y extras.css:
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="extras.css">
+     <link rel="stylesheet" href="movil.css">
+   Solo afecta celular (<= 768px). No cambia colores ni quita
+   animaciones: las hace más sutiles y ordena el espacio.
+   Para volver atrás, basta con quitar esta línea.
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    /* ---------------------------------------------------------
+       Base: lectura cómoda y toque sin parpadeos
+       --------------------------------------------------------- */
+    html { -webkit-tap-highlight-color: transparent; }
+    body { line-height: 1.55; }
+    a, button { touch-action: manipulation; }
+    h1, h2, h3 { text-wrap: balance; }
+    p { text-wrap: pretty; }
+
+    /* El flotado sigue, pero con menos recorrido (más sutil en pantalla chica) */
+    @keyframes flotarSuave {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-3px); }
+    }
+    @keyframes flotarInverso {
+        0%, 100% { transform: translateY(-2px); }
+        50%      { transform: translateY(1px); }
+    }
+
+    /* ---------------------------------------------------------
+       Encabezado: más aire y zonas de toque de 40px
+       --------------------------------------------------------- */
+    header {
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--borde, #e6ecf3);
+    }
+    body.perfil-maestro header,
+    body.perfil-hogar header { border-bottom-width: 2px; }
+    nav { gap: 10px 12px; }
+    .logo img { width: 78px; }
+    nav ul { gap: 2px; margin: 0; }
+    nav a {
+        padding: 9px 11px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .perfil-switch { flex: 0 0 auto; }
+    .perfil-switch button { min-height: 32px; }
+    #boton-modo-oscuro { width: 36px; height: 36px; flex: 0 0 auto; }
+
+    /* ---------------------------------------------------------
+       Inicio (hero)
+       --------------------------------------------------------- */
+    .hero {
+        padding: 28px 20px 52px;
+        gap: 22px;
+    }
+    .hero-text h1 {
+        font-size: clamp(28px, 8vw, 34px);
+        line-height: 1.15;
+        margin-bottom: 10px;
+    }
+    .hero-text p {
+        font-size: 15.5px;
+        line-height: 1.6;
+        margin-bottom: 22px;
+    }
+    .hero-image img { max-width: 230px; }
+
+    /* Botones del hero: apilados, del mismo ancho */
+    .hero-acciones {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .hero-acciones .boton {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 14px 20px;
+        font-size: 15.5px;
+    }
+    .hero-atajos { margin-top: 18px; gap: 6px; font-size: 13px; }
+    .hero-atajos a { padding: 7px 13px; font-size: 13px; }
+
+    /* ---------------------------------------------------------
+       Secciones: ritmo vertical parejo
+       --------------------------------------------------------- */
+    .nosotros, .beneficios, .catalogo, .contacto { padding: 52px 20px; }
+    .nosotros-contenido, .contacto-contenido { gap: 22px; }
+    .nosotros-texto h2, .beneficios h2, .catalogo h2, .contacto-texto h2 {
+        font-size: 25px;
+        margin-bottom: 14px;
+    }
+    .beneficios h2 { margin-bottom: 26px; }
+    /* Rayita azul de los títulos, más fina */
+    .beneficios h2::after, .catalogo h2::after, .pagina-productos h1::after,
+    .nosotros-texto h2::after, .contacto-texto h2::after {
+        width: 40px;
+        height: 3px;
+        margin-top: 10px;
+    }
+    .nosotros-texto p, .contacto-texto p { font-size: 15px; line-height: 1.65; }
+    .nosotros-imagen img { border-radius: 20px; box-shadow: var(--sombra-md); }
+
+    /* ---------------------------------------------------------
+       Beneficios: tarjeta horizontal (icono a la izquierda)
+       --------------------------------------------------------- */
+    .cards { gap: 12px; }
+    .card {
+        display: grid;
+        grid-template-columns: 52px 1fr;
+        column-gap: 14px;
+        align-items: center;
+        padding: 16px;
+        border-radius: 20px;
+        text-align: left;
+        box-shadow: var(--sombra-sm);
+    }
+    .card .icono {
+        grid-row: 1 / span 2;
+        width: 52px;
+        height: 52px;
+        margin: 0;
+        font-size: 24px;
+        border-radius: 14px;
+    }
+    .card h3 { font-size: 17px; margin: 0 0 4px; align-self: end; }
+    .card p  { font-size: 14px; line-height: 1.5; align-self: start; }
+
+    /* ---------------------------------------------------------
+       Números
+       --------------------------------------------------------- */
+    .estadisticas-contenido { box-shadow: var(--sombra-sm); }
+
+    /* ---------------------------------------------------------
+       Productos: buscador, filtros y cuadrícula
+       --------------------------------------------------------- */
+    .pagina-productos { padding: 130px 12px 96px; }
+    .pagina-productos h1 { font-size: 26px; }
+    .subtitulo { font-size: 14px; margin-bottom: 16px; }
+
+    /* 16px evita que el iPhone haga zoom al escribir */
+    #buscador, .buscador {
+        font-size: 16px;
+        min-height: 48px;
+        border-radius: 16px;
+    }
+    #boton-filtros {
+        min-height: 46px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 14.5px;
+    }
+    #panel-filtros {
+        padding: 14px 12px;
+        border-radius: 20px;
+        box-shadow: var(--sombra-sm);
+    }
+    .categorias button, .subcategorias button, .subsubcategorias button {
+        min-height: 36px;
+    }
+    .contador-productos { font-size: 13px; }
+
+    #productos { gap: 12px; margin-top: 14px; }
+
+    .producto {
+        padding: 8px 8px 10px;
+        border-radius: 18px;
+        border-color: var(--borde, #e6ecf3);
+        box-shadow: var(--sombra-sm);
+    }
+    .producto img {
+        height: auto;
+        aspect-ratio: 1 / 1;
+        padding: 10px;
+        border-radius: 14px;
+        margin-bottom: 10px;
+    }
+    .producto h3 {
+        font-size: 13.5px;
+        line-height: 1.3;
+        padding: 0 4px;
+        margin-bottom: 4px;
+    }
+    .producto p:not(.precio-producto) {
+        font-size: 12px;
+        line-height: 1.4;
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .producto .precio-producto {
+        font-size: 17px;
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .producto .boton {
+        min-height: 40px;
+        display: grid;
+        place-items: center;
+        padding: 8px 6px;
+        font-size: 12.5px;
+        border-radius: 50px;
+    }
+    .producto .boton-agregar-pedido {
+        min-height: 38px;
+        margin-top: 6px;
+        padding: 7px 4px;
+        font-size: 12.5px;
+    }
+    /* Etiqueta "Para obra / Para el hogar" más discreta */
+    .producto.producto-destacado::before {
+        top: 12px;
+        left: 12px;
+        padding: 2px 8px;
+        font-size: 10px;
+    }
+    body.modo-oscuro .producto { border-color: #333; }
+
+    /* ---------------------------------------------------------
+       Botones flotantes (respetan la barra del iPhone)
+       --------------------------------------------------------- */
+    .wa-cot {
+        right: 16px;
+        bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    }
+    .wa-cot .whatsapp-flotante { width: 52px; height: 52px; }
+    .wa-menu {
+        width: min(260px, calc(100vw - 32px));
+        border-radius: 20px;
+    }
+    .wa-menu-opciones a { padding: 12px; }
+
+    #boton-subir {
+        right: 76px;
+        bottom: calc(21px + env(safe-area-inset-bottom, 0px));
+    }
+    #boton-pedido {
+        left: 16px;
+        bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+        min-height: 46px;
+        padding: 12px 18px;
+    }
+    #panel-pedido {
+        left: 12px;
+        right: 12px;
+        width: auto;
+        max-width: none;
+        max-height: 70dvh;
+        bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+        border-radius: 22px;
+    }
+    #panel-pedido-cabecera { padding: 14px 16px; }
+    #panel-pedido-lista { padding: 6px 16px; }
+    #panel-pedido-acciones { padding: 12px 16px; }
+    .item-pedido button { min-width: 36px; min-height: 36px; }
+
+    footer { padding: 36px 20px calc(96px + env(safe-area-inset-bottom, 0px)); }
+
+    /* ---------------------------------------------------------
+       Calculadora: hoja que sube desde abajo (se maneja con el pulgar)
+       --------------------------------------------------------- */
+    .calc-overlay { align-items: flex-end; padding: 0; }
+    .calc-modal {
+        width: 100%;
+        max-height: 90dvh;
+        padding: 30px 18px calc(20px + env(safe-area-inset-bottom, 0px));
+        border-radius: 26px 26px 0 0;
+        box-shadow: 0 -12px 40px rgba(0, 0, 0, .25);
+        animation: calcSubida .28s cubic-bezier(.2, .8, .3, 1);
+        overscroll-behavior: contain;
+    }
+    /* Agarradera de la hoja */
+    .calc-modal::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        width: 40px;
+        height: 4px;
+        border-radius: 4px;
+        background: currentColor;
+        opacity: .18;
+        transform: translateX(-50%);
+    }
+    @keyframes calcSubida {
+        from { opacity: 0; transform: translateY(40px); }
+        to   { opacity: 1; transform: none; }
+    }
+    .calc-cerrar { top: 16px; right: 14px; width: 38px; height: 38px; }
+    .calc-cuerpo h2 { font-size: 20px; }
+    .calc-sub { font-size: 14px; margin-bottom: 14px; }
+
+    .calc-opcion { min-height: 56px; }
+    .calc-campo input { min-height: 50px; }
+    .calc-acciones { gap: 8px; }
+    .calc-btn { min-height: 48px; padding: 13px 16px; }
+    .calc-cant button { width: 38px; height: 38px; }
+}
+
+/* Calculadora en pantallas angostas: opciones en 2 columnas, icono arriba */
+@media (max-width: 520px) {
+    .calc-opciones { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .calc-opcion {
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+        padding: 14px 8px;
+        font-size: 13.5px;
+        text-align: center;
+    }
+}
+
+/* Celulares muy angostos */
+@media (max-width: 360px) {
+    nav a { padding: 8px 8px; font-size: 13px; }
+    .hero-text h1 { font-size: 26px; }
+    .card { grid-template-columns: 44px 1fr; column-gap: 12px; }
+    .card .icono { width: 44px; height: 44px; font-size: 21px; }
+}
+
+/* Menos movimiento: sin la animación de la hoja */
+@media (max-width: 768px) and (prefers-reduced-motion: reduce) {
+    .calc-modal { animation: none; }
+}
