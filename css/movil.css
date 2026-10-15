@@ -112,28 +112,53 @@
 
     /* ---------------------------------------------------------
        Beneficios: tarjeta horizontal (icono a la izquierda)
-       --------------------------------------------------------- */
-    .cards { gap: 12px; }
-    .card {
-        display: grid;
-        grid-template-columns: 52px 1fr;
-        column-gap: 14px;
-        align-items: center;
-        padding: 16px;
-        border-radius: 20px;
-        text-align: left;
-        box-shadow: var(--sombra-sm);
-    }
-    .card .icono {
-        grid-row: 1 / span 2;
-        width: 52px;
-        height: 52px;
-        margin: 0;
-        font-size: 24px;
-        border-radius: 14px;
-    }
-    .card h3 { font-size: 17px; margin: 0 0 4px; align-self: end; }
-    .card p  { font-size: 14px; line-height: 1.5; align-self: start; }
+```css
+/* Tarjetas de Tecnología, Calidad y Compromiso en celulares */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: var(--sombra-sm);
+}
+
+.card .icono {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 22px;
+    border-radius: 12px;
+}
+
+.card h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
 
     /* ---------------------------------------------------------
        Números
