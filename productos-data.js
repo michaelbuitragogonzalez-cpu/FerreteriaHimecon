@@ -12919,9 +12919,9 @@ const productos = [
         subcategoria: "niple"
     },
     {
-        nombre: "Semicodo gal 1/2",
+        nombre: "Semicodo Galvanizado 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/semicodogalvanizado.jpeg",
         descripcion: "Producto galvanizado, resistente a la corrosión, para uso estructural y exterior.",
         categoria: "galvanizadoinventario",
         subcategoria: "semicodo"
@@ -29840,17 +29840,17 @@ const productos = [
     },
 
     {
-        nombre: "Lamina Cr 4X8 Cal 16",
+        nombre: "Lamina Cold Rolled Cal 16, 4 X 8 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/laminacoldrolled.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ",
         categoria: "hierros",
         subcategoria: "lamina"
     },
     {
         nombre: "Lamina Ballesta Galvanizada",
         precio: "",
-        imagen: "",
+        imagen: "img/laminaballesta.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "lamina"
@@ -29858,7 +29858,7 @@ const productos = [
     {
         nombre: "Lamina Metaldek 5,10",
         precio: "",
-        imagen: "",
+        imagen: "img/laminametaldek.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "lamina"
@@ -29872,9 +29872,9 @@ const productos = [
         subcategoria: "plancha"
     },
     {
-        nombre: "Lamina Galv 4X8 Cal 26",
+        nombre: "Lamina Galvanizada Cal 26, 4 X 8 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/laminagalvanizada.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "lamina"
@@ -29904,50 +29904,50 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Semicodo gal 3/4",
+        nombre: "Semicodo Galvanizado 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/semicodogalvanizado.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo gal 1",
+        nombre: "Semicodo Galvanizado 1 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Dicol 3/4",
-        precio: "",
-        imagen: "",
+        imagen: "img/semicodogalvanizado.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo gal 1-1/4",
+        nombre: "Semicodo Dicol 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/semicododicol.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo gal 1-1/2",
+        nombre: "Semicodo Galvanizado 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/semicodogalvanizado.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "semicodo"
     },
     {
-        nombre: "Semicodo gal 2",
+        nombre: "Semicodo Galvanizado 1 - 1/2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        imagen: "img/semicodogalvanizado.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
+        categoria: "hierros",
+        subcategoria: "semicodo"
+    },
+    {
+        nombre: "Semicodo Galvanizado 2 Pulg",
+        precio: "",
+        imagen: "img/semicodogalvanizado.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "semicodo"
     },
@@ -30127,54 +30127,7 @@ const productos = [
         categoria: "hierros",
         subcategoria: "perlineria"
     },
-    {
-        nombre: "Puntilla De Acero X Libra",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "puntilla"
-    },
-    {
-        nombre: "Puntilla 3/4 -- 1\"---1-1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "puntilla"
-    },
-    {
-        nombre: "Puntilla Sin Cabeza",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "puntilla"
-    },
-    {
-        nombre: "Puntilla 2\" a 3-1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "puntilla"
-    },
-    {
-        nombre: "Puntilla 4-5",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "puntilla"
-    },
-    {
-        nombre: "Puntilla Zin Bl",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "puntilla"
-    },
+
     {
         nombre: "Resorte Cortina 1 1/2 Par",
         precio: "",
@@ -30432,46 +30385,6 @@ const productos = [
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
-    },
-    {
-        nombre: "Puntiacero X Doc 1",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "puntiacero"
-    },
-    {
-        nombre: "Puntiacero X Doc 1-1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "puntiacero"
-    },
-    {
-        nombre: "Puntiacero X Doc 2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "puntiacero"
-    },
-    {
-        nombre: "Puntiacero X Doc 2-1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "puntiacero"
-    },
-    {
-        nombre: "Puntiacero X Doc 3",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "puntiacero"
     },
     {
         nombre: "Alambre de Puas 14 X 135",
@@ -35872,150 +35785,6 @@ const productos = [
         precio: "",
         imagen: "",
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Dicol 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 1-1/2 Cxc",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 1-1/2 Cxe",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 2 Cxc",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 2 Cxe",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 3 Cxc",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 3 Cxe",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 4 Cxc",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 4 Cxe",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Sanit 6 Cxc",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 4",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 3",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 2",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 1-1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 1-1/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 1",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 3/4",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
-        categoria: "piscina",
-        subcategoria: "semicodo"
-    },
-    {
-        nombre: "Semicodo Presion 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
         categoria: "piscina",
         subcategoria: "semicodo"
     },
@@ -43616,14 +43385,6 @@ const subcategoriasPorCategoria = {
         {
             valor: "semicodo",
             texto: "Semicodo",
-        },
-        {
-            valor: "puntilla",
-            texto: "Puntilla",
-        },
-        {
-            valor: "puntiacero",
-            texto: "Puntiacero",
         },
         {
             valor: "lamina",
