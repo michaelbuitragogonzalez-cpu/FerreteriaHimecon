@@ -114,11 +114,16 @@
        Beneficios: tarjeta horizontal (icono a la izquierda)
 ```css
 /* Tarjetas de Tecnología, Calidad y Compromiso en celulares */
+
+/* Centrar las tarjetas de Tecnología, Calidad y Compromiso */
 .cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 100%;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .card {
@@ -128,6 +133,8 @@
     justify-content: center;
     width: 100%;
     max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 12px 14px;
     border-radius: 14px;
     text-align: center;
@@ -157,6 +164,8 @@
     line-height: 1.4;
     text-align: center;
 }
+
+
 
 
 
