@@ -30224,49 +30224,49 @@ const productos = [
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cob 1/8",
+        nombre: "Tubo Cobre 1/8 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cob 1/2",
-        precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cob 1/4",
-        precio: "",
-        imagen: "",
+        imagen: "img/tubocobre.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cob 3/16",
+        nombre: "Tubo Cobre 1/2 Pulg",
         precio: "",
-        imagen: "",
-        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
-        categoria: "hierros",
-        subcategoria: "tubo"
-    },
-    {
-        nombre: "Tubo Cob 3/8",
-        precio: "",
-        imagen: "",
+        imagen: "img/tubocobre.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "tubo"
     },
     {
-        nombre: "Tubo Cob 5/16",
+        nombre: "Tubo Cobre 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/tubocobre.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
+        categoria: "hierros",
+        subcategoria: "tubo"
+    },
+    {
+        nombre: "Tubo Cobre 3/16 Pulg",
+        precio: "",
+        imagen: "img/tubocobre.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
+        categoria: "hierros",
+        subcategoria: "tubo"
+    },
+    {
+        nombre: "Tubo Cobre 3/8 Pulg",
+        precio: "",
+        imagen: "img/tubocobre.jpeg",
+        descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        categoria: "hierros",
+        subcategoria: "tubo"
+    },
+    {
+        nombre: "Tubo Cobre 5/16 Pulg",
+        precio: "",
+        imagen: "img/tubocobre.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -30291,7 +30291,7 @@ const productos = [
     {
         nombre: "Tubo Piramidal Pasamanos",
         precio: "",
-        imagen: "",
+        imagen: "img/tubopiramidalpasamanos.jpeg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos.",
         categoria: "hierros",
         subcategoria: "tubo"
@@ -30299,7 +30299,7 @@ const productos = [
     {
         nombre: "Tubo Piramidal Ventana En Tee",
         precio: "",
-        imagen: "",
+        imagen: "img/tubopiramidalventana.jpg",
         descripcion: "Perfil o accesorio de hierro para estructuras, refuerzo y trabajos metálicos. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "hierros",
         subcategoria: "tubo"

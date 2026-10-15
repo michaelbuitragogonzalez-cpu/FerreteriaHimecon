@@ -357,7 +357,6 @@ function construirTarjeta(producto, indiceGlobal) {
     const mensaje = encodeURIComponent(
         `Hola, estoy interesado en este producto:\n\n` +
         ` ${producto.nombre}\n` +
-        ` ${formatearPrecio(producto.precio)}\n\n` +
         lineaFoto +
         `¿Está disponible?`
     );
