@@ -50,8 +50,14 @@
     <p class="subtitulo">Encuentra herramientas, materiales y soluciones para tus proyectos.</p>
     <div class="calc-banda">
         <button type="button" class="boton" data-abrir-calculadora>🛠️ Calcular mis materiales</button>
+        
+        <!-- NUEVO BOTÓN: Agrégalo justo aquí abajo -->
+        <button type="button" id="boton-limpiar-filtros" class="boton" onclick="limpiarTodosLosFiltros()" style="display: none; background-color: #dc3545; color: white; margin-left: 10px;">
+            ❌ Quitar Filtros
+        </button>
     </div>
     <p class="contador-productos">Mostrando <span id="cantidad-productos">0</span> productos</p>
+
 
 
     <!-- BUSCADOR -->

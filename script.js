@@ -536,7 +536,18 @@ function buscarProductos(textoBuscado) {
 function filtrarLista() {
     const textoBuscado = buscador ? limpiarTexto(buscador.value) : "";
     mostrarProductos(buscarProductos(textoBuscado));
+
+    // NUEVO: Mostrar el botón de quitar filtros solo si hay filtros activos o texto escrito
+    const botonLimpiar = document.getElementById("boton-limpiar-filtros");
+    if (botonLimpiar) {
+        if (categoriaActual !== "todos" || subcategoriaActual !== "todas" || tipoActual !== "todos" || textoBuscado !== "") {
+            botonLimpiar.style.display = "inline-block"; // Aparece
+        } else {
+            botonLimpiar.style.display = "none"; // Se oculta
+        }
+    }
 }
+
 
 
 
@@ -841,3 +852,40 @@ document.addEventListener("DOMContentLoaded", function () {
     }, { threshold: 0.4 });
     numeros.forEach(function (el) { obs.observe(el); });
 })();
+// Función para limpiar todos los filtros de la Ferretería Himecon
+window.limpiarTodosLosFiltros = function() {
+    // 1. Devolvemos las variables de estado a su valor inicial
+    categoriaActual = "todos";
+    subcategoriaActual = "todas";
+    tipoActual = "todos";
+
+    // 2. Limpiamos el texto que se haya escrito en el buscador
+    if (buscador) {
+        buscador.value = "";
+    }
+
+    // 3. Desactivamos visualmente todos los botones que estaban elegidos
+    document.querySelectorAll('.categorias button, #subcategorias button, #subsubcategorias button').forEach(function (b) {
+        b.classList.remove('activo');
+    });
+
+    // 4. Volvemos a marcar como activo el botón principal de "Todos"
+    const primeraCategoria = document.querySelector('.categorias button');
+    if (primeraCategoria) {
+        primeraCategoria.classList.add('activo');
+    }
+
+    // 5. Limpiamos los paneles visuales de subcategorías y tercer nivel
+    if (subcategoriasContenedor) subcategoriasContenedor.innerHTML = "";
+    if (subsubcategoriasContenedor) subsubcategoriasContenedor.innerHTML = "";
+    
+    // Ocultamos el botón "Ver más" de las subcategorías
+    const botonMasSub = document.getElementById("boton-mas-subcategorias");
+    if (botonMasSub) botonMasSub.style.display = "none";
+
+    // 6. Volvemos a mostrar la lista completa con todos los productos
+    mostrarProductos(productos);
+
+    // 7. Ocultamos el botón de limpiar filtros
+    document.getElementById("boton-limpiar-filtros").style.display = "none";
+};
