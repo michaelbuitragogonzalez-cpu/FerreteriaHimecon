@@ -2648,6 +2648,14 @@ const productos = [
 
 
 
+
+
+
+
+
+
+
+
     // ===== PRODUCTOS AGREGADOS DESDE InformeInventario.pdf (autogenerado, orden del PDF, incluye sin existencia) =====
     {
         nombre: "Curva Cond 1 ½ Pulg",
@@ -2821,41 +2829,41 @@ const productos = [
         subcategoria: "argolla"
     },
     {
-        nombre: "Terminal 1-1/4 Dord",
+        nombre: "Terminal Dord 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/terminaldord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1\"dord",
+        nombre: "Terminal Dord 1 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/terminaldord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 3/4 Dord",
+        nombre: "Terminal Dord 3/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/terminaldord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1/2 Dord",
+        nombre: "Terminal Dord 1/2 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/terminaldord.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "terminal"
     },
     {
-        nombre: "Terminal 1-1/4 Anolk",
+        nombre: "Terminal Anolk 1 - 1/4 Pulg",
         precio: "",
-        imagen: "",
+        imagen: "img/terminalanolk.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "terminal"
