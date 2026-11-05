@@ -2109,3 +2109,7 @@ body.modo-oscuro .stat-texto { color: #b5bcc6; }
     .horario-lista li span:first-child,
     .horario-lista li span:last-child { max-width: 100%; text-align: left; flex: none; }
 }
+.horario-contacto,
+.contacto-boton {
+    box-shadow: 0 6px 20px rgba(20, 40, 80, 0.12);
+}
