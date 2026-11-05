@@ -8583,22 +8583,6 @@ const productos = [
         subcategoria: "inter"
     },
     {
-        nombre: "Inter Lampara",
-        precio: "",
-        imagen: "img/inter-lampara.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "inter"
-    },
-    {
-        nombre: "Inter Pera Lamp 3 Am s/p",
-        precio: "",
-        imagen: "img/inter-pera.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "inter"
-    },
-    {
         nombre: "Inter Senc Acero Unitec",
         precio: "",
         imagen: "img/inter-senc.jpeg",
@@ -8609,7 +8593,7 @@ const productos = [
     {
         nombre: "Inter sen/conm Bocch",
         precio: "",
-        imagen: "img/inter-sen-conm.jpeg",
+        imagen: "img/inter-senc.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
         categoria: "electricos",
         subcategoria: "inter"
@@ -8617,7 +8601,7 @@ const productos = [
     {
         nombre: "Inter senc/conm Forte",
         precio: "",
-        imagen: "img/inter-senc-conm.jpeg",
+        imagen: "img/inter-senc.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
         categoria: "electricos",
         subcategoria: "inter"
@@ -42050,7 +42034,7 @@ const subcategoriasPorCategoria = {
     electricos: [
         { valor: "toma", texto: "Tomas" },
         { valor: "caja", texto: "Cajas" },
-        { valor: "inter", texto: "Inter" },
+        { valor: "inter", texto: "Interruptores" },
         { valor: "cable", texto: "Cables" },
         { valor: "bombillo", texto: "Bombillos" },
         { valor: "clavija", texto: "Clavijas" },
@@ -42178,7 +42162,6 @@ const subcategoriasPorCategoria = {
         { valor: "muerto", texto: "Muerto" },
         { valor: "bombill", texto: "Bombill" },
         { valor: "refelctor", texto: "Refelctor" },
-        { valor: "general", texto: "General" },
     ],
 
     iluminacion: [
