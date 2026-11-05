@@ -9887,14 +9887,6 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Levinton Inc",
-        precio: "",
-        imagen: "img/toma-levinton.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
         nombre: "Toma Doble induma- Bocc",
         precio: "",
         imagen: "img/toma-doble.jpeg",
@@ -9959,38 +9951,6 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma tel/coax Lunare",
-        precio: "",
-        imagen: "img/toma-tel-coax.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
-        nombre: "Toma tel/coax Lx Amerc",
-        precio: "",
-        imagen: "img/toma-tel-coax.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
-        nombre: "Toma tel/coax Lx Nal",
-        precio: "",
-        imagen: "img/toma-tel-coax.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
-        nombre: "Toma tel/dob Galica",
-        precio: "",
-        imagen: "img/toma-tel-dob.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
         nombre: "Toma Telef Forte",
         precio: "",
         imagen: "img/toma-telef.jpeg",
@@ -9999,33 +9959,9 @@ const productos = [
         subcategoria: "toma"
     },
     {
-        nombre: "Toma Trif 2x4codelc/inc",
-        precio: "",
-        imagen: "img/toma-trif.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
-        nombre: "Toma Trif 4x4march/inc",
-        precio: "",
-        imagen: "img/toma-trif.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
         nombre: "Toma Trifasico s/p Ng",
         precio: "",
         imagen: "img/toma-trifasico.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "toma"
-    },
-    {
-        nombre: "Toma trif.4x4 Codl",
-        precio: "",
-        imagen: "img/toma-codl.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
         categoria: "electricos",
         subcategoria: "toma"
@@ -10541,14 +10477,6 @@ const productos = [
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
         categoria: "iluminacion",
         subcategoria: "breaker"
-    },
-    {
-        nombre: "Toma Jack De Datos",
-        precio: "",
-        imagen: "img/toma-jack.jpeg",
-        descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "iluminacion",
-        subcategoria: "toma"
     },
     {
         nombre: "Caja PVC 10 X 10 Con Tapa",
