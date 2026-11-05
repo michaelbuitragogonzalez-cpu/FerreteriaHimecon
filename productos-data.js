@@ -7439,14 +7439,6 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja Llave",
-        precio: "",
-        imagen: "img/caja-llave.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "caja"
-    },
-    {
         nombre: "Caja Canalete Dexson",
         precio: "",
         imagen: "img/caja-canalete.jpeg",
@@ -7473,7 +7465,7 @@ const productos = [
     {
         nombre: "Caja Contd 35x35",
         precio: "",
-        imagen: "img/caja-contd.jpeg",
+        imagen: "img/caja-cont.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "electricos",
         subcategoria: "caja"
@@ -7503,14 +7495,6 @@ const productos = [
         subcategoria: "caja"
     },
     {
-        nombre: "Caja D Herrta 24",
-        precio: "",
-        imagen: "img/caja-herrta.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "caja"
-    },
-    {
         nombre: "Caja Gabinete 40x40x15 c/tapa",
         precio: "",
         imagen: "img/caja-gabinete.jpeg",
@@ -7531,22 +7515,6 @@ const productos = [
         precio: "",
         imagen: "img/caja-octagonal.jpeg",
         descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales.",
-        categoria: "electricos",
-        subcategoria: "caja"
-    },
-    {
-        nombre: "Caja 2 X4 mt1/2",
-        precio: "",
-        imagen: "img/caja.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "caja"
-    },
-    {
-        nombre: "Caja p/gas",
-        precio: "",
-        imagen: "img/caja-p-gas.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "electricos",
         subcategoria: "caja"
     },
@@ -10303,14 +10271,6 @@ const productos = [
         subcategoria: "cuchilla"
     },
     {
-        nombre: "Caja Rawelt 3X 3/4",
-        precio: "",
-        imagen: "img/caja-rawelt.jpeg",
-        descripcion: "Material eléctrico para instalaciones residenciales, comerciales e industriales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "electricos",
-        subcategoria: "caja"
-    },
-    {
         nombre: "Caja Paso 25x20",
         precio: "",
         imagen: "img/caja-paso.jpeg",
@@ -10445,14 +10405,6 @@ const productos = [
         descripcion: "Producto de iluminación LED para espacios interiores y exteriores.",
         categoria: "iluminacion",
         subcategoria: "bomb"
-    },
-    {
-        nombre: "Caja Breaker Micro Opal 2 Cir s/p Shneider",
-        precio: "",
-        imagen: "img/caja-breaker.jpeg",
-        descripcion: "Producto de iluminación LED para espacios interiores y exteriores. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "iluminacion",
-        subcategoria: "caja"
     },
     {
         nombre: "Amarra Plast 55 cm",
@@ -25391,22 +25343,6 @@ const productos = [
         subcategoria: "rodaja"
     },
     {
-        nombre: "Extencion Caja Novafor 1 Mt",
-        precio: "",
-        imagen: "img/extencion-caja.jpeg",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "extencion"
-    },
-    {
-        nombre: "Extencion Caja Novafor 50 cm",
-        precio: "",
-        imagen: "img/extencion-caja.jpeg",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "extencion"
-    },
-    {
         nombre: "Adaptador Tubo Novafor 6\"",
         precio: "",
         imagen: "img/adaptador-tubo.jpeg",
@@ -26734,14 +26670,7 @@ const productos = [
         categoria: "herramienta",
         subcategoria: "plancha"
     },
-    {
-        nombre: "Caja d-herraminta Metal 21",
-        precio: "",
-        imagen: "img/caja-d-herraminta.jpeg",
-        descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales.",
-        categoria: "herramienta",
-        subcategoria: "caja"
-    },
+
     {
         nombre: "Plancha Fogon 2 Boq Pq",
         precio: "",
@@ -26783,9 +26712,9 @@ const productos = [
         subcategoria: "mezclador"
     },
     {
-        nombre: "Caja d-herramienta 15",
+        nombre: "Caja de herramienta 15",
         precio: "",
-        imagen: "img/caja-d-herramienta.jpeg",
+        imagen: "img/caja-herramienta.jpeg",
         descripcion: "Herramienta de trabajo para construcción, mantenimiento y proyectos generales. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "herramienta",
         subcategoria: "caja"
@@ -33877,14 +33806,6 @@ const productos = [
         subcategoria: "mastick"
     },
     {
-        nombre: "Mastic Caja X 28 Kl",
-        precio: "",
-        imagen: "img/mastic-caja.jpeg",
-        descripcion: "Producto de la línea de pintura y acabados para interiores y exteriores.",
-        categoria: "pintura",
-        subcategoria: "mastic"
-    },
-    {
         nombre: "Pintura Poluiretano Blanco 1/16",
         precio: "",
         imagen: "img/pintura-poluiretano.jpeg",
@@ -35300,22 +35221,6 @@ const productos = [
         descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas.",
         categoria: "piscina",
         subcategoria: "buje"
-    },
-    {
-        nombre: "Caja Registro 6\" Alcant",
-        precio: "",
-        imagen: "img/caja-registro.jpeg",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "caja"
-    },
-    {
-        nombre: "Canal Amazona X 3 mts",
-        precio: "",
-        imagen: "img/canal-amazona.jpeg",
-        descripcion: "Producto para el mantenimiento, construcción o accesorios de piscinas. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "piscina",
-        subcategoria: "canal"
     },
     {
         nombre: "Codo 1 1/2 Cxc San",
