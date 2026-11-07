@@ -1,44 +1,30 @@
 /* =========================================================
    HIMECON - SONIDOS SUAVES TIPO ASMR (sonidos.js)
-   Solo suenan los momentos que importan: agregar/quitar del
-   pedido, guardar un favorito y los "listo" (enviar por WhatsApp,
-   terminar el tutorial). Nada al entrar, nada al hacer scroll,
-   nada en cada botón.
+   Siempre activos (sin botón para apagarlos).
+   Suenan: agregar/quitar del pedido, favoritos, los "listo",
+   cualquier botón o enlace que se toque, y un roce muy suave
+   al hacer scroll.
    Los sonidos se generan con el navegador (Web Audio): no hay
-   archivos de audio. Tienen textura suave (roce + tono cálido +
-   un poquito de eco) y una variación mínima en cada toque para
-   que nunca suenen idénticos ni cansen.
-   Incluye un botón 🔊/🔇; se recuerda la elección.
+   archivos de audio.
    No modifica script.js, extras.js ni pulido.js.
    ========================================================= */
 (function () {
     "use strict";
 
     // ⚙️ AJUSTES (puedes cambiarlos)
-    var ACTIVO_POR_DEFECTO = true;   // false = empiezan apagados y el cliente los enciende con 🔊
     var VOLUMEN = 1;                 // 0.5 = más bajito, 1 = normal
     var ECO = 0.32;                  // 0 = sin eco, 0.5 = más "espacio"
-    var KEY = "himecon-sonido";
+    var SCROLL_ACTIVO = true;        // false = sin sonido al hacer scroll
+    var SCROLL_CADA_MS = 140;        // más alto = menos sonidos al desplazar
+    var SCROLL_VOLUMEN = 0.03;       // volumen del roce al hacer scroll
 
     var Contexto = window.AudioContext || window.webkitAudioContext;
     if (!Contexto) return;           // navegador sin audio: no hace nada
 
     var ctx = null, maestro = null, ruido = null;
-    var ultimo = 0;
-
-    function leer() {
-        try {
-            var v = localStorage.getItem(KEY);
-            if (v === "1") return true;
-            if (v === "0") return false;
-        } catch (e) {}
-        return ACTIVO_POR_DEFECTO;
-    }
-    function guardar(v) { try { localStorage.setItem(KEY, v ? "1" : "0"); } catch (e) {} }
-    var encendido = leer();
+    var ultimo = 0, ultimoScroll = 0;
 
     /* ---------- Preparación del audio ---------- */
-    // Eco corto y cálido (ruido que se apaga solo) para dar sensación de espacio
     function impulso(c) {
         var n = Math.floor(c.sampleRate * 0.9);
         var b = c.createBuffer(2, n, c.sampleRate);
@@ -54,7 +40,7 @@
         maestro = c.createGain();
         maestro.gain.value = VOLUMEN;
 
-        var suave = c.createBiquadFilter();      // quita lo "chillón"
+        var suave = c.createBiquadFilter();
         suave.type = "lowpass";
         suave.frequency.value = 5200;
         suave.Q.value = 0.5;
@@ -73,7 +59,6 @@
         humedo.connect(eco);
         eco.connect(c.destination);
 
-        // Ruido blanco reutilizable para los "roces"
         var n = Math.floor(c.sampleRate * 0.25);
         ruido = c.createBuffer(1, n, c.sampleRate);
         var d = ruido.getChannelData(0);
@@ -88,7 +73,6 @@
     }
 
     /* ---------- Ladrillos del sonido ---------- */
-    // Tono cálido: seno con entrada suave y salida larga; opcional caída/subida de tono y un armónico
     function nota(c, freq, t, dur, vol, o) {
         o = o || {};
         var ataque = o.ataque || 0.006;
@@ -104,7 +88,7 @@
         osc.start(t);
         osc.stop(t + dur + 0.03);
 
-        if (o.armonico) {                         // un toque de brillo suave (como madera/marimba)
+        if (o.armonico) {
             var o2 = c.createOscillator(), g2 = c.createGain();
             o2.type = "sine";
             o2.frequency.setValueAtTime(freq * 2.01, t);
@@ -118,7 +102,6 @@
         }
     }
 
-    // Roce: un golpecito de aire filtrado (la parte "táctil" del ASMR)
     function roce(c, t, dur, vol, freq, q) {
         var src = c.createBufferSource();
         src.buffer = ruido;
@@ -138,39 +121,38 @@
     }
 
     /* ---------- Los sonidos ---------- */
-    // v = variación mínima de tono (±3 %) para que cada toque suene "vivo"
     var SONIDOS = {
-        // Burbuja que sube + sonido de roce + destello suave
         agregar: function (c, t, v) {
             roce(c, t, 0.05, 0.05, 1400, 1.2);
             nota(c, 330 * v, t, 0.11, 0.09, { fin: 700 * v });
             nota(c, 1175 * v, t + 0.06, 0.25, 0.022, { ataque: 0.012 });
         },
-        // Lo contrario: burbuja que baja, más bajita
         quitar: function (c, t, v) {
             roce(c, t, 0.05, 0.035, 800, 1);
             nota(c, 560 * v, t, 0.14, 0.06, { fin: 300 * v });
         },
-        // Dos notas cálidas tipo marimba con cola larga
         fav: function (c, t, v) {
             nota(c, 659 * v, t, 0.38, 0.07, { armonico: 0.25, ataque: 0.01 });
-            nota(c, 988 * v, t + 0.07, 0.55, 0.06, { armonico: 0.2, ataque: 0.012 });
+            nota(c, 988 * v, t + 0.07, 0.55, 0.06, { armonico: 0.2, ataque: 0.01 });
         },
-        // Arpegio suave de "listo"
         listo: function (c, t, v) {
             nota(c, 523 * v, t, 0.5, 0.06, { armonico: 0.2, ataque: 0.01 });
             nota(c, 659 * v, t + 0.09, 0.5, 0.06, { armonico: 0.2, ataque: 0.01 });
             nota(c, 784 * v, t + 0.18, 0.75, 0.06, { armonico: 0.2, ataque: 0.012 });
         },
-        // Golpecito del interruptor al encender
+        // Toquecito suave: para cualquier botón o enlace
         toque: function (c, t, v) {
             roce(c, t, 0.04, 0.04, 1100, 1.2);
             nota(c, 440 * v, t, 0.08, 0.05, { fin: 320 * v });
+        },
+        // Roce muy suave al desplazar la página
+        scroll: function (c, t, v) {
+            roce(c, t, 0.07, SCROLL_VOLUMEN, 900 + Math.random() * 700, 0.8);
         }
     };
 
     function sonar(nombre) {
-        if (!encendido || document.hidden) return;
+        if (document.hidden) return;
         var ahora = Date.now();
         if (ahora - ultimo < 60) return;          // evita sonidos montados
         ultimo = ahora;
@@ -178,11 +160,23 @@
         if (!c || !SONIDOS[nombre]) return;
         var v = 1 + (Math.random() - 0.5) * 0.06;
         SONIDOS[nombre](c, c.currentTime + 0.01, v);
-        // Vibración mínima en Android (donde se pueda)
         if ((nombre === "agregar" || nombre === "fav") && navigator.vibrate) { try { navigator.vibrate(10); } catch (e) {} }
     }
 
+    /* ---------- Despertar el audio con el primer toque ---------- */
+    // Los navegadores no dejan sonar hasta que la persona toca algo;
+    // así el audio queda listo y el primer clic ya suena sin retraso.
+    function despertar() { contexto(); }
+    document.addEventListener("pointerdown", despertar, { capture: true, passive: true });
+    document.addEventListener("touchstart", despertar, { capture: true, passive: true });
+    document.addEventListener("keydown", despertar, true);
+
     /* ---------- Qué toque dispara qué sonido ---------- */
+    // Cualquier cosa "tocable" que haga un toque genérico
+    var TOCABLES = "button, a[href], summary, select, label, [role='button'], [role='tab'], [role='menuitem'], " +
+                   "input[type='button'], input[type='submit'], input[type='checkbox'], input[type='radio'], " +
+                   "[onclick], [class*='boton'], [class*='btn']";
+
     // Se escucha en fase de captura: el estado del botón es el de ANTES de tocarlo
     document.addEventListener("click", function (e) {
         var t = e.target;
@@ -197,49 +191,23 @@
         var siguiente = t.closest(".tu-siguiente");
         if (siguiente && /listo/i.test(siguiente.textContent)) return sonar("listo");
 
-        if (t.closest("#boton-enviar-pedido, .calc-btn-wa, .wa-menu-opciones a")) sonar("listo");
+        if (t.closest("#boton-enviar-pedido, .calc-btn-wa, .wa-menu-opciones a")) return sonar("listo");
+
+        // Todo lo demás que se pueda tocar: toquecito suave
+        if (t.closest(TOCABLES)) sonar("toque");
     }, true);
 
-    /* ---------- Interruptor 🔊 / 🔇 ---------- */
-    function estilos() {
-        var s = document.createElement("style");
-        s.textContent =
-            "#boton-sonido{position:fixed;left:24px;bottom:88px;z-index:900;width:40px;height:40px;" +
-            "display:grid;place-items:center;padding:0;border:1px solid #e6ecf3;border-radius:50%;" +
-            "background:rgba(255,255,255,.95);color:#1c2430;font-size:18px;line-height:1;cursor:pointer;" +
-            "box-shadow:0 4px 12px rgba(20,40,80,.14);transition:transform .2s ease}" +
-            "#boton-sonido:hover{transform:scale(1.08)}" +
-            "#boton-sonido.apagado{opacity:.75}" +
-            "body.modo-oscuro #boton-sonido{background:rgba(38,38,38,.95);border-color:#3a3a3a;color:#e6e6e6}" +
-            "@media (max-width:768px){#boton-sonido{left:16px;bottom:calc(80px + env(safe-area-inset-bottom,0px));width:38px;height:38px}}" +
-            "@media (prefers-reduced-motion:reduce){#boton-sonido{transition:none}}";
-        document.head.appendChild(s);
+    /* ---------- Sonido al hacer scroll ---------- */
+    if (SCROLL_ACTIVO) {
+        // capture:true también detecta el scroll dentro de menús o listas con su propio desplazamiento
+        window.addEventListener("scroll", function () {
+            if (document.hidden || !ctx || !maestro) return;   // aún no se despertó el audio
+            var ahora = Date.now();
+            if (ahora - ultimoScroll < SCROLL_CADA_MS) return;
+            ultimoScroll = ahora;
+            var c = contexto();
+            if (!c) return;
+            SONIDOS.scroll(c, c.currentTime + 0.01, 1);
+        }, { capture: true, passive: true });
     }
-
-    function pintar(b) {
-        b.textContent = encendido ? "🔊" : "🔇";
-        b.classList.toggle("apagado", !encendido);
-        b.setAttribute("aria-pressed", encendido ? "true" : "false");
-        b.setAttribute("aria-label", encendido ? "Apagar sonidos" : "Encender sonidos");
-        b.title = encendido ? "Sonidos encendidos (toca para apagar)" : "Sonidos apagados (toca para encender)";
-    }
-
-    function ponerInterruptor() {
-        if (document.getElementById("boton-sonido")) return;
-        estilos();
-        var b = document.createElement("button");
-        b.type = "button";
-        b.id = "boton-sonido";
-        pintar(b);
-        b.addEventListener("click", function () {
-            encendido = !encendido;
-            guardar(encendido);
-            pintar(b);
-            if (encendido) sonar("toque");
-        });
-        document.body.appendChild(b);
-    }
-
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", ponerInterruptor);
-    else ponerInterruptor();
 })();
