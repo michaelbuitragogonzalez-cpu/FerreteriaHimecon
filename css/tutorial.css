@@ -1,0 +1,154 @@
+/* =========================================================
+   HIMECON - TUTORIAL DE BIENVENIDA (tutorial.css)
+   Va DESPUÉS de style.css, extras.css, movil.css y pulido.css.
+   ========================================================= */
+
+/* Botón "¿Cómo usar?" */
+.calc-banda .tu-ayuda {
+    margin-left: 10px;
+    background: #fff;
+    color: #1e88e5;
+    border: 2px solid #39A9FF;
+    box-shadow: none;
+}
+.calc-banda .tu-ayuda:hover { background: rgba(57, 169, 255, .12); }
+body.modo-oscuro .calc-banda .tu-ayuda { background: transparent; color: #7cc6ff; }
+
+/* Capa que bloquea los clics mientras dura el recorrido */
+.tu-capa {
+    position: fixed;
+    inset: 0;
+    z-index: 4000;
+    background: transparent;
+}
+
+/* Recuadro que "ilumina" lo que se explica; la sombra gigante oscurece el resto */
+.tu-foco {
+    position: fixed;
+    z-index: 4001;
+    border-radius: 18px;
+    pointer-events: none;
+    box-shadow: 0 0 0 3px #39A9FF, 0 0 0 9999px rgba(12, 22, 40, .66);
+    transition: top .3s ease, left .3s ease, width .3s ease, height .3s ease;
+}
+.tu-foco.sin-objetivo {
+    border-radius: 0;
+    box-shadow: 0 0 0 9999px rgba(12, 22, 40, .66);
+}
+
+/* Cuadro con la explicación */
+.tu-caja {
+    position: fixed;
+    z-index: 4002;
+    width: min(350px, calc(100vw - 24px));
+    padding: 20px 20px 16px;
+    background: #fff;
+    color: var(--texto, #1c2430);
+    border-radius: 20px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, .35);
+    animation: tuEntrada .22s ease-out;
+}
+@keyframes tuEntrada {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
+}
+.tu-caja h3 { margin: 0 34px 8px 0; font-size: 19px; line-height: 1.3; }
+.tu-texto { margin: 0 0 14px; font-size: 15px; line-height: 1.55; color: var(--gris, #5b6675); }
+.tu-contador { margin: 0 0 4px; min-height: 0; font-size: 12.5px; font-weight: 700; color: #1e88e5; }
+.tu-contador:empty { display: none; }
+
+.tu-cerrar {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--fondo-suave, #f5f8fc);
+    color: inherit;
+    font-size: 14px;
+    cursor: pointer;
+}
+.tu-cerrar:hover { background: #e6ecf3; }
+
+.tu-puntos { display: flex; gap: 6px; margin-bottom: 14px; }
+.tu-puntos i { width: 8px; height: 8px; border-radius: 50%; background: #d5dde8; transition: width .2s ease, background .2s ease; }
+.tu-puntos i.activo { width: 22px; border-radius: 8px; background: #39A9FF; }
+
+.tu-botones { display: flex; align-items: center; gap: 8px; }
+.tu-espacio { flex: 1; }
+.tu-botones button {
+    border: 0;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.tu-omitir { background: transparent; color: var(--gris, #5b6675); padding: 10px 6px; text-decoration: underline; }
+.tu-omitir:hover { color: var(--texto, #1c2430); }
+.tu-anterior {
+    padding: 10px 16px;
+    border-radius: 50px;
+    background: var(--fondo-suave, #f5f8fc);
+    color: var(--texto, #1c2430);
+    border: 1px solid var(--borde, #e6ecf3);
+}
+.tu-siguiente {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #4db5ff, #2b98f0);
+    color: #fff;
+}
+.tu-botones button:focus-visible { outline: 3px solid rgba(57, 169, 255, .5); outline-offset: 2px; }
+
+/* Aviso al omitir */
+.tu-aviso {
+    position: fixed;
+    left: 50%;
+    bottom: 90px;
+    z-index: 4100;
+    max-width: calc(100vw - 32px);
+    padding: 11px 18px;
+    border-radius: 16px;
+    background: #1c2430;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 10px);
+    transition: opacity .3s ease, transform .3s ease;
+}
+.tu-aviso.visible { opacity: 1; transform: translate(-50%, 0); }
+
+/* Modo oscuro */
+body.modo-oscuro .tu-caja { background: #1e1e1e; color: #e6e6e6; }
+body.modo-oscuro .tu-texto, body.modo-oscuro .tu-omitir { color: #b5bcc6; }
+body.modo-oscuro .tu-omitir:hover { color: #fff; }
+body.modo-oscuro .tu-contador { color: #7cc6ff; }
+body.modo-oscuro .tu-cerrar, body.modo-oscuro .tu-anterior { background: #2a2a2a; border-color: #3a3a3a; color: #e6e6e6; }
+body.modo-oscuro .tu-puntos i { background: #3a3a3a; }
+body.modo-oscuro .tu-puntos i.activo { background: #39A9FF; }
+
+/* Celular: la explicación queda fija abajo, como una hoja */
+@media (max-width: 600px) {
+    .tu-caja {
+        left: 12px !important;
+        right: 12px;
+        bottom: 12px;
+        top: auto !important;
+        width: auto;
+        padding: 18px 16px 14px;
+    }
+    .tu-caja h3 { font-size: 18px; }
+    .tu-texto { font-size: 14.5px; }
+    .calc-banda .tu-ayuda { margin: 10px 0 0; }
+}
+
+/* Menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+    .tu-foco, .tu-puntos i, .tu-aviso { transition: none; }
+    .tu-caja { animation: none; }
+}
