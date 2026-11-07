@@ -1,0 +1,176 @@
+/* =========================================================
+   HIMECON - PULIDO (pulido.css)
+   Va DESPUÉS de style.css, extras.css y movil.css.
+   ========================================================= */
+
+/* ---------- Esqueletos de carga (shimmer) ---------- */
+.producto-esqueleto {
+    display: grid;
+    gap: 14px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+}
+.esq,
+.producto img.img-cargando {
+    background: linear-gradient(100deg, #eef2f7 30%, #f8fafc 50%, #eef2f7 70%);
+    background-size: 300% 100%;
+    animation: puBrillo 1.4s linear infinite;
+}
+.esq { border-radius: 12px; }
+.esq-img { height: 190px; }
+.esq-linea { height: 16px; }
+.esq-linea.corta { width: 60%; justify-self: center; }
+.esq-boton { height: 42px; border-radius: 50px; }
+.producto img.img-cargando { border-radius: 14px; }
+@keyframes puBrillo {
+    from { background-position: 100% 0; }
+    to   { background-position: -100% 0; }
+}
+
+body.modo-oscuro .producto-esqueleto { background: #1e1e1e; box-shadow: none; }
+body.modo-oscuro .esq,
+body.modo-oscuro .producto img.img-cargando {
+    background: linear-gradient(100deg, #262626 30%, #333 50%, #262626 70%);
+    background-size: 300% 100%;
+}
+
+/* ---------- Aparecer al hacer scroll ---------- */
+.pu-rv {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .7s ease, transform .7s ease;
+}
+.pu-rv.pu-visible { opacity: 1; transform: none; }
+.producto.pu-oculto { opacity: 0; }
+
+/* ---------- Corazón y compartir en cada tarjeta ---------- */
+.producto { position: relative; }
+.pu-acciones {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pu-btn {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid var(--borde, #e6ecf3);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .95);
+    color: #5b6675;
+    box-shadow: 0 4px 12px rgba(20, 40, 80, .12);
+    cursor: pointer;
+    transition: transform .2s ease, color .2s ease, background .2s ease;
+}
+.pu-btn svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
+.pu-compartir svg { fill: currentColor; stroke: none; }
+.pu-btn:hover { transform: scale(1.1); }
+.pu-fav:hover { color: #e0245e; }
+.pu-compartir:hover { color: #14803f; background: #e8f9ef; }
+.pu-fav.activo { color: #e0245e; border-color: #f4b3c6; }
+.pu-fav.activo svg { fill: #e0245e; stroke: #e0245e; animation: puLatido .35s ease; }
+@keyframes puLatido { 40% { transform: scale(1.35); } }
+
+body.modo-oscuro .pu-btn { background: rgba(38, 38, 38, .95); border-color: #3a3a3a; color: #b5bcc6; }
+body.modo-oscuro .pu-compartir:hover { background: rgba(37, 211, 102, .18); color: #6ee79f; }
+
+/* ---------- Botón "Mis favoritos" ---------- */
+.calc-banda .pu-favs {
+    margin-left: 10px;
+    background: #fff;
+    color: #e0245e;
+    border: 2px solid #e0245e;
+    box-shadow: none;
+}
+.calc-banda .pu-favs:hover { background: #fde8ef; }
+.calc-banda .pu-favs.activo { background: #e0245e; color: #fff; }
+body.modo-oscuro .calc-banda .pu-favs { background: transparent; }
+body.modo-oscuro .calc-banda .pu-favs.activo { background: #e0245e; }
+
+.pu-vacio {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #666;
+    padding: 30px 10px;
+}
+body.modo-oscuro .pu-vacio { color: #b5bcc6; }
+
+/* ---------- Aviso corto (toast) ---------- */
+#pu-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 90px;
+    z-index: 3500;
+    padding: 10px 18px;
+    border-radius: 50px;
+    background: #1c2430;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 10px);
+    transition: opacity .25s ease, transform .25s ease;
+}
+#pu-toast.visible { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------- Sugerencias del buscador ---------- */
+.pagina-productos { position: relative; }
+#pu-sugerencias {
+    position: absolute;
+    z-index: 60;
+    max-height: 330px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    text-align: left;
+    background: #fff;
+    border: 1px solid var(--borde, #e6ecf3);
+    border-radius: 16px;
+    box-shadow: var(--sombra-lg, 0 18px 40px rgba(20, 40, 80, .16));
+}
+#pu-sugerencias[hidden] { display: none; }
+#pu-sugerencias li {
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 1.35;
+    color: var(--texto, #1c2430);
+    cursor: pointer;
+}
+#pu-sugerencias li[data-nombre]:hover,
+#pu-sugerencias li.activo { background: rgba(57, 169, 255, .14); }
+#pu-sugerencias li.pu-sug-titulo {
+    cursor: default;
+    padding: 6px 12px 4px;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--gris, #5b6675);
+}
+body.modo-oscuro #pu-sugerencias { background: #1e1e1e; border-color: #333; }
+body.modo-oscuro #pu-sugerencias li { color: #e6e6e6; }
+body.modo-oscuro #pu-sugerencias li.pu-sug-titulo { color: #b5bcc6; }
+
+@media (max-width: 520px) {
+    .pu-btn { width: 34px; height: 34px; }
+    .calc-banda .pu-favs { margin: 10px 0 0; }
+    #pu-toast { bottom: 80px; }
+}
+
+/* ---------- Menos movimiento ---------- */
+@media (prefers-reduced-motion: reduce) {
+    .esq, .producto img.img-cargando { animation: none; }
+    .pu-rv { opacity: 1; transform: none; transition: none; }
+    .producto.pu-oculto { opacity: 1; }
+    .pu-fav.activo svg { animation: none; }
+    .pu-btn, #pu-toast { transition: none; }
+}
