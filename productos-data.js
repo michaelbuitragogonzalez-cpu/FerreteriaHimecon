@@ -3197,7 +3197,7 @@ const productos = [
         subcategoria: "tubos"
     },
     {
-        nombre: "P Aluminio Plata",
+        nombre: " Tee Aluminio Plata",
         precio: "",
         imagen: "img/aluminio-plata.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3215,7 +3215,7 @@ const productos = [
     {
         nombre: "Tee Aluminio Plata 1 cm",
         precio: "",
-        imagen: "img/tee-alumino.jpeg",
+        imagen: "img/aluminio-plata.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "tubos"
@@ -3231,18 +3231,10 @@ const productos = [
     {
         nombre: "Tee Aluminio Plata 2 cm",
         precio: "",
-        imagen: "img/tee-aluminio.jpeg",
+        imagen: "img/aluminio-plata.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "tubos"
-    },
-    {
-        nombre: "Machacas 25 x 25",
-        precio: "",
-        imagen: "img/machacas.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
     },
     {
         nombre: "Lámina Icopor",
@@ -3251,14 +3243,6 @@ const productos = [
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "perfiles"
-    },
-    {
-        nombre: "Tubo Crudo 1 Pulg x Mts",
-        precio: "",
-        imagen: "img/tubo-crudo.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
     },
     {
         nombre: "Unión Polietileno 1 1/2 Pulg",
@@ -3333,30 +3317,6 @@ const productos = [
         subcategoria: "insertos"
     },
     {
-        nombre: "Teja de Barro Rgs",
-        precio: "",
-        imagen: "img/teja-barro.jpeg",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "obra"
-    },
-    {
-        nombre: "Ladrillo Comun Rgs",
-        precio: "",
-        imagen: "img/ladrillo-comun.jpeg",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "obra"
-    },
-    {
-        nombre: "Cañabrava Rgs",
-        precio: "",
-        imagen: "img/canabrava-rgs.jpeg",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "obra"
-    },
-    {
         nombre: "Media Luna Agricola",
         precio: "",
         imagen: "img/media-luna.jpeg",
@@ -3381,44 +3341,12 @@ const productos = [
         subcategoria: "herramientas"
     },
     {
-        nombre: "Cabo Hoyadora Par",
-        precio: "",
-        imagen: "img/cabo-hoyadora.jpeg",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
-        categoria: "varios",
-        subcategoria: "herramientas"
-    },
-    {
-        nombre: "Tijera Corta Cesped C Madera",
+        nombre: "Tijera Corta Cesped Madera",
         precio: "",
         imagen: "img/tijera-corta.jpeg",
         descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento.",
         categoria: "varios",
         subcategoria: "herramientas"
-    },
-    {
-        nombre: "Bloquelon",
-        precio: "",
-        imagen: "img/bloquelon.jpeg",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "obra"
-    },
-    {
-        nombre: "Bolsa Plástica",
-        precio: "",
-        imagen: "img/bolsa-plastica.jpeg",
-        descripcion: "Artículo diverso disponible en nuestro inventario para proyectos de construcción y mantenimiento. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "varios",
-        subcategoria: "insertos"
-    },
-    {
-        nombre: "Roca Muerta Compactada x Mts",
-        precio: "",
-        imagen: "img/roca-muerta.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "cemento",
-        subcategoria: "cementos"
     },
     {
         nombre: "Blanco de Zinc x 1 lb",
@@ -3439,7 +3367,7 @@ const productos = [
     {
         nombre: "Mapei Uno x 0,8 kg",
         precio: "",
-        imagen: "img/mapei-uno.jpeg",
+        imagen: "img/mapeiuno.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "pegantes"
@@ -3461,7 +3389,7 @@ const productos = [
         subcategoria: "estucos"
     },
     {
-        nombre: "Yoyo Negro",
+        nombre: "Yoyo Guadaña",
         precio: "",
         imagen: "img/yoyo-ng.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
@@ -3471,26 +3399,10 @@ const productos = [
     {
         nombre: "Estuco Impadoc x Kg",
         precio: "",
-        imagen: "img/estuco-impadoc.jpeg",
+        imagen: "img/estucoimpadoc.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "cemento",
         subcategoria: "estucos"
-    },
-    {
-        nombre: "Yeso Escayola Extra Kg",
-        precio: "",
-        imagen: "img/yeso-escayola.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
-        categoria: "cemento",
-        subcategoria: "estucos"
-    },
-    {
-        nombre: "Arena x Mts Rgs",
-        precio: "",
-        imagen: "img/arena-rgs.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "cemento",
-        subcategoria: "agregados"
     },
     {
         nombre: "Broncoelastico 1/4",
@@ -3501,9 +3413,9 @@ const productos = [
         subcategoria: "estucos"
     },
     {
-        nombre: "Broncoelastico Cuñete y 1/2 Cuñ",
+        nombre: "Broncoelastico Cuñete",
         precio: "",
-        imagen: "img/broncoelastico-cunt.jpeg",
+        imagen: "img/broncoelastico.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "estucos"
@@ -3511,16 +3423,8 @@ const productos = [
     {
         nombre: "Mapei Uno x 4 kg",
         precio: "",
-        imagen: "img/mapei-uno.jpeg",
+        imagen: "img/mapeiuno.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
-        categoria: "cemento",
-        subcategoria: "pegantes"
-    },
-    {
-        nombre: "Eporip",
-        precio: "",
-        imagen: "img/eporip.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "cemento",
         subcategoria: "pegantes"
     },
@@ -3535,24 +3439,17 @@ const productos = [
     {
         nombre: "Estuco Impadoc Obras",
         precio: "",
-        imagen: "img/estuco-impadoc.jpeg",
+        imagen: "img/estucoimpadoc.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "estucos"
     },
-    {
-        nombre: "Balastro x Mts",
-        precio: "",
-        imagen: "img/balastro.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "cemento",
-        subcategoria: "agregados"
-    },
+
     {
         nombre: "Pegacor Gris x25",
         precio: "",
         imagen: "img/pegacor-gris.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "pegantes"
     },
@@ -3565,7 +3462,7 @@ const productos = [
         subcategoria: "pegantes"
     },
     {
-        nombre: "Estuco Relleno Interior Sanitario Marcos",
+        nombre: "Estuco Relleno Interior Sanitario San Marcos",
         precio: "",
         imagen: "img/estuco-relleno.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3576,17 +3473,8 @@ const productos = [
         nombre: "Mapelatex 0,8 kg",
         precio: "",
         imagen: "img/mapelatex.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "cemento",
+        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         subcategoria: "pegantes"
-    },
-    {
-        nombre: "Marmolina x Kg",
-        precio: "",
-        imagen: "img/marmolina-kl.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "cemento",
-        subcategoria: "estucos"
     },
     {
         nombre: "Broncoelastico 1/1",
@@ -3629,17 +3517,9 @@ const productos = [
         subcategoria: "cementos"
     },
     {
-        nombre: "Talco x Kg",
-        precio: "",
-        imagen: "img/talco-kl.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
-        categoria: "cemento",
-        subcategoria: "estucos"
-    },
-    {
         nombre: "Mapelatex x 4 kg",
         precio: "",
-        imagen: "img/mapelatex-kl.jpeg",
+        imagen: "img/mapelatex.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "pegantes"
@@ -3656,12 +3536,12 @@ const productos = [
         nombre: "Pegacor Blanco x Kg",
         precio: "",
         imagen: "img/pegacor-blanco.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
+        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "pegantes"
     },
     {
-        nombre: "Estuco Plástico Panelt Cuñete- Balde",
+        nombre: "Estuco Plástico Panelt ",
         precio: "",
         imagen: "img/estuco-plastico.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
@@ -3671,7 +3551,7 @@ const productos = [
     {
         nombre: "Mineral Verde y Económico",
         precio: "",
-        imagen: "img/mineral-verde.jpeg",
+        imagen: "img/mineral-fino.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "cemento",
         subcategoria: "estucos"
@@ -3696,14 +3576,6 @@ const productos = [
         nombre: "Cal Argos 10 kg",
         precio: "",
         imagen: "img/cal-argos.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
-        categoria: "cemento",
-        subcategoria: "cementos"
-    },
-    {
-        nombre: "Cal Promical",
-        precio: "",
-        imagen: "img/cal-promical.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "cementos"
@@ -38673,7 +38545,7 @@ const productos = [
     {
         nombre: "Mapelatex x Kg",
         precio: "",
-        imagen: "img/mapelatex-kl-mapelatex.jpeg",
+        imagen: "img/mapelatex.jpeg",
         descripcion: "Insumo de soldadura para trabajos de unión y estructura metálica. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "soldaduras",
         subcategoria: "siliconas"
