@@ -3081,30 +3081,6 @@ const productos = [
         subcategoria: "tubos"
     },
     {
-        nombre: "Soporte Aluminio 1 1/2",
-        precio: "",
-        imagen: "img/soporte-aluminio.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
-    },
-    {
-        nombre: "Soporte 3/4 Cromado",
-        precio: "",
-        imagen: "img/soporte-crom.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
-    },
-    {
-        nombre: "Margarita Dorado-Anolok",
-        precio: "",
-        imagen: "img/margarita-dord-anolk.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "perfiles"
-    },
-    {
         nombre: "Platina Aluminio 1 x 1/8 Pulg",
         precio: "",
         imagen: "img/platina-aluminio.jpeg",
@@ -3121,15 +3097,7 @@ const productos = [
         subcategoria: "perfiles"
     },
     {
-        nombre: "Tubo Crudo 3/4 x Mts",
-        precio: "",
-        imagen: "img/tubo-crudo.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
-    },
-    {
-        nombre: "Tubo Codal 3 x 1 1/2 x Mts",
+        nombre: "Tubo Codal 3 x 1 1/2 ",
         precio: "",
         imagen: "img/tubo-codal.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3144,6 +3112,10 @@ const productos = [
         categoria: "aluminioinventario",
         subcategoria: "tubos"
     },
+
+
+
+    
     {
         nombre: "Soporte Aluminio 1 Pulg Cerrado",
         precio: "",
