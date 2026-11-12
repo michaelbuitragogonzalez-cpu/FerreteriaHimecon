@@ -3581,9 +3581,9 @@ const productos = [
         subcategoria: "cementos"
     },
     {
-        nombre: "Fijomax x 2 kg",
+        nombre: "Alfaquick x 2 kg",
         precio: "",
-        imagen: "img/fijomax-kl.jpeg",
+        imagen: "img/alfakui-kl.jpeg",
         descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
         categoria: "cemento",
         subcategoria: "pegantes"
@@ -3596,14 +3596,27 @@ const productos = [
         categoria: "cemento",
         subcategoria: "pegantes"
     },
-    {
-        nombre: "Estuco Pañete",
-        precio: "",
-        imagen: "img/estuco-panete.jpeg",
-        descripcion: "Material de la línea de cemento y agregados para obra gris y construcción.",
-        categoria: "cemento",
-        subcategoria: "estucos"
-    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {
         nombre: "Boquilla Lechada x 1 kg",
         precio: "",
