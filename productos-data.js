@@ -3057,14 +3057,6 @@ const productos = [
         subcategoria: "dilatacion"
     },
     {
-        nombre: "Tee Aluminio Anolok",
-        precio: "",
-        imagen: "img/tee-alumn.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
-    },
-    {
         nombre: "Terminal 1/2 Cromo",
         precio: "",
         imagen: "img/terminal-cromo.jpeg",
@@ -3115,11 +3107,11 @@ const productos = [
 
 
 
-    
+
     {
         nombre: "Soporte Aluminio 1 Pulg Cerrado",
         precio: "",
-        imagen: "img/soporte-alumino.jpeg",
+        imagen: "img/soporte-aluminio.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3157,15 +3149,7 @@ const productos = [
         subcategoria: "soportes"
     },
     {
-        nombre: "Angulo Aluminio-Blanco 1/2",
-        precio: "",
-        imagen: "img/angulo-aluminio-blanco.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "perfiles"
-    },
-    {
-        nombre: "Angul/ Aluminio 3/4",
+        nombre: "Angulo Aluminio 3/4",
         precio: "",
         imagen: "img/angul-alumn.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3173,17 +3157,9 @@ const productos = [
         subcategoria: "perfiles"
     },
     {
-        nombre: "Tubo Crudo 1/2 x Mts",
-        precio: "",
-        imagen: "img/tubo-crudo.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
-    },
-    {
         nombre: "Soporte Aluminio 1 1/4 Pulg",
         precio: "",
-        imagen: "img/soporte-alumino.jpeg",
+        imagen: "img/soporte-aluminio.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3191,7 +3167,7 @@ const productos = [
     {
         nombre: "Angulo Plástico con Rotos 3 Mts",
         precio: "",
-        imagen: "img/angulo-plastico.jpeg",
+        imagen: "img/angulo-plasticoconrotos.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "perfiles"
@@ -3205,23 +3181,7 @@ const productos = [
         subcategoria: "tubos"
     },
     {
-        nombre: "Angul Anolok 3/4",
-        precio: "",
-        imagen: "img/angul-anolok.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "perfiles"
-    },
-    {
-        nombre: "Tee Aluminio Blanca",
-        precio: "",
-        imagen: "img/tee-alumn.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados. ⚠️ Verificar disponibilidad en bodega antes de confirmar.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
-    },
-    {
-        nombre: "Piragua Media Caña Nat",
+        nombre: "Piragua Media Caña",
         precio: "",
         imagen: "img/piragua-media.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
