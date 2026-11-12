@@ -2840,14 +2840,6 @@ const productos = [
         subcategoria: "soportes"
     },
     {
-        nombre: "Terminal Dorado 1 1/4 Pulg",
-        precio: "",
-        imagen: "img/terminaldord.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
-    },
-    {
         nombre: "Terminal Dorado 1 Pulg",
         precio: "",
         imagen: "img/terminaldord.jpeg",
@@ -2871,18 +2863,11 @@ const productos = [
         categoria: "aluminioinventario",
         subcategoria: "tubos"
     },
-    {
-        nombre: "Terminal Anolok 1 1/4 Pulg",
-        precio: "",
-        imagen: "img/terminalanolk.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "tubos"
-    },
+
     {
         nombre: "Terminal 1 Pulg Anolok",
         precio: "",
-        imagen: "img/terminal-nolk.jpeg",
+        imagen: "img/terminalanolk.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "tubos"
@@ -2902,14 +2887,6 @@ const productos = [
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "tubos"
-    },
-    {
-        nombre: "Soporte 1 1/4 Dorado",
-        precio: "",
-        imagen: "img/soporte-dor.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
     },
     {
         nombre: "Soporte 1 Pulg Dorado",
@@ -2936,14 +2913,6 @@ const productos = [
         subcategoria: "soportes"
     },
     {
-        nombre: "Soporte 1 1/4 Anolok",
-        precio: "",
-        imagen: "img/soporte-anolok.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
-    },
-    {
         nombre: "Soporte 1 Pulg Anolok",
         precio: "",
         imagen: "img/soporte-anolok.jpeg",
@@ -2954,7 +2923,7 @@ const productos = [
     {
         nombre: "Soporte 3/4 Anolok",
         precio: "",
-        imagen: "img/soporte-anolk.jpeg",
+        imagen: "img/soporte-anolok.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -2963,14 +2932,6 @@ const productos = [
         nombre: "Soporte 1/2 Anolok",
         precio: "",
         imagen: "img/soporte-anolok.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
-    },
-    {
-        nombre: "Flanche Dorado 1 1/4 Pulg",
-        precio: "",
-        imagen: "img/flanche-dorado.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3000,17 +2961,9 @@ const productos = [
         subcategoria: "soportes"
     },
     {
-        nombre: "Flanche Anolok 1 1/4 Pulg",
-        precio: "",
-        imagen: "img/flanche-analok.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
-    },
-    {
         nombre: "Flanche Anolok 1 Pulg",
         precio: "",
-        imagen: "img/flanche-analok.jpeg",
+        imagen: "img/flanche-anolok.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3018,7 +2971,7 @@ const productos = [
     {
         nombre: "Flanche Anolok 3/4 Pulg",
         precio: "",
-        imagen: "img/flanche-analok.jpeg",
+        imagen: "img/flanche-anolok.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3026,7 +2979,7 @@ const productos = [
     {
         nombre: "Flanche Anolok 1/2 Pulg",
         precio: "",
-        imagen: "img/flanche-analok.jpeg",
+        imagen: "img/flanche-anolok.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3040,7 +2993,7 @@ const productos = [
         subcategoria: "soportes"
     },
     {
-        nombre: "Flanche Metálico 1/2",
+        nombre: "Flanche Metálico 1/2 Pulg",
         precio: "",
         imagen: "img/flanche-metalico.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3048,17 +3001,9 @@ const productos = [
         subcategoria: "soportes"
     },
     {
-        nombre: "Flanche Metálico 1 1/4 y 1 1/2",
+        nombre: "Flanche Metálico 3/4 Pulg",
         precio: "",
         imagen: "img/flanche-metalico.jpeg",
-        descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
-        categoria: "aluminioinventario",
-        subcategoria: "soportes"
-    },
-    {
-        nombre: "Soporte 1 Pulg Doble Dorado-Anolok",
-        precio: "",
-        imagen: "img/soporte-dobl-dor-anolk.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
         categoria: "aluminioinventario",
         subcategoria: "soportes"
@@ -3096,7 +3041,7 @@ const productos = [
         subcategoria: "tubos"
     },
     {
-        nombre: "Dilatac/ Aluminio Mts",
+        nombre: "Dilatac Aluminio X  Mts",
         precio: "",
         imagen: "img/dilatac-alumn.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
@@ -3104,7 +3049,7 @@ const productos = [
         subcategoria: "dilatacion"
     },
     {
-        nombre: "Dilatac Bronc Mts",
+        nombre: "Dilatac Bronce X Mts",
         precio: "",
         imagen: "img/dilatac-bronc.jpeg",
         descripcion: "Perfil, accesorio o herramienta de la línea de aluminio para carpintería metálica y acabados.",
